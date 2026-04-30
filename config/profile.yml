@@ -1,0 +1,76 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Shweta Sharma"
+  email: "shwetayeole09@gmail.com"
+  phone: "+1-947-466-5006"
+  location: "Philadelphia, PA"
+  linkedin: "linkedin.com/in/sharmashweta08"
+  portfolio_url: "https://shwetasharma.tech"
+  github: ""
+  twitter: ""
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "UX Researcher"
+    - "Senior UX Researcher"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "UX Researcher"
+      level: "Senior"
+      fit: "primary" # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Data Scientist (NLP/AI)"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "UX Designer"
+      level: "Senior"
+      fit: "adjacent"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "UX Researcher with 7+ years bridging qualitative insights and AI/ML to drive product decisions"
+  # Your exit story — what makes you unique
+  exit_story: "Built UX research practice from scratch at John Deere India, then pivoted into AI/ML at Drexel and ABIM — now combining deep research craft with NLP and behavioral analytics to bring a data-fluent lens to UXR."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "Mixed-methods research (qual + quant)"
+    - "Research practice building from zero"
+    - "NLP & behavioral analytics"
+    - "Cross-functional stakeholder enablement"
+    - "End-to-end research from discovery to validated design"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "John Deere Survey Platform"
+      url: "https://shwetasharma.tech"
+      hero_metric: "Cut setup time 60%, raised completion rates 25% across 250+ products"
+    - name: "PM-UX Playbook"
+      url: "https://shwetasharma.tech"
+      hero_metric: "Increased PM UX literacy by 80%"
+    - name: "UrbanFit Platform Redesign"
+      url: "https://shwetasharma.tech"
+      hero_metric: "35% engagement lift, 28% bounce rate drop, 2.5x newsletter sign-ups"
+    - name: "Capita E-Commerce Personalization"
+      url: "https://shwetasharma.tech"
+      hero_metric: "11% conversion lift across 7 flagship fashion brands"
+  # Optional: dashboard/demo URL with credentials
+  # dashboard:
+  #   url: "https://shwetasharma.tech/demo"
+  #   password: "demo-2026"
+
+compensation:
+  target_range: "$100K-200K" # Your target total comp
+  currency: "USD"
+  minimum: "$100K" # Walk-away number — fill in when ready
+  location_flexibility: "Philadelphia, PA preferred; open to remote or hybrid"
+
+location:
+  country: "United States"
+  city: "Philadelphia"
+  timezone: "EST"
+  visa_status: "F-1 OPT — does not require sponsorship; open to relocate"
+  zip: "19104"
+  # For remote roles outside your country:
+  # onsite_availability: ""

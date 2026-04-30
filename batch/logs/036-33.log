@@ -1,0 +1,35 @@
+Pipeline complete. Summary:
+
+```json
+{
+  "status": "completed",
+  "id": "33",
+  "report_num": "036",
+  "company": "Handshake",
+  "role": "Staff Product Designer, Employer Experience",
+  "score": 2.0,
+  "pdf": null,
+  "report": "reports/036-handshake-2026-04-29.md",
+  "error": null
+}
+```
+
+**Outcome: SKIP / 2.0–2.5 range, recommendation against applying.**
+
+Key reasoning:
+- **Wrong seat:** Staff Product Designer (IC pixel-craft owner) vs Shweta's UX Researcher primary archetype. Last design-IC shipped role ended 2022; last 3 years are research + applied NLP.
+- **Level stretch:** Staff bar (8–12 yrs) vs ~6 yrs total tenure with hybrid framing.
+- **Location:** SF in-office (Built In SF mirror); Shweta in Philadelphia, F-1 OPT runway question for design IC.
+- **Comp is strong** ($190–240K) — not the blocker.
+- **PDF skipped** intentionally — same precedent as 029-abridge (Staff PD, 2.5/5, no PDF). Tailoring effort wasted at this fit level.
+- **Better Handshake paths flagged in report:** Senior Product Designer I (Handshake AI), AI Research Engineer, or any UXR seat the company posts.
+
+Files written:
+- `reports/036-handshake-2026-04-29.md`
+- `batch/tracker-additions/33.tsv` (row #36)
+
+Sources:
+- [Staff Product Designer, Employer Experience @ Handshake (Ashby)](https://jobs.ashbyhq.com/handshake/9663668d-488f-4fde-9ed3-d80def499ef2)
+- [Built In SF — Staff Product Designer Employer (mirror)](https://www.builtinsf.com/job/staff-product-designer-employer/7032512)
+- [Levels.fyi — Handshake Product Designer](https://www.levels.fyi/companies/handshake/salaries/product-designer)
+- [Glassdoor — Handshake SF salaries](https://www.glassdoor.com/Salary/Handshake-San-Francisco-Salaries-EI_IE1262074.0,9_IL.10,23_IM759.htm)

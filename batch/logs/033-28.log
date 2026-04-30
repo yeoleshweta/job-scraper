@@ -1,0 +1,22 @@
+Pipeline complete. Summary JSON:
+
+```json
+{
+  "status": "completed",
+  "id": "28",
+  "report_num": "033",
+  "company": "Abridge",
+  "role": "Senior Research Data Scientist",
+  "score": 3.0,
+  "pdf": "output/cv-shweta-abridge-research-ds-2026-04-29.pdf",
+  "report": "reports/033-abridge-2026-04-29.md",
+  "error": null
+}
+```
+
+**Deliverables:**
+- Report: `reports/033-abridge-2026-04-29.md` (3.0/5, Technical AI PM/AI Platform hybrid archetype)
+- PDF: `output/cv-shweta-abridge-research-ds-2026-04-29.pdf` (2 pages, ATS-normalized, Research DS framing)
+- Tracker: `batch/tracker-additions/28.tsv` (row 33, Evaluated)
+
+**Key call:** APPLY with caveat. Healthcare AI domain fit is exceptional (ABIM clinical NLP maps verbatim to "AI generation pipeline evaluation"), but the 8+ yrs analytics tenure is a hard ATS blocker. The "Research" framing fits better than the prior Senior Data Scientist (027, 2.8/5) — UXR years can be honestly reframed as applied product analytics. Worth a focused application owning the tenure gap.

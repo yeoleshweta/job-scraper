@@ -1,0 +1,22 @@
+All three artifacts are in place. Final output:
+
+```json
+{
+  "status": "completed",
+  "id": "29",
+  "report_num": "030",
+  "company": "Abridge",
+  "role": "Senior Data Scientist",
+  "score": 3.2,
+  "pdf": "output/cv-shweta-abridge-2026-04-29.pdf",
+  "report": "reports/030-abridge-2026-04-29.md",
+  "error": null
+}
+```
+
+**Summary:**
+- **Score: 3.2/5** — borderline stretch. Strong healthcare-AI/NLP fit (ABIM ClinicalBERT/RoBERTa work) + A/B testing background (Capita 11% conversion) hit core JD asks. Real gaps: 6 yrs vs 8+ yr requirement, no R/Tableau/Looker, and **mandatory SF hybrid 3x/week** (Philadelphia → SF relocation).
+- **Comp: $188K–$221K + equity** — top quartile, well above floor.
+- **Recommendation:** Apply only if SF relocation is genuinely acceptable AND candidate wants to commit to the DS pivot over UXR. Otherwise skip — below the 4.0 apply threshold.
+- Verification: confirmed active via Ashby API.
+- PDF: 2 pages, letter format, ATS-optimized; reframed summary leads with product analytics + A/B + NLP keywords; promoted Capita A/B bullets and ABIM model-evaluation framing.

@@ -1,0 +1,154 @@
+# ═══════════════════════════════════════════════════════════════════
+# MASTER ANSWERS — Single source of truth for all job applications
+# Used by fill-form.mjs, batch-apply.mjs, and the apply-flow mode.
+# Update here; every script reads from this file automatically.
+# ═══════════════════════════════════════════════════════════════════
+
+# ── Identity ─────────────────────────────────────────────────────
+identity:
+  first_name:   "Shweta"
+  last_name:    "Sharma"
+  full_name:    "Shweta Sharma"
+  email:        "shwetayeole09@gmail.com"
+  password:     "Hakunamatata@456"   # used for account creation on job portals
+  phone:        "9474665006"         # digits only, no dashes
+  phone_intl:   "+1-947-466-5006"
+  pronouns:     "She/Her"
+
+# ── Location ─────────────────────────────────────────────────────
+location:
+  city:         "Philadelphia"
+  state:        "Pennsylvania"
+  state_abbr:   "PA"
+  zip:          "19104"
+  country:      "United States"
+  full:         "Philadelphia, PA"   # city + state, used in most text fields
+  timezone:     "EST"
+
+# ── Online presence ───────────────────────────────────────────────
+links:
+  linkedin:     "https://linkedin.com/in/sharmashweta08"
+  portfolio:    "https://shwetasharma.tech"
+  github:       ""
+  website:      "https://shwetasharma.tech"
+
+# ── Compensation ──────────────────────────────────────────────────
+compensation:
+  target:       "$145,000"           # default ask when a single number is needed
+  range:        "$130,000 - $160,000"
+  minimum:      "$100,000"
+  currency:     "USD"
+  # How to answer salary questions:
+  # - If field is a free-text box → use target
+  # - If field is a range picker → use range
+  # - If field has min/max → min: 130000 / max: 160000
+
+# ── Work authorization ────────────────────────────────────────────
+authorization:
+  authorized:           true         # legally authorized to work in US?
+  authorization_type:   "F-1 OPT"   # visa/status type
+  requires_sponsorship: false        # need sponsorship now?
+  will_require_future:  false        # will need sponsorship in future?
+  # Dropdown answer mappings (common options across ATS):
+  sponsorship_answer:   "No"
+  authorized_answer:    "Yes"
+  citizenship_answer:   "No"         # US citizen?
+
+# ── Availability ──────────────────────────────────────────────────
+availability:
+  start_date:           "Immediately"
+  start_date_weeks:     "2 weeks"
+  years_of_experience:  "7"
+  willing_to_relocate:  "Yes"
+  remote_preference:    "Remote or Hybrid"
+
+# ── Referral / Source ─────────────────────────────────────────────
+source:
+  default:    "LinkedIn"
+  # Used for "How did you hear about us?" dropdowns
+  # Common options: LinkedIn, Indeed, Company Website, Referral, Job Board, Other
+  fallback:   "Job Board"
+
+# ── EEO / Demographic (voluntary self-identification) ─────────────
+eeo:
+  gender:             "Female"
+  gender_alt:         "Woman"         # some forms use "Woman" instead of "Female"
+  race:               "Asian"
+  ethnicity:          "Not Hispanic or Latino"
+  hispanic:           "No"
+  veteran:            "I am not a protected veteran"
+  veteran_short:      "No"
+  disability:         "No, I do not have a disability"
+  disability_short:   "No"
+  # Dropdown answer mappings (used for "Decline to self-identify" option):
+  decline:            "Decline to self-identify"
+
+# ── Standard question answers ─────────────────────────────────────
+# These are used for free-text fields that appear on most applications.
+standard_answers:
+
+  about: >
+    I'm a UX Researcher with 7+ years combining qualitative and quantitative
+    methods, healthcare AI, and behavioral analytics. I built the research
+    function at John Deere India from scratch, led NLP-based behavioral
+    research at ABIM, and am completing my MS in AI & Machine Learning at
+    Drexel (2026). I work fluidly across user interviews, usability testing,
+    survey design, A/B experimentation, and NLP-assisted analysis.
+
+  why_ux_research: >
+    I'm drawn to roles where research directly shapes product direction —
+    where my work moves from insight to decision to measurable outcome.
+    My background spans clinical AI (ABIM), enterprise SaaS (John Deere),
+    and consumer wellness (UrbanFit), giving me a cross-domain perspective
+    that I bring to every research question.
+
+  greatest_strength: >
+    Bridging qualitative depth with quantitative rigor. I can run a
+    longitudinal diary study one week and build a behavioral analytics
+    dashboard the next — and connect both to a single product decision.
+
+  biggest_challenge: >
+    At John Deere, I had to build research credibility with 6 product
+    teams that had never worked with a dedicated researcher. I created the
+    PM-UX Playbook — a shared framework for research integration — which
+    increased PM UX literacy by 80% and made research a default part of
+    every sprint cycle.
+
+  why_remote: >
+    I've worked effectively in distributed teams across time zones at John
+    Deere (US/India) and ABIM. I default to async-first communication,
+    structured documentation, and proactive stakeholder updates.
+
+  diversity_statement: >
+    As a first-generation immigrant researcher from India working in
+    healthcare AI, I bring lived experience with underrepresented
+    perspectives that consistently shapes how I frame research questions
+    and interpret findings — especially in studies involving diverse
+    patient or user populations.
+
+  additional_info: >
+    I built this application workflow using Playwright automation and
+    custom AI tooling — the same kind of systems thinking I bring to
+    research infrastructure. Portfolio: shwetasharma.tech
+
+# ── Resume paths (most recent per role type) ─────────────────────
+resumes:
+  ux_researcher:     "output/cv-ux-research.pdf"
+  data_analyst:      "output/cv-data-analyst.pdf"
+  data_scientist:    "output/cv-gitlab-ai.pdf"
+  ai_researcher:     "output/cv-gitlab-ai.pdf"
+  healthcare:        "output/cv-abridge.pdf"
+  default:           "output/cv-ux-research.pdf"
+
+# ── Account creation ──────────────────────────────────────────────
+# Used when a portal requires account signup before applying.
+account:
+  email:            "shwetayeole09@gmail.com"
+  password:         "Hakunamatata@456"
+  # Browser persistent profile path — passwords saved here automatically
+  browser_profile:  "/Users/shwetasharma/.career-ops-browser-profile"
+  # If true, auto-apply will sign in / create accounts automatically using the
+  # email + password above without pausing for human approval. The persistent
+  # browser profile remembers logins across runs, so usually a portal only
+  # needs to be signed into once.
+  auto_signin:      true

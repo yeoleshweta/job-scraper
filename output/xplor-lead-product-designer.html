@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shweta Sharma — Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  /* =====================================================
+     DEEDY-ATS: Deedy-inspired, single-column, ATS-safe
+     - No CSS columns, no tables, no floats for layout
+     - Semantic HTML only — parseable by all ATS systems
+     - Raleway (name/headers) + Source Sans 3 (body)
+     - Fits 1 US Letter page
+     ===================================================== */
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'Source Sans 3', 'Source Sans Pro', Arial, sans-serif;
+    font-size: 10.2px;
+    line-height: 1.45;
+    color: #1c1c1c;
+    background: #ffffff;
+  }
+
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    max-height: 11in;
+    margin: 0 auto;
+    padding: 0.45in 0.55in 0.4in 0.55in;
+    overflow: hidden;
+  }
+
+  /* ── NAME & CONTACT ─────────────────────────────── */
+  .name-block {
+    margin-bottom: 3px;
+  }
+
+  .candidate-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #1c1c1c;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .name-accent {
+    display: block;
+    height: 2.5px;
+    background: linear-gradient(to right, #1a7a6e, #6b3fa0);
+    border-radius: 2px;
+    margin: 5px 0 6px 0;
+  }
+
+  .contact-line {
+    font-family: 'Source Sans 3', Arial, sans-serif;
+    font-size: 9.5px;
+    color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 14px;
+  }
+
+  .contact-line a {
+    color: #1a7a6e;
+    text-decoration: none;
+  }
+
+  .contact-line span.sep {
+    color: #bbb;
+    margin: 0 2px;
+  }
+
+  /* ── SECTION HEADERS ────────────────────────────── */
+  .section {
+    margin-top: 11px;
+  }
+
+  .section-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #1c1c1c;
+    border-bottom: 1.5px solid #1c1c1c;
+    padding-bottom: 2px;
+    margin-bottom: 6px;
+  }
+
+  /* ── SUMMARY ────────────────────────────────────── */
+  .summary-text {
+    font-size: 10px;
+    color: #2a2a2a;
+    line-height: 1.5;
+  }
+
+  /* ── EXPERIENCE ─────────────────────────────────── */
+  .exp-entry {
+    margin-bottom: 8px;
+  }
+
+  .exp-entry:last-child {
+    margin-bottom: 0;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .exp-company {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #1c1c1c;
+  }
+
+  .exp-date {
+    font-size: 9.5px;
+    color: #555;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  .exp-role-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
+  }
+
+  .exp-role {
+    font-size: 10px;
+    font-style: italic;
+    color: #333;
+    font-weight: 400;
+  }
+
+  .exp-location {
+    font-size: 9.5px;
+    color: #666;
+    font-style: italic;
+  }
+
+  .exp-bullets {
+    list-style: none;
+    padding: 0;
+  }
+
+  .exp-bullets li {
+    font-size: 10px;
+    color: #2a2a2a;
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 1.5px;
+    line-height: 1.45;
+  }
+
+  .exp-bullets li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: #1a7a6e;
+    font-weight: 600;
+  }
+
+  /* ── PROJECTS ───────────────────────────────────── */
+  .project-entry {
+    margin-bottom: 6px;
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .project-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #1c1c1c;
+  }
+
+  .project-tech {
+    font-size: 9.5px;
+    color: #555;
+    font-style: italic;
+  }
+
+  .project-desc {
+    font-size: 10px;
+    color: #2a2a2a;
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 1px;
+    line-height: 1.45;
+  }
+
+  .project-desc::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: #1a7a6e;
+    font-weight: 600;
+  }
+
+  /* ── EDUCATION ──────────────────────────────────── */
+  .edu-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
+  }
+
+  .edu-left .edu-school {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #1c1c1c;
+  }
+
+  .edu-left .edu-degree {
+    font-size: 10px;
+    color: #333;
+    font-style: italic;
+  }
+
+  .edu-right {
+    text-align: right;
+    font-size: 9.5px;
+    color: #555;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  /* ── SKILLS ─────────────────────────────────────── */
+  .skills-block {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .skill-row {
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+    font-size: 10px;
+  }
+
+  .skill-label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 9.5px;
+    color: #1c1c1c;
+    white-space: nowrap;
+    min-width: 110px;
+  }
+
+  .skill-values {
+    color: #333;
+    line-height: 1.4;
+  }
+
+  /* ── PRINT ──────────────────────────────────────── */
+  @media print {
+    @page {
+      size: letter;
+      margin: 0;
+    }
+    body { background: white; }
+    .page { padding: 0.45in 0.55in 0.4in 0.55in; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ══ HEADER ══ -->
+  <div class="name-block">
+    <div class="candidate-name">Shweta Sharma</div>
+    <span class="name-accent"></span>
+    <div class="contact-line">
+      <span>shwetayeole09@gmail.com</span>
+      <span class="sep">|</span>
+      <span>+1 947-466-5006</span>
+      <span class="sep">|</span>
+      <span>Philadelphia, PA</span>
+      <span class="sep">|</span>
+      <a href="https://https://linkedin.com/in/sharmashweta08">linkedin.com/in/sharmashweta08</a>
+      <span class="sep">|</span>
+      <a href="https://https://shwetasharma.tech">shwetasharma.tech</a>
+    </div>
+  </div>
+
+  <!-- ══ SUMMARY ══ -->
+  <div class="section">
+    <div class="section-title">Summary</div>
+    <div class="summary-text">Senior Product Designer with 7+ years leading end-to-end design for consumer payments, e-commerce, and enterprise platforms. At Capita (Arcadia Group), owned consumer digital sales and checkout experiences for 7 flagship retail brands — 11% conversion lift via behavioral triggers and A/B testing. At John Deere, led design practice as sole researcher/designer on India team, building Figma design systems and raising cross-team UX literacy 80%. Currently building AI-augmented design workflows at ABIM using Claude and Python. Ready to drive design strategy for FinTech/payments, mentor cross-functional teams, and shape AI-tooling adoption.</div>
+  </div>
+
+  <!-- ══ EXPERIENCE ══ -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+    
+    <div class="exp-entry">
+      <div class="exp-header">
+        <span class="exp-company">ABIM</span>
+        <span class="exp-date">Sep 2025 – Mar 2026</span>
+      </div>
+      <div class="exp-role-line">
+        <span class="exp-role">Senior UX Designer &amp; Researcher *(Drexel MS Co-op)*</span>
+        <span class="exp-location">Philadelphia, PA</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>**Pioneering AI-augmented design workflows** — using Claude and prompt engineering to accelerate ideation, prototyping, and design-to-dev handoff for clinical communication product</li>
+        <li>Designed data annotation schemas and workflow tools; integrated LLM outputs into reviewable design artifacts</li>
+        <li>Partnered with CPO-equivalent stakeholders (Product, Data Science, Engineering) to align design strategy with business goals</li>
+      </ul>
+    </div>
+
+    <div class="exp-entry">
+      <div class="exp-header">
+        <span class="exp-company">John Deere</span>
+        <span class="exp-date">Nov 2022 – Aug 2024</span>
+      </div>
+      <div class="exp-role-line">
+        <span class="exp-role">UX Design Lead &amp; Sr. Technical Lead</span>
+        <span class="exp-location">Pune, India</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>**Led design practice as sole designer/researcher for India team** — built Figma design system serving 250+ product lines, created design thinking workshops, mentored PMs</li>
+        <li>Architected self-serve survey + analytics platform: setup time cut 60%, completion rates up 25%, developer dependency eliminated</li>
+        <li>Led end-to-end design: strategy → wireframes → Figma prototypes → usability testing → dev handoff</li>
+        <li>**PM-UX Playbook raised cross-team UX literacy 80%** — democratized design thinking across matrixed enterprise</li>
+      </ul>
+    </div>
+
+    <div class="exp-entry">
+      <div class="exp-header">
+        <span class="exp-company">UrbanFit</span>
+        <span class="exp-date">Jan 2021 – Nov 2022</span>
+      </div>
+      <div class="exp-role-line">
+        <span class="exp-role">UX Design Lead</span>
+        <span class="exp-location">Pune, India</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>Led end-to-end redesign of wellness platform: Figma system → prototypes → visual → dev handoff — **35% engagement lift, 28% bounce drop, 2.5× newsletter signups**</li>
+        <li>Owned interaction patterns, visual system, accessibility across web + mobile; mentored junior designers</li>
+      </ul>
+    </div>
+
+    <div class="exp-entry">
+      <div class="exp-header">
+        <span class="exp-company">Capita (Arcadia Group)</span>
+        <span class="exp-date">Jan 2018 – Aug 2019</span>
+      </div>
+      <div class="exp-role-line">
+        <span class="exp-role">Product Designer — Payments &amp; E-Commerce</span>
+        <span class="exp-location">Pune, India (UK retail client)</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>**Designed checkout and payment flows for 7 flagship fashion brands (Topshop, Topman, etc.)** — behavioral triggers, A/B experiments → **11% conversion lift**</li>
+        <li>Owned design strategy for personalization touchpoints, segmentation-driven experiences, and payment journey optimization</li>
+        <li>Partnered with engineering, product, analytics in agile sprints; collaborated with UK-based stakeholders and global dev teams</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ══ PROJECTS ══ -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+    
+    <div class="project-entry">
+      <div class="project-header">
+        <span class="project-name">Arcadia Group: Payments &amp; Checkout Design</span>
+        <a class="project-tech" href="https://shwetasharma.tech">shwetasharma.tech/work/arcadia</a>
+      </div>
+      <div class="project-desc">7-brand payment experience optimization — behavioral triggers, A/B testing, 11% conversion lift.</div>
+    </div>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <span class="project-name">ABIM: AI-Augmented Design Workflow</span>
+        <a class="project-tech" href="https://shwetasharma.tech">shwetasharma.tech/work/abim</a>
+      </div>
+      <div class="project-desc">Claude-integrated design + research pipeline — prompt-driven design artifacts, Python automation.</div>
+    </div>
+  </div>
+
+  <!-- ══ EDUCATION ══ -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    
+    <div class="edu-entry">
+      <div class="edu-left">
+        <div class="edu-school">Drexel University, Philadelphia PA</div>
+        <div class="edu-degree">MS in AI &amp; Machine Learning</div>
+      </div>
+      <div class="edu-right">March 2026</div>
+    </div>
+
+    <div class="edu-entry">
+      <div class="edu-left">
+        <div class="edu-school">NMIMS, Pune India</div>
+        <div class="edu-degree">Diploma in Business Management</div>
+      </div>
+      <div class="edu-right">2021</div>
+    </div>
+
+    <div class="edu-entry">
+      <div class="edu-left">
+        <div class="edu-school">G.H. Raisoni College, Pune India</div>
+        <div class="edu-degree">BS in Computer Science</div>
+      </div>
+      <div class="edu-right">2015</div>
+    </div>
+  </div>
+
+  <!-- ══ SKILLS ══ -->
+  <div class="section">
+    <div class="section-title">Skills</div>
+    <div class="skills-block">
+    <div class="skill-row"><span class="skill-label">Design Leadership</span><span class="skill-values">Design Strategy, Design Ops, Mentorship, Cross-functional Alignment, Design System Governance</span></div>
+    <div class="skill-row"><span class="skill-label">Design Tools</span><span class="skill-values">Figma (advanced), Adobe XD, Sketch, Mural, design systems, component libraries, variants, auto-layout</span></div>
+    <div class="skill-row"><span class="skill-label">AI &amp; Automation</span><span class="skill-values">Claude, prompt engineering, rapid prototyping with AI tools, Python (pandas, PyTorch)</span></div>
+    <div class="skill-row"><span class="skill-label">Research &amp; Validation</span><span class="skill-values">Usability Testing, A/B Testing, Behavioral Analytics, Concept Testing, User Interviews</span></div>
+    <div class="skill-row"><span class="skill-label">Payments &amp; FinTech</span><span class="skill-values">Checkout flows, payment journeys, conversion optimization, behavioral triggers, A/B experimentation</span></div>
+  </div>
+  </div>
+
+</div>
+</body>
+</html>

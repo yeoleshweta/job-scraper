@@ -1,0 +1,22 @@
+Evaluation complete. Report 042 written, tracker line added, no PDF generated (SKIP recommendation due to discipline mismatch).
+
+```json
+{
+  "status": "completed",
+  "id": "39",
+  "report_num": "042",
+  "company": "Notion",
+  "role": "Interaction Designer, Web",
+  "score": 1.6,
+  "pdf": null,
+  "report": "reports/042-notion-2026-04-29.md",
+  "error": null
+}
+```
+
+**Summary:** Notion's *Interaction Designer, Web* is a senior brand-web designer + front-end engineer hybrid (10+ years, ships production code for notion.com, deep typographic craft) — fundamentally a different ladder than Shweta's UXR + AI/ML track. **SKIP** recommended (1.6/5) to preserve Notion brand goodwill for future-fit openings (UX Researcher, AI Researcher, AI Conversation Designer).
+
+Sources:
+- [Interaction Designer, Web @ Notion (Ashby)](https://jobs.ashbyhq.com/notion/1ead3ae1-7854-4968-adc8-773747352bd1)
+- [Interaction Designer, Web — Notion | Built In NYC](https://www.builtinnyc.com/job/interaction-designer-web/9172607)
+- [Notion Salaries | Levels.fyi](https://www.levels.fyi/companies/notion/salaries)

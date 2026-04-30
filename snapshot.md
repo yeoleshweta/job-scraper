@@ -1,0 +1,900 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: Skip to main content
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e321]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "LinkedIn" [ref=e323] [cursor=pointer]:
+            - img "LinkedIn" [ref=e324]
+          - search [ref=e20]:
+            - generic [ref=e21]:
+              - img [ref=e326]
+              - textbox "I'm looking for…" [ref=e24]
+          - generic [ref=e26]:
+            - figure [ref=e332]
+            - navigation [ref=e29]:
+              - list [ref=e30]:
+                - listitem [ref=e31]:
+                  - button "Home, 1 new notification" [ref=e32] [cursor=pointer]:
+                    - img [ref=e333]
+                    - generic [ref=e37]: Home
+                - listitem [ref=e38]:
+                  - link "My Network, 0 new notifications" [ref=e39] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e335]
+                    - generic [ref=e43]: My Network
+                - listitem [ref=e44]:
+                  - link "Jobs, 0 new notifications" [ref=e45] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e337]
+                    - generic [ref=e49]: Jobs
+                - listitem [ref=e50]:
+                  - link "Messaging, 0 new notifications" [ref=e51] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e339]
+                    - generic [ref=e55]: Messaging
+                - listitem [ref=e56]:
+                  - link "Notifications, 2 new notifications" [ref=e57] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - generic [ref=e58]:
+                      - img [ref=e341]
+                      - generic [ref=e60]: "2"
+                    - generic [ref=e62]: Notifications
+                - listitem [ref=e63]:
+                  - button "Me" [ref=e64] [cursor=pointer]:
+                    - figure [ref=e66]
+                    - generic [ref=e68]:
+                      - text: Me
+                      - img [ref=e343]
+            - navigation [ref=e72]:
+              - list [ref=e73]:
+                - listitem [ref=e74]:
+                  - button "For Business" [ref=e75] [cursor=pointer]:
+                    - img [ref=e345]
+                    - generic [ref=e79]:
+                      - text: For Business
+                      - img [ref=e347]
+                - listitem [ref=e81]:
+                  - link "0 new notifications" [ref=e82] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+                    - img [ref=e349]
+                    - generic [ref=e86]: Learning
+      - main [ref=e87]:
+        - generic [ref=e88]:
+          - toolbar
+          - main [ref=e89]:
+            - generic [ref=e91]:
+              - generic [ref=e95]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - generic [ref=e102]:
+                      - link "Company, American Board of Internal Medicine." [ref=e104] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/american-board-of-internal-medicine/life/
+                        - generic "Company, American Board of Internal Medicine." [ref=e105]:
+                          - figure [ref=e106]:
+                            - img "Company logo for, American Board of Internal Medicine." [ref=e107]
+                          - paragraph [ref=e108]:
+                            - link "American Board of Internal Medicine" [ref=e109]:
+                              - /url: https://www.linkedin.com/company/american-board-of-internal-medicine/life/
+                      - button "More options" [ref=e110] [cursor=pointer]:
+                        - img [ref=e354]
+                    - paragraph [ref=e115]:
+                      - text: Data Analyst
+                      - link "Verified job" [ref=e116] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Verified job" [ref=e117]:
+                          - img [ref=e356]
+                    - paragraph [ref=e119]:
+                      - text: Philadelphia, PA ·
+                      - strong [ref=e121]: 22 hours ago
+                      - text: · Over 100 applicants
+                    - paragraph [ref=e123]:
+                      - text: Promoted by hirer ·
+                      - strong [ref=e125]: Company review time is typically 1 week
+                  - generic [ref=e126]:
+                    - link "Hybrid" [ref=e128] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4399575205/
+                      - generic [ref=e129]:
+                        - img [ref=e358]
+                        - generic [ref=e131]: Hybrid
+                    - link "Full-time" [ref=e133] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4399575205/
+                      - generic [ref=e135]: Full-time
+                  - generic [ref=e140]:
+                    - link "Easy Apply to this job" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4399575205/
+                      - generic [ref=e143]:
+                        - img [ref=e360]
+                        - generic [ref=e145]: Easy Apply
+                    - button "Save the job" [ref=e147] [cursor=pointer]:
+                      - generic [ref=e149]: Save
+                - generic [ref=e150]:
+                  - generic [ref=e155]:
+                    - img [ref=e362]
+                    - heading "Use AI to assess how you fit" [level=2] [ref=e159]
+                    - list [ref=e372]:
+                      - listitem [ref=e373]:
+                        - link "Show match details" [ref=e375] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A60fa9e221a1d27cf4d0ba06bd44f72594cb72b86fc8d9aaab92fe058c958f71d%7Eurn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&contextUrns=urn%3Ali%3Aguide%3A60fa9e221a1d27cf4d0ba06bd44f72594cb72b86fc8d9aaab92fe058c958f71d&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=hozO3b7RS7WX%2FjyNaBi3tA%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2CjobPostingId%7E%3A4399575205%2ChasHistory%7E%3Afalse&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4399575205
+                          - generic [ref=e376]:
+                            - img [ref=e377]
+                            - paragraph [ref=e379]: Show match details
+                      - listitem [ref=e380]:
+                        - link "Tailor my resume" [ref=e382] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/job-apply-resources/?jobPostingId=4399575205
+                          - generic [ref=e383]:
+                            - img [ref=e384]
+                            - paragraph [ref=e386]: Tailor my resume
+                      - listitem [ref=e387]:
+                        - link "Create cover letter" [ref=e389] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Create+cover+letter&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A60fa9e221a1d27cf4d0ba06bd44f72594cb72b86fc8d9aaab92fe058c958f71d%7Eurn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&contextUrns=urn%3Ali%3Aguide%3A60fa9e221a1d27cf4d0ba06bd44f72594cb72b86fc8d9aaab92fe058c958f71d&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=JbJSycYVSOuqReOD%2FQvKsg%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_COVER_LETTER%2CjobPostingId%7E%3A4399575205%2ChasHistory%7E%3Afalse&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4399575205
+                          - generic [ref=e390]:
+                            - img [ref=e391]
+                            - paragraph [ref=e393]: Create cover letter
+                      - listitem [ref=e394]:
+                        - link "Help me stand out" [ref=e396] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A60fa9e221a1d27cf4d0ba06bd44f72594cb72b86fc8d9aaab92fe058c958f71d%7Eurn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&contextUrns=urn%3Ali%3Aguide%3A60fa9e221a1d27cf4d0ba06bd44f72594cb72b86fc8d9aaab92fe058c958f71d&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=YveCphQBR46%2BD1DaKtbluQ%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2CjobPostingId%7E%3A4399575205%2ChasHistory%7E%3Afalse&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4399575205
+                          - generic [ref=e397]:
+                            - img [ref=e398]
+                            - paragraph [ref=e400]: Help me stand out
+                  - generic [ref=e403]:
+                    - heading "People you can reach out to" [level=2] [ref=e404]
+                    - generic [ref=e405]:
+                      - figure [ref=e406]
+                      - figure [ref=e407]
+                      - figure [ref=e408]
+                      - paragraph [ref=e410]: Jerome and others in your network
+                      - link "Show all" [ref=e412] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/view/4399575205/
+                        - generic [ref=e414]: Show all
+                  - generic [ref=e419]:
+                    - heading "About the job" [level=2] [ref=e421]
+                    - paragraph [ref=e422]:
+                      - generic [ref=e423]:
+                        - paragraph [ref=e424]: The American Board of Internal Medicine (ABIM) is seeking a Data Analyst to join our Data Analytics team. In this role, you will partner with researchers, statisticians, and cross-functional stakeholders to generate insights from complex data that support the organization’s mission and operations.
+                        - paragraph [ref=e425]
+                        - paragraph [ref=e426]: This position is ideal for a data-driven professional who enjoys solving challenging problems, working with large datasets, and leveraging modern analytical approaches, including AI-assisted coding, to deliver meaningful, actionable insights.
+                        - paragraph [ref=e427]
+                        - paragraph [ref=e428]: "Reporting to the Director, Research and Data Intelligence, the Data Analyst has the following responsibilities:"
+                        - list [ref=e429]:
+                          - listitem [ref=e430]: Perform statistical analyses to support research and operational initiatives.
+                          - listitem [ref=e431]: Extract, clean, and analyze large datasets to generate insights and reports.
+                          - listitem [ref=e432]: Develop, test, and implement analytical workflows and code using statistical software and AI-assisted coding practices.
+                          - listitem [ref=e433]: Ensure data accuracy, integrity, and completeness across datasets and reporting outputs.
+                          - listitem [ref=e434]:
+                            - text: Create clear, compelling data visualizations and dashboards using tools such as
+                            - strong [ref=e435]: Tableau
+                            - text: (or similar platforms).
+                          - listitem [ref=e436]: Translate complex analytical findings into concise, actionable insights for technical and non-technical audiences.
+                        - paragraph [ref=e437]
+                        - paragraph [ref=e438]: The demonstrated ability to apply strong analytical thinking and problem-solving skills to ambiguous or complex questions is essential to this role. Experience with statistical programming tools such as SAS, R, or Python is highly desired. Proficiency in working with SQL and large datasets, along with hands-on experience using data visualization tools such as Tableau or Power BI, will enable success in this role. Familiarity with or interest in AI-assisted coding tools (e.g., Claude, ChatGPT, or similar) to enhance productivity and analysis workflows is also valued. Strong communication skills, including the ability to clearly present insights, are critical.
+                        - paragraph [ref=e439]
+                        - paragraph [ref=e440]: The ideal candidate demonstrates strong technical expertise and a proactive approach to exploring and solving complex problems, with an undergraduate degree in a related field and three to five years of relevant experience in data analysis and management. A graduate degree in Statistics, Data Science, Health Services Researcher, or a related field is highly desirable.
+                        - paragraph [ref=e441]
+                        - paragraph [ref=e442]:
+                          - emphasis [ref=e443]: This is a hybrid role based in our offices at 510 Walnut Street, Philadelphia PA, with the ability to work remotely three days a week. Our technology and facility teams provide and support a seamless hybrid work environment for all employees.
+                        - paragraph [ref=e444]
+                        - paragraph [ref=e445]: "* * *"
+                        - paragraph [ref=e446]: At the American Board of Internal Medicine (ABIM), our team of unique and talented professionals, and the inspiring work they do, are essential to meeting the needs and expectations of ABIM’s diverse community of physicians.
+                        - paragraph [ref=e447]
+                        - paragraph [ref=e448]: ABIM is like no other workplace, and we are proud of it. We are committed to recognizing the importance of our people by investing in their lives through ongoing learning opportunities and exceptional total compensation & benefit offerings.
+                        - paragraph [ref=e449]
+                        - paragraph [ref=e450]: We look forward to learning more about your interest in joining our team. Apply online, or email your resume to careers@abim.org. EOE
+                        - button:
+                          - generic [ref=e452] [cursor=pointer]: … more
+                    - paragraph [ref=e453]: Featured benefits
+                    - paragraph [ref=e454]: Medical insurance, Vision insurance, Dental insurance, Paid maternity leave, Paid paternity leave, Commuter benefits, Tuition assistance
+                    - paragraph [ref=e455]: Requirements added by the job poster
+                    - paragraph [ref=e456]: • Authorized to work in the United States
+                    - paragraph [ref=e457]: • No need for visa sponsorship
+                  - generic [ref=e461]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e462]
+                    - generic [ref=e463]:
+                      - paragraph [ref=e464]: Data Analyst, Philadelphia, Pennsylvania, United States
+                      - switch "Tap to toggle setting" [ref=e465] [cursor=pointer]:
+                        - generic [ref=e466]:
+                          - generic:
+                            - paragraph
+                          - generic [ref=e467]:
+                            - generic [ref=e468]: "Off"
+                            - generic [ref=e469]:
+                              - switch
+                  - generic [ref=e476]:
+                    - generic [ref=e477]:
+                      - img [ref=e478]
+                      - button "Learn more" [ref=e485] [cursor=pointer]:
+                        - img "Learn more" [ref=e486]
+                    - heading "See how you compare to other applicants" [level=2] [ref=e489]
+                    - heading "Based on LinkedIn data. Excludes subsidiaries." [level=3] [ref=e490]
+                    - generic [ref=e491]:
+                      - generic [ref=e492]:
+                        - heading "Applicants for this job" [level=3] [ref=e493]
+                        - generic [ref=e494]:
+                          - paragraph [ref=e496]: "849"
+                          - paragraph [ref=e497]: Applicants
+                        - generic [ref=e498]:
+                          - paragraph [ref=e500]: "849"
+                          - paragraph [ref=e501]: Applicants in the past day
+                      - generic [ref=e502]:
+                        - heading "Applicant seniority level" [level=3] [ref=e503]
+                        - paragraph [ref=e504]: 63% Entry level people applied for this job
+                        - paragraph [ref=e507]: 34% Senior level people applied for this job
+                      - rowgroup [ref=e511]:
+                        - heading "Applicant education level" [level=3] [ref=e512]
+                        - row "87% have a Master's Degree (Similar to you)" [ref=e513]:
+                          - paragraph [ref=e514]: 87%
+                          - paragraph [ref=e515]: have a Master's Degree (Similar to you)
+                        - row "7% have a Bachelor's Degree" [ref=e516]:
+                          - paragraph [ref=e517]: 7%
+                          - paragraph [ref=e518]: have a Bachelor's Degree
+                        - row "3% have a Master of Business Administration" [ref=e519]:
+                          - paragraph [ref=e520]: 3%
+                          - paragraph [ref=e521]: have a Master of Business Administration
+                        - row "3% have other degrees" [ref=e522]:
+                          - paragraph [ref=e523]: 3%
+                          - paragraph [ref=e524]: have other degrees
+                  - generic [ref=e528]:
+                    - generic [ref=e530]:
+                      - generic [ref=e531]:
+                        - img [ref=e532]
+                        - button "Learn more" [ref=e539] [cursor=pointer]:
+                          - img "Learn more" [ref=e540]
+                      - heading "Exclusive Job Seeker Insights about American Board of Internal Medicine" [level=2] [ref=e543]
+                      - heading "Powered by Bing" [level=3] [ref=e544]
+                      - generic [ref=e545]:
+                        - generic [ref=e546]:
+                          - paragraph [ref=e547]: Company focus areas
+                          - generic [ref=e548]:
+                            - paragraph [ref=e549]:
+                              - strong [ref=e550]: • Maintenance of Certification (MOC) Reform
+                              - text: ": Implementing flexible and relevant MOC pathways such as the Longitudinal Knowledge Assessment (LKA) to better align with physicians' needs and professional development."
+                            - button "...more" [ref=e552] [cursor=pointer]:
+                              - paragraph [ref=e553]: ...more
+                          - generic [ref=e554]:
+                            - paragraph [ref=e555]: "Sources: kevinmd.com +1 more"
+                            - generic [ref=e557]:
+                              - button "Mark suggestion as good" [ref=e559] [cursor=pointer]:
+                                - img [ref=e561]
+                              - link "Mark suggestion as bad" [ref=e564] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4399575205/
+                                - img [ref=e566]
+                        - generic [ref=e568]:
+                          - paragraph [ref=e569]: Hiring & headcount
+                          - paragraph [ref=e570]:
+                            - generic [ref=e571]:
+                              - text: "Focus on media and communication: The 'Media and Communication' department has seen a 7% increase in employee count, indicating a strategic initiative to enhance communication and media presence. Growth in engineering: The 'Engineering' department has experienced a 10% increase in headcount, suggesting a significant investment in technological development and innovation. Expansion in administrative and human resources: The 'Administrative' and 'Human Resources' departments have grown by 12% and 14% respectively, reflecting a focus on strengthening internal operations and employee management. Increase in finance and consulting: The 'Finance' and 'Consulting' departments have seen substantial growth with 33% and 50% increases in headcount, indicating a strategic emphasis on financial management and advisory services."
+                              - button:
+                                - generic [ref=e573] [cursor=pointer]: … more
+                          - generic [ref=e575]:
+                            - button "Mark suggestion as good" [ref=e577] [cursor=pointer]:
+                              - img [ref=e579]
+                            - link "Mark suggestion as bad" [ref=e582] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/jobs/view/4399575205/
+                              - img [ref=e584]
+                        - generic [ref=e586]:
+                          - paragraph [ref=e587]: The latest hiring trend
+                          - generic [ref=e588]:
+                            - generic [ref=e589]:
+                              - generic [ref=e590]:
+                                - paragraph [ref=e591]: "517"
+                                - paragraph [ref=e592]: Total employees
+                              - generic [ref=e593]:
+                                - generic [ref=e594]:
+                                  - generic [ref=e595]:
+                                    - img [ref=e596]
+                                    - paragraph [ref=e598]: 20%
+                                  - paragraph [ref=e599]: Company-wide
+                                  - paragraph [ref=e600]: 2 year growth
+                                - generic [ref=e601]:
+                                  - paragraph [ref=e603]: 0%
+                                  - paragraph [ref=e604]: Operations
+                                  - paragraph [ref=e605]: 2 year growth
+                            - region "Chart. Highcharts interactive chart." [ref=e606]:
+                              - generic [ref=e607]:
+                                - heading "Chart" [level=4] [ref=e608]
+                                - generic [ref=e609]: Chart with 25 data points.
+                                - generic [ref=e610]: The chart has 1 X axis displaying Time. Data ranges from 2024-04-01 00:00:00 to 2026-04-01 00:00:00.
+                                - generic [ref=e611]: The chart has 1 Y axis displaying values. Data ranges from 432 to 517.
+                              - img "Interactive chart" [ref=e617]:
+                                - generic [ref=e629]:
+                                  - img "April 2024, 432. Employee headcount." [ref=e630]
+                                  - img "May 2024, 435. Employee headcount." [ref=e631]
+                                  - img "June 2024, 437. Employee headcount." [ref=e632]
+                                  - img "July 2024, 451. Employee headcount." [ref=e633]
+                                  - img "August 2024, 460. Employee headcount." [ref=e634]
+                                  - img "September 2024, 464. Employee headcount." [ref=e635]
+                                  - img "October 2024, 468. Employee headcount." [ref=e636]
+                                  - img "November 2024, 472. Employee headcount." [ref=e637]
+                                  - img "December 2024, 470. Employee headcount." [ref=e638]
+                                  - img "January 2025, 476. Employee headcount." [ref=e639]
+                                  - img "February 2025, 480. Employee headcount." [ref=e640]
+                                  - img "March 2025, 481. Employee headcount." [ref=e641]
+                                  - img "April 2025, 484. Employee headcount." [ref=e642]
+                                  - img "May 2025, 490. Employee headcount." [ref=e643]
+                                  - img "June 2025, 495. Employee headcount." [ref=e644]
+                                  - img "July 2025, 496. Employee headcount." [ref=e645]
+                                  - img "August 2025, 499. Employee headcount." [ref=e646]
+                                  - img "September 2025, 507. Employee headcount." [ref=e647]
+                                  - img "October 2025, 511. Employee headcount." [ref=e648]
+                                  - img "November 2025, 515. Employee headcount." [ref=e649]
+                                  - img "December 2025, 516. Employee headcount." [ref=e650]
+                                  - img "January 2026, 517. Employee headcount." [ref=e651]
+                                  - img "February 2026, 517. Employee headcount." [ref=e652]
+                                  - img "March 2026, 516. Employee headcount." [ref=e653]
+                                  - img "April 2026, 517. Employee headcount." [ref=e654]
+                                - generic [ref=e655]:
+                                  - generic [ref=e656]: May 1
+                                  - generic [ref=e657]: Sep 1
+                                  - generic [ref=e658]: Jan 1
+                                  - generic [ref=e659]: May 1
+                                  - generic [ref=e660]: Sep 1
+                                  - generic [ref=e661]: Jan 1
+                                  - generic [ref=e662]: May 1
+                                - generic [ref=e663]:
+                                  - generic [ref=e664]: "0"
+                                  - generic [ref=e665]: "250"
+                                  - generic [ref=e666]: "500"
+                                  - generic [ref=e667]: "750"
+                              - generic [ref=e669]: End of interactive chart.
+                          - generic [ref=e670]:
+                            - img [ref=e671]
+                            - paragraph [ref=e674]:
+                              - text: "Median employee tenure:"
+                              - strong [ref=e675]: 6.8 years
+                        - generic [ref=e676]:
+                          - paragraph [ref=e677]: Competitors
+                          - paragraph [ref=e678]:
+                            - generic [ref=e679]:
+                              - text: The American Board of Internal Medicine (ABIM) operates in a competitive landscape with several key players in the medical certification and education sector. ABIM faces competition from organizations like the American Board of Medical Specialties, which oversees multiple specialty boards, and the Society of General Internal Medicine, which focuses on enhancing medical education and healthcare access. Additionally, companies like Rosh Review provide alternative board review and certification preparation resources. The competitive landscape is shaped by the need for rigorous certification standards, ongoing professional development, and the evolving demands of the healthcare industry.
+                              - button:
+                                - generic [ref=e681] [cursor=pointer]: … more
+                          - generic [ref=e682]:
+                            - link [ref=e683] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/abmscert/
+                              - figure [ref=e684]
+                            - link [ref=e685] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/society-of-general-internal-medicine-sgim-/
+                              - figure [ref=e686]
+                            - link [ref=e687] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/rosh-review-llc/
+                              - figure [ref=e688]
+                          - generic [ref=e689]:
+                            - paragraph [ref=e690]: "Sources: sgim.org +2 more"
+                            - generic [ref=e692]:
+                              - button "Mark suggestion as good" [ref=e694] [cursor=pointer]:
+                                - img [ref=e696]
+                              - link "Mark suggestion as bad" [ref=e699] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4399575205/
+                                - img [ref=e701]
+                    - link "Show Premium Insights" [ref=e703] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/american-board-of-internal-medicine/insights/?insightType=HEADCOUNT
+                      - generic [ref=e704]:
+                        - img [ref=e705]
+                        - generic [ref=e707]: Show Premium Insights
+                  - generic [ref=e710]:
+                    - generic [ref=e711]:
+                      - heading "About the company" [level=2] [ref=e713]
+                      - generic [ref=e714]:
+                        - generic [ref=e715]:
+                          - link "American Board of Internal Medicine 36,438 followers" [ref=e716] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/american-board-of-internal-medicine/life/
+                            - generic [ref=e717]:
+                              - figure [ref=e718]
+                              - generic [ref=e719]:
+                                - paragraph [ref=e722]: American Board of Internal Medicine
+                                - paragraph [ref=e724]: 36,438 followers
+                          - button "Following" [ref=e725] [cursor=pointer]:
+                            - generic [ref=e726]:
+                              - img [ref=e727]
+                              - generic [ref=e729]: Following
+                        - generic [ref=e730]:
+                          - paragraph [ref=e732]: Non-profit Organizations
+                          - paragraph [ref=e734]: •
+                          - paragraph [ref=e736]: 201-500 employees
+                          - paragraph [ref=e738]: •
+                          - paragraph [ref=e740]: 474 on LinkedIn
+                        - paragraph [ref=e741]:
+                          - generic [ref=e742]: Certifying 260k+ internists and subspecialists who demonstrate the knowledge, skills and attitudes essential for excellent patient care.
+                      - generic [ref=e746]:
+                        - generic [ref=e748]:
+                          - paragraph [ref=e749]: Interested in working with us in the future?
+                          - link "Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates. Learn more" [ref=e750] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                            - paragraph [ref=e751]:
+                              - text: Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates.
+                              - link "Learn more" [ref=e752]:
+                                - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                                - strong [ref=e753]: Learn more
+                        - button "I’m interested" [ref=e755] [cursor=pointer]:
+                          - generic [ref=e757]: I’m interested
+                    - generic [ref=e758]:
+                      - heading "Company photos" [level=2] [ref=e759]
+                      - generic [ref=e764]:
+                        - list [ref=e765]:
+                          - list [ref=e766]:
+                            - listitem [ref=e767]:
+                              - link [ref=e768] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4399575205/
+                                - figure [ref=e771]
+                            - listitem [ref=e772]:
+                              - link [ref=e773] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4399575205/
+                                - figure [ref=e776]
+                            - listitem [ref=e777]:
+                              - link [ref=e778] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4399575205/
+                                - figure [ref=e781]
+                            - listitem [ref=e782]:
+                              - link [ref=e783] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4399575205/
+                                - figure [ref=e786]
+                            - listitem [ref=e787]:
+                              - link [ref=e788] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4399575205/
+                                - figure [ref=e791]
+                            - listitem [ref=e792]:
+                              - link [ref=e793] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4399575205/
+                                - figure [ref=e796]
+                        - button "Next" [ref=e797] [cursor=pointer]:
+                          - img [ref=e799]
+                    - link "Show more" [ref=e801] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/american-board-of-internal-medicine/life/
+                      - generic [ref=e802]:
+                        - img [ref=e803]
+                        - generic [ref=e805]: Show more
+                  - generic [ref=e807]:
+                    - heading "More jobs" [level=2] [ref=e808]
+                    - generic [ref=e809]:
+                      - link "Data Analyst, New Grad (Verified job) Jobright.ai United States (Remote) 4 benefits Posted on April 14, 2026, 10:00 AM" [ref=e811] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=aGCEpsrjfmQ%2BuiIv9AFtVg%3D%3D&currentJobId=4400767398&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=BUDGET_EXHAUSTED_JOB&originToLandingJobPostings=4400767398
+                        - generic [ref=e812]:
+                          - generic [ref=e813]:
+                            - figure [ref=e814]
+                            - generic [ref=e815]:
+                              - generic [ref=e818]:
+                                - paragraph [ref=e820]:
+                                  - generic [ref=e821]: Data Analyst, New Grad (Verified job)
+                                  - generic [ref=e822]:
+                                    - text: Data Analyst, New Grad
+                                    - img [ref=e824]
+                                - paragraph [ref=e827]: Jobright.ai
+                                - paragraph [ref=e829]: United States (Remote)
+                              - paragraph [ref=e833]: 4 benefits
+                          - paragraph [ref=e835]:
+                            - generic [ref=e836]: Posted on April 14, 2026, 10:00 AM
+                            - text: 6 hours ago
+                      - link "Data Science Intern Staffline Solutions United States (Remote) Posted on April 14, 2026, 3:56 PM · Easy Apply" [ref=e838] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=cjcYkG380%2BerAOETCHIiEw%3D%3D&currentJobId=4399903210&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=CwEAAAGdjZ2nZmhDEvYfaaQFKZkA0ATovVCGcISf1M_zG_K1l9HZfpiBAz3ck1mqJVnYqcOMYm7kNoFP-AD0k4iPT32AhCbvHGn-AEhg7lS9Rf7baHJcMGdg3NVhN_zypiFWfPRMolcMvXqlQPsFpphQvUFaEm5nHoB5nSOb_gDUR1mT7dJFElb2kRCWaL_zqoQiLLvlNri7VsyJ3SfUZCMt3qOffZmSjGRw1uMTbAiZiFDijrHocqew-tQfPRiD2EHstOyQ-uXJv7o8kQ33OStnc13VLKEGUm0xYqPDudkWlmZKGnXeRPdNI8IO1LM6hZhuRUA-XXPtr0tHWgZKfQFFhwfbrGPl-KXc_ilUmtnoHBsSZe7atlNxQsHVRDRp8rBo3gmCgIN-eNpLlVJXHxmKdcpUFAJtfGfKbu5B5TpcltCLChJS-8AIb-RUGsKfQWrf_fDSWYlhd_1SfNiGxuQy_XWhhtlTcFcq6U53gL4WLpvVCg&originToLandingJobPostings=4399903210
+                        - generic [ref=e839]:
+                          - generic [ref=e840]:
+                            - figure [ref=e841]
+                            - generic [ref=e845]:
+                              - paragraph [ref=e847]: Data Science Intern
+                              - paragraph [ref=e849]: Staffline Solutions
+                              - paragraph [ref=e851]: United States (Remote)
+                          - generic [ref=e853]:
+                            - paragraph [ref=e854]:
+                              - generic [ref=e855]: Posted on April 14, 2026, 3:56 PM
+                              - text: 13 minutes ago
+                            - paragraph [ref=e856]: ·
+                            - paragraph [ref=e857]:
+                              - img [ref=e859]
+                              - text: Easy Apply
+                      - link "Data Analyst (Verified job) InterEx Group United States (Remote) Posted on April 13, 2026, 6:55 AM · Easy Apply" [ref=e862] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=caGb%2Br3CaIIdF%2FjZpHF28g%3D%3D&currentJobId=4399513833&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=CwEAAAGdjZ2nZk5R5KKwCLl4VYepM1M_IneO9Lmeo3xUSRIk7x9q_sL-gLwiSiH3MBsFeMEI9cvNR1w8mFDBrwJHS8zNdjNmGe4DUOERqk4wGEVzcfzIZkEl4Bl7MnLSU-UcN8JZXfuvdCKp51LcC4c0he184kl1WIRgdL_2elxldk2x2B7dyjnjo-g79vwULSV3ZUEGNkZpd7yVbqp73PctTWHTZIuHKmRX17Lg3R7FBBnPJ25nHuewL1pqETIg3f-us8EmJE-1wBiyoueDLBxfVJSQKlAm80-HLiwwBpHDJBI41TA6B___MzaZa_2ALa7coDqlDi6-dRA-RsTkQBTUtOA846kQUyuT_2j5HcRmOXWcTIvg63cUpwPqsIVxGT0m-lJHfpWAvCaARwxi-I2i5qRhZvdbaJW9Q3cpUVS54B_nF0jnfBSI8mNErD73VVOti0f1x_krjwdMVN3PfQHF_fsaDteBfWQgTEfNLHPFTDQO-mVJidvIsTD5lT-tLXLnhpN3&originToLandingJobPostings=4399513833
+                        - generic [ref=e863]:
+                          - generic [ref=e864]:
+                            - figure [ref=e865]
+                            - generic [ref=e869]:
+                              - paragraph [ref=e871]:
+                                - generic [ref=e872]: Data Analyst (Verified job)
+                                - generic [ref=e873]:
+                                  - text: Data Analyst
+                                  - img [ref=e875]
+                              - paragraph [ref=e878]: InterEx Group
+                              - paragraph [ref=e880]: United States (Remote)
+                          - generic [ref=e882]:
+                            - paragraph [ref=e883]:
+                              - generic [ref=e884]: Posted on April 13, 2026, 6:55 AM
+                              - text: 1 day ago
+                            - paragraph [ref=e885]: ·
+                            - paragraph [ref=e886]:
+                              - img [ref=e888]
+                              - text: Easy Apply
+                      - link "Data Analyst AARATECH Washington DC-Baltimore Area (On-site) $60K/yr - $75K/yr Posted on April 13, 2026, 9:23 AM · Easy Apply" [ref=e891] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=SEGBYrwpkwmkcL0kPhFIwg%3D%3D&currentJobId=4399622806&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=CwEAAAGdjZ2nZxoQkzNsasKjfNdQqeOzxwAajjUnCpFRI2qbBZDGOjjin8RCLTGe2jjOXwr5yafJ_3kpLRen5ob6LX_q7o_-LefP73F8EJzt_ycWekAxB4uIoVfGFIzUAGXxSY5w5LQHhLYuP4HPLv8I_Rnz3islXF_eIUAhbwoCPWFutYEbXg_ysU0B5Z7giuvUTTBE78bRyVCAZlawapIo6_5zVUPeX2njcXXlyvvMJYWipHf-RgAPTQzzs7Fg7vXpjMWqpFbRxYYzMOXzNL9eWh7_rsHtUCsISMtrFeBhLVswUUHxPtAW5O6P5nDENr5OKOhun2yqsNxbJMQb7-RJM_s2Jvfn7iuSpt6E28mrmN1O9c6N5TzJcu7rekWlFXZXKkJQjJoUFv-Fo5PEpEvhjqH0OhHRc0ql3Myv_aByPUqirG9jd_khRwRF94Rty-SS_lPILa4tqAgRqnuRHIZ4HB5TMSRkToRgDGQtS93bjdZR46co-XHBEPio0RvRHL-NYou7&originToLandingJobPostings=4399622806
+                        - generic [ref=e892]:
+                          - generic [ref=e893]:
+                            - figure [ref=e894]
+                            - generic [ref=e895]:
+                              - generic [ref=e898]:
+                                - paragraph [ref=e900]: Data Analyst
+                                - paragraph [ref=e902]: AARATECH
+                                - paragraph [ref=e904]: Washington DC-Baltimore Area (On-site)
+                              - paragraph [ref=e908]: $60K/yr - $75K/yr
+                          - generic [ref=e909]:
+                            - paragraph [ref=e910]:
+                              - generic [ref=e911]: Posted on April 13, 2026, 9:23 AM
+                              - text: 1 day ago
+                            - paragraph [ref=e912]: ·
+                            - paragraph [ref=e913]:
+                              - img [ref=e915]
+                              - text: Easy Apply
+                      - link "Data Analyst RemoteHunter United States (Remote) Posted on April 14, 2026, 5:50 AM" [ref=e918] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=MNMJWcpX30M9uuArR2lGsQ%3D%3D&currentJobId=4400723361&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=BUDGET_EXHAUSTED_JOB&originToLandingJobPostings=4400723361
+                        - generic [ref=e919]:
+                          - generic [ref=e920]:
+                            - figure [ref=e921]
+                            - generic [ref=e925]:
+                              - paragraph [ref=e927]: Data Analyst
+                              - paragraph [ref=e929]: RemoteHunter
+                              - paragraph [ref=e931]: United States (Remote)
+                          - paragraph [ref=e934]:
+                            - generic [ref=e935]: Posted on April 14, 2026, 5:50 AM
+                            - text: 10 hours ago
+                      - link "Business Data Analyst (Verified job) Dexian Eden Prairie, MN (Remote) Actively reviewing applicants Posted on April 13, 2026, 2:24 PM · Easy Apply" [ref=e937] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=0%2Ffl3OkrOIrjcPMHEU%2Br8w%3D%3D&currentJobId=4399688082&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=CwEAAAGdjZ2nZ-_301-ZqKgWcDqbMu8_aFe2dsuE7-3Azsp2qSdZpoGbrvJfv4jbTWv3g__acMZwzxI3pra7sfLgZERpoajr8A4mO6kBav5c9s3FKLtrGJSlWlDxZYXF7N9e-65kuTkW7aM2ockvsuinkBILuolem_IdUTP58A8FmintdV4kS6CtiWWL0n55iLxAdEaJf2CiHkpq6A45c3MT632facQqdNE89TYnAqvLzz_437SXRjLr_HKAuME2Po9R-dVx7wrBAMUj_3n9hNY-6Ta-3O1sLh0z5WOtu8RRafLFJNNsqPltHt2FFc8nPzq7oUerg6QL-PFYTny-nZQbNbqcTQP0CzgR8c7c0qaEySfQtRRzWcXU-kEXmE86TjqANvY4-KU4xdlAO5620Qed25xUsCyzqUKVf0LAtQn9rbWNtD7te4oinAaC77Wx898Jvvq9R6D8QHmEhvC6G9HXSVE_nPFngOM8bLXST_X5G_OXjLRLLw6oCQP3_hYP98DpvA&originToLandingJobPostings=4399688082
+                        - generic [ref=e938]:
+                          - generic [ref=e939]:
+                            - figure [ref=e940]
+                            - generic [ref=e941]:
+                              - generic [ref=e944]:
+                                - paragraph [ref=e946]:
+                                  - generic [ref=e947]: Business Data Analyst (Verified job)
+                                  - generic [ref=e948]:
+                                    - text: Business Data Analyst
+                                    - img [ref=e950]
+                                - paragraph [ref=e953]: Dexian
+                                - paragraph [ref=e955]: Eden Prairie, MN (Remote)
+                              - generic [ref=e957]:
+                                - img [ref=e958]
+                                - paragraph [ref=e962]: Actively reviewing applicants
+                          - generic [ref=e963]:
+                            - paragraph [ref=e964]:
+                              - generic [ref=e965]: Posted on April 13, 2026, 2:24 PM
+                              - text: 1 day ago
+                            - paragraph [ref=e966]: ·
+                            - paragraph [ref=e967]:
+                              - img [ref=e969]
+                              - text: Easy Apply
+                      - link "Data Analyst - Part-Time (Verified job) Bridge Partners United States (Remote) Posted on April 14, 2026, 9:12 AM · Easy Apply" [ref=e972] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=ZK9LuRNLboRShby%2B5HVtWw%3D%3D&currentJobId=4400748468&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=BUDGET_EXHAUSTED_JOB&originToLandingJobPostings=4400748468
+                        - generic [ref=e973]:
+                          - generic [ref=e974]:
+                            - figure [ref=e975]
+                            - generic [ref=e979]:
+                              - paragraph [ref=e981]:
+                                - generic [ref=e982]: Data Analyst - Part-Time (Verified job)
+                                - generic [ref=e983]:
+                                  - text: Data Analyst - Part-Time
+                                  - img [ref=e985]
+                              - paragraph [ref=e988]: Bridge Partners
+                              - paragraph [ref=e990]: United States (Remote)
+                          - generic [ref=e992]:
+                            - paragraph [ref=e993]:
+                              - generic [ref=e994]: Posted on April 14, 2026, 9:12 AM
+                              - text: 6 hours ago
+                            - paragraph [ref=e995]: ·
+                            - paragraph [ref=e996]:
+                              - img [ref=e998]
+                              - text: Easy Apply
+                      - link "Data Analyst AARATECH Greater Chicago Area (On-site) $60K/yr - $75K/yr Actively reviewing applicants Posted on April 13, 2026, 9:42 AM · Easy Apply" [ref=e1001] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=NlW1R%2Bcl%2BPq3RxqYLLPFCQ%3D%3D&currentJobId=4399632039&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=CwEAAAGdjZ2nZ-8Cu_2LMkBbOeOinQ-IcD-1CfIDYpGDerlzG9sQIXeRUyQRrvnlTdQwtkggEjtLUjkQBkZvEQBK5SIFCp45l91SswwFBDwwP7x6lORTM35qUaLte9NMd0vutEwEC1RWYvdWmnJ3_uzi1A8nigN-c9xecpkm69Xli7O8iYIovp5BhWt3cr5fpyrySZ0AjTWdtzi2m8RsJyW_9dzS1hYB_uorv3DoPTSGAiRorVw728Dr-3I1qkP9ANAMq2k6YTZJ8srco24N_SCcydUh5A9FKyxaI7EfOitUpdQ7gcHZC96Ftesl4A4-zt85XeJgW-R0fylr6OfDAIZG6JAxPAWLwA-YlfWknP8e8u8ZmDhTNGU7aSy9IVt-y55bvXl8n-FHK1bcve81EnnwAfM4nB2MPDJG7mPDeucl87wG5W6qYXAl6PkVQFMG66xiNv2vt_a06XHX0LoAXzzvVCsc6ZK47ehEVNwGqpnrWd0YnsbEk0fnNVMt4A3LuxcjCNVGS0M&originToLandingJobPostings=4399632039
+                        - generic [ref=e1002]:
+                          - generic [ref=e1003]:
+                            - figure [ref=e1004]
+                            - generic [ref=e1005]:
+                              - generic [ref=e1008]:
+                                - paragraph [ref=e1010]: Data Analyst
+                                - paragraph [ref=e1012]: AARATECH
+                                - paragraph [ref=e1014]: Greater Chicago Area (On-site)
+                              - generic [ref=e1015]:
+                                - paragraph [ref=e1018]: $60K/yr - $75K/yr
+                                - generic [ref=e1019]:
+                                  - img [ref=e1020]
+                                  - paragraph [ref=e1024]: Actively reviewing applicants
+                          - generic [ref=e1025]:
+                            - paragraph [ref=e1026]:
+                              - generic [ref=e1027]: Posted on April 13, 2026, 9:42 AM
+                              - text: 1 day ago
+                            - paragraph [ref=e1028]: ·
+                            - paragraph [ref=e1029]:
+                              - img [ref=e1031]
+                              - text: Easy Apply
+                      - link "Data scientist (Verified job) Merck Rahway, NJ 1 benefit Posted on April 14, 2026, 12:17 PM" [ref=e1034] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=Rw7p6rvJODCfL7ui%2FqGz4w%3D%3D&currentJobId=4401791225&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=BUDGET_EXHAUSTED_JOB&originToLandingJobPostings=4401791225
+                        - generic [ref=e1035]:
+                          - generic [ref=e1036]:
+                            - figure [ref=e1037]
+                            - generic [ref=e1038]:
+                              - generic [ref=e1041]:
+                                - paragraph [ref=e1043]:
+                                  - generic [ref=e1044]: Data scientist (Verified job)
+                                  - generic [ref=e1045]:
+                                    - text: Data scientist
+                                    - img [ref=e1047]
+                                - paragraph [ref=e1050]: Merck
+                                - paragraph [ref=e1052]: Rahway, NJ
+                              - paragraph [ref=e1056]: 1 benefit
+                          - paragraph [ref=e1058]:
+                            - generic [ref=e1059]: Posted on April 14, 2026, 12:17 PM
+                            - text: 3 hours ago
+                      - link "Data Analyst AARATECH United States (Remote) $60K/yr - $75K/yr Posted on April 13, 2026, 9:46 AM · Easy Apply" [ref=e1061] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=WKWJYSb0g6%2FhOA%2Bv3aQZYg%3D%3D&currentJobId=4399614926&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=CwEAAAGdjZ2nZx7Airy-iSeMVo7nMc_1VQegUpIijf6z2YGOJArTaSJD-I3_95IcPvkJiBZOqpqCE1HS_mkNR2t4CSK0WhsSwgl-j8y4vx0cLnMjxJFhj9ZrIhI6GMhQ68bnNyWFPJaq5e0-kpam694SSaok6dgo1mw-bGi_bO_IDoQPvlRt9DnCA6QE6sDUDzj94U3ThyCe7ejMFUQ7UnpubiOzSpyeZe8acltyT7Jp_Eh8YlTv5IDY4WDeqvJ1LS0N7wbyh6m8Q39_IcR75aNrfu13kAZat6rrGmaFWNrRh3SMKLNcdymDT-B6QZEqoUBiLMtpTX8Zk5_4u_6mUhN1_mmaa8ubKszzIDp_3LK0JicgnQ_i0PuK4ak3OHva-w_9BeFj_2AY_WJp-Aw8DTaNh6qvXbdRaa2HF0KstKRxdgpObrNCaTQ6I7CvR6G2RBSJnczd7SwFEuNWSz9uW1ZgCUc_Mzx2U5JaCHFrjlM7J7n2p_d8OWOWeazYB6rnwqRkIQHj&originToLandingJobPostings=4399614926
+                        - generic [ref=e1062]:
+                          - generic [ref=e1063]:
+                            - figure [ref=e1064]
+                            - generic [ref=e1065]:
+                              - generic [ref=e1068]:
+                                - paragraph [ref=e1070]: Data Analyst
+                                - paragraph [ref=e1072]: AARATECH
+                                - paragraph [ref=e1074]: United States (Remote)
+                              - paragraph [ref=e1078]: $60K/yr - $75K/yr
+                          - generic [ref=e1079]:
+                            - paragraph [ref=e1080]:
+                              - generic [ref=e1081]: Posted on April 13, 2026, 9:46 AM
+                              - text: 1 day ago
+                            - paragraph [ref=e1082]: ·
+                            - paragraph [ref=e1083]:
+                              - img [ref=e1085]
+                              - text: Easy Apply
+                      - link "Associate, Operations Data Analytics RemoteHunter United States (Remote) Medical, 401(k), +1 benefit Posted on April 14, 2026, 6:14 AM" [ref=e1088] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=1QjBPYTosCdMub1eOgO7sQ%3D%3D&currentJobId=4400718728&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=CwEAAAGdjZ2nZwqDuP0M9GFV-sQdliFbMRQBBE5bpYnI37ewzMQstG0TKcmh1pk3_KDMM23bNWEAG5b5rJryhOQszy9uFdFV27DlszgxMB8TeIKPewsHDzGMf1mX_fbug_xZfCCtv_awd5IJWyilmAvG-ZFo2EqZxAOu29QuoVzcqSXvh4D-IFxHkHfA-gCtX5l5q5-aUY0-clcjSNYp52_Na2bV2Fnk65hygWeCXQ71C3DKu7ZOQUCFLsOW0I43Zd_j1FrhY-wwF3k_fY5OSkzpoTTmDQTaXsx1smL0F5RvcWkJY5gPH4CnYWgMw3HMNtu6ceHKEfwMUixpqgjGnSdAqZYqTIWCB8S1prLw7MevnIzMop6FHPmoqtekE2qaVST5x6mmuFPdOTHqWA8iml-B_AlGpi6vvmNGBbs-Wi-_wMkBO4EfvAqft8wfL8aJDXCZuBoO_noJRvY-3uefRwfi-hLRnOlJz-m4XVW812kPITiyuH-1ecsArvENnvWWoHsNhywc&originToLandingJobPostings=4400718728
+                        - generic [ref=e1089]:
+                          - generic [ref=e1090]:
+                            - figure [ref=e1091]
+                            - generic [ref=e1092]:
+                              - generic [ref=e1095]:
+                                - paragraph [ref=e1097]: Associate, Operations Data Analytics
+                                - paragraph [ref=e1099]: RemoteHunter
+                                - paragraph [ref=e1101]: United States (Remote)
+                              - paragraph [ref=e1105]: Medical, 401(k), +1 benefit
+                          - paragraph [ref=e1107]:
+                            - generic [ref=e1108]: Posted on April 14, 2026, 6:14 AM
+                            - text: 9 hours ago
+                      - link "Data Analyst - Remote Role Elegant Enterprise-Wide Solutions, Inc. United States (Remote) Posted on April 13, 2026, 6:56 PM · Easy Apply" [ref=e1110] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&trackingId=LnMtLzCISPUytKGJtIC6Pw%3D%3D&currentJobId=4400010625&refId=W5iwY%2Bdh4RpQtdqltqDvTg%3D%3D&eBP=CwEAAAGdjZ2nZ-QuL3hWXjtPCLDKXmfoJNixB02ztwdpUM3o_WJmrqRh6Q5bW__4NK6ARyLkPW-zJFkOdw96ANiQefiep03cjMtW2srgqJXM9gubdW-RcCwpBpAUNs13MLh84E_ZyNKOLiNlJGvqgFaGWt-K5jXqlXiWXk9QDlXv3am61AQSd1q-w3tX3NMI1iWbk3PHEisSbUxhqc6fp6CmDZcFrJ3kMTPFN1vFsgKJp38HuBa4-QSrNz9OKnjDnT74QxDAmGpbljLpbjzOT95qNdjLaaoQ6R-RqZhxqk-7Fli3ARIbXgmDNRrCqgLgeEKdS4FGTTY80JsO83vTEC1e8NZ0lW3L4yjtQfi_NxmAMU67jAJ7yG2TxiuvH6cxp3y1HAVZqAaoQV_BIAHKsHCzKNShh1RVtlcbkBWb-z5_YdjUt7afkwNaycLBMiXTduVg1iNTbINtnZwqezvTI5bF_Xt_FAUzeaC873pBLD_eQGv9vXmUbU7wBRXAQbGN9b9cPv5C-OM&originToLandingJobPostings=4400010625
+                        - generic [ref=e1111]:
+                          - generic [ref=e1112]:
+                            - figure [ref=e1113]
+                            - generic [ref=e1117]:
+                              - paragraph [ref=e1119]: Data Analyst - Remote Role
+                              - paragraph [ref=e1121]: Elegant Enterprise-Wide Solutions, Inc.
+                              - paragraph [ref=e1123]: United States (Remote)
+                          - generic [ref=e1125]:
+                            - paragraph [ref=e1126]:
+                              - generic [ref=e1127]: Posted on April 13, 2026, 6:56 PM
+                              - text: 21 hours ago
+                            - paragraph [ref=e1128]: ·
+                            - paragraph [ref=e1129]:
+                              - img [ref=e1131]
+                              - text: Easy Apply
+                    - link "See more jobs like this" [ref=e1133] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4399575205&currentJobId=4399575205
+                      - generic [ref=e1134]:
+                        - img [ref=e1135]
+                        - generic [ref=e1137]: See more jobs like this
+              - generic [ref=e250]:
+                - paragraph [ref=e251]: Looking for talent?
+                - link "Post a job" [ref=e252] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e254]: Post a job
+              - generic [ref=e259]:
+                - generic [ref=e260]:
+                  - navigation [ref=e261]:
+                    - link "About" [ref=e262] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e263]: About
+                    - link "Accessibility" [ref=e264] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e265]: Accessibility
+                    - link "Talent Solutions" [ref=e266] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e267]: Talent Solutions
+                    - link "Community Guidelines" [ref=e268] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e269]: Community Guidelines
+                    - link "Careers" [ref=e270] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e271]: Careers
+                    - link "Marketing Solutions" [ref=e272] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e273]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e274] [cursor=pointer]:
+                      - generic [ref=e275]:
+                        - paragraph [ref=e276]: Privacy & Terms
+                        - img [ref=e1138]
+                    - link "Ad Choices" [ref=e278] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e279]: Ad Choices
+                    - link "Advertising" [ref=e280] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e281]: Advertising
+                    - link "Sales Solutions" [ref=e282] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e283]: Sales Solutions
+                    - link "Mobile" [ref=e284] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e285]: Mobile
+                    - link "Small Business" [ref=e286] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e287]: Small Business
+                    - link "Safety Center" [ref=e288] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e289]: Safety Center
+                  - paragraph [ref=e291]: LinkedIn Corporation © 2026
+                - generic [ref=e292]:
+                  - list [ref=e293]:
+                    - listitem [ref=e294]:
+                      - generic [ref=e295]:
+                        - img [ref=e1140]
+                        - generic [ref=e297]:
+                          - link "Questions?" [ref=e298] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e299]: Questions?
+                          - paragraph [ref=e300]: Visit our Help Center.
+                    - listitem [ref=e301]:
+                      - generic [ref=e302]:
+                        - img [ref=e1142]
+                        - generic [ref=e304]:
+                          - link "Manage your account and privacy" [ref=e305] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e306]: Manage your account and privacy
+                          - paragraph [ref=e307]: Go to your Settings.
+                    - listitem [ref=e308]:
+                      - generic [ref=e309]:
+                        - img [ref=e1144]
+                        - generic [ref=e311]:
+                          - link "Recommendation transparency" [ref=e312] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e313]: Recommendation transparency
+                          - paragraph [ref=e314]: Learn more about Recommended Content.
+                  - generic [ref=e316]:
+                    - paragraph [ref=e318]: Select language
+                    - generic [ref=e319]:
+                      - combobox "Select language" [ref=e320] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e1147]:
+              - generic [ref=e1149] [cursor=pointer]:
+                - generic [ref=e1150]:
+                  - img "Shweta Sharma" [ref=e1151]
+                  - generic [ref=e1153]: Status is online
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e1154]:
+                  - generic [ref=e1155]:
+                    - generic [ref=e1156]: Messaging
+                    - generic [ref=e1157]: You are on the messaging overlay. Press enter to open the list of conversations.
+              - generic [ref=e1158]:
+                - button "Open messenger dropdown menu" [ref=e1160] [cursor=pointer]:
+                  - img "Open messenger dropdown menu" [ref=e1161]
+                - button "Compose message" [ref=e1164] [cursor=pointer]:
+                  - img [ref=e1165]
+                  - generic [ref=e1167]: Compose message
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e1168] [cursor=pointer]:
+                  - img [ref=e1169]
+                  - generic [ref=e1171]: You are on the messaging overlay. Press enter to open the list of conversations.
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e1172]:
+    - generic [active] [ref=f30e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f30e3]
+          - alert
+      - generic [ref=f30e4]:
+        - generic [ref=f30e6]:
+          - button "Skip to search" [ref=f30e7] [cursor=pointer]:
+            - generic [ref=f30e8]: Skip to search
+          - button "Skip to main content" [ref=f30e9] [cursor=pointer]:
+            - generic [ref=f30e10]: Skip to main content
+          - button "Keyboard shortcuts" [ref=f30e11] [cursor=pointer]:
+            - generic [ref=f30e12]: Keyboard shortcuts
+          - button "Close jump menu" [ref=f30e13] [cursor=pointer]:
+            - img [ref=f30e14]
+            - generic [ref=f30e16]: Close jump menu
+        - banner "Global Navigation" [ref=f30e17]:
+          - generic [ref=f30e18]:
+            - link "LinkedIn" [ref=f30e19] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img "LinkedIn" [ref=f30e22]:
+                - img [ref=f30e23]
+            - generic [ref=f30e27]:
+              - combobox "I’m looking for..." [ref=f30e28]
+              - generic:
+                - img
+            - navigation "Primary Navigation" [ref=f30e29]:
+              - list [ref=f30e30]:
+                - listitem [ref=f30e31]:
+                  - link "new feed updates notifications Home" [ref=f30e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f30e33]:
+                      - generic [ref=f30e36]: new feed updates notifications
+                      - img [ref=f30e40]
+                    - generic "Home" [ref=f30e42]
+                - listitem [ref=f30e43]:
+                  - link "My Network" [ref=f30e44] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - img [ref=f30e48]
+                    - generic "My Network" [ref=f30e50]
+                - listitem [ref=f30e51]:
+                  - link "Jobs" [ref=f30e52] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f30e56]
+                    - generic "Jobs" [ref=f30e58]
+                - listitem [ref=f30e59]:
+                  - link "Messaging" [ref=f30e60] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f30e64]
+                    - generic "Messaging" [ref=f30e66]
+                - listitem [ref=f30e67]:
+                  - link "2 new notifications Notifications" [ref=f30e68] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f30e69]:
+                      - generic [ref=f30e70]:
+                        - generic [ref=f30e71]: "2"
+                        - generic [ref=f30e72]: 2 new notifications
+                      - img [ref=f30e76]
+                    - generic "Notifications" [ref=f30e78]
+                - listitem [ref=f30e79]:
+                  - button "Shweta Sharma Me" [ref=f30e81] [cursor=pointer]:
+                    - img "Shweta Sharma" [ref=f30e82]
+                    - generic [ref=f30e83]:
+                      - text: Me
+                      - img [ref=f30e84]
+                - listitem [ref=f30e86]:
+                  - button "For Business" [ref=f30e88] [cursor=pointer]:
+                    - img [ref=f30e92]
+                    - generic "For Business" [ref=f30e94]:
+                      - text: For Business
+                      - img [ref=f30e95]
+                - listitem [ref=f30e97]:
+                  - link "Learning" [ref=f30e98] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+                    - img [ref=f30e102]
+                    - generic "Learning" [ref=f30e107]
+      - region [ref=f30e123]

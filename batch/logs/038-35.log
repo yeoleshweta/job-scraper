@@ -1,0 +1,20 @@
+Pipeline complete. Hard skill block on QGIS (3+ years required, zero GIS experience in CV) — PDF skipped because no honest tailoring is possible. Status: SKIP, Score: 1.5/5.
+
+```json
+{
+  "status": "completed",
+  "id": "35",
+  "report_num": "038",
+  "company": "Handshake",
+  "role": "Spatial Data Analyst - AI Trainer",
+  "score": 1.5,
+  "pdf": null,
+  "report": "reports/038-handshake-2026-04-29.md",
+  "error": null
+}
+```
+
+Sources:
+- [Lensa — Spatial Data Analyst remote](https://lensa.com/job-v1/handshake/remote/data-analyst/425bd74ae2c13ef710c03620ef1fbaf8)
+- [RemoteRocketship — QGIS Specialist Handshake](https://www.remoterocketship.com/us/company/handshake/jobs/qgis-specialist-ai-trainer-united-states-remote/)
+- [Handshake AI Fellowship Opportunities](https://joinhandshake.com/ai/opportunities/)

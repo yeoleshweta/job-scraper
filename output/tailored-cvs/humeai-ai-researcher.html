@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shweta Sharma — CV</title>
+<style>
+  @page { size: letter; margin: 0.38in 0.44in; }
+  @font-face { font-family: 'Space Grotesk'; src: url('./fonts/space-grotesk-latin.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; }
+  @font-face { font-family: 'DM Sans'; src: url('./fonts/dm-sans-latin.woff2') format('woff2'); font-weight: 100 1000; font-style: normal; font-display: swap; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-size: 9.5px; line-height: 1.42; color: #1c1c1c; background: #fff; }
+  a { color: inherit; text-decoration: none; }
+  .cv-header { text-align: center; margin-bottom: 9px; padding-bottom: 7px; border-bottom: 0.75px solid #ccc; }
+  .cv-name { font-family: 'Space Grotesk', sans-serif; font-size: 38px; letter-spacing: -0.01em; line-height: 1; margin-bottom: 5px; }
+  .cv-name .first { font-weight: 300; color: #888; }
+  .cv-name .last  { font-weight: 700; color: #1c1c1c; }
+  .cv-contact { font-size: 9px; color: #555; }
+  .cv-contact .sep { margin: 0 7px; color: #ccc; }
+  .cv-body { display: grid; grid-template-columns: 29% 1fr; gap: 0; }
+  .col-left  { padding-right: 14px; border-right: 0.75px solid #ddd; }
+  .col-right { padding-left: 16px; }
+  .section { margin-bottom: 10px; }
+  .section-title { font-family: 'Space Grotesk', sans-serif; font-size: 13.5px; font-weight: 300; letter-spacing: 0.13em; text-transform: uppercase; color: #1c1c1c; border-bottom: 0.75px solid #bbb; padding-bottom: 2px; margin-bottom: 6px; }
+  .edu-entry { margin-bottom: 7px; }
+  .edu-school { font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+  .edu-degree { font-size: 9px; font-variant: small-caps; color: #444; line-height: 1.4; }
+  .edu-meta   { font-size: 8.5px; color: #777; }
+  .link-row { font-size: 9px; line-height: 1.85; color: #444; }
+  .link-prefix { color: #aaa; font-size: 8.5px; }
+  .link-val    { font-weight: 600; }
+  .skill-group { margin-bottom: 5px; }
+  .skill-group-title { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1.5px; }
+  .skill-items { font-size: 8.5px; color: #444; line-height: 1.55; }
+  .skill-items .dot { color: #bbb; margin: 0 3px; }
+  .cert-entry { font-size: 8.5px; color: #444; line-height: 1.7; }
+  .summary-text { font-size: 9.5px; line-height: 1.55; color: #333; margin-bottom: 10px; }
+  .comp-wrap { display: flex; flex-wrap: wrap; gap: 3px; margin-bottom: 10px; }
+  .comp-tag { font-size: 8.5px; color: #444; background: #f3f3f3; border: 0.5px solid #ddd; padding: 1.5px 7px; border-radius: 2px; }
+  .job { margin-bottom: 8px; }
+  .job-top { display: flex; align-items: baseline; flex-wrap: wrap; gap: 5px; margin-bottom: 0px; }
+  .job-company { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+  .job-pipe    { color: #bbb; font-size: 9.5px; }
+  .job-role    { font-size: 9.5px; font-variant: small-caps; color: #444; letter-spacing: 0.02em; }
+  .job-meta    { font-size: 8.5px; color: #999; margin-bottom: 2px; }
+  .job ul      { padding-left: 11px; margin-top: 1px; }
+  .job li      { font-size: 9px; line-height: 1.44; color: #333; margin-bottom: 1px; }
+  .job li strong { font-weight: 600; color: #1c1c1c; }
+  .work-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 7px; }
+  .work-card { border-left: 2px solid #bbb; padding-left: 7px; }
+  .work-metric { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 700; color: #1c1c1c; line-height: 1.05; }
+  .work-title { font-size: 9px; font-weight: 600; color: #444; margin-top: 1px; }
+  .work-desc  { font-size: 8.5px; color: #666; line-height: 1.38; margin-top: 2px; }
+  .avoid-break { break-inside: avoid; }
+  @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+</style>
+</head>
+<body>
+
+<div class="cv-header">
+  <div class="cv-name"><span class="first">Shweta&nbsp;</span><span class="last">Sharma</span></div>
+  <div class="cv-contact">
+    <a href="https://shwetasharma.tech">shwetasharma.tech</a>
+    <span class="sep">|</span>
+    <a href="https://linkedin.com/in/sharmashweta08/">linkedin.com/in/sharmashweta08</a>
+    <span class="sep">|</span>
+    shwetayeole09@gmail.com
+    <span class="sep">|</span>
+    +1 947-466-5006
+    <span class="sep">|</span>
+    Philadelphia, PA
+  </div>
+</div>
+
+<div class="cv-body">
+  <div class="col-left">
+
+    <div class="section">
+      <div class="section-title">Education</div>
+      <div class="edu-entry">
+        <div class="edu-school">Drexel University</div>
+        <div class="edu-degree">MS in AI &amp; Machine Learning</div>
+        <div class="edu-meta">Expected Mar 2026 | Philadelphia, PA</div>
+        <div class="edu-meta">College of Computing &amp; Informatics</div>
+      </div>
+      <div class="edu-entry">
+        <div class="edu-school">NMIMS</div>
+        <div class="edu-degree">Diploma in Business Management</div>
+        <div class="edu-meta">2020–2021 | Pune, India</div>
+      </div>
+      <div class="edu-entry">
+        <div class="edu-school">G.H. Raisoni College</div>
+        <div class="edu-degree">BS in Computer Science</div>
+        <div class="edu-meta">2010–2015 | Pune, India</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Links</div>
+      <div class="link-row"><span class="link-prefix">Portfolio:// </span><span class="link-val">shwetasharma.tech</span></div>
+      <div class="link-row"><span class="link-prefix">LinkedIn:// </span><span class="link-val">in/sharmashweta08</span></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Skills</div>
+      <div class="skill-group">
+        <div class="skill-group-title">AI &amp; ML</div>
+        <div class="skill-items">NLP <span class="dot">•</span> ClinicalBERT <span class="dot">•</span> RoBERTa <span class="dot">•</span> Python <span class="dot">•</span> PyTorch <span class="dot">•</span> SQL <span class="dot">•</span> Label Studio <span class="dot">•</span> Transformer Fine-Tuning</div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Research Methods</div>
+        <div class="skill-items">Behavioral Research <span class="dot">•</span> Annotation Design <span class="dot">•</span> Inter-Rater Reliability <span class="dot">•</span> A/B Testing <span class="dot">•</span> Surveys <span class="dot">•</span> Segmentation <span class="dot">•</span> Statistical Analysis</div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">UX Methods</div>
+        <div class="skill-items">Contextual Inquiry <span class="dot">•</span> Usability Testing <span class="dot">•</span> Persona &amp; Journey Mapping <span class="dot">•</span> Affinity Mapping</div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Tools</div>
+        <div class="skill-items">Figma <span class="dot">•</span> Dovetail <span class="dot">•</span> Mural <span class="dot">•</span> Typeform <span class="dot">•</span> FullStory <span class="dot">•</span> Jira</div>
+      </div>
+    </div>
+
+    <div class="section avoid-break">
+      <div class="section-title">Certifications</div>
+      <div class="cert-entry">Google UX Design Specialization</div>
+      <div class="cert-entry">Research Methods — Univ. of London</div>
+      <div class="cert-entry">Journey Mapping — NN/g</div>
+    </div>
+
+  </div>
+
+  <div class="col-right">
+
+    <div class="summary-text">AI/ML researcher with direct experience training and evaluating large-scale models using human behavioral data. At ABIM, fine-tuning transformer models (ClinicalBERT, RoBERTa) on <strong>3,500+ clinical records</strong>, designing data pipelines, and building benchmarks that capture how humans communicate — work directly aligned with learning from human expression. MS candidate in AI &amp; ML at Drexel; strong Python and PyTorch background combined with deep grounding in behavioral research methodology. Work at <a href="https://shwetasharma.tech">shwetasharma.tech</a>.</div>
+
+    <div class="comp-wrap">
+      <span class="comp-tag">NLP &amp; Transformer Fine-Tuning</span>
+      <span class="comp-tag">Large-Scale Data Pipelines</span>
+      <span class="comp-tag">Model Training &amp; Benchmarking</span>
+      <span class="comp-tag">Python &amp; PyTorch</span>
+      <span class="comp-tag">Human Behavioral Data</span>
+      <span class="comp-tag">Annotation Design &amp; Quality</span>
+      <span class="comp-tag">Bias Detection &amp; Fairness</span>
+      <span class="comp-tag">Data Validation &amp; Preprocessing</span>
+      <span class="comp-tag">Behavioral Research Methods</span>
+      <span class="comp-tag">Production-Ready Code</span>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Experience</div>
+
+      <div class="job avoid-break">
+        <div class="job-top">
+          <span class="job-company">ABIM</span>
+          <span class="job-pipe">|</span>
+          <span class="job-role">Co-op Data Scientist</span>
+        </div>
+        <div class="job-meta">Sep 2025 – Present | Philadelphia, PA</div>
+        <ul>
+          <li>Fine-tuned transformer models (ClinicalBERT, RoBERTa) on <strong>3,500+ clinical records</strong> to detect communication behaviors — iterating on model architecture and training approaches on uncertain, emerging research directions.</li>
+          <li>Built supervised NLP model detecting clinical communication patterns (Calgary-Cambridge, NURSE, SHARE) achieving gold-standard annotation quality; designed inter-rater reliability protocols as quantitative benchmarks.</li>
+          <li>Engineered NLP bias-detection frameworks identifying communication pattern disparities and fairness risks using Python and PyTorch; designed synthetic data workflows with automated validation and leakage detection.</li>
+        </ul>
+      </div>
+
+      <div class="job avoid-break">
+        <div class="job-top">
+          <span class="job-company">John Deere</span>
+          <span class="job-pipe">|</span>
+          <span class="job-role">UX Researcher &amp; Sr. Technical Lead</span>
+        </div>
+        <div class="job-meta">Nov 2022 – Aug 2024 | Pune, India</div>
+        <ul>
+          <li>Led behavioral research programs across <strong>6+ product teams</strong> — combining surveys, behavioral analytics, and contextual interviews to understand how diverse user populations interact with complex systems.</li>
+          <li>Designed self-serve survey platform for <strong>250+ products</strong>: cut setup time <strong>60%</strong>, raised completion rates <strong>25%</strong> — building scalable data collection infrastructure from scratch.</li>
+          <li>Built UX research practice as sole researcher on India team; created PM-UX Playbook raising PM UX literacy by <strong>80%</strong>.</li>
+        </ul>
+      </div>
+
+      <div class="job avoid-break">
+        <div class="job-top">
+          <span class="job-company">UrbanFit</span>
+          <span class="job-pipe">|</span>
+          <span class="job-role">UX Designer &amp; Researcher</span>
+        </div>
+        <div class="job-meta">Jan 2021 – Nov 2022 | Pune, India</div>
+        <ul>
+          <li>Led platform redesign driving <strong>35% engagement lift</strong>, <strong>28% bounce rate drop</strong>, and <strong>2.5x newsletter sign-up increase</strong> via behavioral analysis (Hotjar heatmaps, session recordings) and usability testing.</li>
+        </ul>
+      </div>
+
+      <div class="job avoid-break">
+        <div class="job-top">
+          <span class="job-company">Capita (Arcadia Group)</span>
+          <span class="job-pipe">|</span>
+          <span class="job-role">UX Designer — E-Commerce Personalization</span>
+        </div>
+        <div class="job-meta">Jan 2018 – Aug 2019 | Pune, India</div>
+        <ul>
+          <li>Ran A/B and multivariate experiments across <strong>7 flagship fashion brands</strong> driving <strong>11% conversion lift</strong>; built user segmentation models in SQL, validated with statistical significance testing and <strong>10% holdout control</strong>.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section avoid-break">
+      <div class="section-title">Featured Work</div>
+      <div class="work-grid">
+        <div class="work-card">
+          <div class="work-metric">60% / 25%</div>
+          <div class="work-title">Survey Platform &middot; John Deere</div>
+          <div class="work-desc">Self-serve platform for 250+ products — cut setup time 60%, raised completion rates 25%, removed dev dependency entirely</div>
+        </div>
+        <div class="work-card">
+          <div class="work-metric">80%</div>
+          <div class="work-title">PM-UX Playbook &middot; John Deere</div>
+          <div class="work-desc">Built research practice from scratch — design thinking workshops and PM playbook raised PM UX literacy 80% org-wide</div>
+        </div>
+        <div class="work-card">
+          <div class="work-metric">35% / 2.5x</div>
+          <div class="work-title">Platform Redesign &middot; UrbanFit</div>
+          <div class="work-desc">End-to-end mixed-methods redesign — 35% engagement lift, 28% bounce drop, 2.5x newsletter sign-ups</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

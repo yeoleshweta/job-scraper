@@ -1,0 +1,31 @@
+id	url	status	started_at	completed_at	report_num	score	error	retries
+26	https://jobs.ashbyhq.com/abridge/6aab826b-a60a-434e-889d-e4648f289305	completed	2026-04-29T13:43:35Z	2026-04-29T13:47:13Z	032	-	-	0
+29	https://jobs.ashbyhq.com/abridge/c3837e7e-2d59-49b6-95dc-0f670494fb31	completed	2026-04-29T13:43:35Z	2026-04-29T13:50:06Z	030	-	-	0
+28	https://jobs.ashbyhq.com/abridge/23264e1f-0988-475d-8330-ea2960f3a6a4	completed	2026-04-29T13:43:35Z	2026-04-29T13:48:00Z	033	-	-	0
+27	https://jobs.ashbyhq.com/abridge/d48553c1-a360-4509-a1e0-9df6d8b480f6	completed	2026-04-29T00:34:54Z	2026-04-29T00:37:53Z	029	-	-	0
+30	https://jobs.ashbyhq.com/abridge/03a3231f-8361-405e-87a6-192d710ca912	completed	2026-04-29T13:43:35Z	2026-04-29T13:48:18Z	031	-	-	0
+31	https://jobs.ashbyhq.com/handshake/455075db-5eec-4c02-9418-f563e3ac8811	completed	2026-04-29T13:47:14Z	2026-04-29T13:52:26Z	034	-	-	0
+32	https://jobs.ashbyhq.com/handshake/27bb47ec-0b5f-47f9-ab1a-fc079423e0ba	completed	2026-04-29T13:48:01Z	2026-04-29T13:54:43Z	035	-	-	0
+33	https://jobs.ashbyhq.com/handshake/9663668d-488f-4fde-9ed3-d80def499ef2	completed	2026-04-29T13:48:19Z	2026-04-29T13:52:22Z	036	-	-	0
+34	https://jobs.ashbyhq.com/handshake/c99145d8-20cf-4acc-bef5-00533362d935	completed	2026-04-29T13:50:08Z	2026-04-29T13:56:13Z	037	-	-	0
+35	https://jobs.ashbyhq.com/handshake/8330e86c-9f22-47bc-8c68-b9fc9fee9b37	completed	2026-04-29T13:52:23Z	2026-04-29T13:55:22Z	038	-	-	0
+36	https://jobs.ashbyhq.com/handshake/b40c221b-c4e9-482a-b0e0-3a0182f054eb	completed	2026-04-29T13:52:27Z	2026-04-29T13:58:54Z	039	-	-	0
+37	https://jobs.ashbyhq.com/handshake/01f3aa3a-97b3-4ec0-b6b6-7dbe3f5f8dfa	completed	2026-04-29T13:54:44Z	2026-04-29T13:58:23Z	040	-	-	0
+38	https://jobs.ashbyhq.com/notion/4d0862f2-f882-4291-a894-d3cdc303e4a6	completed	2026-04-29T13:55:24Z	2026-04-29T14:00:17Z	041	-	-	0
+39	https://jobs.ashbyhq.com/notion/1ead3ae1-7854-4968-adc8-773747352bd1	completed	2026-04-29T13:56:14Z	2026-04-29T14:00:32Z	042	-	-	0
+40	https://jobs.ashbyhq.com/linear/a264869e-f058-487c-ab7f-9b77dffa427c	failed	2026-04-29T13:58:25Z	2026-04-29T14:00:48Z	043	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+41	https://jobs.ashbyhq.com/ramp/41696f51-7b29-4e12-b528-46c2f6c4f5f7	failed	2026-04-29T13:58:55Z	2026-04-29T14:00:34Z	044	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+42	https://jobs.ashbyhq.com/ramp/e577622f-6657-4e53-8941-b3a774b04448	failed	2026-04-29T14:00:18Z	2026-04-29T14:00:30Z	045	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+43	https://jobs.ashbyhq.com/ramp/eca54d0e-232a-4c3e-bfcc-d6c6add393f5	failed	2026-04-29T14:00:31Z	2026-04-29T14:00:36Z	046	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+44	https://vercel.com/careers/senior-product-designer-us-5735407004	failed	2026-04-29T14:00:33Z	2026-04-29T14:00:38Z	047	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+45	https://discord.com/jobs/8468440002	failed	2026-04-29T14:00:35Z	2026-04-29T14:00:38Z	048	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+46	https://discord.com/jobs/8447216002	failed	2026-04-29T14:00:37Z	2026-04-29T14:00:43Z	049	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+47	https://discord.com/jobs/8523903002	failed	2026-04-29T14:00:39Z	2026-04-29T14:00:43Z	050	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+48	https://discord.com/jobs/8445676002	failed	2026-04-29T14:00:40Z	2026-04-29T14:00:44Z	051	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+50	https://jobs.ashbyhq.com/betterup/3eb362fc-4911-42d4-b022-69d5c8c343ac	failed	2026-04-29T14:00:44Z	2026-04-29T14:00:50Z	052	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+49	https://discord.com/jobs/8359170002	failed	2026-04-29T14:00:44Z	2026-04-29T14:00:50Z	053	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+51	https://jobs.ashbyhq.com/betterup/5b54523c-44e4-4913-8599-da4e641706e7	failed	2026-04-29T14:00:45Z	2026-04-29T14:00:49Z	054	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+52	https://jobs.ashbyhq.com/betterup/19e87e01-6aea-48fc-9f4f-98de7295dc77	failed	2026-04-29T14:00:49Z	2026-04-29T14:00:55Z	055	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+54	https://answerlab.bamboohr.com/careers/176	failed	2026-04-29T14:00:51Z	2026-04-29T14:00:55Z	056	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+55	https://answerlab.bamboohr.com/careers/178	failed	2026-04-29T14:00:51Z	2026-04-29T14:00:55Z	057	-	You've hit your limit · resets 11:10am (America/New_York) 	1
+53	https://answerlab.bamboohr.com/careers/172	failed	2026-04-29T14:00:51Z	2026-04-29T14:00:55Z	058	-	You've hit your limit · resets 11:10am (America/New_York) 	1

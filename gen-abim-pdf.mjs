@@ -1,0 +1,20 @@
+import { chromium } from 'playwright';
+import { readFile, writeFile } from 'fs/promises';
+import { resolve, dirname } from 'path';
+
+const input = resolve('output/cv-abim-data-analyst.html');
+const output = resolve('output/cv-abim-data-analyst.pdf');
+let html = await readFile(input, 'utf-8');
+const fontsDir = resolve('fonts');
+html = html.replace(/url\(['"]?\.\/fonts\//g, `url('file://${fontsDir}/`);
+html = html.replace(/file:\/\/([^'")]+)\.woff2['"]\)/g, `file://$1.woff2')`);
+html = html.replace(/[\u2014\u2013]/g, '-').replace(/[\u201C\u201D]/g, '"').replace(/[\u2018\u2019]/g, "'");
+const browser = await chromium.launch({ headless: true });
+const page = await browser.newPage();
+await page.setContent(html, { waitUntil: 'networkidle', baseURL: 'file://' + dirname(input) + '/' });
+await page.evaluate(() => document.fonts.ready);
+const pdf = await page.pdf({ format: 'letter', printBackground: true, margin: { top: '0.3in', right: '0.4in', bottom: '0.3in', left: '0.4in' } });
+await writeFile(output, pdf);
+await browser.close();
+const s = pdf.toString('latin1');
+console.log('Pages:', (s.match(/\/Type\s*\/Page[^s]/g) || []).length, 'Size:', (pdf.length / 1024).toFixed(1) + 'KB');

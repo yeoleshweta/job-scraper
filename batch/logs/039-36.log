@@ -1,0 +1,21 @@
+Pipeline complete. Verdict: **SKIP — 1.5/5 hard credential block** (PhD + frontier-lab publications required for this AI Research Scientist seat at Handshake AI / ex-Cleanlab team). Domain mission (NLP evaluation, annotation pipelines, bias detection) maps unusually well to the ABIM work, but it's a signal trap — recommended pivot to the **Human-AI Interaction & Evaluations** sister role (Ashby `01f3aa3a-97b3-4ec0-b6b6-7dbe3f5f8dfa`), which is HCI + evaluation methodology, projected 4.0-4.5/5. JD verification is unconfirmed (Ashby JS-rendered page doesn't render via WebFetch); flagged in report header.
+
+```json
+{
+  "status": "completed",
+  "id": "36",
+  "report_num": "039",
+  "company": "Handshake",
+  "role": "AI Research Scientist (Frontier Data & Evaluations, Handshake AI)",
+  "score": 1.5,
+  "pdf": "output/cv-shweta-sharma-handshake-ai-research-scientist-2026-04-29.pdf",
+  "report": "reports/039-handshake-2026-04-29.md",
+  "error": null
+}
+```
+
+Sources:
+- [Handshake AI Research Scientist (Ashby b40c221b)](https://jobs.ashbyhq.com/handshake/b40c221b-c4e9-482a-b0e0-3a0182f054eb)
+- [Handshake acquires Cleanlab — joinhandshake.com](https://joinhandshake.com/blog/our-team/handshake-acquires-cleanlab/)
+- [Handshake Salaries — Levels.fyi](https://www.levels.fyi/companies/handshake/salaries)
+- [Handshake AI Scientist — Indeed](https://www.indeed.com/cmp/Handshake-7/salaries/AI-Scientist)

@@ -1,0 +1,170 @@
+# Pipeline Inbox
+
+## Pendientes
+
+### New leads discovered 2026-04-23
+
+- [ ] https://job-boards.greenhouse.io/humeai/jobs/4003488008 | Hume AI | Senior/Staff AI Research Engineer
+- [ ] https://job-boards.greenhouse.io/humeai/jobs/4004597008 | Hume AI | Product Designer
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5123742008 | Anthropic | Analyst, The Anthropic Institute
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5125881008 | Anthropic | Data Science Engineer, Capacity & Efficiency
+- [ ] https://job-boards.greenhouse.io/wikimedia/jobs/7813082 | Wikimedia Foundation | Senior UX Researcher (3 Month Contract)
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/6732492 | Reddit | Staff UX Researcher, i18n
+- [ ] https://boards.greenhouse.io/reddit/jobs/5990452 | Reddit | Senior UX Researcher, Ads
+- [ ] https://boards.greenhouse.io/reddit/jobs/5786274 | Reddit | Senior UX Researcher (Consumer)
+- [ ] https://job-boards.greenhouse.io/rectanglehealth/jobs/4618626008 | Rectangle Health | Sr. U/X Researcher (Remote US)
+- [ ] https://job-boards.greenhouse.io/casechek/jobs/4671999006 | Casechek | Senior UX Researcher & Analyst (Remote)
+- [ ] https://jobs.ashbyhq.com/auditboard/16f0b2aa-bd08-4874-85c6-aa0a2871cde5 | AuditBoard | Senior User Researcher II, Internationalization (Remote)
+- [ ] https://jobs.ashbyhq.com/notion/4d0862f2-f882-4291-a894-d3cdc303e4a6 | Notion | User Researcher, Growth
+- [ ] https://boards.greenhouse.io/allergandatalabs/jobs/4099007005 | Allergan Data Labs | Senior UX Researcher (Remote)
+- [ ] https://boards.greenhouse.io/planetlabs/jobs/4933843 | Planet | Senior UX Researcher
+- [ ] https://boards.greenhouse.io/hatchcareers/jobs/4313446006 | Hatch | Senior UX Researcher, Mixed Methods (US/Canada)
+- [ ] https://boards.greenhouse.io/humaninterest/jobs/3704227 | Human Interest | Senior UX Researcher
+- [ ] https://boards.greenhouse.io/eclinicalsolutions/jobs/4285689007 | eClinical Solutions | Remote Senior UX Researcher
+- [ ] https://boards.greenhouse.io/globalizationpartners/jobs/4302205003 | Globalization Partners | Senior UX Researcher
+- [ ] https://jobs.ashbyhq.com/ramp/a0910188-c1c5-4d56-ac0d-8b6fdfece5d9 | Ramp | Staff UX Researcher
+- [ ] https://jobs.ashbyhq.com/handshake/e0cbf98b-61f3-42e8-bf25-463bf14d9b3c | Handshake | Senior UX Researcher II
+- [ ] https://apply.workable.com/jobgether/j/57C1A2BA58/ | Jobgether | UX Researcher, Consumer (Remote US)
+- [ ] https://apply.workable.com/murmuration/j/7CB13D5F3F | Murmuration | Staff User Researcher
+- [ ] https://apply.workable.com/hike/j/8B11C2A1A4/ | Hike | UX Researcher (Full Time, Remote)
+- [ ] https://apply.workable.com/gtmhub-co/j/F14BEFCC0A/ | Gtmhub | Product UX Researcher (Remote US)
+- [ ] https://apply.workable.com/floatjobs/j/4B8CC3875E/ | Float | UX Researcher (Remote)
+- [ ] https://apply.workable.com/clayglobal/j/869D4D5FFD/ | Clay | Contract UX Researcher (Remote US)
+- [ ] https://jobs.comcast.com/job/philadelphia/data-scientist/45483/94194278944 | Comcast | Data Scientist (Philadelphia)
+- [ ] https://jobs.comcast.com/job/philadelphia/senior-analyst-digital-experience/45483/93767394736 | Comcast | Senior Analyst, Digital Experience (Philadelphia)
+- [ ] https://jobs.comcast.com/job/philadelphia/manager-analytics-platform-and-enablement/45483/93426491680 | Comcast | Manager, Analytics Platform & Enablement (Philadelphia)
+- [ ] https://jobs.comcast.com/job/philadelphia/specialist-2-user-exp-design-researcher/45483/88018006784 | Comcast | Specialist 2, User Experience Design Researcher (Philadelphia)
+- [ ] https://www.vanguardjobs.com/job/23159917/sr-data-analyst-malvern-pa/ | Vanguard | Sr. Data Analyst (Malvern PA)
+- [ ] https://www.vanguardjobs.com/job/22606789/data-analyst-specialist-malvern-pa/ | Vanguard | Data Analyst, Specialist (Malvern PA)
+- [ ] https://careers.chop.edu/us/en/job/1021666/Research-Data-Analyst-I | CHOP | Research Data Analyst I (Philadelphia)
+- [ ] https://careers.chop.edu/us/en/job/1022904/Data-Scientist-Manager | CHOP | Data Scientist Manager (Philadelphia)
+- [ ] https://job-boards.greenhouse.io/cresta/jobs/5119706008 | Cresta | Applied Data Scientist (NLP/LLM, Remote US)
+- [ ] https://job-boards.greenhouse.io/shopmonkey/jobs/7656270003 | Shopmonkey | Senior Data Scientist (NLP, Remote US)
+- [ ] https://job-boards.greenhouse.io/blastpoint/jobs/4999238007 | BlastPoint | Data Scientist (NLP, Remote US)
+- [ ] https://job-boards.greenhouse.io/figma/jobs/5615025004 | Figma | Early Career Data Scientist 2026
+- [ ] https://jobs.ashbyhq.com/outliant/f880d81a-1f51-41a4-a62f-a4c9a24375f0 | Outliant | Senior Data Analyst (Remote US)
+- [ ] https://jobs.ashbyhq.com/docker/2584e19e-6e67-43b0-83a6-5c765e7c8e71 | Docker | Staff Data Analyst, Product (Remote)
+- [ ] https://boards.greenhouse.io/upstart/jobs/7778782 | Upstart | Staff Data Analyst, Servicing (Remote US)
+- [ ] https://boards.greenhouse.io/samsara/jobs/7386898 | Samsara | Senior Data Analyst (Remote US)
+- [ ] https://boards.greenhouse.io/shopltk/jobs/6056605003 | LTK | Data Analyst, Product Analytics (Remote)
+- [ ] https://boards.greenhouse.io/shopltk/jobs/5324822003 | LTK | Senior Product Data Analyst (Remote)
+- [ ] https://boards.greenhouse.io/missionlane/jobs/5949678002 | Mission Lane | Senior Data Analyst (Remote Friendly)
+- [ ] https://boards.greenhouse.io/splice/jobs/7003336002 | Splice | Senior Data Analyst, Product (Remote US)
+- [ ] https://boards.greenhouse.io/grafanalabs/jobs/5253317004 | Grafana Labs | Demand Generation Data Analyst (Remote US)
+- [ ] https://boards.greenhouse.io/chartboost/jobs/4869076 | Chartboost | Senior Data Analyst, Central Analytics (Remote US)
+- [ ] https://boards.greenhouse.io/knowbe4/jobs/7522540002 | KnowBe4 | Data Analyst (Remote)
+- [ ] https://boards.greenhouse.io/remotecom/jobs/5025843003 | Remote.com | Data Analyst
+
+### New leads discovered 2026-04-11
+
+- [ ] https://jobs.ashbyhq.com/Vetcove/ae07da84-3b94-4e72-87bd-c71f377f70c3 | Vetcove | Staff UX Researcher
+- [ ] https://jobs.ashbyhq.com/Vetcove/ae16cbca-b988-4cfe-a58c-fc7d5ecbe83d | Vetcove | UX Researcher
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/7339579 | Reddit | Senior UX Researcher, Safety
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/7252754 | Reddit | UX Researcher, Consumer
+- [ ] https://job-boards.greenhouse.io/upwork/jobs/6561049003 | Upwork | Lead User Researcher
+- [ ] https://job-boards.greenhouse.io/agilesix/jobs/7539932003 | Agile Six | Senior UX Researcher / Designer
+- [ ] https://job-boards.greenhouse.io/appliedintuition/jobs/4672243005 | Applied Intuition | UX Researcher
+- [ ] https://jobs.ashbyhq.com/wander/c415c11f-2dfb-4064-a6ff-dc8151c4e8ee | Wander | Head of UX Research
+- [ ] https://jobs.experian.com/job/ux-researcher-remote-in-united-states-jid-2485 | Experian | UX Researcher (Remote)
+- [ ] https://job-boards.greenhouse.io/blackcanyonconsulting/jobs/6067841003 | NIH-NCBI (Black Canyon) | User Experience Researcher
+- [ ] https://job-boards.greenhouse.io/quanata/jobs/5706290004 | Quanata | Data Analyst (Remote-US)
+- [ ] https://job-boards.greenhouse.io/quanata/jobs/5577629004 | Quanata | Senior Data Analyst (Remote-US)
+- [ ] https://job-boards.greenhouse.io/solera/jobs/7636276 | Solera Health | Data Scientist
+- [ ] https://job-boards.greenhouse.io/careervillage/jobs/5056408007 | CareerVillage | Data Scientist
+- [ ] https://job-boards.greenhouse.io/xapo61/jobs/7616977003 | Xapo Bank | Data Analyst (Remote)
+- [ ] https://job-boards.greenhouse.io/dept/jobs/7517013 | DEPT | Senior Data Analyst (Remote-US, Contract)
+- [ ] https://job-boards.greenhouse.io/onboardmeetings/jobs/5799430004 | OnBoard | Data Analyst, Revenue Operations
+- [ ] https://jobs.lever.co/thebouqs.com/43b164d2-e7bf-4949-864f-3f60c38e0c48 | The Bouqs Company | Senior Data Analyst (US Remote)
+- [ ] https://job-boards.greenhouse.io/oura/jobs/4140526009 | Oura | Data Scientist - Movement
+
+## Procesadas
+
+- [!] https://jobs.ashbyhq.com/harvey/bc59e814-2861-4b61-8fd2-e428def31ec5 | Harvey | Staff UX Researcher — CLOSED
+- [x] https://jobs.ashbyhq.com/suno/487bc7df-f9e6-410d-b38c-58aeb08cf202 | Suno | Sr Qualitative UXR → [079](reports/079-suno-2026-04-11.md) | 3.7/5
+- [!] https://job-boards.greenhouse.io/okta/jobs/7536793 | Okta | Staff UXR - AI & Emerging Products — CLOSED
+- [!] https://job-boards.greenhouse.io/retool/jobs/4628161005 | Retool | UX Researcher — CLOSED
+- [!] https://jobs.comcast.com/job/philadelphia/ux-user-researcher-ii/45483/87750287920 | Comcast | UX/User Researcher II — CLOSED
+- [!] https://boards.greenhouse.io/ezcaterinc/jobs/4069989007 | ezCater | UX Researcher, Demand — CLOSED
+- [!] https://apply.workable.com/feeldco/j/4CC87CE787 | Feeld | Sr UXR Mixed Methods — CLOSED
+- [!] https://jobs.lever.co/articulate/8c7b81bc-30a8-4e8d-aa6f-30e8fc962793 | Articulate | Sr Product Analyst (AI) — CLOSED
+- [!] https://jobs.lever.co/colibrigroup/50e93dfd-baab-4a90-861d-669f04859319 | Colibri Group | UX Research Analyst — CLOSED
+- [!] https://job-boards.greenhouse.io/smarterdx/jobs/5053199007 | SmarterDx | Sr Data Analyst, AI Research — CLOSED
+- [!] https://job-boards.greenhouse.io/life360/jobs/8414213002 | Life360 | Lead Data Analyst, Product Growth — CLOSED
+- [x] https://job-boards.greenhouse.io/weedmaps77/jobs/8413498002 | Weedmaps | Staff Data Analyst → [089](reports/089-weedmaps-2026-04-11.md) | 2.8/5
+- [!] https://jobs.ashbyhq.com/nerdwallet/7fc51fd1-3417-45f3-8703-b6ca0ab8ff30 | NerdWallet | Lead Data Analyst — CLOSED
+- [!] https://jobs.ashbyhq.com/hockeystack/e6872b03-f476-4639-9034-481288125848 | HockeyStack | Data Analyst (East Coast) — CLOSED
+- [!] https://jobs.ashbyhq.com/maximustribe/c1e7b39d-e9aa-4c71-b1fa-c4f9a26dff37 | Maximus Health | Sr Product & Marketing DA — CLOSED
+- [!] https://jobs.ashbyhq.com/ansiblehealth/85afce28-9ac2-49fd-aa5a-eb66fe35fccc | AnsibleHealth | Data Analyst — CLOSED
+- [!] https://jobs.ashbyhq.com/Tremendous/1c06eb10-f325-4103-88f1-44b93b10c8c6 | Tremendous | Sr Data Analyst — CLOSED
+- [x] https://jobs.ashbyhq.com/assured/e1d94259-5d8c-4640-9334-53f91398d92f | Assured | Lead Data Analyst (Customer Insights) → [095](reports/095-assured-2026-04-11.md) | 3.4/5
+- [x] https://jobs.ashbyhq.com/jump-app/b34281e0-9db7-4a85-9618-98bc2a5509f5 | Jump | Data Analyst → [096](reports/096-jump-2026-04-11.md) | 2.8/5
+- [!] https://jobs.lever.co/greenlight/084768a3-1c27-4390-b94c-d987f636811a | Greenlight | Data Analyst — CLOSED
+- [!] https://jobs.lever.co/myollie/16de9015-270c-4176-9636-aa9f232c9148 | Ollie | Data Analyst, Retention — CLOSED
+- [x] https://jobs.comcast.com/job/philadelphia/analyst-3-data-analytics-and-business-intelligence/45483/93774169632 | Comcast | Analyst 3, Data Analytics & BI → [099](reports/099-comcast-da-bi-2026-04-11.md) | 2.8/5
+- [!] https://jobs.comcast.com/job/philadelphia/senior-analyst-digital-service-experience/45483/91592541616 | Comcast | Sr Analyst, Digital Service Experience — CLOSED
+- [x] https://jobs.comcast.com/job/towson/analyst-measurement-and-insights/45483/93723019808 | Comcast | Measurement & Insights Analyst → [101](reports/101-comcast-insights-2026-04-11.md) | 3.2/5
+- [x] https://job-boards.greenhouse.io/bpcs/jobs/7792883 | Blueprint Tech | UX Researcher → [102](reports/102-blueprint-tech-2026-04-11.md) | 3.7/5
+- [x] https://jobs.ashbyhq.com/ruby-labs/f89a36e7-f17f-4bb5-b461-47dc29bca1ef | Ruby Labs | UX Researcher → [103](reports/103-ruby-labs-2026-04-11.md) | 3.5/5
+- [!] https://jobs.ashbyhq.com/sleeper/42bb5e8b-eb02-4eb4-9ddd-a1e42689585c | Sleeper | User Researcher — CLOSED
+- [x] https://jobs.ashbyhq.com/sleeper/3f808c80-c4c1-4c3d-9549-628b6ff5dc11 | Sleeper | Data Scientist → [105](reports/105-sleeper-ds-2026-04-11.md) | 3.0/5
+- [!] https://boards.greenhouse.io/leagueinc/jobs/5215776004 | League Inc | UXR (6-mo term) — CLOSED
+- [!] https://job-boards.greenhouse.io/lithic/jobs/5787434004 | Lithic | Sr DA, Risk & Compliance — CLOSED
+- [!] https://job-boards.greenhouse.io/starrez/jobs/5118067008 | StarRez | Sr BI Analyst — CLOSED
+- [!] https://jobs.lever.co/LuminDigital/77015479-0234-4699-bdd0-f99261e038d3 | Lumin Digital | Product Data Analyst — CLOSED
+- [!] https://apply.workable.com/userzoom/j/A0D6C36EC4/ | UserZoom | UXR, Research Delivery — CLOSED
+- [!] https://apply.workable.com/lucidya/j/16AAAF7162 | Lucidya | UX Researcher — CLOSED
+- [x] https://jobs.ashbyhq.com/peek/75944193-c077-4ef0-a7f3-75d5a6614ff9 | Peek | Product Analyst → [112](reports/112-peek-2026-04-11.md) | 2.0/5
+- [x] https://job-boards.greenhouse.io/anthropic/jobs/4502417008 | Anthropic | User Experience Researcher → [001](reports/001-anthropic-2026-04-08.md) | 4.4/5
+- [x] https://job-boards.greenhouse.io/humeai/jobs/4775962008 | Hume AI | AI Researcher → [002](reports/002-hume-ai-2026-04-08.md) | 3.0/5
+- [x] https://job-boards.greenhouse.io/intercom/jobs/7431143 | Intercom | Senior Voice of Customer Researcher → [003](reports/003-intercom-2026-04-08.md) | 4.2/5
+- [x] https://job-boards.greenhouse.io/intercom/jobs/7055800 | Intercom | Senior Voice of Customer Researcher → [004](reports/004-intercom-2026-04-08.md) | 0.0/5 (closed)
+- [x] https://job-boards.greenhouse.io/arizeai/jobs/5790042004 | Arize AI | UX Designer → [005](reports/005-arize-ai-2026-04-08.md) | 3.0/5
+- [x] https://job-boards.greenhouse.io/gleanwork/jobs/4577381005 | Glean | Product Designer, AI Products → [006](reports/006-glean-2026-04-08.md) | 3.2/5
+- [x] https://job-boards.greenhouse.io/gleanwork/jobs/4600865005 | Glean | Product Design Lead, AI Products → [007](reports/007-glean-2026-04-08.md) | 2.8/5
+- [x] https://job-boards.greenhouse.io/gleanwork/jobs/4521356005 | Glean | Data Scientist, Core Product → [008](reports/008-glean-2026-04-08.md) | 2.8/5
+- [x] https://job-boards.greenhouse.io/gleanwork/jobs/4678146005 | Glean | Senior Data Scientist, Core Product → [009](reports/009-glean-2026-04-08.md) | 3.8/5
+- [x] https://n26.com/en-eu/careers/positions/7668146 | N26 | Senior UX Researcher (German Speaker) → [010](reports/010-n26-2026-04-08.md) | 2.5/5
+- [x] https://getyourguide.careers/jobs/7286671 | GetYourGuide | Senior UX Manager, B2C → [011](reports/011-getyourguide-2026-04-08.md) | 2.8/5
+- [x] https://www.scandit.com/careers/job-description/?gh_jid=7578499 | Scandit | Lead UX Designer → [012](reports/012-scandit-2026-04-08.md) | 2.8/5
+- [x] https://job-boards.greenhouse.io/gitlab/jobs/8365071002 | GitLab | UX Researcher → [013](reports/013-gitlab-2026-04-08.md) | 4.3/5
+- [x] https://job-boards.greenhouse.io/gitlab/jobs/8364868002 | GitLab | UX Researcher, AI → [014](reports/014-gitlab-ux-researcher-ai-2026-04-08.md) | 4.6/5
+- [x] https://job-boards.greenhouse.io/gitlab/jobs/7915232002 | GitLab | Senior UX Researcher, Security & Compliance → [015](reports/015-gitlab-sr-ux-researcher-security-2026-04-08.md) | 4.5/5
+- [x] https://job-boards.greenhouse.io/bpcs/jobs/7648753 | Blueprint Technologies | Senior UX Researcher → [016](reports/016-blueprint-technologies-sr-ux-researcher-2026-04-08.md) | 3.4/5
+- [x] https://boards.greenhouse.io/smartsheet/jobs/4820321 | Smartsheet | Senior UX Researcher I (Remote Eligible) → [017](reports/017-smartsheet-sr-ux-researcher-2026-04-08.md) | 4.2/5
+- [x] https://boards.greenhouse.io/apolloio/jobs/4727183004 | Apollo.io | UX Researcher (Remote, US Only) → [018](reports/018-apollo-io-ux-researcher-2026-04-08.md) | 3.9/5
+- [x] https://job-boards.greenhouse.io/betterhelpcom/jobs/5023260008 | BetterHelp | Senior Mixed-Methods User Researcher → [019](reports/019-betterhelp-sr-mixed-methods-researcher-2026-04-08.md) | 4.7/5
+- [x] https://job-boards.greenhouse.io/fabric83/jobs/7516926003 | Fabric | Senior UX Researcher → [020](reports/020-fabric-sr-ux-researcher-2026-04-08.md) | 4.1/5
+- [x] https://job-boards.greenhouse.io/fleetio/jobs/4971703007 | Fleetio | Senior UX Researcher → [021](reports/021-fleetio-sr-ux-researcher-2026-04-08.md) | 3.8/5
+- [x] https://boards.greenhouse.io/growtherapy/jobs/4349772005 | Grow Therapy | Senior UX Researcher → [022](reports/022-grow-therapy-sr-ux-researcher-2026-04-08.md) | 4.5/5
+- [x] https://job-boards.greenhouse.io/lindawernerassociates/jobs/5160743008 | Linda Werner & Associates | Senior UX Researcher - Product Insights → [023](reports/023-linda-werner-2026-04-08.md) | 4.1/5
+- [x] https://job-boards.greenhouse.io/innovaccer/jobs/7895797002 | Innovaccer | Senior UX Researcher → [024](reports/024-innovaccer-2026-04-08.md) | 4.3/5
+- [x] https://jobs.ashbyhq.com/docker/1d987f6d-6755-42e2-8070-123865f9ca28 | Docker | UX Researcher → [025](reports/025-docker-2026-04-08.md) | 3.8/5
+- [x] https://jobs.ashbyhq.com/intus/13777068-4374-47fe-8aa3-858de1c2ab2a | IntusCare | Senior UX Researcher → [026](reports/026-intuscare-2026-04-08.md) | 4.0/5
+- [x] https://jobs.ashbyhq.com/openai/250c5184-edb5-49eb-bb7e-1ddb47f1140d | OpenAI | Quantitative UX Researcher → [027](reports/027-openai-2026-04-08.md) | 4.4/5
+- [x] https://jobs.ashbyhq.com/abridge/d9234ea7-6052-42e7-b9f3-ed2c35085639 | Abridge | UX Researcher (Senior/Staff) → [028](reports/028-abridge-2026-04-08.md) | 4.6/5
+- [x] https://jobs.ashbyhq.com/patreon/90319c52-bd43-4f25-a86c-5dbe6549353e | Patreon | Staff UX Researcher → [029](reports/029-patreon-2026-04-08.md) | 3.9/5
+- [x] https://jobs.ashbyhq.com/super.com/d44842b8-0c52-4fa0-8f39-bbf6b220e0a2 | Super.com | Senior UX Researcher → [030](reports/030-super-com-2026-04-08.md) | 3.8/5
+- [x] https://jobs.ashbyhq.com/handshake/b35bc23c-a28e-493d-92d9-0bfa1200607e | Handshake | Senior UX Researcher, Handshake AI → [031](reports/031-handshake-2026-04-08.md) | 4.5/5
+- [x] https://jobs.ashbyhq.com/aurorasolar/957c76bb-16f2-4cfc-a468-c350bdc65d9a | Aurora Solar | Senior UX Researcher → [032](reports/032-aurora-solar-2026-04-08.md) | 4.2/5
+- [x] https://jobs.ashbyhq.com/youdotcom/fdc3b84d-2b16-4379-8b24-8f99907a6e0b | YOU.com | Senior UX Researcher → [033](reports/033-you-com-2026-04-08.md) | 4.4/5
+- [x] https://jobs.ashbyhq.com/claylabs/51f3f226-daeb-4476-b221-c30b9badf355 | Clay Labs | Senior UX Researcher, AI/Agents → [034](reports/034-clay-labs-2026-04-08.md) | 4.3/5
+- [x] https://jobs.ashbyhq.com/betterup/85ef9c10-2c33-41a8-b035-eff8dfce6165 | BetterUp | Senior UX Researcher → [035](reports/035-betterup-2026-04-08.md) | 4.5/5
+- [x] https://jobs.ashbyhq.com/n8n/29521a58-66b0-4666-93dc-7e0d231552ad | n8n | Senior/Staff UX Researcher → [036](reports/036-n8n-2026-04-08.md) | 4.1/5
+- [x] https://jobs.ashbyhq.com/rula/65263e60-9adc-41ce-a259-2141c20d4ada | Rula | Lead User Experience Researcher → [037](reports/037-rula-2026-04-08.md) | 4.3/5
+- [x] https://jobs.lever.co/viget/51806308-0fea-4480-9f81-70cc19229278/ | Viget | UX Researcher → [038](reports/038-viget-2026-04-08.md) | 3.5/5
+- [x] https://jobs.lever.co/brevo/5ccec2f3-997e-41b8-a931-28a11b4ad212 | Brevo | UX Researcher (Full Remote Policy) → [039](reports/039-brevo-2026-04-08.md) | 3.6/5
+- [x] https://jobs.lever.co/benchsci/f8914a6d-bef2-47f3-af5f-7889fe91d595 | BenchSci | UX Researcher (Remote) → [040](reports/040-benchsci-2026-04-08.md) | 3.8/5
+- [x] https://jobs.lever.co/Huckleberrylabs/5789699b-1937-4ce0-8c72-382a71499f33 | Huckleberry Labs | Mixed-Methods UX Researcher → [041](reports/041-huckleberry-labs-2026-04-08.md) | 4.6/5
+- [x] https://jobs.lever.co/grantstreet/3610188f-c48f-4324-b2c4-36e08db1d8db | Grant Street Group | UX Research & Design Lead → [042](reports/042-grant-street-group-2026-04-08.md) | 4.1/5
+- [x] https://jobs.ashbyhq.com/trm-labs/179d21b8-221e-4f2b-9e59-bdd6951fb9d7 | TRM Labs | Senior Full Stack Data Scientist, NLP → [043](reports/043-trm-labs-2026-04-08.md) | 2.8/5
+- [x] https://jobs.lever.co/veeva/f0e989b5-9d14-4f82-baaa-2fc56a76ba16 | Veeva Systems | Senior/Principal Data Scientist - NLP (Remote) → [044](reports/044-veeva-systems-2026-04-08.md) | 2.6/5
+- [x] https://jobs.lever.co/teramind/ee612ae9-3a94-401e-9dd2-8b082eb157a1 | Teramind | Senior Data Scientist (Remote, Global) → [045](reports/045-teramind-2026-04-08.md) | 2.5/5
+- [x] https://job-boards.greenhouse.io/cresta/jobs/4887219008 | Cresta | NLP Specialist → [046](reports/046-cresta-2026-04-09.md) | 2.5/5
+- [x] https://job-boards.greenhouse.io/calendly/jobs/8071462002 | Calendly | Research Operations Manager → [047](reports/047-calendly-2026-04-09.md) | 3.8/5
+- [x] https://jobs.ashbyhq.com/notion/c1959fae-f57b-4f38-9312-b1fab73f6f76 | Notion | Research Ops Coordinator → [048](reports/048-notion-2026-04-09.md) | 1.8/5
+- [x] https://job-boards.greenhouse.io/mercury/jobs/5565389004 | Mercury | Research Operations Specialist → [049](reports/049-mercury-2026-04-09.md) | 4.0/5
+- [x] https://job-boards.greenhouse.io/opentable/jobs/7977929002 | OpenTable | Research Operations Specialist → [050](reports/050-opentable-2026-04-08.md) | 2.8/5
+- [x] https://jobs.lever.co/whoop/01cfaf41-ee11-492d-b7f8-10d7929bf3e5 | WHOOP | Research Operations Manager → [051](reports/051-whoop-2026-04-08.md) | 3.8/5
+- [x] https://apply.workable.com/skylight/j/681D1CD9D5/ | Skylight | User Researcher (Remote) → [052](reports/052-skylight-2026-04-08.md) | 4.1/5
+- [x] https://apply.workable.com/multiverse/j/55217FE7F0/ | Multiverse | Senior UX Researcher - Client Experience → [053](reports/053-multiverse-2026-04-08.md) | 4.4/5
+- [x] https://apply.workable.com/feeldco/j/834B977B48 | Feeld | Senior User Researcher - Mixed Methods → [054](reports/054-feeld-2026-04-08.md) | 4.3/5

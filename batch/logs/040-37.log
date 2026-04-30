@@ -1,0 +1,22 @@
+Done. Pipeline output:
+
+```json
+{
+  "status": "completed",
+  "id": "37",
+  "report_num": "040",
+  "company": "Handshake",
+  "role": "AI Research Scientist, Human AI Interaction and Evaluations",
+  "score": 1.5,
+  "pdf": null,
+  "report": "reports/040-handshake-2026-04-29.md",
+  "error": null
+}
+```
+
+**Summary:** Score 1.5/5 — **NO APLICAR**. PhD-required Research Scientist seat (HCI × LLM evaluations) at Handshake's HAI team. Three independent hard blocks: PhD requirement, 3+ yrs post-PhD experience, and NeurIPS/ICML/ICLR/ACL/CHI publication record — none of which an MS-in-progress UXR can bridge. Comp ($350K–$420K) is top-quartile for AI RS but irrelevant given the floor requirement is unmet. Per the system's "quality over quantity" ethic and the <4.0/5 threshold, PDF generation skipped. Tracker line written to `batch/tracker-additions/37.tsv` with status `SKIP`.
+
+Sources:
+- [AI Research Scientist, Human AI Interaction and Evaluations @ Handshake (Ashby)](https://jobs.ashbyhq.com/handshake/01f3aa3a-97b3-4ec0-b6b6-7dbe3f5f8dfa)
+- [Same role on LinkedIn (full JD)](https://www.linkedin.com/jobs/view/ai-research-scientist-human-ai-interaction-and-evaluations-at-handshake-4368894267)
+- [Handshake careers index](https://joinhandshake.com/careers/)

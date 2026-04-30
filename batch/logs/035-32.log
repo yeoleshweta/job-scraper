@@ -1,0 +1,22 @@
+Pipeline complete. Final summary:
+
+**Evaluation:** Handshake — Senior Product Designer II, Handshake AI
+**Archetype mismatch:** Senior IC Product Designer seat vs. Shweta's UXR primary / UX Designer adjacent. Stacks with on-site SF (hard blocker from Philadelphia) and 3+ years of research drift since last shipped product design.
+**Score:** 2.5/5 — **SKIP**, but better path exists: lateral outreach to Handshake AI's UX Research / Forward Deployed roles citing ABIM clinical-NLP annotation work as domain proof.
+
+```json
+{
+  "status": "completed",
+  "id": "32",
+  "report_num": "035",
+  "company": "Handshake",
+  "role": "Senior Product Designer II, Handshake AI",
+  "score": 2.5,
+  "pdf": "output/cv-shweta-handshake-2026-04-29.pdf",
+  "report": "reports/035-handshake-2026-04-29.md",
+  "error": null
+}
+```
+
+Sources:
+- [Senior Product Designer II, Handshake AI — Handshake (Ashby)](https://jobs.ashbyhq.com/handshake/27bb47ec-0b5f-47f9-ab1a-fc079423e0ba)

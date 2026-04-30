@@ -1,0 +1,23 @@
+Pipeline complete. **Verdict: SKIP** — PhD + peer-reviewed publications are explicit hard blockers, but the domain alignment with the candidate's ABIM clinical-NLP work is unusually strong. Worth bookmarking Abridge for 6–12 months out.
+
+```json
+{
+  "status": "completed",
+  "id": "30",
+  "report_num": "031",
+  "company": "Abridge",
+  "role": "Research Scientist (Measurement and Evaluation)",
+  "score": 1.8,
+  "pdf": null,
+  "report": "reports/031-abridge-2026-04-29.md",
+  "error": null
+}
+```
+
+**Files written:**
+- `reports/031-abridge-2026-04-29.md` — full A–F evaluation
+- `batch/tracker-additions/30.tsv` — tracker line (SKIP, 1.8/5, no PDF)
+
+**PDF intentionally skipped:** ethical-use rule (`CLAUDE.md`) + score < 4.0 — tailoring an ATS PDF for a credential-gated role is poor allocation. The recommendation section in the report explains the bookmark-for-future framing.
+
+**Verification:** confirmed via Playwright snapshot (posting active 2026-04-29).

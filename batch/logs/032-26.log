@@ -1,0 +1,27 @@
+Pipeline complete. Recommended SKIP (2.8/5) — same structural mismatch as the Staff PD eval (027/029): designer seat vs UXR primary archetype. No PDF generated for SKIP recommendations (per ethical-use rules + prior Abridge eval pattern).
+
+```json
+{
+  "status": "completed",
+  "id": "26",
+  "report_num": "032",
+  "company": "Abridge",
+  "role": "Senior Product Designer",
+  "score": 2.8,
+  "pdf": null,
+  "report": "reports/032-abridge-2026-04-29.md",
+  "error": null
+}
+```
+
+**Summary:**
+- **Score:** 2.8/5 → SKIP
+- **Why:** Senior IC Product Designer seat, but Shweta's North Star is UX Researcher (UX Designer is "adjacent" in profile.yml). Tenure (5–7+ yrs) is more reachable than the Staff version, but craft/motion/prototyping signals on CV are weak — last 3+ years are NLP/data science.
+- **Healthcare-AI mission match:** Strong (ABIM Calgary–Cambridge, ClinicalBERT pipeline) — but the mission match doesn't fix the wrong seat.
+- **Better path:** Lateral LinkedIn outreach to Abridge's Head of Design or UX Research lead, citing ABIM clinical-communication NLP work, when a UXR seat opens.
+- **Tracker line:** written to `batch/tracker-additions/26.tsv` (status `SKIP`, num `32`).
+- **PDF:** not generated — consistent with prior Abridge SKIP evals (027/029).
+
+Sources:
+- [Senior Product Designer @ Abridge — Ashby](https://jobs.ashbyhq.com/abridge/6aab826b-a60a-434e-889d-e4648f289305)
+- [Senior Product Designer @ Abridge — Simplify Jobs (full JD mirror)](https://simplify.jobs/p/00bf0b91-215f-4bfa-afdf-02cea87a0f97/Senior-Product-Designer)

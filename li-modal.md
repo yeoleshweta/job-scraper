@@ -1,0 +1,2188 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: Skip to main content
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e165]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "LinkedIn" [ref=e167] [cursor=pointer]:
+            - img "LinkedIn" [ref=e168]
+          - search [ref=e171]:
+            - generic [ref=e172]:
+              - img [ref=e174]
+              - textbox "I'm looking for…" [ref=e176]
+          - generic [ref=e20]:
+            - figure [ref=e181]
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "Home, 1 new notification" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e31]: Home
+                - listitem [ref=e32]:
+                  - link "My Network, 0 new notifications" [ref=e33] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e35]
+                    - generic [ref=e38]: My Network
+                - listitem [ref=e39]:
+                  - link "Jobs, 0 new notifications" [ref=e40] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e42]
+                    - generic [ref=e45]: Jobs
+                - listitem [ref=e46]:
+                  - link "Messaging, 0 new notifications" [ref=e47] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e49]
+                    - generic [ref=e52]: Messaging
+                - listitem [ref=e53]:
+                  - link "Notifications, 0 new notifications" [ref=e54] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e56]
+                    - generic [ref=e59]: Notifications
+                - listitem [ref=e60]:
+                  - button "Me" [ref=e61] [cursor=pointer]:
+                    - figure [ref=e63]
+                    - generic [ref=e65]:
+                      - text: Me
+                      - img [ref=e183]
+            - navigation [ref=e69]:
+              - list [ref=e70]:
+                - listitem [ref=e71]:
+                  - button "For Business" [ref=e72] [cursor=pointer]:
+                    - img [ref=e74]
+                    - generic [ref=e77]:
+                      - text: For Business
+                      - img [ref=e185]
+                - listitem [ref=e79]:
+                  - link "Learning, 0 new notifications" [ref=e80] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+                    - img [ref=e187]
+                    - generic [ref=e84]: Learning
+      - main [ref=e85]:
+        - generic [ref=e86]:
+          - toolbar
+          - main [ref=e87]:
+            - generic [ref=e89]:
+              - generic [ref=e194]:
+                - generic [ref=e199]:
+                  - generic [ref=e200]:
+                    - generic [ref=e201]:
+                      - link "Company, Robert Half." [ref=e203] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/robert-half-international/life/
+                        - generic "Company, Robert Half." [ref=e204]:
+                          - figure [ref=e205]:
+                            - img "Company logo for, Robert Half." [ref=e206]
+                          - paragraph [ref=e207]:
+                            - link "Robert Half" [ref=e208]:
+                              - /url: https://www.linkedin.com/company/robert-half-international/life/
+                      - button "More options" [ref=e209] [cursor=pointer]:
+                        - img [ref=e211]
+                    - paragraph [ref=e215]:
+                      - text: User Experience Researcher
+                      - link "Verified job" [ref=e216] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Verified job" [ref=e217]:
+                          - img [ref=e218]
+                    - paragraph [ref=e220]:
+                      - text: United States ·
+                      - strong [ref=e222]: 5 hours ago
+                      - text: · 56 applicants
+                    - paragraph [ref=e224]: Promoted by hirer · No response insights available yet
+                  - generic [ref=e225]:
+                    - link "$65/hr" [ref=e227] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4404474538/
+                      - generic [ref=e229]: $65/hr
+                    - link "Remote" [ref=e231] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4404474538/
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - generic [ref=e235]: Remote
+                    - link "Contract" [ref=e237] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4404474538/
+                      - generic [ref=e239]: Contract
+                  - generic [ref=e244]:
+                    - link "Easy Apply to this job" [ref=e246] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4404474538/apply/?openSDUIApplyFlow=true&trackingId=TH6ZSdPQQI%2ByW9iJOwAHVw%3D%3D
+                      - generic [ref=e247]:
+                        - img [ref=e248]
+                        - generic [ref=e250]: Easy Apply
+                    - button "Save the job" [ref=e252] [cursor=pointer]:
+                      - generic [ref=e254]: Save
+                - generic [ref=e255]:
+                  - generic [ref=e260]:
+                    - img [ref=e262]
+                    - heading "Use AI to assess how you fit" [level=2] [ref=e268]
+                    - list [ref=e275]:
+                      - listitem [ref=e276]:
+                        - link "Show match details" [ref=e278] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Ab738f7008b5318f4b722ef6d00c32968cd4d0bca9b5739b0448a2f03056e6bcf%7Eurn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&contextUrns=urn%3Ali%3Aguide%3Ab738f7008b5318f4b722ef6d00c32968cd4d0bca9b5739b0448a2f03056e6bcf&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=tr%2FMZ%2FMYR4qpiKJ%2F%2BxD36g%3D%3D&customContext=jobPostingId%7E%3A4404474538%2CsubIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2ChasHistory%7E%3Afalse&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4404474538
+                          - generic [ref=e279]:
+                            - img [ref=e280]
+                            - paragraph [ref=e282]: Show match details
+                      - listitem [ref=e283]:
+                        - link "Tailor my resume" [ref=e285] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/job-apply-resources/?jobPostingId=4404474538
+                          - generic [ref=e286]:
+                            - img [ref=e287]
+                            - paragraph [ref=e289]: Tailor my resume
+                      - listitem [ref=e290]:
+                        - link "Create cover letter" [ref=e292] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Create+cover+letter&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Ab738f7008b5318f4b722ef6d00c32968cd4d0bca9b5739b0448a2f03056e6bcf%7Eurn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&contextUrns=urn%3Ali%3Aguide%3Ab738f7008b5318f4b722ef6d00c32968cd4d0bca9b5739b0448a2f03056e6bcf&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=nABSBwP8SgOAmRoO7721Pw%3D%3D&customContext=jobPostingId%7E%3A4404474538%2CsubIntent%7E%3AJobSeekerAgentIntent_COVER_LETTER%2ChasHistory%7E%3Afalse&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4404474538
+                          - generic [ref=e293]:
+                            - img [ref=e294]
+                            - paragraph [ref=e296]: Create cover letter
+                      - listitem [ref=e297]:
+                        - link "Help me stand out" [ref=e299] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Ab738f7008b5318f4b722ef6d00c32968cd4d0bca9b5739b0448a2f03056e6bcf%7Eurn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&contextUrns=urn%3Ali%3Aguide%3Ab738f7008b5318f4b722ef6d00c32968cd4d0bca9b5739b0448a2f03056e6bcf&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=fzx8rNOVQ4KvrSVOKJJZFw%3D%3D&customContext=jobPostingId%7E%3A4404474538%2CsubIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2ChasHistory%7E%3Afalse&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4404474538
+                          - generic [ref=e300]:
+                            - img [ref=e301]
+                            - paragraph [ref=e303]: Help me stand out
+                  - generic [ref=e307]:
+                    - heading "People you can reach out to" [level=2] [ref=e308]
+                    - generic [ref=e309]:
+                      - paragraph [ref=e310]: Meet the hiring team
+                      - generic [ref=e311]:
+                        - link "Megan Holstine • 2nd Senior Recruiter for National Technology Accounts, Creative & Marketing Job poster" [ref=e312] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/meganholstine/
+                          - generic [ref=e313]:
+                            - figure [ref=e314]
+                            - generic [ref=e315]:
+                              - generic [ref=e316]:
+                                - paragraph [ref=e318]:
+                                  - link "Megan Holstine" [ref=e319]:
+                                    - /url: https://www.linkedin.com/in/meganholstine/
+                                  - img [ref=e321]
+                                - paragraph [ref=e323]: • 2nd
+                              - paragraph [ref=e325]: Senior Recruiter for National Technology Accounts, Creative & Marketing
+                              - paragraph [ref=e326]: Job poster
+                        - link "Message" [ref=e328] [cursor=pointer]:
+                          - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAAUhZGgBsZFIPUZbg-JTZKT1fORjxqxgznk&recipient=ACoAAAUhZGgBsZFIPUZbg-JTZKT1fORjxqxgznk&screenContext=JOB_DETAILS_HIRING_TEAM&jobPostingUrn=urn%3Ali%3Afsd_jobPosting%3A4404474538&contextEntityUrn=urn%3Ali%3Afsd_jobPosting%3A4404474538&interop=msgOverlay
+                          - generic [ref=e330]: Message
+                  - generic [ref=e336]:
+                    - heading "About the job" [level=2] [ref=e338]
+                    - paragraph [ref=e339]:
+                      - generic [ref=e340]:
+                        - paragraph [ref=e341]: "Job Title: Mid-level UX Researcher"
+                        - paragraph [ref=e342]: "Industry: Technology / AI / B2B SaaS"
+                        - paragraph [ref=e343]: "Location: Remote (US-based)"
+                        - paragraph [ref=e344]: Hybrid option available for candidates located near Irvine, CA (3 days per week onsite)
+                        - paragraph [ref=e345]: "Employment Type: Contract"
+                        - paragraph [ref=e346]: "Pay Rate: $65"
+                        - paragraph [ref=e347]
+                        - paragraph [ref=e348]: "Job Description:"
+                        - paragraph [ref=e349]
+                        - paragraph [ref=e350]: We are seeking a Mid-level UX Researcher to lead and support research efforts across agentic AI experiences, customer support insights, recommendation systems, and internal associate tooling. This role partners closely with senior UX Researchers to uncover user needs and behaviors, helping to shape product strategy and improve end-to-end experiences across both customer-facing and internal platforms.
+                        - paragraph [ref=e351]
+                        - paragraph [ref=e352]: Working cross-functionally with Product Managers, Designers, Engineers, and business stakeholders, the UX Researcher will conduct qualitative and quantitative research and translate findings into clear, actionable insights that inform decision-making. This role requires adaptability, curiosity, and comfort navigating ambiguity while delivering structured, high-quality research outputs that build alignment and confidence among diverse stakeholders.
+                        - paragraph [ref=e353]
+                        - paragraph [ref=e354]: "Responsibilities:"
+                        - paragraph [ref=e355]: • Support senior UX Researchers on exploratory and tactical agentic AI research projects, contributing to study design, execution, and synthesis
+                        - paragraph [ref=e356]: • Lead qualitative and quantitative research initiatives across areas such as Marketing, Customer Support, and internal employee tooling
+                        - paragraph [ref=e357]: • Partner with designers, product managers, and engineers to inform product direction and experience improvements
+                        - paragraph [ref=e358]: • Collaborate with data scientists and business analytics teams to integrate qualitative insights with quantitative data
+                        - paragraph [ref=e359]: • Communicate research findings and actionable recommendations to product teams and broader stakeholder groups
+                        - paragraph [ref=e360]: • Advocate for user-centered thinking and contribute to building a strong UX research culture across the organization
+                        - paragraph [ref=e361]
+                        - paragraph [ref=e362]: "Qualifications:"
+                        - paragraph [ref=e363]: • Bachelor’s degree in Human-Computer Interaction, Psychology, Sociology, Communication, Information Science, Media Studies, Computer Science, or a related field; Master’s degree preferred
+                        - paragraph [ref=e364]: • 6+ years of UX research experience applying both qualitative and quantitative methods
+                        - paragraph [ref=e365]: • Experience working in Agile and/or Lean UX environments
+                        - paragraph [ref=e366]: • Hands-on experience conducting UX research within agentic AI domains, including concept testing of AI-driven experiences, evaluative research on agent behaviors and interactions, and competitive analysis
+                        - paragraph [ref=e367]: • Ability to advocate for the value of UX research and influence adoption across teams
+                        - paragraph [ref=e368]: • Comfortable working with a high level of autonomy and ambiguity while managing shifting priorities across multiple initiatives
+                        - paragraph [ref=e369]: • Strong business acumen with the ability to clearly communicate insights through verbal, written, and presentation formats
+                        - paragraph [ref=e370]
+                        - paragraph [ref=e371]: "Nice to Have:"
+                        - paragraph [ref=e372]: • Experience working on complex B2B SaaS products
+                        - paragraph [ref=e373]: • Experience operating in large, cross-functional or matrixed organizations
+                        - paragraph [ref=e374]: • Experience applying quantitative research methods such as surveys, A/B testing, and log analysis to complement qualitative findings
+                        - paragraph [ref=e375]
+                        - paragraph [ref=e376]: "Schedule:"
+                        - paragraph [ref=e377]: • Monday – Friday
+                        - paragraph [ref=e378]: • Remote (US-based)
+                        - paragraph [ref=e379]: • Hybrid option available for Irvine-based candidates (3 days per week onsite)
+                        - paragraph [ref=e380]
+                        - paragraph [ref=e381]:
+                          - emphasis [ref=e382]: The salary range for this position is $65 hr. Benefits available to contract/temporary professionals, include medical, vision, dental, and life and disability insurance. Hired contract/temporary professionals are also eligible to enroll in our company 401(k) plan. Visit roberthalf.gobenefits.net for more information. Our specialized recruiting professionals apply their expertise and utilize our proprietary AI to find you great job matches faster.
+                        - paragraph [ref=e383]
+                        - paragraph [ref=e384]:
+                          - emphasis [ref=e385]: Robert Half will consider for employment qualified applicants with arrest or conviction records in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.
+                        - button:
+                          - generic [ref=e387] [cursor=pointer]: … more
+                    - paragraph [ref=e388]: Benefits found in job post
+                    - paragraph [ref=e389]: Disability insurance, 401(k), Dental insurance, Vision insurance, Medical insurance, Commuter benefits
+                  - generic [ref=e394]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e395]
+                    - generic [ref=e396]:
+                      - paragraph [ref=e397]: User Experience Researcher, United States
+                      - switch "Tap to toggle setting" [ref=e398] [cursor=pointer]:
+                        - generic [ref=e399]:
+                          - generic:
+                            - paragraph
+                          - generic [ref=e400]:
+                            - generic [ref=e401]: "Off"
+                            - generic [ref=e402]:
+                              - switch
+                  - generic [ref=e410]:
+                    - generic [ref=e411]:
+                      - img [ref=e412]
+                      - button "Learn more" [ref=e419] [cursor=pointer]:
+                        - img "Learn more" [ref=e420]
+                    - heading "See how you compare to other applicants" [level=2] [ref=e423]
+                    - heading "Based on LinkedIn data. Excludes subsidiaries." [level=3] [ref=e424]
+                    - generic [ref=e425]:
+                      - generic [ref=e426]:
+                        - heading "Applicants for this job" [level=3] [ref=e427]
+                        - generic [ref=e428]:
+                          - paragraph [ref=e430]: "56"
+                          - paragraph [ref=e431]: Applicants
+                        - generic [ref=e432]:
+                          - paragraph [ref=e434]: "56"
+                          - paragraph [ref=e435]: Applicants in the past day
+                      - generic [ref=e436]:
+                        - heading "Applicant seniority level" [level=3] [ref=e437]
+                        - paragraph [ref=e438]: 66% Senior level people applied for this job
+                        - paragraph [ref=e441]: 13% Entry level people applied for this job
+                        - paragraph [ref=e445]: 11% Director level people applied for this job
+                        - paragraph [ref=e449]: 7% Manager level people applied for this job
+                      - rowgroup [ref=e453]:
+                        - heading "Applicant education level" [level=3] [ref=e454]
+                        - row "48% have a Master's Degree (Similar to you)" [ref=e455]:
+                          - paragraph [ref=e456]: 48%
+                          - paragraph [ref=e457]: have a Master's Degree (Similar to you)
+                        - row "32% have a Bachelor's Degree" [ref=e458]:
+                          - paragraph [ref=e459]: 32%
+                          - paragraph [ref=e460]: have a Bachelor's Degree
+                        - row "10% have a Doctor of Philosophy" [ref=e461]:
+                          - paragraph [ref=e462]: 10%
+                          - paragraph [ref=e463]: have a Doctor of Philosophy
+                        - row "10% have other degrees" [ref=e464]:
+                          - paragraph [ref=e465]: 10%
+                          - paragraph [ref=e466]: have other degrees
+                  - generic [ref=e471]:
+                    - generic [ref=e473]:
+                      - generic [ref=e474]:
+                        - img [ref=e475]
+                        - button "Learn more" [ref=e482] [cursor=pointer]:
+                          - img "Learn more" [ref=e483]
+                      - heading "Exclusive Job Seeker Insights about Robert Half" [level=2] [ref=e486]
+                      - heading "Powered by Bing" [level=3] [ref=e487]
+                      - generic [ref=e488]:
+                        - generic [ref=e489]:
+                          - paragraph [ref=e490]: Company focus areas
+                          - generic [ref=e491]:
+                            - paragraph [ref=e492]:
+                              - strong [ref=e493]: • Investment in Technology and Innovation
+                              - text: ": Robert Half International continues to invest in technology and innovation, including AI, to provide a world-class digital experience for clients and candidates. The company leverages its proprietary data assets to enhance AI tools for talent discovery and lead targeting."
+                            - button "...more" [ref=e495] [cursor=pointer]:
+                              - paragraph [ref=e496]: ...more
+                          - generic [ref=e497]:
+                            - paragraph [ref=e498]: "Sources: sec.gov +1 more"
+                            - generic [ref=e500]:
+                              - button "Mark suggestion as good" [ref=e502] [cursor=pointer]:
+                                - img [ref=e504]
+                              - link "Mark suggestion as bad" [ref=e507] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                - img [ref=e509]
+                        - generic [ref=e511]:
+                          - paragraph [ref=e512]: Hiring & headcount
+                          - paragraph [ref=e513]:
+                            - generic [ref=e514]:
+                              - text: "Focus on healthcare services: The 'Healthcare Services' department has seen a 15% increase in employee count, indicating a significant investment in this area, which could suggest new healthcare initiatives or expansions. Growth in education: The 'Education' department has experienced a 75% increase in employee count, highlighting a major focus on educational programs or services, potentially opening opportunities for partnerships or investments in educational tools and resources. Expansion in military and protective services: The 'Military and Protective Services' department has grown by 45%, suggesting new initiatives or contracts in this sector, which could be a strategic area for growth and investment. Increase in entrepreneurship: The 'Entrepreneurship' department has seen a 38% increase in employee count, indicating a push towards fostering new business ventures and innovation within the company, presenting opportunities for investment in startup support and entrepreneurial resources."
+                              - button:
+                                - generic [ref=e516] [cursor=pointer]: … more
+                          - generic [ref=e518]:
+                            - button "Mark suggestion as good" [ref=e520] [cursor=pointer]:
+                              - img [ref=e522]
+                            - link "Mark suggestion as bad" [ref=e525] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/jobs/view/4404474538/
+                              - img [ref=e527]
+                        - generic [ref=e529]:
+                          - paragraph [ref=e530]: The latest hiring trend
+                          - generic [ref=e531]:
+                            - generic [ref=e532]:
+                              - generic [ref=e533]:
+                                - paragraph [ref=e534]: 27,930
+                                - paragraph [ref=e535]: Total employees
+                              - generic [ref=e536]:
+                                - generic [ref=e537]:
+                                  - generic [ref=e538]:
+                                    - img [ref=e539]
+                                    - paragraph [ref=e541]: 3%
+                                  - paragraph [ref=e542]: Company-wide
+                                  - paragraph [ref=e543]: 2 year growth
+                                - generic [ref=e544]:
+                                  - generic [ref=e545]:
+                                    - img [ref=e546]
+                                    - paragraph [ref=e548]: 8%
+                                  - paragraph [ref=e549]: Research
+                                  - paragraph [ref=e550]: 2 year growth
+                            - region "Chart. Highcharts interactive chart." [ref=e551]:
+                              - generic [ref=e552]:
+                                - heading "Chart" [level=4] [ref=e553]
+                                - generic [ref=e554]: Chart with 25 data points.
+                                - generic [ref=e555]: The chart has 1 X axis displaying Time. Data ranges from 2024-04-01 00:00:00 to 2026-04-01 00:00:00.
+                                - generic [ref=e556]: The chart has 1 Y axis displaying values. Data ranges from 27491 to 28655.
+                              - img "Interactive chart" [ref=e562]:
+                                - generic [ref=e574]:
+                                  - img "April 2024, 28,655. Employee headcount." [ref=e575]
+                                  - img "May 2024, 28,636. Employee headcount." [ref=e576]
+                                  - img "June 2024, 28,498. Employee headcount." [ref=e577]
+                                  - img "July 2024, 28,505. Employee headcount." [ref=e578]
+                                  - img "August 2024, 28,343. Employee headcount." [ref=e579]
+                                  - img "September 2024, 28,263. Employee headcount." [ref=e580]
+                                  - img "October 2024, 28,266. Employee headcount." [ref=e581]
+                                  - img "November 2024, 28,211. Employee headcount." [ref=e582]
+                                  - img "December 2024, 28,013. Employee headcount." [ref=e583]
+                                  - img "January 2025, 28,008. Employee headcount." [ref=e584]
+                                  - img "February 2025, 27,912. Employee headcount." [ref=e585]
+                                  - img "March 2025, 27,765. Employee headcount." [ref=e586]
+                                  - img "April 2025, 27,691. Employee headcount." [ref=e587]
+                                  - img "May 2025, 27,593. Employee headcount." [ref=e588]
+                                  - img "June 2025, 27,600. Employee headcount." [ref=e589]
+                                  - img "July 2025, 27,573. Employee headcount." [ref=e590]
+                                  - img "August 2025, 27,491. Employee headcount." [ref=e591]
+                                  - img "September 2025, 27,521. Employee headcount." [ref=e592]
+                                  - img "October 2025, 27,601. Employee headcount." [ref=e593]
+                                  - img "November 2025, 27,673. Employee headcount." [ref=e594]
+                                  - img "December 2025, 27,625. Employee headcount." [ref=e595]
+                                  - img "January 2026, 27,618. Employee headcount." [ref=e596]
+                                  - img "February 2026, 27,654. Employee headcount." [ref=e597]
+                                  - img "March 2026, 27,836. Employee headcount." [ref=e598]
+                                  - img "April 2026, 27,930. Employee headcount." [ref=e599]
+                                - generic [ref=e600]:
+                                  - generic [ref=e601]: May 2024
+                                  - generic [ref=e602]: Sep 2024
+                                  - generic [ref=e603]: Jan 2025
+                                  - generic [ref=e604]: May 2025
+                                  - generic [ref=e605]: Sep 2025
+                                  - generic [ref=e606]: Jan 2026
+                                  - generic [ref=e607]: May…
+                                - generic [ref=e608]:
+                                  - generic [ref=e609]: "0"
+                                  - generic [ref=e610]: 20K
+                                  - generic [ref=e611]: 40K
+                              - generic [ref=e613]: End of interactive chart.
+                          - generic [ref=e614]:
+                            - img [ref=e615]
+                            - paragraph [ref=e618]:
+                              - text: "Median employee tenure:"
+                              - strong [ref=e619]: 7.3 years
+                        - generic [ref=e620]:
+                          - paragraph [ref=e621]: Robert Half hires candidates from some of these companies and schools
+                          - generic [ref=e623]:
+                            - figure [ref=e624]
+                            - paragraph [ref=e625]:
+                              - text: Robert Half hired 2 people from Drexel University College of Computing & Informatics.
+                              - link "See all" [ref=e626] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/search/results/people/?origin=JOB_PAGE_CANNED_SEARCH&currentCompany=1681&schoolFilter=27200085
+                                - strong [ref=e627]: See all
+                        - generic [ref=e628]:
+                          - paragraph [ref=e629]: Competitors
+                          - paragraph [ref=e630]:
+                            - generic [ref=e631]:
+                              - text: Robert Half International operates in a highly competitive staffing industry, focusing on providing recruitment services for accounting, finance, and administrative roles. The company faces significant competition from other staffing firms and recruitment platforms that offer both traditional and AI-powered solutions. To maintain its market position, Robert Half emphasizes flexible staffing solutions, including temporary, permanent, and project-based placements, catering to a diverse client base.
+                              - button:
+                                - generic [ref=e633] [cursor=pointer]: … more
+                          - generic [ref=e634]:
+                            - link [ref=e635] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/cross-country-healthcare/
+                              - figure [ref=e636]
+                            - link [ref=e637] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/kornferry/
+                              - figure [ref=e638]
+                          - generic [ref=e639]:
+                            - paragraph [ref=e640]: "Sources: gofractional.com +2 more"
+                            - generic [ref=e642]:
+                              - button "Mark suggestion as good" [ref=e644] [cursor=pointer]:
+                                - img [ref=e646]
+                              - link "Mark suggestion as bad" [ref=e649] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                - img [ref=e651]
+                    - link "Show Premium Insights" [ref=e653] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/robert-half-international/insights/?insightType=HEADCOUNT
+                      - generic [ref=e654]:
+                        - img [ref=e655]
+                        - generic [ref=e657]: Show Premium Insights
+                  - generic [ref=e661]:
+                    - generic [ref=e662]:
+                      - heading "About the company" [level=2] [ref=e664]
+                      - generic [ref=e665]:
+                        - generic [ref=e666]:
+                          - link "Robert Half 4,901,833 followers" [ref=e667] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/robert-half-international/life/
+                            - generic [ref=e668]:
+                              - figure [ref=e669]
+                              - generic [ref=e670]:
+                                - paragraph [ref=e673]: Robert Half
+                                - paragraph [ref=e675]: 4,901,833 followers
+                          - button "Following" [ref=e676] [cursor=pointer]:
+                            - generic [ref=e677]:
+                              - img [ref=e678]
+                              - generic [ref=e680]: Following
+                        - generic [ref=e681]:
+                          - paragraph [ref=e683]: Staffing and Recruiting
+                          - paragraph [ref=e685]: •
+                          - paragraph [ref=e687]: 10001+ employees
+                          - paragraph [ref=e689]: •
+                          - paragraph [ref=e691]: 28,217 on LinkedIn
+                        - paragraph [ref=e692]:
+                          - generic [ref=e693]:
+                            - text: "🔒 At Robert Half, we prioritize your security—if you believe you've encountered a scam or fraudulent recruiter, please report it immediately to https://www.roberthalf.com/us/en/fraud-alert. All Robert Half recruiters communicate using their corporate email address, ending in roberthalf.com. 👋 Welcome to Robert Half. We're the world’s first and largest specialized talent solutions firm, connecting opportunities at great companies with highly skilled job seekers. We provide dynamic contract, temporary, and permanent executive placement solutions across finance, accounting, technology, marketing, creative, legal, and administrative sectors. 🏆 In the last 12 months, Robert Half has been recognized as one of America’s Most Innovative Companies by Fortune, and with Protiviti, has been named one of the Fortune® World's Most Admired Companies™ and 100 Best Companies to Work For. 🏦 Traded on the New York Stock Exchange (symbol: RHI), we’re at the forefront of innovation in talent acquisition."
+                            - button:
+                              - generic [ref=e695] [cursor=pointer]: … more
+                      - generic [ref=e699]:
+                        - generic [ref=e701]:
+                          - paragraph [ref=e702]: Interested in working with us in the future?
+                          - link "Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates. Learn more" [ref=e703] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                            - paragraph [ref=e704]:
+                              - text: Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates.
+                              - link "Learn more" [ref=e705]:
+                                - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                                - strong [ref=e706]: Learn more
+                        - button "I’m interested" [ref=e708] [cursor=pointer]:
+                          - generic [ref=e710]: I’m interested
+                    - generic [ref=e711]:
+                      - paragraph [ref=e712]: Trending employee content
+                      - generic [ref=e716]:
+                        - list [ref=e717]:
+                          - list [ref=e718]:
+                            - listitem [ref=e719]:
+                              - listitem [ref=e721]:
+                                - generic [ref=e722]:
+                                  - generic [ref=e723]:
+                                    - link [ref=e724] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/stevejones36/
+                                      - figure [ref=e725]:
+                                        - img "View Steve Jones’ profile" [ref=e726]
+                                    - 'link "Steve Jones Premium Profile 3rd+ Senior Manager, Learning & Development - Canada & APAC -Learning | Mentor | Influence | Competence | Leadership | Coaching | Human Centric Focused | Collaboration | Leadership Development | Business Growth & Strategy 13h • Visibility: Global" [ref=e727] [cursor=pointer]':
+                                      - /url: https://www.linkedin.com/in/stevejones36/
+                                      - generic [ref=e728]:
+                                        - generic "Steve Jones Premium Profile 3rd+" [ref=e729]:
+                                          - paragraph [ref=e732]: Steve Jones
+                                          - paragraph [ref=e734]:
+                                            - img [ref=e736]
+                                            - text: • 3rd+
+                                        - paragraph [ref=e739]: Senior Manager, Learning & Development - Canada & APAC -Learning | Mentor | Influence | Competence | Leadership | Coaching | Human Centric Focused | Collaboration | Leadership Development | Business Growth & Strategy
+                                        - paragraph [ref=e741]:
+                                          - text: 13h •
+                                          - 'img "Visibility: Global" [ref=e742]'
+                                    - button "Open control menu for post by Steve Jones" [ref=e744] [cursor=pointer]:
+                                      - img [ref=e746]
+                                  - 'link "I just wanted to recognize all our Sales Support and Administrative support across all our branches and functions at Robert Half. You keep us moving, keep us organized and on track. For Learning and Development we rely on your collaboration and partnership especially when we have the chance to work and provide training in person in the branches and even more so when we training hybrid too. Thanks for all you do.....you are appreciated not just today or this week but always! Administrative Professionals Week is the perfect time to say a huge thank you to the people who keep everything running smoothly. From office MVPs to coordination captains, your impact is felt every day. We all appreciate you! #rhcanada #roberthalf #APWweek #APW #adminappreciation" [ref=e748] [cursor=pointer]':
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7452723168152170496/
+                                    - paragraph [ref=e749]:
+                                      - generic [ref=e750]:
+                                        - text: I just wanted to recognize all our Sales Support and Administrative support across all our branches and functions at Robert Half. You keep us moving, keep us organized and on track.
+                                        - text: For Learning and Development we rely on your collaboration and partnership especially when we have the chance to work and provide training in person in the branches and even more so when we training hybrid too. Thanks for all you do.....you are appreciated not just today or this week but always!
+                                        - text: Administrative Professionals Week is the perfect time to say a huge thank you to the people who keep everything running smoothly.
+                                        - text: From office MVPs to coordination captains, your impact is felt every day.
+                                        - text: We all appreciate you!
+                                        - link "#rhcanada" [ref=e751]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23rhcanada&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e753]: "#rhcanada"
+                                        - link "#roberthalf" [ref=e754]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23roberthalf&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e756]: "#roberthalf"
+                                        - link "#APWweek" [ref=e757]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23apwweek&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e759]: "#APWweek"
+                                        - link "#APW" [ref=e760]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23apw&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e762]: "#APW"
+                                        - link "#adminappreciation" [ref=e763]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23adminappreciation&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e765]: "#adminappreciation"
+                                        - button:
+                                          - generic [ref=e767]: … more
+                                  - link [ref=e769] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                    - figure [ref=e770]:
+                                      - img "orange background with paper lines with red and white words" [ref=e771]
+                                - generic [ref=e772]:
+                                  - link "6 reactions" [ref=e774] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                    - generic [ref=e775]:
+                                      - img [ref=e776]
+                                      - img [ref=e782]
+                                      - paragraph [ref=e797]:
+                                        - generic [ref=e798]: 6 reactions
+                                        - text: "6"
+                                  - generic [ref=e799]:
+                                    - generic [ref=e800]:
+                                      - 'button "Reaction button state: no reaction" [ref=e803] [cursor=pointer]':
+                                        - generic [ref=e804]:
+                                          - img [ref=e805]
+                                          - generic [ref=e807]: Like
+                                      - button "Open reactions menu":
+                                        - img [ref=e809] [cursor=pointer]
+                                    - link "Comment" [ref=e811] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/feed/update/urn:li:activity:7452723168152170496/
+                                      - generic [ref=e812]:
+                                        - img [ref=e813]
+                                        - generic [ref=e815]: Comment
+                                    - button "Repost" [ref=e816] [cursor=pointer]:
+                                      - generic [ref=e817]:
+                                        - img [ref=e818]
+                                        - generic [ref=e820]: Repost
+                                    - link "Send" [ref=e821] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                      - generic [ref=e822]:
+                                        - img [ref=e823]
+                                        - generic [ref=e825]: Send
+                            - listitem [ref=e826]:
+                              - listitem [ref=e828]:
+                                - generic [ref=e829]:
+                                  - generic [ref=e830]:
+                                    - link [ref=e831] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/stevejones36/
+                                      - figure [ref=e832]:
+                                        - img "View Steve Jones’ profile" [ref=e833]
+                                    - 'link "Steve Jones Premium Profile 3rd+ Senior Manager, Learning & Development - Canada & APAC -Learning | Mentor | Influence | Competence | Leadership | Coaching | Human Centric Focused | Collaboration | Leadership Development | Business Growth & Strategy 2d • Visibility: Global" [ref=e834] [cursor=pointer]':
+                                      - /url: https://www.linkedin.com/in/stevejones36/
+                                      - generic [ref=e835]:
+                                        - generic "Steve Jones Premium Profile 3rd+" [ref=e836]:
+                                          - paragraph [ref=e839]: Steve Jones
+                                          - paragraph [ref=e841]:
+                                            - img [ref=e843]
+                                            - text: • 3rd+
+                                        - paragraph [ref=e846]: Senior Manager, Learning & Development - Canada & APAC -Learning | Mentor | Influence | Competence | Leadership | Coaching | Human Centric Focused | Collaboration | Leadership Development | Business Growth & Strategy
+                                        - paragraph [ref=e848]:
+                                          - text: 2d •
+                                          - 'img "Visibility: Global" [ref=e849]'
+                                    - button "Open control menu for post by Steve Jones" [ref=e851] [cursor=pointer]:
+                                      - img [ref=e853]
+                                  - 'link "Burnout is real, Robert Half has been assisting clients more often with consultants covering short terms leaves and even turnover. This Stress Awareness Month, new data shows burnout is rising fast. In a survey of 1,005 professionals across Canada, 62% report feeling burned out, up from 47% last year. Top drivers: • Heavier workloads from understaffing (40%) • Feeling stuck in their careers (27%) • Lower morale after restructuring (27%) For hiring managers, this is a clear signal. Supporting your team’s workload, growth, and well-being isn’t optional; it’s essential. What are you doing to support you teams and protect them from burnout? #rhcanada #roberthalf #burnout #mentalhealth https://bit.ly/4mGsmOQ" [ref=e855] [cursor=pointer]':
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7452036597228699648/
+                                    - paragraph [ref=e856]:
+                                      - generic [ref=e857]:
+                                        - text: Burnout is real, Robert Half has been assisting clients more often with consultants covering short terms leaves and even turnover.
+                                        - text: This Stress Awareness Month, new data shows burnout is rising fast. In a survey of 1,005 professionals across Canada, 62% report feeling burned out, up from 47% last year.
+                                        - text: "Top drivers:"
+                                        - text: • Heavier workloads from understaffing (40%)
+                                        - text: • Feeling stuck in their careers (27%)
+                                        - text: • Lower morale after restructuring (27%)
+                                        - text: For hiring managers, this is a clear signal. Supporting your team’s workload, growth, and well-being isn’t optional; it’s essential.
+                                        - text: What are you doing to support you teams and protect them from burnout?
+                                        - link "#rhcanada" [ref=e859]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23rhcanada&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e861]: "#rhcanada"
+                                        - link "#roberthalf" [ref=e862]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23roberthalf&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e864]: "#roberthalf"
+                                        - link "#burnout" [ref=e865]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23burnout&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e867]: "#burnout"
+                                        - link "#mentalhealth" [ref=e868]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23mentalhealth&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e870]: "#mentalhealth"
+                                        - link "https://bit.ly/4mGsmOQ" [ref=e871]:
+                                          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fbit%2Ely%2F4mGsmOQ&urlhash=cth7&mt=I79YVv1GR7x0rEjyI-agiQOucWtTRGVBquraeXJNkApFQe0wPoCS1UviT8CEtQc2k3xXqH-PwxAcamta8YF1-S-cDw4ADi8cF-6pThFUEjG-JfcJCbcrwMPpaw&isSdui=true
+                                          - strong [ref=e873]: https://bit.ly/4mGsmOQ
+                                        - button:
+                                          - generic [ref=e875]: … more
+                                  - link [ref=e877] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                    - figure [ref=e878]:
+                                      - img "View image" [ref=e879]
+                                - generic [ref=e880]:
+                                  - generic [ref=e881]:
+                                    - link "10 reactions" [ref=e882] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                      - generic [ref=e883]:
+                                        - img [ref=e884]
+                                        - paragraph [ref=e891]:
+                                          - generic [ref=e892]: 10 reactions
+                                          - text: "10"
+                                    - link "2 reposts" [ref=e894] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                      - paragraph [ref=e895]:
+                                        - generic [ref=e896]: 2 reposts
+                                        - generic [ref=e897]: 2 reposts
+                                  - generic [ref=e898]:
+                                    - generic [ref=e899]:
+                                      - 'button "Reaction button state: no reaction" [ref=e902] [cursor=pointer]':
+                                        - generic [ref=e903]:
+                                          - img [ref=e904]
+                                          - generic [ref=e906]: Like
+                                      - button "Open reactions menu":
+                                        - img [ref=e908] [cursor=pointer]
+                                    - link "Comment" [ref=e910] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/feed/update/urn:li:activity:7452036597228699648/
+                                      - generic [ref=e911]:
+                                        - img [ref=e912]
+                                        - generic [ref=e914]: Comment
+                                    - button "Repost" [ref=e915] [cursor=pointer]:
+                                      - generic [ref=e916]:
+                                        - img [ref=e917]
+                                        - generic [ref=e919]: Repost
+                                    - link "Send" [ref=e920] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                      - generic [ref=e921]:
+                                        - img [ref=e922]
+                                        - generic [ref=e924]: Send
+                            - listitem [ref=e925]:
+                              - listitem [ref=e927]:
+                                - generic [ref=e928]:
+                                  - generic [ref=e929]:
+                                    - link [ref=e930] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/stevejones36/
+                                      - figure [ref=e931]:
+                                        - img "View Steve Jones’ profile" [ref=e932]
+                                    - 'link "Steve Jones Premium Profile 3rd+ Senior Manager, Learning & Development - Canada & APAC -Learning | Mentor | Influence | Competence | Leadership | Coaching | Human Centric Focused | Collaboration | Leadership Development | Business Growth & Strategy 2d • Visibility: Global" [ref=e933] [cursor=pointer]':
+                                      - /url: https://www.linkedin.com/in/stevejones36/
+                                      - generic [ref=e934]:
+                                        - generic "Steve Jones Premium Profile 3rd+" [ref=e935]:
+                                          - paragraph [ref=e938]: Steve Jones
+                                          - paragraph [ref=e940]:
+                                            - img [ref=e942]
+                                            - text: • 3rd+
+                                        - paragraph [ref=e945]: Senior Manager, Learning & Development - Canada & APAC -Learning | Mentor | Influence | Competence | Leadership | Coaching | Human Centric Focused | Collaboration | Leadership Development | Business Growth & Strategy
+                                        - paragraph [ref=e947]:
+                                          - text: 2d •
+                                          - 'img "Visibility: Global" [ref=e948]'
+                                    - button "Open control menu for post by Steve Jones" [ref=e950] [cursor=pointer]:
+                                      - img [ref=e952]
+                                  - 'link "Kicking off APW week with a big shout out to Dena P.! Dena keeps us, in L&D Canada and APAC focused, on track, and organized. No task is too big or too small for her. She is always ready to help. Whether it''s a last-minute request or a planned task, Dena gets it done with impeccable quality and a smile on her face. Thank you for all you do, Dena. Your efforts are greatly appreciated by me and the rest of the teams. Enjoy your week, and know that we appreciate you each and every week! Jeanie Omland, Stephanie Perreault #rhcanada #roberthalf #APW #administrativeprofessionalsweek #appreciation" [ref=e954] [cursor=pointer]':
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7451999900873170944/
+                                    - paragraph [ref=e955]:
+                                      - generic [ref=e956]:
+                                        - text: Kicking off APW week with a big shout out to
+                                        - link "Dena P." [ref=e957]:
+                                          - /url: https://www.linkedin.com/in/dena-p-324919139/
+                                          - strong [ref=e959]: Dena P.
+                                        - text: "! Dena keeps us, in L&D Canada and APAC focused, on track, and organized. No task is too big or too small for her."
+                                        - text: She is always ready to help. Whether it's a last-minute request or a planned task, Dena gets it done with impeccable quality and a smile on her face.
+                                        - text: Thank you for all you do, Dena. Your efforts are greatly appreciated by me and the rest of the teams. Enjoy your week, and know that we appreciate you each and every week!
+                                        - link "Jeanie Omland" [ref=e960]:
+                                          - /url: https://www.linkedin.com/in/jeanie-omland-467b521/
+                                          - strong [ref=e962]: Jeanie Omland
+                                        - text: ","
+                                        - link "Stephanie Perreault" [ref=e963]:
+                                          - /url: https://www.linkedin.com/in/stephanietrainingdevelopment/
+                                          - strong [ref=e965]: Stephanie Perreault
+                                        - link "#rhcanada" [ref=e966]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23rhcanada&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e968]: "#rhcanada"
+                                        - link "#roberthalf" [ref=e969]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23roberthalf&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e971]: "#roberthalf"
+                                        - link "#APW" [ref=e972]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23apw&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e974]: "#APW"
+                                        - link "#administrativeprofessionalsweek" [ref=e975]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23administrativeprofessionalsweek&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e977]: "#administrativeprofessionalsweek"
+                                        - link "#appreciation" [ref=e978]:
+                                          - /url: https://www.linkedin.com/search/results/all/?keywords=%23appreciation&origin=HASH_TAG_FROM_FEED
+                                          - strong [ref=e980]: "#appreciation"
+                                        - button:
+                                          - generic [ref=e982]: … more
+                                  - link [ref=e984] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                    - figure [ref=e985]:
+                                      - img "View image" [ref=e986]
+                                - generic [ref=e987]:
+                                  - generic [ref=e988]:
+                                    - link "8 reactions" [ref=e989] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                      - generic [ref=e990]:
+                                        - img [ref=e991]
+                                        - img [ref=e997]
+                                        - paragraph [ref=e1012]:
+                                          - generic [ref=e1013]: 8 reactions
+                                          - text: "8"
+                                    - link "1 comment" [ref=e1015] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/feed/update/urn:li:activity:7451999900873170944/
+                                      - paragraph [ref=e1016]:
+                                        - generic [ref=e1017]: 1 comment
+                                        - generic [ref=e1018]: 1 comment
+                                  - generic [ref=e1019]:
+                                    - generic [ref=e1020]:
+                                      - 'button "Reaction button state: no reaction" [ref=e1023] [cursor=pointer]':
+                                        - generic [ref=e1024]:
+                                          - img [ref=e1025]
+                                          - generic [ref=e1027]: Like
+                                      - button "Open reactions menu":
+                                        - img [ref=e1029] [cursor=pointer]
+                                    - link "Comment" [ref=e1031] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/feed/update/urn:li:activity:7451999900873170944/
+                                      - generic [ref=e1032]:
+                                        - img [ref=e1033]
+                                        - generic [ref=e1035]: Comment
+                                    - button "Repost" [ref=e1036] [cursor=pointer]:
+                                      - generic [ref=e1037]:
+                                        - img [ref=e1038]
+                                        - generic [ref=e1040]: Repost
+                                    - link "Send" [ref=e1041] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/jobs/view/4404474538/
+                                      - generic [ref=e1042]:
+                                        - img [ref=e1043]
+                                        - generic [ref=e1045]: Send
+                        - button "Next" [ref=e1046] [cursor=pointer]:
+                          - img [ref=e1048]
+                    - link "Show more" [ref=e1050] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/robert-half-international/life/
+                      - generic [ref=e1051]:
+                        - img [ref=e1052]
+                        - generic [ref=e1054]: Show more
+                  - generic [ref=e1057]:
+                    - heading "More jobs" [level=2] [ref=e1058]
+                    - generic [ref=e1059]:
+                      - link "Harnham United States (Remote) Actively reviewing applicants Posted 1 week ago · Easy Apply" [ref=e1061] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=4O2NRjm%2FMLYkUM1ag1W5vQ%3D%3D&currentJobId=4400600258&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8NwiXfGtStnQ-EP19HNBdDOVOIk7FiLdD0s0nXfrhKDTNXEZXgqixJRTHFgFYhg7Mjj9zuBwSVSCTHuyYJ2ysLTBY_SzxoLS8vOrh9kCJZIdGQtHVYNDLzdPVuhFoSbw1K43WDmpRui6C-QDdZY61Pa_GrjO21YG4GrRLhByp5ggMeLCzgi5MfYUQuKNrb794kfuwbPfDoHYx9gEbxCxgoEgyC5r0lhcXilfDWupKwN3HWoeQd-ye5Clzzdu-Z8vdQD8I901S8KvmbgsYg-jSIVU7uwf_dOPvF3NN3gz9H-sOoz9EgT-XYuHwvZTPqjvcPMd8hkOhOhdV-ok8hBsXQygdRtweE8TPJnoO26pOpNvaPEqDieuIjyUwPJWRjKGu7lelahSafeiT80BJbZtLa8uToLG1p3F1q2foysdcjtF2xlrI3jEkxEf0ngRz-p1JU7zjRIJpIIoU_MUgeBNz7gMhmUFvN8l8ew&originToLandingJobPostings=4400600258
+                        - generic [ref=e1062]:
+                          - generic [ref=e1063]:
+                            - figure [ref=e1064]
+                            - generic [ref=e1065]:
+                              - generic [ref=e1068]:
+                                - paragraph [ref=e1071]:
+                                  - generic [ref=e1073]:
+                                    - text: User Experience Researcher
+                                    - img [ref=e1075]
+                                - paragraph [ref=e1078]: Harnham
+                                - paragraph [ref=e1080]: United States (Remote)
+                              - generic [ref=e1082]:
+                                - img [ref=e1083]
+                                - paragraph [ref=e1087]: Actively reviewing applicants
+                          - generic [ref=e1088]:
+                            - paragraph [ref=e1089]:
+                              - generic [ref=e1090]: Posted 1 week ago
+                              - text: 1 week ago
+                            - paragraph [ref=e1091]: ·
+                            - paragraph [ref=e1092]:
+                              - img [ref=e1094]
+                              - text: Easy Apply
+                      - link "DataAnnotation North Dakota, United States (Remote) Posted 2 days ago" [ref=e1097] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=HuoeeUhxETvbEF%2B88NFxng%3D%3D&currentJobId=4338447655&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8CRMSYqj7Cmr84h6sODNMtG3-8L95bHQxkzWfupG66kcAA03vkUUP8N8-Q_-urG-NPPyyR2onES4j9g5t-EWyWM2eN7HKlqfQevC3oXpF-B2iD7nlN3QQBR8Vt0LwIiSZNOYjkLIuTCa4nzM462AmankxoF1BI4TY6VUaak38R-SahqDa3Kp-WRMToTGp2Mz8WmLs-ExeovrKalYZVxn-f1zdXWVD5ofpSF4ekLLc6jIA8-zvxhqc1Yqmnm5CsupCGCuMMquEJnNvSDhihgaZpGiLpNgVEg2BzuOMxJPws5HQ_-hoCpdqhvyR8YSQusls7frM73EY2cpcE-lMZ7urjYe5-IoPijCGppUxahqld8sNGMn55o8C--ORUMkGu8iQLrpWVTn52rqXBNLP3y2otE5hBZ1Kp7mEqW8eNCHmg_VML6uQf25izY5v9-Hdm-9-d94se2LD75KintwJHkpJ4xW5YCG3A&originToLandingJobPostings=4338447655
+                        - generic [ref=e1098]:
+                          - generic [ref=e1099]:
+                            - figure [ref=e1100]
+                            - generic [ref=e1104]:
+                              - paragraph [ref=e1107]: UX Researcher
+                              - paragraph [ref=e1110]: DataAnnotation
+                              - paragraph [ref=e1112]: North Dakota, United States (Remote)
+                          - paragraph [ref=e1115]:
+                            - generic [ref=e1116]: Posted 2 days ago
+                            - text: 2 days ago
+                      - link "Ascendion United States (Remote) $135.2K/yr - $140K/yr • Medical, Vision, Dental, 401(k), +1 benefit Posted 2 weeks ago" [ref=e1118] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=nLCYiEevcCnHQZCcwngKlQ%3D%3D&currentJobId=4396345259&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8KGFd31TBkCJQwHZgKzgMbV6kQzm_72U_bSGD_5ER25UEJV1DWFbDqYStYsYkZ0_dPLjfKQUc8N-X3tgMucF02RXYz6-W5z0fu0EDQme5oTvXAo4l7n7Kw9bm4UArbFKxxYHM_b5T88elSGHHDIvSuMMyn-muMnH3FtYSd71_HptbybiaD582_eJ-9R3dMNodnLgOWUOGd3y7GRZx6XBtwFoA3sYJeQ6M065CHYj4u1enxpIt1Ukk3mM-Y8_F2cYk378WWM9Mp93wx5i6zect9E2M_79qDTd2-FLBuuz_41YEAHAIeaVYf_YVqEHyMgh2zMQgb8Jm7_hbdz0agIJmPTr0MWLHFLK04vElQcB4UpE1VATTn9YQtAd-h83Bu3289K_FogCiRQRDRvXXmQNNjJXAEEFv2hp6RZ5KsLRt4whArPE4sDY1BnDWaNA67T_5c03Xvw1q0TkROqHUlCFqUu_qtUKxsf8Q5zhBKFOTcH6DSYMupVK2grle5HY&originToLandingJobPostings=4396345259
+                        - generic [ref=e1119]:
+                          - generic [ref=e1120]:
+                            - figure [ref=e1121]
+                            - generic [ref=e1122]:
+                              - generic [ref=e1125]:
+                                - paragraph [ref=e1128]:
+                                  - generic [ref=e1130]:
+                                    - text: Usability Researcher
+                                    - img [ref=e1132]
+                                - paragraph [ref=e1135]: Ascendion
+                                - paragraph [ref=e1137]: United States (Remote)
+                              - generic [ref=e1139]:
+                                - paragraph [ref=e1141]: $135.2K/yr - $140K/yr
+                                - paragraph [ref=e1143]: •
+                                - paragraph [ref=e1145]: Medical, Vision, Dental, 401(k), +1 benefit
+                          - paragraph [ref=e1147]:
+                            - generic [ref=e1148]: Posted 2 weeks ago
+                            - text: 2 weeks ago
+                      - link "Hyphen Connect United States (Remote) Posted 2 weeks ago" [ref=e1150] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=35GHt8Ax4wV2nq9s8QxGCQ%3D%3D&currentJobId=4384218030&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8Ctpt481T1_jMKxq3dl6lQJ7hqG8Eqo_MHUwW3l4ht89SZ-_tXhTxRunUhkJ9ols53d-A-6o0mxHtqgMF9LZYrPlp2Tle597NGNR6_qh_FdikS-M06LE96LvHYHbg1JnUO-vVS72bLNf9p6u8avjT7MRYozfUI1mHMEKuN4XCn8xj0KbuepiWwolTJaKOGVqUENrOQdilNTZDfjyFLFvLc2VQTiR4MHwQJhh7fyIroy8hZOj4RH6lQGWz6ahch15WTt2318HNEfCJorjpJR4WlpHM8_2tIX10FmyMNiovyo2-E0I_v3GZvR1_IdWKCbEicMxcNO4cRYHf4SolnKG36ZDj6HVfqMw73dz2oiWis63RY-HCv39rlnva9SK0uqAQ4rDi-kpq6OhqcINQDdAhhE-UWNspEYtvvmQOL5VK7Afx43dolvgQeZL4ynfndh19p2DzcxyS16Jj1F8j1RjDpEBUquLNQ&originToLandingJobPostings=4384218030
+                        - generic [ref=e1151]:
+                          - generic [ref=e1152]:
+                            - figure [ref=e1153]
+                            - generic [ref=e1157]:
+                              - paragraph [ref=e1160]: UX Researcher (Blockchain Foundation)
+                              - paragraph [ref=e1163]: Hyphen Connect
+                              - paragraph [ref=e1165]: United States (Remote)
+                          - paragraph [ref=e1168]:
+                            - generic [ref=e1169]: Posted 2 weeks ago
+                            - text: 2 weeks ago
+                      - link "DataAnnotation Mississippi, United States (Remote) Posted 2 days ago" [ref=e1171] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=HQG3PSPWdlBKnBKs%2BV%2FiTg%3D%3D&currentJobId=4338317986&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8Mai7i1yathIJGXN7N7ekqMg3g2-Mx4zdNp1w7vTDfbviCBdXBq-CFGADSB_Ha5bk30midI0NVww7QedJlHyN_d6y_PX9W6nSchHBgtAQKXE4kmdQBL343ru5SycSPwZTGK98-TsG1BODXYdWFajGs-fBJZv5jdcBN08bSS1oRZAkHqNja_yXTUIOBL4Z7k75Ll_CXQsCzS7DIt5DhPSST3iA5IH9U7MGauKH62UuKedAcl485mAhzhzZED4GMB4huaArv6pY3ZbsZpwzF2iIoSShm1HDSYd5gtxvsEywF1S_mopRp_-26FxcyyUxNwVAhsTSlnK3UHwHViqQmCkSQdpsIf92AhhhnMvjc7xFAV-18G6wfAnIf-jXTgHu7x1HfKQDLkfFPJCqQ43HcA03BR4VNIZ_dZnOaKof-xPEIgD0vO2daEqq-hwanhhwqn-lXEDfxAX5yEIrSDodkTj3x-T40EfyBA8&originToLandingJobPostings=4338317986
+                        - generic [ref=e1172]:
+                          - generic [ref=e1173]:
+                            - figure [ref=e1174]
+                            - generic [ref=e1178]:
+                              - paragraph [ref=e1181]: UX Researcher
+                              - paragraph [ref=e1184]: DataAnnotation
+                              - paragraph [ref=e1186]: Mississippi, United States (Remote)
+                          - paragraph [ref=e1189]:
+                            - generic [ref=e1190]: Posted 2 days ago
+                            - text: 2 days ago
+                      - link "Anaconda, Inc. United States (Remote) Vision benefit Posted 1 week ago" [ref=e1192] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=6jO08CpW0Gls49YpHDJQBg%3D%3D&currentJobId=4397668378&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8DAhXpFCRmOG3rCUZ2B5bdestRhSo9pr8XwmdJAOOQrT79DzjyAwf-IEDaob60IcpxM8OX_M4qKh7WINTyNLTSkxhtJ52P4tr0gtyV9jwJOtIlvcvcnjQjNl2qsVnrkhPn36at2pY9jJx3RzlZDuURxVEtgEL5NfEva460FvVTTgMVTUZkRdgCrnOYX2xUHfY_n9hoZhkjLQRUcUfdMKGdseqoFnp1kysb-SDS2k2eoNGb96zr2El6gpH96PWbFN1RRawgBFUB1MsKY_hnc2wZK0LQ-H4fAOg2qEYn0li3iz3k5uRmgR2Law9FuA9XM_A5X1hXnCdtNKwUoAcnaKHECUlJ3lcKtVoa_vUyzKNJIdn3rcKrd1NN0RSUOinNtdKcSizC19V1IbCbdE0kQLmdjlH9CWC6q5MtSbLNbvJqif_J4h8VO4YuxRc27O5kBQsJ1x7BJE929HyW3je7lAQh_EE3HOeT5Gz9M&originToLandingJobPostings=4397668378
+                        - generic [ref=e1193]:
+                          - generic [ref=e1194]:
+                            - figure [ref=e1195]
+                            - generic [ref=e1196]:
+                              - generic [ref=e1199]:
+                                - paragraph [ref=e1202]:
+                                  - generic [ref=e1204]:
+                                    - text: UX Researcher II
+                                    - img [ref=e1206]
+                                - paragraph [ref=e1209]: Anaconda, Inc.
+                                - paragraph [ref=e1211]: United States (Remote)
+                              - paragraph [ref=e1215]: Vision benefit
+                          - paragraph [ref=e1217]:
+                            - generic [ref=e1218]: Posted 1 week ago
+                            - text: 1 week ago
+                      - link "Joveo AI United States (Remote) Posted 17 hours ago · Easy Apply" [ref=e1220] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=MwMjNPnFydo9GcrFmmWOwA%3D%3D&currentJobId=4405215145&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8JD4y1CK64r4-JpKJxI-NMagL3l7lftVb5Nsmi3zKvIwcMB68ky9GhFYSJaXWU-6RJEorqzAEwXvfrkfx6PeGHIvi407ayo2d0Cz1BSQpsFIwEndWogM-YCcbav-UkU893Er4dcouMUq-zS_psndrBX7-nMXL-J5DCxVh_ho8yOxPDB0Bb_m63kjtqP1ZnAwYrPXPEoNSbl2X5j48S_mw6jhsiKAoVFd6Ia2QHg9O0eeZ6_L3lW4gnYkOWwvcLwJ3tniFudcuNZ4ruXV8KFQletuofaQToQrRSOaQrJcoJKE2QBZRswdhqm8rR08XxAgX_zofT_m3cXRPbM_jlrXuPJbwo8XI9L8Kv0rLzi4OSIk3XEdVkgS90EJ5JyQk5BanyCHEETZUvTkE135wgjG9cy6t3T0y-wAX_GVutso-JBA2KqqbhFRPSqXyYDze7RHkpilcbs-Pv3ScrpfC9gag85OeNIMJ5hgLtyREPWnuN3lg32tP_yFGd2SBw&originToLandingJobPostings=4405215145
+                        - generic [ref=e1221]:
+                          - generic [ref=e1222]:
+                            - figure [ref=e1223]
+                            - generic [ref=e1227]:
+                              - paragraph [ref=e1230]: UX Researcher (Remote)
+                              - paragraph [ref=e1233]: Joveo AI
+                              - paragraph [ref=e1235]: United States (Remote)
+                          - generic [ref=e1237]:
+                            - paragraph [ref=e1238]:
+                              - generic [ref=e1239]: Posted 17 hours ago
+                              - text: 17 hours ago
+                            - paragraph [ref=e1240]: ·
+                            - paragraph [ref=e1241]:
+                              - img [ref=e1243]
+                              - text: Easy Apply
+                      - link "ECI Software Solutions United States (Remote) Actively reviewing applicants Posted 1 week ago · Easy Apply" [ref=e1246] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=r01Rv4I297mr0JmYpCkImQ%3D%3D&currentJobId=4397269701&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8Kke3H-N3a6vN7vEgckiE0Tf_nTzEEma6WrVkiTCU9g1Fwq1ECEr7mbDb5RU6IAET2K5wUKslQAP2E93DN4eaDxKhNP-Dv_xOkePYONMVaAG-wD5bB4dH8YcKoiGHK5qsS3fQge-jaWn4tLzFEPJBZPZghAAjsFe7ySIKjz9VhYyCCWGRYCRJYobhQBd8ofuQ7UVfbzv9weX9Q-bNmCpJNIuq9QPENKdkelLOVp4ao3ICztakNGHoePgr1nTpoeyo3Jm3c_4yAIELMC4y-9MWjlqkNeHY7GoxLb-zqoQloD02VHGThJzFB_VKxBi9n0E8gbL9VPtOv1aEQdGrG0MV1opMdbmcWU5mmSZpaUhSTjuNYUWwQC9K9Wkc1OleQNXRIHCpkSuB0eb5FGeJY_cd_2IQ8WqFWOpo89oBd3IQ-7blA7-N7h54f6vS3blSLqHkIFi9wfFT192ToNpRJs19H4Zb0b2b_CP0VTrdhbX&originToLandingJobPostings=4397269701
+                        - generic [ref=e1247]:
+                          - generic [ref=e1248]:
+                            - figure [ref=e1249]
+                            - generic [ref=e1250]:
+                              - generic [ref=e1253]:
+                                - paragraph [ref=e1256]:
+                                  - generic [ref=e1258]:
+                                    - text: UX Researcher
+                                    - img [ref=e1260]
+                                - paragraph [ref=e1263]: ECI Software Solutions
+                                - paragraph [ref=e1265]: United States (Remote)
+                              - generic [ref=e1267]:
+                                - img [ref=e1268]
+                                - paragraph [ref=e1272]: Actively reviewing applicants
+                          - generic [ref=e1273]:
+                            - paragraph [ref=e1274]:
+                              - generic [ref=e1275]: Posted 1 week ago
+                              - text: 1 week ago
+                            - paragraph [ref=e1276]: ·
+                            - paragraph [ref=e1277]:
+                              - img [ref=e1279]
+                              - text: Easy Apply
+                      - link "Sinch United States (Remote) 401(k) benefit Posted 2 weeks ago" [ref=e1282] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=wzV4xSggqf%2Bn7IijexE79w%3D%3D&currentJobId=4398298524&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8HTOdeYw1oxU3qkYtWE3_gAJr2_6cTWoq8RKfd7UDurvqiOVsoDg5Aag239jMBw25MZLyNR4HwCqHnkvg0UjLGpakeM67UDJ6Gr0yu3yk3bBlokUzW4g7Glh8NI1iSI0uVRKQsqoDP8Qta-BSHtqLVVIxkaybqVJ1r1CURplj-Erx25rYUKgplo1KYoy5vAsrPDetxT82QTnRiEE0tflnTfku0E4Dz8JKPud5MeQTv2Hwl9JMfIizDw62YESYdf5cnzqjP-ec8NflRa4lCGfNLB3FKAhYWd8pk3xpznS0B2NIqi3kcdjJlcS1TVwM9VTc7pK5kcff6vWywHNqiKoQQpgSAb_6YHcnC7-XQs1A8PwEtpXM8ADMVoZF3eQjTgeGp8ijwlPv8LIGXKKj40Afm5S0kIXxIQiJUgKPv8spobvhFBC1YIDKeHfX2LNogUFu2R91uBAjJwH5_xlD1edpmBAMwMmew2TGic&originToLandingJobPostings=4398298524
+                        - generic [ref=e1283]:
+                          - generic [ref=e1284]:
+                            - figure [ref=e1285]
+                            - generic [ref=e1286]:
+                              - generic [ref=e1289]:
+                                - paragraph [ref=e1292]:
+                                  - generic [ref=e1294]:
+                                    - text: Sr User Researcher
+                                    - img [ref=e1296]
+                                - paragraph [ref=e1299]: Sinch
+                                - paragraph [ref=e1301]: United States (Remote)
+                              - paragraph [ref=e1305]: 401(k) benefit
+                          - paragraph [ref=e1307]:
+                            - generic [ref=e1308]: Posted 2 weeks ago
+                            - text: 2 weeks ago
+                      - link "Horizontal Talent Minneapolis, MN (Remote) Posted 6 days ago" [ref=e1310] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=SF9%2FLKnkZ2u2RhkkdrU1VA%3D%3D&currentJobId=4400472222&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8Oo2KKZCRe_EsB3iG1jkOb21ILjk6RmXA0JFeOU5hfXASfUNuC0v0PTG9wMFT8tBiwt8dGiKjoE9QAAd328dKBGwLA8mUz8Zst5I1arYsH0Zoz8O2u4i8Lwov-XYWJkYu0LpnZRvfbI1f69ywyyZa1NsY5_no9zjneGVZc3L-pPDbcY5ScQizkfj7XWO5eSCqHFLmgg2vxfwW4I9pCAjaJcSj7dKFb9haIHEV7iu5BtMHHjOBxuMprNmi6vSRIECur2Q25GY4YPtxZyR3B5cPBTwKVurghf75Y1JjOZk7joGJEJiOQpKj8eM4OrS9MWoe7vIRP3sy2UebJ1Vd0rpzpg_R62uWiCKkDf4TxeBm-tTRh2TgmtxMK9z0xPZe330CYWGZLsbNb55dDWSS-z5LxJzp9te4ErKQwl5K98MViFLZdUjhpDQxvEQybYf062yxuZHe6dmtoyttuwzzxGEnPWOUk9BSmy06K6e3g&originToLandingJobPostings=4400472222
+                        - generic [ref=e1311]:
+                          - generic [ref=e1312]:
+                            - figure [ref=e1313]
+                            - generic [ref=e1317]:
+                              - paragraph [ref=e1320]:
+                                - generic [ref=e1322]:
+                                  - text: UX Researcher
+                                  - img [ref=e1324]
+                              - paragraph [ref=e1327]: Horizontal Talent
+                              - paragraph [ref=e1329]: Minneapolis, MN (Remote)
+                          - paragraph [ref=e1332]:
+                            - generic [ref=e1333]: Posted 6 days ago
+                            - text: 6 days ago
+                      - link "DataAnnotation Alaska, United States (Remote) Posted 2 days ago" [ref=e1335] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=fOV75MjT60zSDezSS3RXNw%3D%3D&currentJobId=4338208271&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8Pj13U6FxWVCZP9xkkWxLu_DrpmJPOdnCG_1f1TyjjUxoRaFmeGzxd4hRm0mBdA8261hd4MhrZVh-PTtTF0ftb4TWgKxq-qnThuCQ6autLbjrUnpoXb0LOL4B8q9GXtedRoVwRgH7aaWf8lH9sNhqZdAT4Fgh3Z7PWWSXjVpyDhl7px3NAkuRg78GhwvR104W1ECfZDB1ETH454cerHAYCC_GD9Qz0WOi8kfNAU4J767yr4J-0C7_UUJDVokwYYkhgAf6bRasFpSF7xHQilnzwzINWlW3iZfMEHxW6Re56fBqLYOoOMz0jX5DgfTDWIgUBPrh2XOyKwIZM0FOn8G41w0sDXWzyod6pM_NH-xw9D_p3xOjXD9vBbYtByH5f2Xpb7FUAi9iy-ipUwGN_8jnO_ufJStogvnlqPtruIg6ADFGCfBi4alKZtX_s9gdUMMMdsiT5OqvX_DwxEUZR0DzYOiEDUCgQ&originToLandingJobPostings=4338208271
+                        - generic [ref=e1336]:
+                          - generic [ref=e1337]:
+                            - figure [ref=e1338]
+                            - generic [ref=e1342]:
+                              - paragraph [ref=e1345]: UX Researcher
+                              - paragraph [ref=e1348]: DataAnnotation
+                              - paragraph [ref=e1350]: Alaska, United States (Remote)
+                          - paragraph [ref=e1353]:
+                            - generic [ref=e1354]: Posted 2 days ago
+                            - text: 2 days ago
+                      - link "DataAnnotation Oklahoma, United States (Remote) Posted 3 weeks ago" [ref=e1356] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&trackingId=pSUN7TSmeO8Yp2zFR8AV3Q%3D%3D&currentJobId=4338437432&refId=VSsG9qwuhcOdywzKmA2eQw%3D%3D&eBP=CwEAAAGduG5M8Oym4pZwEK_3F26r-5rasWaXszdRukly_ywyJ1FLD0cbGf4GtUWqoNwnz37fIRmg3R-nCe9m60vkhaqf9Q1oEtpteubOogatr6FTNKTT3plErDLOSu4AoRv9CZF2C84NJ0f8F_HlJCeMNyLytKmzyv8Pp-A6qJYWQ2f0HMACUODUqdJ8uLWKiK4gUMrLVYFvR2TtcKra5bwEatxgxKhk5RlPwVHNw4kfTNg5OQFuby39Wr2Fakf4hYibHA6MeV9UmEt0wrgoWXs2RnbUfIxuoCG71aF6gmHPPKWppD02Y9n6WZvlLj_l7N-EfrOjeEUH_HKr0oRj_teahEzfWCjHz1YoYsEymywIyljrE4DgyXNazWsH9QNiGLCgv2ZHemP1rzpMPU6mm-MUZbpbLKvUvztsVQzezEz6VQbUqIYJ18Sak6126yIStBfauv5u0mVwQHke1Y_Z8chuaqAgf8HIVaoEk4BKpBqO&originToLandingJobPostings=4338437432
+                        - generic [ref=e1357]:
+                          - generic [ref=e1358]:
+                            - figure [ref=e1359]
+                            - generic [ref=e1363]:
+                              - paragraph [ref=e1366]: UX Researcher
+                              - paragraph [ref=e1369]: DataAnnotation
+                              - paragraph [ref=e1371]: Oklahoma, United States (Remote)
+                          - paragraph [ref=e1374]:
+                            - generic [ref=e1375]: Posted 3 weeks ago
+                            - text: 3 weeks ago
+                    - link "See more jobs like this" [ref=e1376] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4404474538&currentJobId=4404474538
+                      - generic [ref=e1377]:
+                        - img [ref=e1378]
+                        - generic [ref=e1380]: See more jobs like this
+              - generic [ref=e94]:
+                - paragraph [ref=e95]: Looking for talent?
+                - link "Post a job" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e98]: Post a job
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - navigation [ref=e105]:
+                    - link "About" [ref=e106] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e107]: About
+                    - link "Accessibility" [ref=e108] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e109]: Accessibility
+                    - link "Talent Solutions" [ref=e110] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e111]: Talent Solutions
+                    - link "Community Guidelines" [ref=e112] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e113]: Community Guidelines
+                    - link "Careers" [ref=e114] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e115]: Careers
+                    - link "Marketing Solutions" [ref=e116] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e117]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e118] [cursor=pointer]:
+                      - generic [ref=e119]:
+                        - paragraph [ref=e120]: Privacy & Terms
+                        - img [ref=e1381]
+                    - link "Ad Choices" [ref=e122] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e123]: Ad Choices
+                    - link "Advertising" [ref=e124] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e125]: Advertising
+                    - link "Sales Solutions" [ref=e126] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e127]: Sales Solutions
+                    - link "Mobile" [ref=e128] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e129]: Mobile
+                    - link "Small Business" [ref=e130] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e131]: Small Business
+                    - link "Safety Center" [ref=e132] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e133]: Safety Center
+                  - paragraph [ref=e135]: LinkedIn Corporation © 2026
+                - generic [ref=e136]:
+                  - list [ref=e137]:
+                    - listitem [ref=e138]:
+                      - generic [ref=e139]:
+                        - img [ref=e1383]
+                        - generic [ref=e141]:
+                          - link "Questions?" [ref=e142] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e143]: Questions?
+                          - paragraph [ref=e144]: Visit our Help Center.
+                    - listitem [ref=e145]:
+                      - generic [ref=e146]:
+                        - img [ref=e1385]
+                        - generic [ref=e148]:
+                          - link "Manage your account and privacy" [ref=e149] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e150]: Manage your account and privacy
+                          - paragraph [ref=e151]: Go to your Settings.
+                    - listitem [ref=e152]:
+                      - generic [ref=e153]:
+                        - img [ref=e1387]
+                        - generic [ref=e155]:
+                          - link "Recommendation transparency" [ref=e156] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e157]: Recommendation transparency
+                          - paragraph [ref=e158]: Learn more about Recommended Content.
+                  - generic [ref=e160]:
+                    - paragraph [ref=e162]: Select language
+                    - generic [ref=e163]:
+                      - combobox "Select language" [ref=e164] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic [active]:
+    - generic:
+      - dialog "Apply to Robert Half" [ref=e1936]:
+        - generic [ref=e1937]: Dialog content start.
+        - button "Dismiss" [ref=e1938] [cursor=pointer]:
+          - img [ref=e1939]
+        - heading "Apply to Robert Half" [level=2] [ref=e1943]
+        - region "Your job application progress is at 40 percent." [ref=e2007]:
+          - generic [ref=e1946]:
+            - progressbar [ref=e1949]: "Current value: 40"
+            - note "Your job application progress is at 40 percent." [ref=e2008]: 40%
+          - generic [ref=e1952]:
+            - generic [ref=e2009]:
+              - heading [level=3]
+              - generic [ref=e2010]:
+                - img "Premium" [ref=e2012]:
+                  - img [ref=e2013]
+                - heading "Mark this job as a top choice (Optional)" [level=4] [ref=e2015]
+                - generic [ref=e2016]:
+                  - paragraph [ref=e2017]:
+                    - generic [ref=e2018]: Applicants who let hirers know when a job is their top choice are 43% more likely to hear back.
+                    - generic [ref=e2019]: Applicants who let hirers know when a job is their top choice are 43% more likely to hear back.
+                  - generic [ref=e2021]:
+                    - checkbox "Mark job as a top choice" [checked]
+                    - generic [ref=e2022]: Mark job as a top choice
+                  - generic [ref=e2028]:
+                    - generic [ref=e2029]:
+                      - generic [ref=e2030]: Include a message with your application*
+                      - textbox "Include a message with your application*" [ref=e2031]:
+                        - /placeholder: Briefly describe why this job is your top choice and why you’re a good fit.
+                    - paragraph [ref=e2032]:
+                      - generic [ref=e2033]: Minimum 20 characters
+                      - generic [ref=e2034]: 0/400
+                      - generic [ref=e2035]: 400 maximum characters allowed.
+                - generic [ref=e2023]:
+                  - img [ref=e2024]
+                  - paragraph [ref=e2027]: You can mark 2 jobs as top choice this month
+            - generic [ref=e1997]:
+              - paragraph [ref=e1998]: Submitting this application won’t change your LinkedIn profile.
+              - paragraph [ref=e1999]:
+                - text: Application powered by LinkedIn.
+                - link "Visit help center to know more" [ref=e2000] [cursor=pointer]:
+                  - /url: /help/linkedin/answer/71792?lang=en_US
+                  - text: Help Center
+            - generic [ref=e2001]:
+              - button "Back to previous step" [ref=e2002] [cursor=pointer]:
+                - generic [ref=e2003]: Back
+              - button "Continue to next step" [ref=e2004] [cursor=pointer]:
+                - generic [ref=e2005]: Next
+        - generic [ref=e2006]: Dialog content end.
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e1389]:
+              - generic [ref=e1390]:
+                - generic [ref=e1392] [cursor=pointer]:
+                  - generic [ref=e1393]:
+                    - img "Shweta Sharma" [ref=e1394]
+                    - generic [ref=e1396]: Status is online
+                  - button "You are on the messaging overlay. Press enter to minimize it." [ref=e1397]:
+                    - generic [ref=e1398]:
+                      - generic [ref=e1399]: Messaging
+                      - generic [ref=e1400]: You are on the messaging overlay. Press enter to minimize it.
+                - generic [ref=e1401]:
+                  - button "Open messenger dropdown menu" [ref=e1403] [cursor=pointer]:
+                    - img "Open messenger dropdown menu" [ref=e1404]
+                  - button "Compose message" [ref=e1407] [cursor=pointer]:
+                    - img [ref=e1408]
+                    - generic [ref=e1410]: Compose message
+                  - button "You are on the messaging overlay. Press enter to minimize it." [ref=e1411] [cursor=pointer]:
+                    - img [ref=e1412]
+                    - generic [ref=e1414]: You are on the messaging overlay. Press enter to minimize it.
+              - generic [ref=e1416]:
+                - generic [ref=e1417]: Type to search for connections and conversations.
+                - img [ref=e1419]
+                - textbox "Type to search for connections and conversations." [ref=e1421]:
+                  - /placeholder: Search messages
+                - button "Filter messages by" [ref=e1422] [cursor=pointer]:
+                  - img "Filter messages by" [ref=e1423]
+              - tablist [ref=e1427]:
+                - tab "Focused" [selected] [ref=e1428] [cursor=pointer]
+                - tab "Other" [ref=e1429] [cursor=pointer]
+              - generic [ref=e1431]:
+                - generic [ref=e1432]: Attention screen reader users, messaging items continuously update. Please use the tab and shift + tab keys instead of your up and down arrow keys to navigate between messaging items.
+                - generic [ref=e1433]:
+                  - generic [ref=e1437] [cursor=pointer]:
+                    - generic [ref=e1438]:
+                      - button "Kathy Preble Bayert" [ref=e1441]:
+                        - img "Kathy Preble Bayert" [ref=e1442]
+                      - generic [ref=e1443]:
+                        - checkbox "Select conversation with Kathy Preble Bayert"
+                        - generic "Select conversation with Kathy Preble Bayert"
+                    - generic [ref=e1447]:
+                      - generic [ref=e1448]:
+                        - heading "Kathy Preble Bayert" [level=3] [ref=e1449]:
+                          - generic [ref=e1451]: Kathy Preble Bayert
+                        - time [ref=e1452]: 8:42 PM
+                        - button "Open the options list in your conversation with Kathy Preble Bayert" [ref=e1455]:
+                          - img [ref=e1456]
+                          - generic [ref=e1458]: Open the options list in your conversation with Kathy Preble Bayert
+                      - paragraph [ref=e1461]:
+                        - generic [ref=e1462]: Sponsored
+                        - text: Elevate your role as a product leader in the digital age
+                  - generic [ref=e1467] [cursor=pointer]:
+                    - generic [ref=e1468]:
+                      - 'img "Kenneth Ho, #HIRING" [ref=e1470]'
+                      - generic [ref=e1471]:
+                        - checkbox "Select conversation with Kenneth Ho"
+                        - generic "Select conversation with Kenneth Ho"
+                    - generic [ref=e1475]:
+                      - generic [ref=e1476]:
+                        - heading "Kenneth Ho" [level=3] [ref=e1477]:
+                          - generic [ref=e1479]: Kenneth Ho
+                        - time [ref=e1480]: Apr 21
+                        - button "Open the options list in your conversation with Kenneth Ho and Shweta Sharma" [ref=e1483]:
+                          - img [ref=e1484]
+                          - generic [ref=e1486]: Open the options list in your conversation with Kenneth Ho and Shweta Sharma
+                      - paragraph [ref=e1489]: "You: I dont have any microsoft teams account, i can share email: shwetayeole09@gmail.com"
+                  - generic [ref=e1494] [cursor=pointer]:
+                    - generic [ref=e1495]:
+                      - img "Carlos Eduardo Milani" [ref=e1497]
+                      - generic [ref=e1498]:
+                        - checkbox "Select conversation with Carlos Eduardo Milani"
+                        - generic "Select conversation with Carlos Eduardo Milani"
+                    - generic [ref=e1502]:
+                      - generic [ref=e1503]:
+                        - heading "Carlos Eduardo Milani" [level=3] [ref=e1504]:
+                          - generic [ref=e1506]: Carlos Eduardo Milani
+                        - time [ref=e1507]: Apr 21
+                        - button "Open the options list in your conversation with Carlos Eduardo Milani and Shweta Sharma" [ref=e1510]:
+                          - img [ref=e1511]
+                          - generic [ref=e1513]: Open the options list in your conversation with Carlos Eduardo Milani and Shweta Sharma
+                      - paragraph [ref=e1516]: "You: I’m interested"
+                  - generic [ref=e1521] [cursor=pointer]:
+                    - generic [ref=e1522]:
+                      - generic [ref=e1523]:
+                        - img "Akash Akhani" [ref=e1524]
+                        - generic [ref=e1526]: Status is online
+                      - generic [ref=e1527]:
+                        - checkbox "Select conversation with Akash Akhani"
+                        - generic "Select conversation with Akash Akhani"
+                    - generic [ref=e1531]:
+                      - generic [ref=e1532]:
+                        - heading "Akash Akhani" [level=3] [ref=e1533]:
+                          - generic [ref=e1535]: Akash Akhani
+                        - time [ref=e1536]: Apr 21
+                        - button "Open the options list in your conversation with Shweta Sharma and Akash Akhani" [ref=e1539]:
+                          - img [ref=e1540]
+                          - generic [ref=e1542]: Open the options list in your conversation with Shweta Sharma and Akash Akhani
+                      - paragraph [ref=e1545]: "Akash: https://meet.google.com/xhy-vnbe-boh"
+                  - generic [ref=e1550] [cursor=pointer]:
+                    - generic [ref=e1551]:
+                      - generic [ref=e1552]:
+                        - img "Krishna Prajapati" [ref=e1553]
+                        - generic [ref=e1555]: Status is online
+                      - generic [ref=e1556]:
+                        - checkbox "Select conversation with Krishna Prajapati"
+                        - generic "Select conversation with Krishna Prajapati"
+                    - generic [ref=e1560]:
+                      - generic [ref=e1561]:
+                        - heading "Krishna Prajapati" [level=3] [ref=e1562]:
+                          - generic [ref=e1564]: Krishna Prajapati
+                        - time [ref=e1565]: Apr 14
+                        - button "Open the options list in your conversation with Shweta Sharma and Krishna Prajapati" [ref=e1568]:
+                          - img [ref=e1569]
+                          - generic [ref=e1571]: Open the options list in your conversation with Shweta Sharma and Krishna Prajapati
+                      - paragraph [ref=e1574]: "Krishna: My team will give you a call again at 3 Pm EST"
+                  - generic [ref=e1579] [cursor=pointer]:
+                    - generic [ref=e1580]:
+                      - generic [ref=e1581]:
+                        - img "Areef Syed" [ref=e1582]
+                        - generic [ref=e1584]: Status is reachable
+                      - generic [ref=e1585]:
+                        - checkbox "Select conversation with Areef Syed"
+                        - generic "Select conversation with Areef Syed"
+                    - generic [ref=e1589]:
+                      - generic [ref=e1590]:
+                        - heading "Areef Syed" [level=3] [ref=e1591]:
+                          - generic [ref=e1593]: Areef Syed
+                        - time [ref=e1594]: Apr 12
+                        - button "Open the options list in your conversation with Areef Syed and Shweta Sharma" [ref=e1597]:
+                          - img [ref=e1598]
+                          - generic [ref=e1600]: Open the options list in your conversation with Areef Syed and Shweta Sharma
+                      - paragraph [ref=e1603]: "You: https://technoant.co/products/pet-hair-remover-glove?ref=Misbah"
+                  - generic [ref=e1608] [cursor=pointer]:
+                    - generic [ref=e1609]:
+                      - img "Kim MacDonald" [ref=e1611]
+                      - generic [ref=e1612]:
+                        - checkbox "Select conversation with Kim MacDonald"
+                        - generic "Select conversation with Kim MacDonald"
+                    - generic [ref=e1616]:
+                      - generic [ref=e1617]:
+                        - heading "Kim MacDonald" [level=3] [ref=e1618]:
+                          - generic [ref=e1620]: Kim MacDonald
+                        - time [ref=e1621]: Apr 12
+                        - button "Open the options list in your conversation with Kim MacDonald and Shweta Sharma" [ref=e1624]:
+                          - img [ref=e1625]
+                          - generic [ref=e1627]: Open the options list in your conversation with Kim MacDonald and Shweta Sharma
+                      - paragraph [ref=e1630]: "You: Congrats on your work anniversary!"
+                  - generic [ref=e1635] [cursor=pointer]:
+                    - generic [ref=e1636]:
+                      - img "Dhruvil Barot" [ref=e1638]
+                      - generic [ref=e1639]:
+                        - checkbox "Select conversation with Dhruvil Barot"
+                        - generic "Select conversation with Dhruvil Barot"
+                    - generic [ref=e1643]:
+                      - generic [ref=e1644]:
+                        - heading "Dhruvil Barot" [level=3] [ref=e1645]:
+                          - generic [ref=e1647]: Dhruvil Barot
+                        - time [ref=e1648]: Apr 6
+                        - button "Open the options list in your conversation with Shweta Sharma and Dhruvil Barot" [ref=e1651]:
+                          - img [ref=e1652]
+                          - generic [ref=e1654]: Open the options list in your conversation with Shweta Sharma and Dhruvil Barot
+                      - paragraph [ref=e1657]: "You: Okay, thanks"
+                  - generic [ref=e1662] [cursor=pointer]:
+                    - generic [ref=e1663]:
+                      - img "Ian Calsado" [ref=e1665]
+                      - generic [ref=e1666]:
+                        - checkbox "Select conversation with Ian Calsado"
+                        - generic "Select conversation with Ian Calsado"
+                    - generic [ref=e1670]:
+                      - generic [ref=e1671]:
+                        - heading "Ian Calsado" [level=3] [ref=e1672]:
+                          - generic [ref=e1674]: Ian Calsado
+                        - time [ref=e1675]: Apr 6
+                        - button "Open the options list in your conversation with Shweta Sharma and Ian Calsado" [ref=e1678]:
+                          - img [ref=e1679]
+                          - generic [ref=e1681]: Open the options list in your conversation with Shweta Sharma and Ian Calsado
+                      - paragraph [ref=e1684]: Expanding Connections Globally
+                  - generic [ref=e1689] [cursor=pointer]:
+                    - generic [ref=e1690]:
+                      - img "Jaime Kowal" [ref=e1692]
+                      - generic [ref=e1693]:
+                        - checkbox "Select conversation with Jaime Kowal"
+                        - generic "Select conversation with Jaime Kowal"
+                    - generic [ref=e1697]:
+                      - generic [ref=e1698]:
+                        - heading "Jaime Kowal" [level=3] [ref=e1699]:
+                          - generic [ref=e1701]: Jaime Kowal
+                        - time [ref=e1702]: Apr 4
+                        - button "Open the options list in your conversation with Shweta Sharma and Jaime Kowal" [ref=e1705]:
+                          - img [ref=e1706]
+                          - generic [ref=e1708]: Open the options list in your conversation with Shweta Sharma and Jaime Kowal
+                      - paragraph [ref=e1711]: Any interest in a 100% remote, contract to hire, ML Engineer opportunity?
+                  - generic [ref=e1716] [cursor=pointer]:
+                    - generic [ref=e1717]:
+                      - img "Ashley Wilson, MBA" [ref=e1719]
+                      - generic [ref=e1720]:
+                        - checkbox "Select conversation with Ashley Wilson, MBA"
+                        - generic "Select conversation with Ashley Wilson, MBA"
+                    - generic [ref=e1724]:
+                      - generic [ref=e1725]:
+                        - heading "Ashley Wilson, MBA" [level=3] [ref=e1726]:
+                          - generic [ref=e1728]: Ashley Wilson, MBA
+                        - time [ref=e1729]: Apr 4
+                        - button "Open the options list in your conversation with Ashley Wilson, MBA and Shweta Sharma" [ref=e1732]:
+                          - img [ref=e1733]
+                          - generic [ref=e1735]: Open the options list in your conversation with Ashley Wilson, MBA and Shweta Sharma
+                      - paragraph [ref=e1738]: Don't miss what's coming next at Audible - Join our Talent Community today!
+                  - generic [ref=e1743] [cursor=pointer]:
+                    - generic [ref=e1744]:
+                      - img "Pratik Sharma" [ref=e1746]
+                      - generic [ref=e1747]:
+                        - checkbox "Select conversation with Pratik Sharma"
+                        - generic "Select conversation with Pratik Sharma"
+                    - generic [ref=e1751]:
+                      - generic [ref=e1752]:
+                        - heading "Pratik Sharma" [level=3] [ref=e1753]:
+                          - generic [ref=e1755]: Pratik Sharma
+                        - time [ref=e1756]: Apr 2
+                        - button "Open the options list in your conversation with Shweta Sharma and Pratik Sharma" [ref=e1759]:
+                          - img [ref=e1760]
+                          - generic [ref=e1762]: Open the options list in your conversation with Shweta Sharma and Pratik Sharma
+                      - paragraph [ref=e1765]: Excellent fulltime role for Data Analyst (PostgreSQL & Python)
+                  - generic [ref=e1770] [cursor=pointer]:
+                    - generic [ref=e1771]:
+                      - img "Joshua Khan, PRC" [ref=e1773]
+                      - generic [ref=e1774]:
+                        - checkbox "Select conversation with Joshua Khan, PRC"
+                        - generic "Select conversation with Joshua Khan, PRC"
+                    - generic [ref=e1778]:
+                      - generic [ref=e1779]:
+                        - heading "Joshua Khan, PRC" [level=3] [ref=e1780]:
+                          - generic [ref=e1782]: Joshua Khan, PRC
+                        - time [ref=e1783]: Apr 2
+                        - button "Open the options list in your conversation with Joshua Khan, PRC and Shweta Sharma" [ref=e1786]:
+                          - img [ref=e1787]
+                          - generic [ref=e1789]: Open the options list in your conversation with Joshua Khan, PRC and Shweta Sharma
+                      - paragraph [ref=e1792]: UX Designer opportunity!
+                  - generic [ref=e1797] [cursor=pointer]:
+                    - generic [ref=e1798]:
+                      - img "Kelly Coogan-Miller" [ref=e1800]
+                      - generic [ref=e1801]:
+                        - checkbox "Select conversation with Kelly Coogan-Miller"
+                        - generic "Select conversation with Kelly Coogan-Miller"
+                    - generic [ref=e1805]:
+                      - generic [ref=e1806]:
+                        - heading "Kelly Coogan-Miller" [level=3] [ref=e1807]:
+                          - generic [ref=e1809]: Kelly Coogan-Miller
+                        - time [ref=e1810]: Apr 1
+                        - button "Open the options list in your conversation with Kelly Coogan-Miller and Shweta Sharma" [ref=e1813]:
+                          - img [ref=e1814]
+                          - generic [ref=e1816]: Open the options list in your conversation with Kelly Coogan-Miller and Shweta Sharma
+                      - paragraph [ref=e1819]: UX Researcher role shaping clinical mobile experiences-Remote!
+                  - generic [ref=e1824] [cursor=pointer]:
+                    - generic [ref=e1825]:
+                      - img "Pratik Sharma" [ref=e1827]
+                      - generic [ref=e1828]:
+                        - checkbox "Select conversation with Pratik Sharma"
+                        - generic "Select conversation with Pratik Sharma"
+                    - generic [ref=e1832]:
+                      - generic [ref=e1833]:
+                        - heading "Pratik Sharma" [level=3] [ref=e1834]:
+                          - generic [ref=e1836]: Pratik Sharma
+                        - time [ref=e1837]: Mar 30
+                        - button "Open the options list in your conversation with Shweta Sharma and Pratik Sharma" [ref=e1840]:
+                          - img [ref=e1841]
+                          - generic [ref=e1843]: Open the options list in your conversation with Shweta Sharma and Pratik Sharma
+                      - paragraph [ref=e1846]: Excellent fulltime role for Data Analyst (PostgreSQL & Python)
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e1934]:
+    - generic [active] [ref=f16e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f16e3]
+          - alert
+      - region [ref=f16e4]
+      - generic [ref=f16e5]:
+        - generic [ref=f16e7]:
+          - button [ref=f16e270] [cursor=pointer]:
+            - generic [ref=f16e9]: Skip to search
+          - button [ref=f16e271] [cursor=pointer]:
+            - generic [ref=f16e11]: Skip to main content
+          - button [ref=f16e272] [cursor=pointer]:
+            - generic [ref=f16e13]: Keyboard shortcuts
+          - button [ref=f16e273] [cursor=pointer]:
+            - img [ref=f16e15]
+            - generic [ref=f16e17]: Close jump menu
+        - banner [ref=f16e274]:
+          - generic [ref=f16e19]:
+            - link [ref=f16e275] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img [ref=f16e276]:
+                - img [ref=f16e24]
+            - generic [ref=f16e28]:
+              - combobox [ref=f16e277]
+              - generic:
+                - img
+            - navigation [ref=f16e278]:
+              - list [ref=f16e31]:
+                - listitem [ref=f16e32]:
+                  - link [ref=f16e279] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f16e34]:
+                      - generic [ref=f16e37]: new feed updates notifications
+                      - img [ref=f16e121]
+                    - generic [ref=f16e280]: Home
+                - listitem [ref=f16e44]:
+                  - link [ref=f16e281] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - img [ref=f16e124]
+                    - generic [ref=f16e282]: My Network
+                - listitem [ref=f16e52]:
+                  - link [ref=f16e283] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f16e127]
+                    - generic [ref=f16e284]: Jobs
+                - listitem [ref=f16e60]:
+                  - link [ref=f16e285] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f16e130]
+                    - generic [ref=f16e286]: Messaging
+                - listitem [ref=f16e68]:
+                  - link [ref=f16e287] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - img [ref=f16e133]
+                    - generic [ref=f16e288]: Notifications
+                - listitem [ref=f16e76]:
+                  - button [ref=f16e289] [cursor=pointer]:
+                    - img [ref=f16e290]
+                    - generic [ref=f16e80]:
+                      - text: Me
+                      - img [ref=f16e81]
+                - listitem [ref=f16e83]:
+                  - button [ref=f16e291] [cursor=pointer]:
+                    - img [ref=f16e89]
+                    - generic [ref=f16e292]:
+                      - text: For Business
+                      - img [ref=f16e92]
+                - listitem [ref=f16e94]:
+                  - link [ref=f16e293] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+                    - img [ref=f16e136]
+                    - generic [ref=f16e294]: Learning
+        - generic [ref=f16e105]:
+          - generic [ref=f16e143]:
+            - main [ref=f16e144]:
+              - generic [ref=f16e147]:
+                - generic [ref=f16e151]:
+                  - generic [ref=f16e152]:
+                    - generic [ref=f16e153]:
+                      - link [ref=f16e295] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/robert-half-international/life
+                        - img [ref=f16e296]
+                      - link [ref=f16e297] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/robert-half-international/life
+                        - text: Robert Half
+                    - generic [ref=f16e160]:
+                      - button [ref=f16e298] [cursor=pointer]:
+                        - img [ref=f16e164]
+                        - generic [ref=f16e166]: Share
+                      - button [ref=f16e299] [cursor=pointer]:
+                        - img [ref=f16e169]
+                        - generic [ref=f16e171]: Show more options
+                  - generic [ref=f16e173]:
+                    - heading [level=1] [ref=f16e300]: User Experience Researcher
+                    - button [ref=f16e301] [cursor=pointer]:
+                      - img [ref=f16e179]
+                  - generic [ref=f16e183]:
+                    - generic [ref=f16e302]: United States
+                    - generic [ref=f16e303]: ·
+                    - strong [ref=f16e305]:
+                      - generic [ref=f16e306]: 5 hours ago
+                    - generic [ref=f16e307]: ·
+                    - generic [ref=f16e308]: 56 applicants
+                    - paragraph [ref=f16e309]:
+                      - generic [ref=f16e310]: Promoted by hirer
+                      - generic [ref=f16e311]: ·
+                      - generic [ref=f16e312]: No response insights available yet
+                  - generic [ref=f16e195]:
+                    - button [ref=f16e313] [cursor=pointer]:
+                      - strong [ref=f16e315]: $65/hr
+                    - button [ref=f16e316] [cursor=pointer]:
+                      - strong [ref=f16e319]:
+                        - img [ref=f16e321]
+                        - text: Remote
+                      - generic [ref=f16e323]: Matches your job preferences, workplace type is Remote.
+                    - button [ref=f16e324] [cursor=pointer]:
+                      - strong [ref=f16e326]: Contract
+                  - generic [ref=f16e211]:
+                    - button [ref=f16e327] [cursor=pointer]:
+                      - img [ref=f16e215]
+                      - generic [ref=f16e217]: Easy Apply
+                    - button [ref=f16e328] [cursor=pointer]:
+                      - generic [ref=f16e329]: Save
+                      - generic [ref=f16e330]: Save User Experience Researcher at Robert Half
+                - generic [ref=f16e331]:
+                  - img [ref=f16e333]:
+                    - img [ref=f16e334]
+                  - heading [level=2] [ref=f16e336]: Your AI-powered job assessment
+                  - list [ref=f16e341]:
+                    - listitem [ref=f16e342]:
+                      - button [ref=f16e343] [cursor=pointer]:
+                        - img [ref=f16e344]
+                        - generic [ref=f16e346]: Show match details
+                    - listitem [ref=f16e347]:
+                      - button [ref=f16e348] [cursor=pointer]:
+                        - img [ref=f16e349]
+                        - generic [ref=f16e351]: Tailor my resume
+                    - listitem [ref=f16e352]:
+                      - button [ref=f16e353] [cursor=pointer]:
+                        - img [ref=f16e354]
+                        - generic [ref=f16e356]: Create cover letter
+                    - listitem [ref=f16e357]:
+                      - button [ref=f16e358] [cursor=pointer]:
+                        - img [ref=f16e359]
+                        - generic [ref=f16e361]: Help me stand out
+                - generic [ref=f16e221]:
+                  - heading [level=2] [ref=f16e362]: People you can reach out to
+                  - generic [ref=f16e365]:
+                    - generic [ref=f16e366]:
+                      - generic [ref=f16e367]:
+                        - list [ref=f16e368]:
+                          - listitem [ref=f16e369]:
+                            - img [ref=f16e371]
+                        - generic [ref=f16e372]: Drexel University College of Computing & Informatics logo
+                      - generic [ref=f16e373]: School alumni from Drexel University College of Computing & Informatics
+                    - button [ref=f16e374] [cursor=pointer]:
+                      - generic [ref=f16e375]: Show all
+                  - generic [ref=f16e376]:
+                    - heading [level=2] [ref=f16e377]: Meet the hiring team
+                    - generic [ref=f16e379]:
+                      - link [ref=f16e380] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/meganholstine
+                        - img [ref=f16e383]
+                      - generic [ref=f16e384]:
+                        - link [ref=f16e385] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/meganholstine
+                          - generic [ref=f16e386]:
+                            - strong [ref=f16e387]: Megan Holstine
+                            - img [ref=f16e389]
+                        - generic [ref=f16e393]: 2nd
+                        - generic [ref=f16e394]:
+                          - generic [ref=f16e395]: Senior Recruiter for National Technology Accounts, Creative & Marketing
+                          - generic [ref=f16e396]: Job poster · 1 mutual connection
+                      - button [ref=f16e398] [cursor=pointer]:
+                        - generic [ref=f16e399]: Message
+                - generic [ref=f16e230]:
+                  - article [ref=f16e231]:
+                    - generic [ref=f16e233]:
+                      - heading [level=2] [ref=f16e400]: About the job
+                      - paragraph [ref=f16e402]:
+                        - paragraph [ref=f16e404]: "Job Title: Mid-level UX Researcher"
+                        - paragraph [ref=f16e406]: "Industry: Technology / AI / B2B SaaS"
+                        - paragraph [ref=f16e408]: "Location: Remote (US-based)"
+                        - paragraph [ref=f16e410]: Hybrid option available for candidates located near Irvine, CA (3 days per week onsite)
+                        - paragraph [ref=f16e412]: "Employment Type: Contract"
+                        - paragraph [ref=f16e414]: "Pay Rate: $65"
+                        - paragraph [ref=f16e416]
+                        - paragraph [ref=f16e418]: "Job Description:"
+                        - paragraph [ref=f16e420]
+                        - paragraph [ref=f16e422]: We are seeking a Mid-level UX Researcher to lead and support research efforts across agentic AI experiences, customer support insights, recommendation systems, and internal associate tooling. This role partners closely with senior UX Researchers to uncover user needs and behaviors, helping to shape product strategy and improve end-to-end experiences across both customer-facing and internal platforms.
+                        - paragraph [ref=f16e424]
+                        - paragraph [ref=f16e426]: Working cross-functionally with Product Managers, Designers, Engineers, and business stakeholders, the UX Researcher will conduct qualitative and quantitative research and translate findings into clear, actionable insights that inform decision-making. This role requires adaptability, curiosity, and comfort navigating ambiguity while delivering structured, high-quality research outputs that build alignment and confidence among diverse stakeholders.
+                        - paragraph [ref=f16e428]
+                        - paragraph [ref=f16e430]: "Responsibilities:"
+                        - paragraph [ref=f16e432]: • Support senior UX Researchers on exploratory and tactical agentic AI research projects, contributing to study design, execution, and synthesis
+                        - paragraph [ref=f16e434]: • Lead qualitative and quantitative research initiatives across areas such as Marketing, Customer Support, and internal employee tooling
+                        - paragraph [ref=f16e436]: • Partner with designers, product managers, and engineers to inform product direction and experience improvements
+                        - paragraph [ref=f16e438]: • Collaborate with data scientists and business analytics teams to integrate qualitative insights with quantitative data
+                        - paragraph [ref=f16e440]: • Communicate research findings and actionable recommendations to product teams and broader stakeholder groups
+                        - paragraph [ref=f16e442]: • Advocate for user-centered thinking and contribute to building a strong UX research culture across the organization
+                        - paragraph [ref=f16e444]
+                        - paragraph [ref=f16e446]: "Qualifications:"
+                        - paragraph [ref=f16e448]: • Bachelor’s degree in Human-Computer Interaction, Psychology, Sociology, Communication, Information Science, Media Studies, Computer Science, or a related field; Master’s degree preferred
+                        - paragraph [ref=f16e450]: • 6+ years of UX research experience applying both qualitative and quantitative methods
+                        - paragraph [ref=f16e452]: • Experience working in Agile and/or Lean UX environments
+                        - paragraph [ref=f16e454]: • Hands-on experience conducting UX research within agentic AI domains, including concept testing of AI-driven experiences, evaluative research on agent behaviors and interactions, and competitive analysis
+                        - paragraph [ref=f16e456]: • Ability to advocate for the value of UX research and influence adoption across teams
+                        - paragraph [ref=f16e458]: • Comfortable working with a high level of autonomy and ambiguity while managing shifting priorities across multiple initiatives
+                        - paragraph [ref=f16e460]: • Strong business acumen with the ability to clearly communicate insights through verbal, written, and presentation formats
+                        - paragraph [ref=f16e462]
+                        - paragraph [ref=f16e464]: "Nice to Have:"
+                        - paragraph [ref=f16e466]: • Experience working on complex B2B SaaS products
+                        - paragraph [ref=f16e468]: • Experience operating in large, cross-functional or matrixed organizations
+                        - paragraph [ref=f16e470]: • Experience applying quantitative research methods such as surveys, A/B testing, and log analysis to complement qualitative findings
+                        - paragraph [ref=f16e472]
+                        - paragraph [ref=f16e474]: "Schedule:"
+                        - paragraph [ref=f16e476]: • Monday – Friday
+                        - paragraph [ref=f16e478]: • Remote (US-based)
+                        - paragraph [ref=f16e480]: • Hybrid option available for Irvine-based candidates (3 days per week onsite)
+                        - paragraph [ref=f16e482]
+                        - paragraph [ref=f16e484]:
+                          - emphasis [ref=f16e486]: The salary range for this position is $65 hr. Benefits available to contract/temporary professionals, include medical, vision, dental, and life and disability insurance. Hired contract/temporary professionals are also eligible to enroll in our company 401(k) plan. Visit roberthalf.gobenefits.net for more information. Our specialized recruiting professionals apply their expertise and utilize our proprietary AI to find you great job matches faster.
+                        - paragraph [ref=f16e488]
+                        - paragraph [ref=f16e490]:
+                          - emphasis [ref=f16e492]: Robert Half will consider for employment qualified applicants with arrest or conviction records in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.
+                  - button [ref=f16e493] [cursor=pointer]:
+                    - img [ref=f16e237]
+                    - generic [ref=f16e239]: See more
+                - generic [ref=f16e241]:
+                  - generic [ref=f16e242]:
+                    - heading [level=2] [ref=f16e494]:
+                      - img [ref=f16e495]
+                      - text: This job alert is on
+                    - generic [ref=f16e245]: User Experience Researcher, United States
+                  - generic [ref=f16e247] [cursor=pointer]:
+                    - generic [ref=f16e248]: "On"
+                    - generic [ref=f16e249]: Alert on
+                    - switch [checked]
+                - generic [ref=f16e498]:
+                  - heading [level=3] [ref=f16e499]: Featured benefits
+                  - list [ref=f16e500]:
+                    - listitem [ref=f16e501]: Dental insurance
+                    - listitem [ref=f16e502]: 401(k)
+                    - listitem [ref=f16e503]: Vision insurance
+                    - listitem [ref=f16e504]: Medical insurance
+                    - listitem [ref=f16e505]: Commuter benefits
+                - generic [ref=f16e506]:
+                  - generic [ref=f16e507]:
+                    - generic [ref=f16e508]:
+                      - img [ref=f16e510]:
+                        - img [ref=f16e511]
+                      - button [ref=f16e514] [cursor=pointer]:
+                        - img [ref=f16e515]
+                    - heading [level=2] [ref=f16e517]: See how you compare to other applicants
+                    - generic [ref=f16e519]:
+                      - heading [level=3] [ref=f16e520]: Applicants for this job
+                      - list [ref=f16e521]:
+                        - listitem [ref=f16e522]:
+                          - generic [ref=f16e523]: "56"
+                          - generic [ref=f16e524]: Applicants
+                        - listitem [ref=f16e525]:
+                          - generic [ref=f16e526]: "56"
+                          - generic [ref=f16e527]: Applicants in the past day
+                    - generic [ref=f16e528]:
+                      - generic [ref=f16e529]:
+                        - heading [level=3] [ref=f16e530]: Applicant seniority level
+                        - list [ref=f16e531]:
+                          - listitem [ref=f16e532]:
+                            - paragraph [ref=f16e533]: 68% Senior level applicants
+                            - progressbar [ref=f16e534]
+                          - listitem [ref=f16e535]:
+                            - paragraph [ref=f16e536]: 14% Entry level applicants
+                            - progressbar [ref=f16e537]
+                          - listitem [ref=f16e538]:
+                            - paragraph [ref=f16e539]: 11% Director level applicants
+                            - progressbar [ref=f16e540]
+                          - listitem [ref=f16e541]:
+                            - paragraph [ref=f16e542]: 8% Manager level applicants
+                            - progressbar [ref=f16e543]
+                      - generic [ref=f16e544]:
+                        - heading [level=3] [ref=f16e545]: Applicant education level
+                        - list [ref=f16e546]:
+                          - listitem [ref=f16e547]:
+                            - generic [ref=f16e548]: 48%
+                            - generic [ref=f16e549]: have a Master's Degree (Similar to you)
+                          - listitem [ref=f16e550]:
+                            - generic [ref=f16e551]: 32%
+                            - generic [ref=f16e552]: have a Bachelor's Degree
+                          - listitem [ref=f16e553]:
+                            - generic [ref=f16e554]: 10%
+                            - generic [ref=f16e555]: have a Doctor of Philosophy
+                          - listitem [ref=f16e556]:
+                            - generic [ref=f16e557]: 10%
+                            - generic [ref=f16e558]: have other degrees
+                  - generic [ref=f16e559]:
+                    - generic [ref=f16e560]:
+                      - img [ref=f16e561]:
+                        - img [ref=f16e562]
+                      - button [ref=f16e565] [cursor=pointer]:
+                        - img [ref=f16e566]
+                    - heading [level=2] [ref=f16e568]: Exclusive Job Seeker Insights about Robert Half
+                    - heading [level=3] [ref=f16e569]: Powered by Bing
+                    - generic [ref=f16e570]:
+                      - generic [ref=f16e571]:
+                        - heading [level=3] [ref=f16e572]: Company focus areas
+                        - generic [ref=f16e574]:
+                          - list [ref=f16e575]:
+                            - listitem [ref=f16e576]:
+                              - strong [ref=f16e577]: "Investment in Technology and Innovation:"
+                              - text: Robert Half International continues to invest in technology and innovation, including AI, to provide a world-class digital experience for clients and candidates. The company leverages its proprietary data assets to enhance AI tools for talent discovery and lead targeting.
+                            - listitem [ref=f16e578]:
+                              - strong [ref=f16e579]: "Innovation and Technology:"
+                              - text: Robert Half is focusing on innovation and technology to enhance its service offerings and maintain a competitive edge. This includes investments in AI-driven technologies and data analytics.
+                          - button [ref=f16e580] [cursor=pointer]:
+                            - generic [ref=f16e581]: …show more
+                      - generic [ref=f16e582]:
+                        - generic [ref=f16e584]: "Sources: roberthalf.com +1 more"
+                        - generic [ref=f16e586]:
+                          - button [ref=f16e587] [cursor=pointer]:
+                            - img [ref=f16e588]
+                          - button [ref=f16e591] [cursor=pointer]:
+                            - img [ref=f16e592]
+                    - generic [ref=f16e595]:
+                      - generic [ref=f16e596]:
+                        - heading [level=3] [ref=f16e597]: Hiring & headcount
+                        - paragraph [ref=f16e598]:
+                          - generic [ref=f16e599]:
+                            - text: "Focus on healthcare services: The 'Healthcare Services' department has seen a 15% increase in employee count, indicating a significant investment in this area, which could suggest new healthcare initiatives or expansions. Growth in education: The 'Education' department has experienced a 75% increase in employee count, highlighting a major focus on educational programs or services, potentially opening opportunities for partnerships or investments in educational tools and resources. Expansion in military and protective services: The 'Military and Protective Services' department has grown by 45%, suggesting new initiatives or contracts in this sector, which could be a strategic area for growth and investment. Increase in entrepreneurship: The 'Entrepreneurship' department has seen a 38% increase in employee count, indicating a push towards fostering new business ventures and innovation within the company, presenting opportunities for investment in startup support and entrepreneurial resources."
+                            - generic [ref=f16e600]:
+                              - generic [ref=f16e601]: …
+                              - button [ref=f16e602] [cursor=pointer]: show more
+                      - generic [ref=f16e604]:
+                        - button [ref=f16e605] [cursor=pointer]:
+                          - img [ref=f16e606]
+                        - button [ref=f16e609] [cursor=pointer]:
+                          - img [ref=f16e610]
+                    - generic [ref=f16e613]:
+                      - heading [level=3] [ref=f16e614]: The latest hiring trend
+                      - generic [ref=f16e615]:
+                        - list [ref=f16e616]:
+                          - listitem [ref=f16e617]:
+                            - paragraph [ref=f16e618]: 27,930
+                            - paragraph [ref=f16e619]: Total employees
+                          - listitem [ref=f16e620]:
+                            - paragraph [ref=f16e621]: 3%
+                            - paragraph [ref=f16e623]: Company-wide
+                            - paragraph [ref=f16e624]: 2 year growth
+                            - generic [ref=f16e625]: 3% decrease
+                          - listitem [ref=f16e626]:
+                            - paragraph [ref=f16e627]: 8%
+                            - paragraph [ref=f16e629]: Research
+                            - paragraph [ref=f16e630]: 2 year growth
+                            - generic [ref=f16e631]: 8% decrease
+                        - region [ref=f16e634]:
+                          - generic [ref=f16e635]:
+                            - heading [level=4] [ref=f16e636]: Chart
+                            - generic [ref=f16e637]: Chart with 25 data points.
+                            - generic [ref=f16e638]: "The chart has 1 X axis displaying Time. Range: 2023-12-13 12:00:00 to 2026-05-07 12:00:00."
+                            - generic [ref=f16e639]: "The chart has 1 Y axis displaying values. Range: 0 to 40000."
+                          - img [ref=f16e644]:
+                            - generic [ref=f16e656]:
+                              - img [ref=f16e657]
+                              - img [ref=f16e658]
+                              - img [ref=f16e659]
+                              - img [ref=f16e660]
+                              - img [ref=f16e661]
+                              - img [ref=f16e662]
+                              - img [ref=f16e663]
+                              - img [ref=f16e664]
+                              - img [ref=f16e665]
+                              - img [ref=f16e666]
+                              - img [ref=f16e667]
+                              - img [ref=f16e668]
+                              - img [ref=f16e669]
+                              - img [ref=f16e670]
+                              - img [ref=f16e671]
+                              - img [ref=f16e672]
+                              - img [ref=f16e673]
+                              - img [ref=f16e674]
+                              - img [ref=f16e675]
+                              - img [ref=f16e676]
+                              - img [ref=f16e677]
+                              - img [ref=f16e678]
+                              - img [ref=f16e679]
+                              - img [ref=f16e680]
+                              - img [ref=f16e681]
+                            - generic [ref=f16e682]:
+                              - generic [ref=f16e683]: Apr 2024
+                              - generic [ref=f16e684]: Oct 2024
+                              - generic [ref=f16e685]: Apr 2025
+                              - generic [ref=f16e686]: Oct 2025
+                              - generic [ref=f16e687]: Apr 2026
+                            - generic [ref=f16e688]:
+                              - generic [ref=f16e689]: "0"
+                              - generic [ref=f16e690]: 10,000
+                              - generic [ref=f16e691]: 20,000
+                              - generic [ref=f16e692]: 30,000
+                              - generic [ref=f16e693]: 40,000
+                          - generic [ref=f16e695]: End of interactive chart.
+                        - generic [ref=f16e696]:
+                          - img [ref=f16e697]
+                          - text: Median employee tenure ‧
+                          - strong [ref=f16e700]: 7.3 years
+                    - generic [ref=f16e701]:
+                      - heading [level=3] [ref=f16e702]: Robert Half hires candidates from some of these companies and schools
+                      - list [ref=f16e704]:
+                        - listitem [ref=f16e705]:
+                          - generic [ref=f16e706]:
+                            - figure [ref=f16e707]:
+                              - img [ref=f16e708]
+                            - paragraph [ref=f16e709]:
+                              - text: Robert Half hired 2 people from Drexel University College of Computing & Informatics.
+                              - link [ref=f16e710] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/search/results/people/?origin=JOB_PAGE_CANNED_SEARCH&currentCompany=1681&schoolFilter=27200085
+                                - strong [ref=f16e711]: See all
+                    - generic [ref=f16e712]:
+                      - generic [ref=f16e713]:
+                        - heading [level=3] [ref=f16e714]: Competitors
+                        - paragraph [ref=f16e715]:
+                          - generic [ref=f16e716]:
+                            - text: Robert Half International operates in a highly competitive staffing industry, focusing on providing recruitment services for accounting, finance, and administrative roles. The company faces significant competition from other staffing firms and recruitment platforms that offer both traditional and AI-powered solutions. To maintain its market position, Robert Half emphasizes flexible staffing solutions, including temporary, permanent, and project-based placements, catering to a diverse client base.
+                            - generic [ref=f16e717]:
+                              - generic [ref=f16e718]: …
+                              - button [ref=f16e719] [cursor=pointer]: show more
+                        - generic [ref=f16e720]:
+                          - link [ref=f16e722] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/cross-country-healthcare/
+                          - link [ref=f16e728] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/kornferry/
+                      - generic [ref=f16e733]:
+                        - generic [ref=f16e735]: "Sources: gofractional.com +2 more"
+                        - generic [ref=f16e737]:
+                          - button [ref=f16e738] [cursor=pointer]:
+                            - img [ref=f16e739]
+                          - button [ref=f16e742] [cursor=pointer]:
+                            - img [ref=f16e743]
+                    - link [ref=f16e746] [cursor=pointer]:
+                      - /url: /company/robert-half-international/insights/?insightType=HEADCOUNT
+                      - text: Show more Premium insights
+                - generic [ref=f16e748]:
+                  - generic [ref=f16e749]:
+                    - heading [level=2] [ref=f16e750]: About the company
+                    - generic [ref=f16e751]:
+                      - generic [ref=f16e752]:
+                        - link [ref=f16e754] [cursor=pointer]:
+                          - /url: /company/robert-half-international/life/
+                          - img [ref=f16e755]
+                        - generic [ref=f16e756]:
+                          - link [ref=f16e758] [cursor=pointer]:
+                            - /url: /company/robert-half-international/life/
+                            - text: Robert Half
+                          - generic [ref=f16e759]: 4,901,833 followers
+                      - button [pressed] [ref=f16e760] [cursor=pointer]:
+                        - img [ref=f16e761]
+                        - generic [ref=f16e763]: Following
+                    - generic [ref=f16e764]:
+                      - text: Staffing and Recruiting
+                      - generic [ref=f16e765]: • 10,001+ employees
+                      - generic [ref=f16e766]: • 27,930 on LinkedIn
+                    - paragraph [ref=f16e767]:
+                      - generic [ref=f16e768]:
+                        - text: 🔒 At Robert Half, we prioritize your security—if you believe you've encountered a scam or fraudulent recruiter, please report it immediately to https://www.roberthalf.com/us/en/fraud-alert. All Robert Half recruiters communicate using their corporate email address, ending in roberthalf.com.
+                        - text: "👋 Welcome to Robert Half. We're the world’s first and largest specialized talent solutions firm, connecting opportunities at great companies with highly skilled job seekers. We provide dynamic contract, temporary, and permanent executive placement solutions across finance, accounting, technology, marketing, creative, legal, and administrative sectors. 🏆 In the last 12 months, Robert Half has been recognized as one of America’s Most Innovative Companies by Fortune, and with Protiviti, has been named one of the Fortune® World's Most Admired Companies™ and 100 Best Companies to Work For. 🏦 Traded on the New York Stock Exchange (symbol: RHI), we’re at the forefront of innovation in talent acquisition."
+                        - generic [ref=f16e770]:
+                          - generic [ref=f16e771]: …
+                          - button [ref=f16e772] [cursor=pointer]: show more
+                    - generic [ref=f16e776]:
+                      - heading [level=3] [ref=f16e777]: Interested in working with us in the future?
+                      - paragraph [ref=f16e778]:
+                        - generic [ref=f16e779]:
+                          - text: Members who share that they’re interested in a company may be 2x as likely to get a message from a recruiter than those who don’t.
+                          - link [ref=f16e780] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1380509
+                            - text: Learn more
+                        - generic [ref=f16e781]: Learn more about Interested in working for our company
+                      - button [ref=f16e782] [cursor=pointer]:
+                        - generic [ref=f16e783]: I’m interested
+                    - heading [level=2] [ref=f16e789]: Trending employee content
+                  - link [ref=f16e799] [cursor=pointer]:
+                    - /url: /company/robert-half-international/life/
+                    - text: Show more
+                - heading [level=2] [ref=f16e801]: More jobs
+                - list [ref=f16e803]:
+                  - listitem [ref=f16e804]:
+                    - link [ref=f16e806] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4400600258&referenceJobId=4404474538&originToLandingJobPostings=4400600258&trackingId=cJmupkwZ8QNolRfVaY9BVg%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbe5o1Uqcp18qTQIBffTmKWQA-hYiXibyMWwNZNfE6v04j1vvJKK7HpZGzLZMTF6tjnEqS4FtqVWPEtMJlVrz7kG7GIizYkl-PZml_JeLYvOrBXbpoUykQxMEw4LbChi_kScceoq-squN9MfKyRc4QCytsbUvTEqbMwagrgxsvpu1t6MKolBTm3_se637RQeNg9pVq354t4ePUJfF0P1gFrb0VN3nAqkK8bJxR6ipL6rjb_SgGn5Qs6ttVv328WX33GHhxmDWZFTDpNFHByzfpqKAD-NuqJMgDO1wZ_awg4-f99Z1yqbW8u0QYV1DtysDV98IIpcAtJ6ZXxDo8sd57_BMA0otjZ-qub5ljClqc9bceZVPVzRtmoeHuG9gXciY3uYUux9fF_XhNO6H05P-xBgaUuoiBUSKNncfX76Qvb8onAt57Kw9m9vZzU4aMtAyZourtbYVPcCepRX1h5swffFVA2XPB1yxiUXiKA
+                      - generic [ref=f16e808]:
+                        - img [ref=f16e813]
+                        - generic [ref=f16e814]:
+                          - generic [ref=f16e815]:
+                            - generic [ref=f16e816]:
+                              - generic [ref=f16e817]:
+                                - strong [ref=f16e818]: User Experience Researcher
+                                - img [ref=f16e820]
+                              - generic [ref=f16e822]: User Experience Researcher with verification
+                            - generic [ref=f16e824]: Harnham
+                            - generic [ref=f16e826]: United States (Remote)
+                            - list [ref=f16e828]:
+                              - listitem [ref=f16e829]:
+                                - img [ref=f16e832]
+                                - generic [ref=f16e834]: Actively reviewing applicants
+                          - list [ref=f16e836]:
+                            - listitem [ref=f16e837]:
+                              - time [ref=f16e838]: 1 week ago
+                            - listitem [ref=f16e839]:
+                              - img [ref=f16e840]:
+                                - img [ref=f16e841]
+                              - generic [ref=f16e843]: Easy Apply
+                  - listitem [ref=f16e844]:
+                    - link [ref=f16e846] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4338447655&referenceJobId=4404474538&originToLandingJobPostings=4338447655&trackingId=buFQD2QschgjrDeTnbaNgA%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbQ1KQvVhkL1T16jwn05AWrg1Qp8FMIiwM-gaUdioK0yyRqS7gceQ86Ofn5tiOR-doA5jjvgjZDciDg-UuW77GkP2sowed92BJKQJ1fRF8CKXMSKc0ywtTyBUZOcJtsZ15Q6CKu9Oxi2vCdXPUGUqU0wHQhXa_pcnv8fhsGt_gZV2NWUgpZw4kDxydf2pEJgclXcb3t0BCGn0T8fxkr4Z5lbKFyBBlQClk8APDfE8dOsx2aiWgDVwgWiHGTuDLT1fWUhrzbWKdaO5N2zgiDc3oa73PvGWTRlXtsERGJYGWhgM256d4tEr_V2P4aBOjNzD1yTACgpCSNVT0IzS7ZREUAZLzWn0yH3Th2u08NGgw2aPYTm4mbt6Mg9xexbRlA8Gag8k_VPlC1YUwOVCMEbtbeGKdcLu-UW25c7P8vDD1J5PZWS2NVzVaoFGaSEN9oT6eFANlOdx6ThMeiebQxllgQKSUNOIgMZB
+                      - generic [ref=f16e848]:
+                        - img [ref=f16e853]
+                        - generic [ref=f16e854]:
+                          - generic [ref=f16e855]:
+                            - generic [ref=f16e856]:
+                              - strong [ref=f16e858]: UX Researcher
+                              - generic [ref=f16e859]: UX Researcher
+                            - generic [ref=f16e861]: DataAnnotation
+                            - generic [ref=f16e863]: North Dakota, United States (Remote)
+                          - list [ref=f16e865]:
+                            - listitem [ref=f16e866]:
+                              - time [ref=f16e867]: 2 days ago
+                            - listitem [ref=f16e868]:
+                              - strong [ref=f16e870]:
+                                - generic [ref=f16e871]: Be an early applicant
+                  - listitem [ref=f16e872]:
+                    - link [ref=f16e874] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4396345259&referenceJobId=4404474538&originToLandingJobPostings=4396345259&trackingId=URBNVKw0FHccubvl5EHikg%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbRY6UI3BmLWSxZDJUoseNBSW0n5imhD5pBVcRNs4zwwR2O9Nf6_sv6ottiAmDlV0wYWyI_qOgO80hO9bIZAGJEwbMm--F0tfFuwEfqMbLHyIgi3psgNFlWJnQnq7Ide_ZFzzjkJYNUhD1OdtqfFz-Qx8cuMqVjT1IYAk9KQC-CL2FkY1-ZSTcK9QziSPWYObbGEuGZBDPPXtRm1LuH8wyGHsOMDg8VFRfUvPtTeqhpcy7DXOm24ordoc4kO5hcG1ogmu0923GYXkzgM9NfGGe1Wzg_ccTUcaNNiHYnGx5Qvkyeh4Nv2A2TmugaGAodL4ZNncjmGBLPq2p-puWFcWCvFwA6OrJLTPXiwU4JPscD-7e9JyGVLshbs9TUfMZRteO8DQrizj4KcDJgBhqEQZo6fWhXw-IatBtT39Uh0VKMhYVH0pMHBgMCFgMyJLbzrmUAkKexT-6bJxs9L5imEfAXKIeMsfSeYZSxI8IWIIvElmT88IgWPtg1OsnYYB3ag
+                      - generic [ref=f16e876]:
+                        - img [ref=f16e881]
+                        - generic [ref=f16e882]:
+                          - generic [ref=f16e883]:
+                            - generic [ref=f16e884]:
+                              - generic [ref=f16e885]:
+                                - strong [ref=f16e886]: Usability Researcher
+                                - img [ref=f16e888]
+                              - generic [ref=f16e890]: Usability Researcher with verification
+                            - generic [ref=f16e892]: Ascendion
+                            - generic [ref=f16e894]: United States (Remote)
+                            - generic [ref=f16e896]: $135.2K/yr - $140K/yr · 401(k), Medical, Vision, Dental, +1 benefit
+                          - list [ref=f16e898]:
+                            - listitem [ref=f16e899]:
+                              - time [ref=f16e900]: 2 weeks ago
+                  - listitem [ref=f16e901]:
+                    - link [ref=f16e903] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4338317986&referenceJobId=4404474538&originToLandingJobPostings=4338317986&trackingId=C6Q6AcNCBZdZgSfCOzIkeg%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbeacOVJkLyVCptwSj-5bfVKKXwxnQSGtjKh4fYbN1g83B0qw6_CmnmtO33JZZWgRNhLPEUA_eyf72RhSZ6OrFql73kn65o2peCViQj3cSvVhggM4RCjL72J6vT3exksCgOT5Xq7zFVVqKjEi-tmgOMq6kxfGyIkXsaWYBVUtM9gwFahirkV3ztTKHl_HRosH5S2sD2WGa74xAqUuSARqISKN89Ghl7ttxPIBzLz5yLm651Gj0KxIUEbOjlKw0AbStn8RmW44LR_xALT9GfotslI6AEj5l2OlKVLg74K0f78cib7sBPQmUH5sSt8NHlkNfr_MV3Jy5NIiTVOzERSUQAWenf8imEgT-Qj5pK0LcYqJRTyOHIdHaEs4eH3POW8roNdKVZ3ltLsDzgaNGI6w7IoU4BRPVMv-klvgrWvbUWveljg3cqAJ8WtexNjfCRgGH2duDaloo6g57E4H5LtThQbUdAVKrphibC8
+                      - generic [ref=f16e905]:
+                        - img [ref=f16e910]
+                        - generic [ref=f16e911]:
+                          - generic [ref=f16e912]:
+                            - generic [ref=f16e913]:
+                              - strong [ref=f16e915]: UX Researcher
+                              - generic [ref=f16e916]: UX Researcher
+                            - generic [ref=f16e918]: DataAnnotation
+                            - generic [ref=f16e920]: Mississippi, United States (Remote)
+                          - list [ref=f16e922]:
+                            - listitem [ref=f16e923]:
+                              - time [ref=f16e924]: 2 days ago
+                            - listitem [ref=f16e925]:
+                              - strong [ref=f16e927]:
+                                - generic [ref=f16e928]: Be an early applicant
+                  - listitem [ref=f16e929]:
+                    - link [ref=f16e931] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4397668378&referenceJobId=4404474538&originToLandingJobPostings=4397668378&trackingId=VmqnNFWnlO%2F5D9qyxs2AKg%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbSnW6Su7Q9B1RXTBVu-TWTAdrOpXGyaDDDrEdNDBurHpXEEUyQeHxqrVQF-zRjtuhsMKCMKyr1Tz3K8G3TFn40tLSbmLywvxM7oKE899MSVTKs_SJQLgGmLZbFTcHd6w247-KdPxD5KThxvYtT_tVzZ0cbfn7ubRp9Dv3A-8HSXXM6lLHEXW--6ACkEKOJmKnwBZKR7HCeI2SMW0YqXM96RRz51k2SmTOAw8gdva_Tye9aT1nb0Tn344ocCtfo1J5a5Am5OeEHXKrBLMMM_1ZfdRbZA2C9Bwhu2HgEbXUpG7RB7XsvkYTwHFTpXpwi6X14H46oSnchrHz3sBP_0Cgq-KigWx88qws3E-Usf-wNcylfT3621KuqBIV9H2Umspkdh1_cwES5fJ12DqbQdfhhMIdXpZDe064UPv67NFizyP8fW01SaAAX55ztgUt9lKc7uLmJgs5bO4xAJn8SRIcHQcJzUvul_OvVzpRg
+                      - generic [ref=f16e933]:
+                        - img [ref=f16e938]
+                        - generic [ref=f16e939]:
+                          - generic [ref=f16e940]:
+                            - generic [ref=f16e941]:
+                              - generic [ref=f16e942]:
+                                - strong [ref=f16e943]: UX Researcher II
+                                - img [ref=f16e945]
+                              - generic [ref=f16e947]: UX Researcher II with verification
+                            - generic [ref=f16e949]: Anaconda, Inc.
+                            - generic [ref=f16e951]: United States (Remote)
+                            - generic [ref=f16e953]: Vision benefit
+                          - list [ref=f16e955]:
+                            - listitem [ref=f16e956]:
+                              - time [ref=f16e957]: 1 week ago
+                  - listitem [ref=f16e958]:
+                    - link [ref=f16e960] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4405215145&referenceJobId=4404474538&originToLandingJobPostings=4405215145&trackingId=zAESOkJhiIdgeBlPmEn6fg%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbQtmv0LJZwD8D9uwG2Y0ryszQLqjzfEsNUcRv8JQYOpvWSVhakbmqjhnMRp20lkOhLuGlKnpVcMJGwgQ0w_4Ogn4R8layKuiJ8B-kJsh3pOQOaf9Pp8K2bsJAPt4FisdMuYNkDsX21nhdxQCFRjXbVPNfus4c7M9v8XXItft7QNOZ1VFg8DSc2FnbfdqKuv-LdLqDYZ5VabwnS2BP4XJXYIlZb4irhUVbqUhbYerbJ4JbgY7FCLlEdssZkFVvbD0I_aoTJ3JHNjL094oc_Ktaza-ClyZiR1vrBV_dLIfJ5aHCptKpmLexgEzFs-7vXRrozquMvT3Swh-_vDfFabG6Vz6un7NiMrJXpR_HhCOmzJeQu2CDroU5yvdFn83qkW8BpUsLhdJtaUmbbCg8S4UYJ8KeVuBz6Z2ce051Pk0apfHqDFrFEf9Q9tf1lOOMF9xm7DnovgVylZmXlMyCv6dM2lZhGUsS_aR9te1rR5hFPICYcJozYbrRWWdSjs7
+                      - generic [ref=f16e962]:
+                        - img [ref=f16e967]
+                        - generic [ref=f16e968]:
+                          - generic [ref=f16e969]:
+                            - generic [ref=f16e970]:
+                              - strong [ref=f16e972]: UX Researcher (Remote)
+                              - generic [ref=f16e973]: UX Researcher (Remote)
+                            - generic [ref=f16e975]: Joveo AI
+                            - generic [ref=f16e977]: United States (Remote)
+                          - list [ref=f16e979]:
+                            - listitem [ref=f16e980]:
+                              - time [ref=f16e981]: 17 hours ago
+                            - listitem [ref=f16e982]:
+                              - img [ref=f16e983]:
+                                - img [ref=f16e984]
+                              - generic [ref=f16e986]: Easy Apply
+                  - listitem [ref=f16e987]:
+                    - link [ref=f16e989] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4338208271&referenceJobId=4404474538&originToLandingJobPostings=4338208271&trackingId=mKqIaRv6hyVstcwVYT3Y6g%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbcNHS2sRoKCMf8M808WTS2tSkyrUFVZ-RZVhotYx8EAjZRBTHQV_uKHd9ij1K4PQ6EsX7enzQuDghE9RAtHdE8GDmZQrD5ggzPWbWZHmI8J_xnB1FLDuq9WkwyXxXNIMn2rVXqSpYwjINMI5D83IZB4mjwmrNK0LN7uhucwG5F7swW0kBvq1P8D1Vf2ltEatNTNCjSonCqe0M0JiCA55aDUEUvmxFQliGBxptXXqpsn6IHv1VCt748MEXuswFL_41YAkmEZ-rUhjlwoOc6VrrGi1_giVvHM68PR7mijzhr0hpZ82l2_xTcEc0dAkeBXgL-AQLZM8cJJcphmI2qhKeDYThzHJd5-THDhDS6ZLkD8PKSYfIbriXdPbc7gS9F6LACylBm20WpES1URqL-tquIK0U2FFV8ZM6Q1XfOPUvytFgY0tYR3lqiznJ6Tr2nrxHRTvbY6FLqzzsvcZZf-JWBKc05Zel3wR
+                      - generic [ref=f16e991]:
+                        - img [ref=f16e996]
+                        - generic [ref=f16e997]:
+                          - generic [ref=f16e998]:
+                            - generic [ref=f16e999]:
+                              - strong [ref=f16e1001]: UX Researcher
+                              - generic [ref=f16e1002]: UX Researcher
+                            - generic [ref=f16e1004]: DataAnnotation
+                            - generic [ref=f16e1006]: Alaska, United States (Remote)
+                          - list [ref=f16e1008]:
+                            - listitem [ref=f16e1009]:
+                              - time [ref=f16e1010]: 2 days ago
+                            - listitem [ref=f16e1011]:
+                              - strong [ref=f16e1013]:
+                                - generic [ref=f16e1014]: Be an early applicant
+                  - listitem [ref=f16e1015]:
+                    - link [ref=f16e1017] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4397269701&referenceJobId=4404474538&originToLandingJobPostings=4397269701&trackingId=vSDZLUcbuZTIjik0VbPbSQ%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbfQx38P9Ig_CkdetZxSa8gcMSimSKwbOw4qQi3Wj5KPoveIgfMbwaBUV0PKDpKCMFnh1MajrmworkaMEem0nMYvsOPZS-FcflH1nUr1oDKncKYBcJC8zZ8sCUvlcGgrdvvJlHgFe-Ezy7s6iXobaRtIQYDNwsDhWaVv4w0Kry8wdBN0VnucyZOb56J58SKemc9RktVBUeZaeBnA3FiCIf3iyB-CUC-Jv61k0YY_eIoNj1qbmBQKtiMlzfT_SsWbm3U2D9ydow5_qrD4D4O0HFA2LHPebe9d4BvgtzIBQjlSXJYTy71_C46hIdeeoQ9Vz4gLzddrfRasAt8Oep9gHhr5WLMfuQu06sPW7wet2jybyBHzlE00S3PGjjci_RLHaV8Q_H2OKcDQOng1hVgUqU_aIwezgdLuuopWZSJvQyoamU_Rw5JCXI7dRv4ToskG6O9h-I9hIGi3Z6SdAjSTneWldLaaDOSx7yDD8HMZB
+                      - generic [ref=f16e1019]:
+                        - img [ref=f16e1024]
+                        - generic [ref=f16e1025]:
+                          - generic [ref=f16e1026]:
+                            - generic [ref=f16e1027]:
+                              - generic [ref=f16e1028]:
+                                - strong [ref=f16e1029]: UX Researcher
+                                - img [ref=f16e1031]
+                              - generic [ref=f16e1033]: UX Researcher with verification
+                            - generic [ref=f16e1035]: ECI Software Solutions
+                            - generic [ref=f16e1037]: United States (Remote)
+                            - list [ref=f16e1039]:
+                              - listitem [ref=f16e1040]:
+                                - img [ref=f16e1043]
+                                - generic [ref=f16e1045]: Actively reviewing applicants
+                          - list [ref=f16e1047]:
+                            - listitem [ref=f16e1048]:
+                              - time [ref=f16e1049]: 1 week ago
+                            - listitem [ref=f16e1050]:
+                              - img [ref=f16e1051]:
+                                - img [ref=f16e1052]
+                              - generic [ref=f16e1054]: Easy Apply
+                  - listitem [ref=f16e1055]:
+                    - link [ref=f16e1057] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4398298524&referenceJobId=4404474538&originToLandingJobPostings=4398298524&trackingId=6wvUMs9lUzwX0OskfYG4lg%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbaw0QHCEsOAlXQWGFEDjFOMvCJoo_1BgQ8e2_mc3jODKD54Tg9LIaAaaTqb9k1y4yrz5Q4SSBfbo9VqYotrVBZK8B_YKoXLJrFl7wsv1_LST0xzEgTPbieq1OZtuk4z3CmPFZMsgneKmjWoL3q-3cp54-8DVCkK8Jjm4GBOfAxsPYoEPONQWFGptMY8dM8ieveiliMIFxrsvwXzTGn1ssCIksWIAbWx48EoKLEcirYTmyN7jwBuonNDPZhSzE-NNhBCrb4NYSGn3yok3sBLkfaQ7K_NcBf1V3GQBhoKgP2qg8WMI-SBeQhqvPvOqzMMM4olab3tFG4hDjARxJ0ZpMO--PP2ATf0QaR2zFHHOwvLnHFl5ujm3ENCvfQ6aiKVft5dEWp7jxvSCLfqHfv_RCHmKY077drDZ3dAh8gUP2AQ1cgOdy-kml3YeyDN5Mz7Y9qVxSXQISWDmMbehJOOsELtep55OXFnblZbZJQ
+                      - generic [ref=f16e1059]:
+                        - img [ref=f16e1064]
+                        - generic [ref=f16e1065]:
+                          - generic [ref=f16e1066]:
+                            - generic [ref=f16e1067]:
+                              - generic [ref=f16e1068]:
+                                - strong [ref=f16e1069]: Sr User Researcher
+                                - img [ref=f16e1071]
+                              - generic [ref=f16e1073]: Sr User Researcher with verification
+                            - generic [ref=f16e1075]: Sinch
+                            - generic [ref=f16e1077]: United States (Remote)
+                            - generic [ref=f16e1079]: 401(k) benefit
+                          - list [ref=f16e1081]:
+                            - listitem [ref=f16e1082]:
+                              - time [ref=f16e1083]: 2 weeks ago
+                  - listitem [ref=f16e1084]:
+                    - link [ref=f16e1086] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4400472222&referenceJobId=4404474538&originToLandingJobPostings=4400472222&trackingId=Qulam7aOnPPPa65TnY%2F9Hg%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbqEA3rcV5NmUxbERXdoxQhdf3wh162XV9QF6Bez6SMkYUZu4NMLbe6uhuF02C2T9HF6MZZc4uQ0_pc2X8LEk4TGRIuMmHcGbn2bzMaTTDculbTWQ97CPEZm3a2Rsp_NYu6RfsMQjzVnes3ixf81faVqKuiqN7oPOH1A51Xn-kmqJDR55nq2Ywsx6JLhhI2i7Ysow8SOIVLhI3vowqZPrF5blWIvS1F5dj5puboD958OJNMP0aEQgcxuln_xxgpIycmYyBn2n5inyYrEZNVMbimZtftV8FWTYbO1N-WnkPWqWXfIEVbw4nfJ_bMoksrInRntjkWZ2fbJd9k_vcy0hiPHvyVS39FOTKJEl6_fQcI4hq0jOZvRFG_9KxBsPUAtYonGh5T2p4hSu07z1y8r0RXE8b5gdUFySE9zr6QUc7LYuDqZQlxjXyfKVXTJzU3ob_a3DyXVuP8RbkK5Qtq8Lhj4oVViI6khyEgMbC34D
+                      - generic [ref=f16e1088]:
+                        - img [ref=f16e1093]
+                        - generic [ref=f16e1094]:
+                          - generic [ref=f16e1095]:
+                            - generic [ref=f16e1096]:
+                              - generic [ref=f16e1097]:
+                                - strong [ref=f16e1098]: UX Researcher
+                                - img [ref=f16e1100]
+                              - generic [ref=f16e1102]: UX Researcher with verification
+                            - generic [ref=f16e1104]: Horizontal Talent
+                            - generic [ref=f16e1106]: Minneapolis, MN (Remote)
+                          - list [ref=f16e1108]:
+                            - listitem [ref=f16e1109]:
+                              - time [ref=f16e1110]: 6 days ago
+                  - listitem [ref=f16e1111]:
+                    - link [ref=f16e1113] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4338437432&referenceJobId=4404474538&originToLandingJobPostings=4338437432&trackingId=CYswID1wuBRdZ%2FRlsMQEsQ%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbpauBhM321cjM9izMSDl-ISnxrpHkTfjgWqdN_6cWjJQjVD77a5b7XTa5d-q8xPS_v_ohBPzJbI1IAhwSHsHgJHEnWF7Zl8v5lKxB_Sk8k5BmQk-LzEkeJvpDntUh8twOEf4YVWMTLfTfVJ0soFowT51pUSJyq0ZCK8Up-WvICEeEStC1AzXtw8Lo3pk7zsvZd1taUfYDNQckWJy8azz9lyaYPMN_rCQXhcS_yxI5Onj79KQZU6Xyi6C_PnaVNcup0zOc8ivAJ2JoGuq5Yd60xQnWG-8u3LBUxB1XNFggT6UvsUqAgCesDuBVipX6xFOjAP92zAp_-rIqcJ_e0ac_hC2rgFn0o2m-2IwcM0sVPdDTzL-sRS7pY_ctfYVUCyA34HxfymxWMGq0HMg4eQFpuctcDPNBCdqMtfpNqMdkx8V9LchzBNhzUnCMkOJ0UhQTqDAOPop8EMno_ZXiIzUYxEsWf9MgU8h7SE
+                      - generic [ref=f16e1115]:
+                        - img [ref=f16e1120]
+                        - generic [ref=f16e1121]:
+                          - generic [ref=f16e1122]:
+                            - generic [ref=f16e1123]:
+                              - strong [ref=f16e1125]: UX Researcher
+                              - generic [ref=f16e1126]: UX Researcher
+                            - generic [ref=f16e1128]: DataAnnotation
+                            - generic [ref=f16e1130]: Oklahoma, United States (Remote)
+                          - list [ref=f16e1132]:
+                            - listitem [ref=f16e1133]:
+                              - time [ref=f16e1134]: 3 weeks ago
+                            - listitem [ref=f16e1135]:
+                              - strong [ref=f16e1137]:
+                                - generic [ref=f16e1138]: Be an early applicant
+                  - listitem [ref=f16e1139]:
+                    - link [ref=f16e1141] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4338268168&referenceJobId=4404474538&originToLandingJobPostings=4338268168&trackingId=Dr0S6dKWcAgZGQflybB7eQ%3D%3D&refId=E6wTXxVF4BcwDyD%2BPua4Sw%3D%3D&eBP=CwEAAAGduG6bbn2he-O6kla2OnFk7TBtjsZodCMeFgz1XaDq94Cc7rTMRZYX4yjeU8vDjANSRVT0yG1zVCm9iCPCFUFHV0A6xBF3zN7HdGrxi1LXFdKxBKEe_Y3e7MRen32O0K3vjt8rsm-3tNkLlURzjLEGV7VxdWFQuX85ROZHAW8q-YQ6bJHtqKNVuAPLnDQPyrDEX5CQAQYVXBCz3U2-WGUGLAwrYMSP6D5Dzkl5tq0yykzZmLvyW0Gf42Tu5Hd6--fVAKRL_Gi81lpsHZ4NgKmQX_GhBxmAOdQeI9pB9YLbJx_NwbMzkE3O-jPs42p-yHoWNOb86zIg0Uou9tM7XiJbzzZM1m_O6iwjz_TITgJs4E0AxoUoiUO2IMaabDg2wnT9NbkJoA_TRdi-G4s1hS0LdOpGo_A3ltOwN2HWNW0aeaZxA8crp9QCbkatAXE4FlDtIH1tD-OXlhywX6KnLWPm27DwH5z8nLQ6ioEdc2w
+                      - generic [ref=f16e1143]:
+                        - img [ref=f16e1148]
+                        - generic [ref=f16e1149]:
+                          - generic [ref=f16e1150]:
+                            - generic [ref=f16e1151]:
+                              - strong [ref=f16e1153]: UX Researcher
+                              - generic [ref=f16e1154]: UX Researcher
+                            - generic [ref=f16e1156]: DataAnnotation
+                            - generic [ref=f16e1158]: Nebraska, United States (Remote)
+                          - list [ref=f16e1160]:
+                            - listitem [ref=f16e1161]:
+                              - time [ref=f16e1162]: 3 days ago
+                            - listitem [ref=f16e1163]:
+                              - strong [ref=f16e1165]:
+                                - generic [ref=f16e1166]: Be an early applicant
+                - link [ref=f16e1168] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/jobs/collections/similar-jobs?referenceJobId=4404474538
+                  - text: See more jobs like this
+            - complementary [ref=f16e265]:
+              - generic [ref=f16e266]:
+                - generic [ref=f16e1169]:
+                  - img [ref=f16e1171]:
+                    - img [ref=f16e1172]
+                  - heading [level=2] [ref=f16e1174]: Learn skills to get a new job with these courses
+                  - link [ref=f16e1176] [cursor=pointer]:
+                    - /url: /learning?trk=jobdetails_learning_awareness
+                    - text: Show more on LinkedIn Learning
+                - generic [ref=f16e1177]:
+                  - paragraph [ref=f16e1178]: Looking for talent?
+                  - link [ref=f16e1179] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=flagship3_job_detail
+                    - text: Post a job
+          - contentinfo [ref=f16e268]:
+            - generic [ref=f16e1180]:
+              - generic [ref=f16e1181]:
+                - navigation [ref=f16e1182]:
+                  - list [ref=f16e1183]:
+                    - listitem [ref=f16e1184]:
+                      - link [ref=f16e1185] [cursor=pointer]:
+                        - /url: https://about.linkedin.com/
+                        - text: About
+                    - listitem [ref=f16e1186]:
+                      - link [ref=f16e1187] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/accessibility
+                        - text: Accessibility
+                    - listitem [ref=f16e1188]:
+                      - link [ref=f16e1189] [cursor=pointer]:
+                        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                        - text: Talent Solutions
+                    - listitem [ref=f16e1190]:
+                      - link [ref=f16e1191] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/legal/professional-community-policies
+                        - text: Professional Community Policies
+                    - listitem [ref=f16e1192]:
+                      - link [ref=f16e1193] [cursor=pointer]:
+                        - /url: https://careers.linkedin.com/
+                        - text: Careers
+                    - listitem [ref=f16e1194]:
+                      - link [ref=f16e1195] [cursor=pointer]:
+                        - /url: https://business.linkedin.com/marketing-solutions?trk=n_nav_lms_f&src=li-footer
+                        - text: Marketing Solutions
+                    - listitem [ref=f16e1196]:
+                      - button [ref=f16e1198] [cursor=pointer]:
+                        - generic [ref=f16e1200]:
+                          - text: Privacy & Terms
+                          - img [ref=f16e1201]
+                    - listitem [ref=f16e1203]:
+                      - link [ref=f16e1204] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/help/linkedin/answer/62931
+                        - text: Ad Choices
+                    - listitem [ref=f16e1205]:
+                      - link [ref=f16e1206] [cursor=pointer]:
+                        - /url: https://business.linkedin.com/marketing-solutions/ads?trk=n_nav_ads_f
+                        - text: Advertising
+                    - listitem [ref=f16e1207]:
+                      - link [ref=f16e1208] [cursor=pointer]:
+                        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                        - text: Sales Solutions
+                    - listitem [ref=f16e1209]:
+                      - link [ref=f16e1210] [cursor=pointer]:
+                        - /url: https://mobile.linkedin.com/
+                        - text: Mobile
+                    - listitem [ref=f16e1211]:
+                      - link [ref=f16e1212] [cursor=pointer]:
+                        - /url: https://smallbusiness.linkedin.com?&src=li-footer
+                        - text: Small Business
+                    - listitem [ref=f16e1213]:
+                      - link [ref=f16e1214] [cursor=pointer]:
+                        - /url: https://safety.linkedin.com
+                        - text: Safety Center
+                - generic [ref=f16e1216]:
+                  - list [ref=f16e1217]:
+                    - listitem [ref=f16e1218]:
+                      - img [ref=f16e1219]
+                      - generic [ref=f16e1221]:
+                        - link [ref=f16e1222] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin?trk=d_flagship3_job_details
+                          - text: Questions?
+                        - paragraph [ref=f16e1223]: Visit our Help Center.
+                    - listitem [ref=f16e1224]:
+                      - img [ref=f16e1225]
+                      - generic [ref=f16e1227]:
+                        - link [ref=f16e1228] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/psettings/
+                          - text: Manage your account and privacy
+                        - paragraph [ref=f16e1229]: Go to your Settings.
+                    - listitem [ref=f16e1230]:
+                      - img [ref=f16e1231]
+                      - generic [ref=f16e1233]:
+                        - link [ref=f16e1234] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1339724
+                          - text: Recommendation transparency
+                        - paragraph [ref=f16e1235]: Learn more about Recommended Content.
+                  - generic [ref=f16e1236]:
+                    - generic [ref=f16e1237]: Select Language
+                    - combobox [ref=f16e1238]
+              - paragraph [ref=f16e1239]: LinkedIn Corporation © 2026

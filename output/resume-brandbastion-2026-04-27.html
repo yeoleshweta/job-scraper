@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shweta Sharma — Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  /* =====================================================
+     DEEDY-ATS: Deedy-inspired, single-column, ATS-safe
+     - No CSS columns, no tables, no floats for layout
+     - Semantic HTML only — parseable by all ATS systems
+     - Raleway (name/headers) + Source Sans 3 (body)
+     - Fits 1 US Letter page
+     ===================================================== */
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'Source Sans 3', 'Source Sans Pro', Arial, sans-serif;
+    font-size: 10.2px;
+    line-height: 1.45;
+    color: #1c1c1c;
+    background: #ffffff;
+  }
+
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    max-height: 11in;
+    margin: 0 auto;
+    padding: 0.45in 0.55in 0.4in 0.55in;
+    overflow: hidden;
+  }
+
+  /* ── NAME & CONTACT ─────────────────────────────── */
+  .name-block {
+    margin-bottom: 3px;
+  }
+
+  .candidate-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #1c1c1c;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .name-accent {
+    display: block;
+    height: 2.5px;
+    background: linear-gradient(to right, #1a7a6e, #6b3fa0);
+    border-radius: 2px;
+    margin: 5px 0 6px 0;
+  }
+
+  .contact-line {
+    font-family: 'Source Sans 3', Arial, sans-serif;
+    font-size: 9.5px;
+    color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 14px;
+  }
+
+  .contact-line a {
+    color: #1a7a6e;
+    text-decoration: none;
+  }
+
+  .contact-line span.sep {
+    color: #bbb;
+    margin: 0 2px;
+  }
+
+  /* ── SECTION HEADERS ────────────────────────────── */
+  .section {
+    margin-top: 11px;
+  }
+
+  .section-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #1c1c1c;
+    border-bottom: 1.5px solid #1c1c1c;
+    padding-bottom: 2px;
+    margin-bottom: 6px;
+  }
+
+  /* ── SUMMARY ────────────────────────────────────── */
+  .summary-text {
+    font-size: 10px;
+    color: #2a2a2a;
+    line-height: 1.5;
+  }
+
+  /* ── EXPERIENCE ─────────────────────────────────── */
+  .exp-entry {
+    margin-bottom: 8px;
+  }
+
+  .exp-entry:last-child {
+    margin-bottom: 0;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .exp-company {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #1c1c1c;
+  }
+
+  .exp-date {
+    font-size: 9.5px;
+    color: #555;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  .exp-role-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
+  }
+
+  .exp-role {
+    font-size: 10px;
+    font-style: italic;
+    color: #333;
+    font-weight: 400;
+  }
+
+  .exp-location {
+    font-size: 9.5px;
+    color: #666;
+    font-style: italic;
+  }
+
+  .exp-bullets {
+    list-style: none;
+    padding: 0;
+  }
+
+  .exp-bullets li {
+    font-size: 10px;
+    color: #2a2a2a;
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 1.5px;
+    line-height: 1.45;
+  }
+
+  .exp-bullets li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: #1a7a6e;
+    font-weight: 600;
+  }
+
+  /* ── PROJECTS ───────────────────────────────────── */
+  .project-entry {
+    margin-bottom: 6px;
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .project-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #1c1c1c;
+  }
+
+  .project-tech {
+    font-size: 9.5px;
+    color: #555;
+    font-style: italic;
+  }
+
+  .project-desc {
+    font-size: 10px;
+    color: #2a2a2a;
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 1px;
+    line-height: 1.45;
+  }
+
+  .project-desc::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: #1a7a6e;
+    font-weight: 600;
+  }
+
+  /* ── EDUCATION ──────────────────────────────────── */
+  .edu-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
+  }
+
+  .edu-left .edu-school {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #1c1c1c;
+  }
+
+  .edu-left .edu-degree {
+    font-size: 10px;
+    color: #333;
+    font-style: italic;
+  }
+
+  .edu-right {
+    text-align: right;
+    font-size: 9.5px;
+    color: #555;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  /* ── SKILLS ─────────────────────────────────────── */
+  .skills-block {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .skill-row {
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+    font-size: 10px;
+  }
+
+  .skill-label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 9.5px;
+    color: #1c1c1c;
+    white-space: nowrap;
+    min-width: 110px;
+  }
+
+  .skill-values {
+    color: #333;
+    line-height: 1.4;
+  }
+
+  /* ── PRINT ──────────────────────────────────────── */
+  @media print {
+    @page {
+      size: letter;
+      margin: 0;
+    }
+    body { background: white; }
+    .page { padding: 0.45in 0.55in 0.4in 0.55in; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ══ HEADER ══ -->
+  <div class="name-block">
+    <div class="candidate-name">Shweta Sharma</div>
+    <span class="name-accent"></span>
+    <div class="contact-line">
+      <span>shwetayeole09@gmail.com</span>
+      <span class="sep">|</span>
+      <span>+1 947-466-5006</span>
+      <span class="sep">|</span>
+      <span>Philadelphia, PA</span>
+      <span class="sep">|</span>
+      <a href="https://https://linkedin.com/in/sharmashweta08">linkedin.com/in/sharmashweta08</a>
+      <span class="sep">|</span>
+      <a href="https://https://shwetasharma.tech">shwetasharma.tech</a>
+    </div>
+  </div>
+
+  <!-- ══ SUMMARY ══ -->
+  <div class="section">
+    <div class="section-title">Summary</div>
+    <div class="summary-text">NLP-focused Data Scientist with MS in AI and Machine Learning (Drexel, 2026) and hands-on transformer fine-tuning at ABIM (ClinicalBERT, RoBERTa on 3,500+ records). Combines supervised and unsupervised machine learning, deep learning with neural networks, and Python/SQL data work for large-scale ML applications including content classification and moderation contexts. Available immediately.</div>
+  </div>
+
+  <!-- ══ EXPERIENCE ══ -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+    
+    <div class="exp-entry">
+      <div class="exp-header">
+        <span class="exp-company">ABIM</span>
+        <span class="exp-date">Sep 2025 - Mar 2026</span>
+      </div>
+      <div class="exp-role-line">
+        <span class="exp-role">Data Scientist Co-op *(Drexel MS Co-op)*</span>
+        <span class="exp-location">Philadelphia, PA</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>Built supervised NLP model with ClinicalBERT and RoBERTa neural networks across 11 communication classification labels (Calgary-Cambridge, NURSE, SHARE), meeting gold-standard audit quality</li>
+        <li>Engineered NLP bias-detection framework on 3,500+ records using fine-tuned deep learning transformers to identify content patterns in moderation-style classification tasks</li>
+        <li>Designed annotation pipelines in Label Studio with inter-rater reliability protocols and synthetic data workflows with automated validation and leakage detection</li>
+        <li>Operated full ML lifecycle: data ingestion, annotation, training, validation, and deployment-ready pipelines</li>
+      </ul>
+    </div>
+
+    <div class="exp-entry">
+      <div class="exp-header">
+        <span class="exp-company">John Deere</span>
+        <span class="exp-date">Nov 2022 - Aug 2024</span>
+      </div>
+      <div class="exp-role-line">
+        <span class="exp-role">Sr. Technical Lead - Product Analytics</span>
+        <span class="exp-location">Pune, India</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>Built self-serve survey platform with automated analytics pipeline for 250+ products: cut setup time 60%, raised completion rates 25%, eliminated developer dependency</li>
+        <li>Applied behavioral analytics across 6+ product teams using session data and heatmaps with Python/SQL pipelines for large-scale data</li>
+        <li>Designed PM-UX Playbook formalizing data-informed decisions; raised PM adoption by 80%</li>
+      </ul>
+    </div>
+
+    <div class="exp-entry">
+      <div class="exp-header">
+        <span class="exp-company">Capita (Arcadia Group)</span>
+        <span class="exp-date">Jan 2018 - Aug 2019</span>
+      </div>
+      <div class="exp-role-line">
+        <span class="exp-role">UX Designer - E-Commerce Personalization</span>
+        <span class="exp-location">Pune, India</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>Ran A/B and multivariate experiments with 10% holdout methodology across 7 fashion brands using SQL pipelines, driving 11% conversion lift through behavioral trigger optimization</li>
+        <li>Built unsupervised user segmentation models and behavioral cohorts identifying high-value customer segments; validated findings against statistical significance thresholds</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ══ PROJECTS ══ -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+    
+    <div class="project-entry">
+      <div class="project-header">
+        <span class="project-name">Clinical NLP Pipeline: Patient-Centered Communication (ABIM)</span>
+        <a class="project-tech" href="https://shwetasharma.tech/work/abim">shwetasharma.tech/work/abim</a>
+      </div>
+      <div class="project-desc">End-to-end NLP system classifying communication behaviors across 985 clinical transcripts. BERT classifier fine-tuned on annotated data across 11 constructs. Domain-specific transformers &gt; generic LLMs for high-precision content classification.</div>
+    </div>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <span class="project-name">Healthcare Bias Detection</span>
+        <a class="project-tech" href="https://shwetasharma.tech/work/healthcare-bias">shwetasharma.tech/work/healthcare-bias</a>
+      </div>
+      <div class="project-desc">4-label NLP bias framework detecting systemic patterns in communication data. Transformer-based supervised classification combined with qualitative coding for mixed-methods validation. Annotation rigor as a product input.</div>
+    </div>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <span class="project-name">GesturePro: Sign Language Translation (AI/Accessibility)</span>
+        <a class="project-tech" href="https://shwetasharma.tech/work/gesturepro">shwetasharma.tech/work/gesturepro</a>
+      </div>
+      <div class="project-desc">Real-time ASL translation system with zero hardware requirements. Computer vision pipeline for hand gesture recognition with deep learning, designed for real-time inference at scale.</div>
+    </div>
+  </div>
+
+  <!-- ══ EDUCATION ══ -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    
+    <div class="edu-entry">
+      <div class="edu-left">
+        <div class="edu-school">Drexel University, Philadelphia PA</div>
+        <div class="edu-degree">MS in AI and Machine Learning</div>
+      </div>
+      <div class="edu-right">March 2026</div>
+    </div>
+
+    <div class="edu-entry">
+      <div class="edu-left">
+        <div class="edu-school">G.H. Raisoni College, Pune India</div>
+        <div class="edu-degree">BS in Computer Science</div>
+      </div>
+      <div class="edu-right">2015</div>
+    </div>
+  </div>
+
+  <!-- ══ SKILLS ══ -->
+  <div class="section">
+    <div class="section-title">Skills</div>
+    <div class="skills-block">
+    <div class="skill-row"><span class="skill-label">ML and NLP</span><span class="skill-values">ClinicalBERT, RoBERTa, PyTorch, Transformer Fine-Tuning, Supervised Learning, Unsupervised Learning, Deep Learning, Neural Networks, Text Classification, Bias Detection, Content Moderation</span></div>
+    <div class="skill-row"><span class="skill-label">Data and Analytics</span><span class="skill-values">Python, SQL, NoSQL-Adjacent, A/B Testing, Statistical Significance Testing, Cohort Analysis, Segmentation, Real-Time Analytics</span></div>
+    <div class="skill-row"><span class="skill-label">Pipelines and Annotation</span><span class="skill-values">Label Studio, Inter-Rater Reliability, Synthetic Data, Automated Validation, ML Pipelines</span></div>
+    <div class="skill-row"><span class="skill-label">Tools</span><span class="skill-values">FullStory, Typeform, Hotjar, Figma, Jira, Mural</span></div>
+  </div>
+  </div>
+
+</div>
+</body>
+</html>

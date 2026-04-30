@@ -1,0 +1,23 @@
+Pipeline complete.
+
+```json
+{
+  "status": "completed",
+  "id": "34",
+  "report_num": "037",
+  "company": "Handshake",
+  "role": "Staff Product Designer, Handshake AI",
+  "score": 2.6,
+  "pdf": "output/cv-shweta-sharma-handshake-staff-2026-04-29.pdf",
+  "report": "reports/037-handshake-2026-04-29.md",
+  "error": null
+}
+```
+
+**Summary:** Score 2.6/5 — SKIP. Staff Product Designer role at Handshake AI; San Francisco; $132K–$203K. Two big gaps: (1) Shweta is a UX Researcher with adjacent design experience, not a Staff-level Product Designer (the role wants 8+ yrs of pure design craft + design-systems leadership), (2) the Senior PD I role on the same team (report 034, scored 3.0/5) is a strictly better fit. PDF generated for completeness, but recommendation is to apply to the Senior version instead.
+
+Sources:
+- [Staff Product Designer, Handshake AI — Ashby](https://jobs.ashbyhq.com/handshake/c99145d8-20cf-4acc-bef5-00533362d935)
+- [Handshake hiring Staff Product Designer, Handshake AI — Glassdoor](https://www.glassdoor.com/job-listing/staff-product-designer-handshake-ai-handshake-JV_IC1147401_KO0,35_KE36,45.htm?jl=1009826670571)
+- [Senior Product Designer I, Handshake AI — designproject.io](https://designproject.io/jobs/jobs/senior-product-designer-i-handshake-ai-at-handshake-75dp3a)
+- [Handshake Salaries — Levels.fyi](https://www.levels.fyi/companies/handshake/salaries)

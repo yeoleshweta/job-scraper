@@ -1,0 +1,1950 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: Skip to main content
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e165]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "LinkedIn" [ref=e167] [cursor=pointer]:
+            - img "LinkedIn" [ref=e168]
+          - search [ref=e171]:
+            - generic [ref=e172]:
+              - img [ref=e174]
+              - textbox "I'm looking for…" [ref=e176]
+          - generic [ref=e20]:
+            - figure [ref=e181]
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "Home, 1 new notification" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e31]: Home
+                - listitem [ref=e32]:
+                  - link "My Network, 0 new notifications" [ref=e33] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e35]
+                    - generic [ref=e38]: My Network
+                - listitem [ref=e39]:
+                  - link "Jobs, 0 new notifications" [ref=e40] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e42]
+                    - generic [ref=e45]: Jobs
+                - listitem [ref=e46]:
+                  - link "Messaging, 0 new notifications" [ref=e47] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e49]
+                    - generic [ref=e52]: Messaging
+                - listitem [ref=e53]:
+                  - link "Notifications, 0 new notifications" [ref=e54] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e56]
+                    - generic [ref=e59]: Notifications
+                - listitem [ref=e60]:
+                  - button "Me" [ref=e61] [cursor=pointer]:
+                    - figure [ref=e63]
+                    - generic [ref=e65]:
+                      - text: Me
+                      - img [ref=e183]
+            - navigation [ref=e69]:
+              - list [ref=e70]:
+                - listitem [ref=e71]:
+                  - button "For Business" [ref=e72] [cursor=pointer]:
+                    - img [ref=e74]
+                    - generic [ref=e77]:
+                      - text: For Business
+                      - img [ref=e185]
+                - listitem [ref=e79]:
+                  - link "Learning, 0 new notifications" [ref=e80] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+                    - img [ref=e187]
+                    - generic [ref=e84]: Learning
+      - main [ref=e85]:
+        - generic [ref=e86]:
+          - toolbar
+          - main [ref=e87]:
+            - generic [ref=e89]:
+              - generic [ref=e194]:
+                - generic [ref=e199]:
+                  - generic [ref=e200]:
+                    - generic [ref=e201]:
+                      - link "Company, SimplePractice." [ref=e203] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/simplepractice/life/
+                        - generic "Company, SimplePractice." [ref=e204]:
+                          - figure [ref=e205]:
+                            - img "Company logo for, SimplePractice." [ref=e206]
+                          - paragraph [ref=e207]:
+                            - link "SimplePractice" [ref=e208]:
+                              - /url: https://www.linkedin.com/company/simplepractice/life/
+                      - button "More options" [ref=e209] [cursor=pointer]:
+                        - img [ref=e211]
+                    - paragraph [ref=e215]:
+                      - text: Senior Product Designer (Fixed-Term)
+                      - link "Verified job" [ref=e216] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Verified job" [ref=e217]:
+                          - img [ref=e218]
+                    - paragraph [ref=e220]:
+                      - text: United States ·
+                      - strong [ref=e222]: 5 hours ago
+                      - text: · 26 applicants
+                    - paragraph [ref=e224]: Promoted by hirer · No response insights available yet
+                  - generic [ref=e225]:
+                    - link "Remote" [ref=e227] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4405447344/
+                      - generic [ref=e228]:
+                        - img [ref=e229]
+                        - generic [ref=e231]: Remote
+                    - link "Full-time" [ref=e233] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4405447344/
+                      - generic [ref=e235]: Full-time
+                  - generic [ref=e240]:
+                    - link "Easy Apply to this job" [ref=e242] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4405447344/apply/?openSDUIApplyFlow=true&trackingId=H26AHLVtQV%2B4zHse9IXi4A%3D%3D
+                      - generic [ref=e243]:
+                        - img [ref=e244]
+                        - generic [ref=e246]: Easy Apply
+                    - button "Save the job" [ref=e248] [cursor=pointer]:
+                      - generic [ref=e250]: Save
+                - generic [ref=e251]:
+                  - generic [ref=e256]:
+                    - img [ref=e258]
+                    - heading "Use AI to assess how you fit" [level=2] [ref=e264]
+                    - list [ref=e271]:
+                      - listitem [ref=e272]:
+                        - link "Show match details" [ref=e274] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Aaf1804cf6f84ea866dbe1f7f9a00db1ecf9c5d5eb925117cab492746d735d71e%7Eurn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&contextUrns=urn%3Ali%3Aguide%3Aaf1804cf6f84ea866dbe1f7f9a00db1ecf9c5d5eb925117cab492746d735d71e&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=WF5wEyLCS4WpT9bwCKDfUA%3D%3D&customContext=jobPostingId%7E%3A4405447344%2CsubIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2ChasHistory%7E%3Afalse&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4405447344
+                          - generic [ref=e275]:
+                            - img [ref=e276]
+                            - paragraph [ref=e278]: Show match details
+                      - listitem [ref=e279]:
+                        - link "Tailor my resume" [ref=e281] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/job-apply-resources/?jobPostingId=4405447344
+                          - generic [ref=e282]:
+                            - img [ref=e283]
+                            - paragraph [ref=e285]: Tailor my resume
+                      - listitem [ref=e286]:
+                        - link "Create cover letter" [ref=e288] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Create+cover+letter&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Aaf1804cf6f84ea866dbe1f7f9a00db1ecf9c5d5eb925117cab492746d735d71e%7Eurn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&contextUrns=urn%3Ali%3Aguide%3Aaf1804cf6f84ea866dbe1f7f9a00db1ecf9c5d5eb925117cab492746d735d71e&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=M%2BTD3qyESxSlivUtdJupYw%3D%3D&customContext=jobPostingId%7E%3A4405447344%2CsubIntent%7E%3AJobSeekerAgentIntent_COVER_LETTER%2ChasHistory%7E%3Afalse&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4405447344
+                          - generic [ref=e289]:
+                            - img [ref=e290]
+                            - paragraph [ref=e292]: Create cover letter
+                      - listitem [ref=e293]:
+                        - link "Help me stand out" [ref=e295] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Aaf1804cf6f84ea866dbe1f7f9a00db1ecf9c5d5eb925117cab492746d735d71e%7Eurn%3Ali%3AguideJobs%3AACoAABWXxVQBRcLE0BOD05utmEn0fahlYm4AuAU&contextUrns=urn%3Ali%3Aguide%3Aaf1804cf6f84ea866dbe1f7f9a00db1ecf9c5d5eb925117cab492746d735d71e&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=Xu3cc%2FEFTuqTbb2SeaObRg%3D%3D&customContext=jobPostingId%7E%3A4405447344%2CsubIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2ChasHistory%7E%3Afalse&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4405447344
+                          - generic [ref=e296]:
+                            - img [ref=e297]
+                            - paragraph [ref=e299]: Help me stand out
+                  - generic [ref=e305]:
+                    - heading "About the job" [level=2] [ref=e307]
+                    - paragraph [ref=e308]:
+                      - generic [ref=e309]:
+                        - paragraph [ref=e310]:
+                          - strong [ref=e311]: "Fixed-Term Duration: 6 months"
+                        - text: About Us
+                        - paragraph [ref=e312]: At SimplePractice, we are improving access to quality care by equipping health and wellness clinicians with all the tools they need to thrive in private practice.
+                        - paragraph [ref=e313]: More than 250,000 providers trust SimplePractice to build their business through our industry-leading software with powerful tools that simplify every part of practice management. From admin work to clinical care, our suite of innovative solutions work together to reduce administrative burden—empowering solo and small group practitioners to thrive alongside their clients.
+                        - paragraph [ref=e314]: Award-winning and people-first, SimplePractice is shaping the future of health tech. Recognized by MedTech Breakthrough, the Digital Health Awards, and BuiltIn's Best Places to Work.
+                        - text: The Role
+                        - paragraph [ref=e315]: We're looking for a Senior Product Designer to help shape user experiences across our EHR platform. You'll focus on designing solutions that meet clinician needs while driving key business outcomes through thoughtful user experience design. This role combines user-centered design principles, data-driven decision making, and deep understanding of clinician motivations and workflows.
+                        - paragraph [ref=e316]: This is a high-impact role where you'll design solutions that improve user satisfaction and platform effectiveness through research-backed, iterative design processes. You'll create compelling user experiences, optimize key workflows, and implement design patterns that encourage meaningful product engagement. Working closely with product, engineering, and stakeholder teams, you'll translate user insights and business requirements into design solutions that drive measurable outcomes while maintaining clinical workflow integrity.
+                        - paragraph [ref=e317]: As our EHR platform grows in a competitive healthcare market, your work will directly influence how we serve our customer base and build sustainable product experiences. You'll establish design frameworks and best practices that scale with our business, ensuring every design initiative enhances rather than compromises the clinical experience that practitioners depend on daily.
+                        - text: Responsibilities
+                        - list [ref=e318]:
+                          - listitem [ref=e319]: Lead the design process from discovery and research to ideation, prototyping, and final implementation
+                          - listitem [ref=e320]: Collaborate closely with product managers, engineers, and data scientists to translate complex user needs and business requirements into intuitive and impactful design solutions
+                          - listitem [ref=e321]: Conduct and analyze user research to inform design decisions and improve user experiences
+                          - listitem [ref=e322]: Create a range of design deliverables, including user flows, wireframes, high-fidelity mockups, and interactive prototypes
+                          - listitem [ref=e323]: Develop and maintain consistent design patterns and guidelines across our products
+                          - listitem [ref=e324]: Write clear, concise, and user-friendly content for product interfaces and user journeys
+                          - listitem [ref=e325]: Advocate for user needs and balance them with business objectives
+                          - listitem [ref=e326]: Present design work to stakeholders and incorporate feedback effectively
+                          - listitem [ref=e327]: Mentor and inspire other designers and contribute to the growth of the Experience Design team
+                        - text: Desired Skills & Experience
+                        - list [ref=e328]:
+                          - listitem [ref=e329]: At least 5 years of product design experience in a product or design-focused tech company
+                          - listitem [ref=e330]: Advanced in Figma & AI tools
+                          - listitem [ref=e331]: Strong foundation in UI and interaction design with special attention to detail, including strong writing skills for product copy and microcopy
+                          - listitem [ref=e332]: Ability to rapidly iterate and produce multiple design concepts , including conducting user testing to validate design decisions
+                          - listitem [ref=e333]: Capable of time management and meeting deadlines
+                          - listitem [ref=e334]: A creative thinker who has lots of ideas and sees solutions when most would not
+                          - listitem [ref=e335]: A portfolio demonstrating creative problem solving, innovative solutions and clean visual aesthetic
+                          - listitem [ref=e336]: Self-motivated attitude with the ability to work in a fast-paced, strong work ethic, sense of urgency and accountability
+                          - listitem [ref=e337]: Experience with data-driven design decisions, A/B testing methodologies, and experimental design approaches
+                        - text: Base Compensation Range
+                        - paragraph [ref=e338]: "Fixed-Term Salary: $75,000"
+                        - paragraph [ref=e339]: Base salary is one component of total compensation. Employees may also be eligible for an annual bonus or commission. Some roles may also be eligible for overtime pay.
+                        - paragraph [ref=e340]: The above represents the expected base compensation range for this job requisition. Ultimately, in determining your pay, we’ll consider many factors including, but not limited to, skills, experience, qualifications, geographic location, and other job-related factors.
+                        - text: Benefits
+                        - paragraph [ref=e341]: "We offer a competitive benefits program including:"
+                        - list [ref=e342]:
+                          - listitem [ref=e343]: Medical, dental, vision, life & disability insurance
+                          - listitem [ref=e344]: 401(k) plan with company match
+                          - listitem [ref=e345]: Flexible Time Off (FTO), wellbeing days, paid holidays, and summer Fridays
+                          - listitem [ref=e346]: Mental health resources
+                          - listitem [ref=e347]: Paid parental leave & Backup Care
+                          - listitem [ref=e348]: Tuition reimbursement
+                          - listitem [ref=e349]: Employee Resource Groups (ERGs)
+                        - text: California Job Applicant Privacy Notice
+                        - paragraph [ref=e350]:
+                          - text: Thank you for your interest in opportunities at SimplePractice LLC (“SimplePractice” or “us” or “we” or “our”). Please note that when you submit your resume or application materials to us for employment purposes, you are subject to the
+                          - link "SimplePractice California Job Applicant Privacy Notice" [ref=e351] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fwww%2Esimplepractice%2Ecom%2Fcalifornia-applicant-notice%2F&urlhash=SQZ5&isSdui=true
+                          - text: .
+                        - paragraph [ref=e352]: For more information about our privacy practices, please contact us at privacy@simplepractice.com.
+                        - button:
+                          - generic [ref=e354] [cursor=pointer]: … more
+                    - paragraph [ref=e355]: Benefits found in job post
+                    - paragraph [ref=e356]: Disability insurance, 401(k)
+                  - generic [ref=e361]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e362]
+                    - generic [ref=e363]:
+                      - paragraph [ref=e364]: Senior Product Designer, United States
+                      - switch "Tap to toggle setting" [ref=e365] [cursor=pointer]:
+                        - generic [ref=e366]:
+                          - generic:
+                            - paragraph
+                          - generic [ref=e367]:
+                            - generic [ref=e368]: "Off"
+                            - generic [ref=e369]:
+                              - switch
+                  - generic [ref=e377]:
+                    - generic [ref=e378]:
+                      - img [ref=e379]
+                      - button "Learn more" [ref=e386] [cursor=pointer]:
+                        - img "Learn more" [ref=e387]
+                    - heading "See how you compare to other applicants" [level=2] [ref=e390]
+                    - heading "Based on LinkedIn data. Excludes subsidiaries." [level=3] [ref=e391]
+                    - generic [ref=e392]:
+                      - generic [ref=e393]:
+                        - heading "Applicants for this job" [level=3] [ref=e394]
+                        - generic [ref=e395]:
+                          - paragraph [ref=e397]: "26"
+                          - paragraph [ref=e398]: Applicants
+                        - generic [ref=e399]:
+                          - paragraph [ref=e401]: "26"
+                          - paragraph [ref=e402]: Applicants in the past day
+                      - generic [ref=e403]:
+                        - heading "Applicant seniority level" [level=3] [ref=e404]
+                        - paragraph [ref=e405]: 50% Senior level people applied for this job
+                        - paragraph [ref=e408]: 38% Entry level people applied for this job
+                        - paragraph [ref=e412]: 4% Manager level people applied for this job
+                      - rowgroup [ref=e416]:
+                        - heading "Applicant education level" [level=3] [ref=e417]
+                        - row "58% have a Master's Degree (Similar to you)" [ref=e418]:
+                          - paragraph [ref=e419]: 58%
+                          - paragraph [ref=e420]: have a Master's Degree (Similar to you)
+                        - row "38% have a Bachelor's Degree" [ref=e421]:
+                          - paragraph [ref=e422]: 38%
+                          - paragraph [ref=e423]: have a Bachelor's Degree
+                        - row "4% have a Master of Business Administration" [ref=e424]:
+                          - paragraph [ref=e425]: 4%
+                          - paragraph [ref=e426]: have a Master of Business Administration
+                  - generic [ref=e431]:
+                    - generic [ref=e433]:
+                      - generic [ref=e434]:
+                        - img [ref=e435]
+                        - button "Learn more" [ref=e442] [cursor=pointer]:
+                          - img "Learn more" [ref=e443]
+                      - heading "Exclusive Job Seeker Insights about SimplePractice" [level=2] [ref=e446]
+                      - heading "Powered by Bing" [level=3] [ref=e447]
+                      - generic [ref=e448]:
+                        - generic [ref=e449]:
+                          - paragraph [ref=e450]: Company focus areas
+                          - generic [ref=e451]:
+                            - paragraph [ref=e452]:
+                              - strong [ref=e453]: • Enhancing Practice Management
+                              - text: ": SimplePractice aims to be the ultimate tool for private practice success by supporting therapists, coaches, and clinicians with comprehensive practice management and EHR solutions."
+                            - button "...more" [ref=e455] [cursor=pointer]:
+                              - paragraph [ref=e456]: ...more
+                          - generic [ref=e457]:
+                            - paragraph [ref=e458]: "Sources: blog.mavenwit.com +1 more"
+                            - generic [ref=e460]:
+                              - button "Mark suggestion as good" [ref=e462] [cursor=pointer]:
+                                - img [ref=e464]
+                              - link "Mark suggestion as bad" [ref=e467] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4405447344/
+                                - img [ref=e469]
+                        - generic [ref=e471]:
+                          - paragraph [ref=e472]: Hiring & headcount
+                          - paragraph [ref=e473]:
+                            - generic [ref=e474]:
+                              - text: "Significant growth in Engineering: The 'Engineering' department has seen a 37% increase in headcount over the past year, indicating a major focus on product development and technological innovation. Expansion in Sales: The 'Sales' department has experienced a 29% increase in headcount, suggesting a strategic push to boost revenue and market presence. Increased focus on Information Technology: The 'Information Technology' department has grown by 32%, reflecting an investment in IT infrastructure and digital transformation. Growth in Human Resources: The 'Human Resources' department has increased by 31%, which may indicate efforts to support the expanding workforce and improve employee management and satisfaction."
+                              - button:
+                                - generic [ref=e476] [cursor=pointer]: … more
+                          - generic [ref=e478]:
+                            - button "Mark suggestion as good" [ref=e480] [cursor=pointer]:
+                              - img [ref=e482]
+                            - link "Mark suggestion as bad" [ref=e485] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/jobs/view/4405447344/
+                              - img [ref=e487]
+                        - generic [ref=e489]:
+                          - paragraph [ref=e490]: The latest hiring trend
+                          - generic [ref=e491]:
+                            - generic [ref=e492]:
+                              - generic [ref=e493]:
+                                - paragraph [ref=e494]: "637"
+                                - paragraph [ref=e495]: Total employees
+                              - generic [ref=e496]:
+                                - generic [ref=e497]:
+                                  - generic [ref=e498]:
+                                    - img [ref=e499]
+                                    - paragraph [ref=e501]: 33%
+                                  - paragraph [ref=e502]: Company-wide
+                                  - paragraph [ref=e503]: 2 year growth
+                                - generic [ref=e504]:
+                                  - generic [ref=e505]:
+                                    - img [ref=e506]
+                                    - paragraph [ref=e508]: 3%
+                                  - paragraph [ref=e509]: Arts and Design
+                                  - paragraph [ref=e510]: 2 year growth
+                            - region "Chart. Highcharts interactive chart." [ref=e511]:
+                              - generic [ref=e512]:
+                                - heading "Chart" [level=4] [ref=e513]
+                                - generic [ref=e514]: Chart with 25 data points.
+                                - generic [ref=e515]: The chart has 1 X axis displaying Time. Data ranges from 2024-04-01 00:00:00 to 2026-04-01 00:00:00.
+                                - generic [ref=e516]: The chart has 1 Y axis displaying values. Data ranges from 479 to 637.
+                              - img "Interactive chart" [ref=e522]:
+                                - generic [ref=e534]:
+                                  - img "April 2024, 479. Employee headcount." [ref=e535]
+                                  - img "May 2024, 485. Employee headcount." [ref=e536]
+                                  - img "June 2024, 493. Employee headcount." [ref=e537]
+                                  - img "July 2024, 503. Employee headcount." [ref=e538]
+                                  - img "August 2024, 503. Employee headcount." [ref=e539]
+                                  - img "September 2024, 508. Employee headcount." [ref=e540]
+                                  - img "October 2024, 514. Employee headcount." [ref=e541]
+                                  - img "November 2024, 518. Employee headcount." [ref=e542]
+                                  - img "December 2024, 517. Employee headcount." [ref=e543]
+                                  - img "January 2025, 525. Employee headcount." [ref=e544]
+                                  - img "February 2025, 527. Employee headcount." [ref=e545]
+                                  - img "March 2025, 529. Employee headcount." [ref=e546]
+                                  - img "April 2025, 546. Employee headcount." [ref=e547]
+                                  - img "May 2025, 545. Employee headcount." [ref=e548]
+                                  - img "June 2025, 570. Employee headcount." [ref=e549]
+                                  - img "July 2025, 572. Employee headcount." [ref=e550]
+                                  - img "August 2025, 566. Employee headcount." [ref=e551]
+                                  - img "September 2025, 595. Employee headcount." [ref=e552]
+                                  - img "October 2025, 601. Employee headcount." [ref=e553]
+                                  - img "November 2025, 607. Employee headcount." [ref=e554]
+                                  - img "December 2025, 612. Employee headcount." [ref=e555]
+                                  - img "January 2026, 624. Employee headcount." [ref=e556]
+                                  - img "February 2026, 629. Employee headcount." [ref=e557]
+                                  - img "March 2026, 629. Employee headcount." [ref=e558]
+                                  - img "April 2026, 637. Employee headcount." [ref=e559]
+                                - generic [ref=e560]:
+                                  - generic [ref=e561]: May 2024
+                                  - generic [ref=e562]: Sep 2024
+                                  - generic [ref=e563]: Jan 2025
+                                  - generic [ref=e564]: May 2025
+                                  - generic [ref=e565]: Sep 2025
+                                  - generic [ref=e566]: Jan 2026
+                                  - generic [ref=e567]: May…
+                                - generic [ref=e568]:
+                                  - generic [ref=e569]: "0"
+                                  - generic [ref=e570]: "500"
+                                  - generic [ref=e571]: 1K
+                              - generic [ref=e573]: End of interactive chart.
+                          - generic [ref=e574]:
+                            - img [ref=e575]
+                            - paragraph [ref=e578]:
+                              - text: "Median employee tenure:"
+                              - strong [ref=e579]: 2.5 years
+                        - generic [ref=e580]:
+                          - paragraph [ref=e581]: Competitors
+                          - paragraph [ref=e582]:
+                            - generic [ref=e583]:
+                              - text: SimplePractice is a leading provider of HIPAA-compliant electronic health record (EHR) and practice management software, primarily serving therapists, health, and wellness professionals. It offers an all-in-one solution that includes features such as telehealth, online scheduling, insurance billing, documentation, and client portals. The competitive landscape includes several key players like Kareo, Practice Fusion, and CarePaths, each offering unique features and targeting different segments of the market. SimplePractice's strong client portal and onboarding features are significant competitive differentiators.
+                              - button:
+                                - generic [ref=e585] [cursor=pointer]: … more
+                          - generic [ref=e586]:
+                            - link [ref=e587] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/kareo/
+                              - figure [ref=e588]
+                            - link [ref=e589] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/practice-fusion/
+                              - figure [ref=e590]
+                            - link [ref=e591] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/carepaths/
+                              - figure [ref=e592]
+                          - generic [ref=e593]:
+                            - paragraph [ref=e594]: "Sources: rivalsense.co +3 more"
+                            - generic [ref=e596]:
+                              - button "Mark suggestion as good" [ref=e598] [cursor=pointer]:
+                                - img [ref=e600]
+                              - link "Mark suggestion as bad" [ref=e603] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/jobs/view/4405447344/
+                                - img [ref=e605]
+                    - link "Show Premium Insights" [ref=e607] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/simplepractice/insights/?insightType=HEADCOUNT
+                      - generic [ref=e608]:
+                        - img [ref=e609]
+                        - generic [ref=e611]: Show Premium Insights
+                  - generic [ref=e615]:
+                    - generic [ref=e616]:
+                      - heading "About the company" [level=2] [ref=e618]
+                      - generic [ref=e619]:
+                        - generic [ref=e620]:
+                          - link "SimplePractice 74,063 followers" [ref=e621] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/simplepractice/life/
+                            - generic [ref=e622]:
+                              - figure [ref=e623]
+                              - generic [ref=e624]:
+                                - paragraph [ref=e627]: SimplePractice
+                                - paragraph [ref=e629]: 74,063 followers
+                          - button "Follow" [ref=e630] [cursor=pointer]:
+                            - generic [ref=e631]:
+                              - img [ref=e632]
+                              - generic [ref=e634]: Follow
+                        - generic [ref=e635]:
+                          - paragraph [ref=e637]: Software Development
+                          - paragraph [ref=e639]: •
+                          - paragraph [ref=e641]: 501-1000 employees
+                          - paragraph [ref=e643]: •
+                          - paragraph [ref=e645]: 641 on LinkedIn
+                        - paragraph [ref=e646]:
+                          - generic [ref=e647]: Join over 250,000 Health and Wellness professionals in growing their private practice with SimplePractice. The only practice management software that allows you to go fully virtual, in-office, or anywhere in-between. Integrated with telehealth, online booking, paperless intakes, and more.
+                      - generic [ref=e651]:
+                        - generic [ref=e653]:
+                          - paragraph [ref=e654]: Interested in working with us in the future?
+                          - link "Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates. Learn more" [ref=e655] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                            - paragraph [ref=e656]:
+                              - text: Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates.
+                              - link "Learn more" [ref=e657]:
+                                - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                                - strong [ref=e658]: Learn more
+                        - button "I’m interested" [ref=e660] [cursor=pointer]:
+                          - generic [ref=e662]: I’m interested
+                    - generic [ref=e663]:
+                      - paragraph [ref=e664]: Trending employee content
+                      - list [ref=e669]:
+                        - list [ref=e670]:
+                          - listitem [ref=e671]:
+                            - listitem [ref=e673]:
+                              - generic [ref=e674]:
+                                - generic [ref=e675]:
+                                  - link [ref=e676] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/delarocha/
+                                    - figure [ref=e677]:
+                                      - img "View Leonardo De La Rocha’s profile" [ref=e678]
+                                  - 'link "Leonardo De La Rocha Premium Profile 3rd+ Dad, Mental Health Champion, Mentor, Design leader, and Advisor. VP of Design at SimplePractice. Ex-Spotify, Intuit, Facebook, and Yahoo! View my services 1w • Visibility: Global" [ref=e679] [cursor=pointer]':
+                                    - /url: https://www.linkedin.com/in/delarocha/
+                                    - generic [ref=e680]:
+                                      - generic "Leonardo De La Rocha Premium Profile 3rd+" [ref=e681]:
+                                        - paragraph [ref=e684]: Leonardo De La Rocha
+                                        - paragraph [ref=e686]:
+                                          - img [ref=e688]
+                                          - text: • 3rd+
+                                      - paragraph [ref=e691]: Dad, Mental Health Champion, Mentor, Design leader, and Advisor. VP of Design at SimplePractice. Ex-Spotify, Intuit, Facebook, and Yahoo!
+                                      - link "View my services" [ref=e693]:
+                                        - /url: https://www.linkedin.com/services/page/b68a9630ab09902122/
+                                        - paragraph [ref=e694]: View my services
+                                      - paragraph [ref=e696]:
+                                        - text: 1w •
+                                        - 'img "Visibility: Global" [ref=e697]'
+                                  - button "Open control menu for post by Leonardo De La Rocha" [ref=e699] [cursor=pointer]:
+                                    - img [ref=e701]
+                                - link [ref=e703] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7448895439145172992/
+                                  - paragraph [ref=e704]:
+                                    - generic [ref=e705]:
+                                      - text: We're building something new at SimplePractice, and we need the right person to lead it.
+                                      - text: "Our engineering org just spun up a Platform Engineering team to own the foundational systems that every application team depends on: database scaling, event-driven architecture, and CI reliability. These are hard, important problems, and we're bringing in a Tech Lead Manager to anchor the effort."
+                                      - text: This is a real hybrid role. You'll write code, make architectural calls, manage and grow a small team of engineers, and establish the patterns that application teams across SimplePractice will build on for years. If you're the kind of engineer who gets genuinely excited about sharding strategies, event-driven design, and building platforms that make other teams faster, I'd love to put this in front of you.
+                                      - text: Strong technical foundation, experience leading small infrastructure-focused teams, and a clear communicator. That's who we're looking for.
+                                      - text: Come help us build the layer that holds everything together. 👇
+                                      - text: "Please share this or apply here:"
+                                      - link "https://lnkd.in/grX7Ks4j" [ref=e706]:
+                                        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgrX7Ks4j&urlhash=RbfJ&mt=CehQ7q9_nbGhy8WlsSvtIO0Ztq5wUaH6W7puhPqscm5Zzb94AW6kcyyfZ80iYs04ZrPdBCiiHDK139ku6xHIYJ_8lm0IONB18N9mT43xk0ob0vl_Hx34h6loRg&isSdui=true
+                                        - strong [ref=e708]: https://lnkd.in/grX7Ks4j
+                                      - link "#hiring" [ref=e709]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e711]: "#hiring"
+                                      - link "#engineeringjobs" [ref=e712]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23engineeringjobs&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e714]: "#engineeringjobs"
+                                      - link "#platformengineering" [ref=e715]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23platformengineering&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e717]: "#platformengineering"
+                                      - link "#techlead" [ref=e718]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23techlead&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e720]: "#techlead"
+                                      - link "#simplepractice" [ref=e721]:
+                                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23simplepractice&origin=HASH_TAG_FROM_FEED
+                                        - strong [ref=e723]: "#simplepractice"
+                                      - button:
+                                        - generic [ref=e725]: … more
+                                - link [ref=e727] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/jobs/view/4405447344/
+                                  - figure [ref=e728]:
+                                    - img "Come work with us!" [ref=e729]
+                              - generic [ref=e730]:
+                                - generic [ref=e731]:
+                                  - link "37 reactions" [ref=e732] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/jobs/view/4405447344/
+                                    - generic [ref=e733]:
+                                      - img [ref=e734]
+                                      - img [ref=e740]
+                                      - img [ref=e754]
+                                      - paragraph [ref=e766]:
+                                        - generic [ref=e767]: 37 reactions
+                                        - text: "37"
+                                  - generic [ref=e768]:
+                                    - link "3 comments" [ref=e769] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/feed/update/urn:li:activity:7448895439145172992/
+                                      - paragraph [ref=e770]:
+                                        - generic [ref=e771]: 3 comments
+                                        - generic [ref=e772]: 3 comments
+                                    - paragraph [ref=e773]: •
+                                    - link "12 reposts" [ref=e774] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/jobs/view/4405447344/
+                                      - paragraph [ref=e775]:
+                                        - generic [ref=e776]: 12 reposts
+                                        - generic [ref=e777]: 12 reposts
+                                - generic [ref=e778]:
+                                  - generic [ref=e779]:
+                                    - 'button "Reaction button state: no reaction" [ref=e782] [cursor=pointer]':
+                                      - generic [ref=e783]:
+                                        - img [ref=e784]
+                                        - generic [ref=e786]: Like
+                                    - button "Open reactions menu":
+                                      - img [ref=e788] [cursor=pointer]
+                                  - link "Comment" [ref=e790] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7448895439145172992/
+                                    - generic [ref=e791]:
+                                      - img [ref=e792]
+                                      - generic [ref=e795]: Comment
+                                  - button "Repost" [ref=e796] [cursor=pointer]:
+                                    - generic [ref=e797]:
+                                      - img [ref=e798]
+                                      - generic [ref=e801]: Repost
+                                  - link "Send" [ref=e802] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/jobs/view/4405447344/
+                                    - generic [ref=e803]:
+                                      - img [ref=e804]
+                                      - generic [ref=e807]: Send
+                    - link "Show more" [ref=e808] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/simplepractice/
+                      - generic [ref=e809]:
+                        - img [ref=e810]
+                        - generic [ref=e812]: Show more
+                  - generic [ref=e815]:
+                    - heading "More jobs" [level=2] [ref=e816]
+                    - generic [ref=e817]:
+                      - link "DataAnnotation Pennsylvania, United States (Remote) Posted 1 day ago" [ref=e819] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=%2FM2Il2WBLXlhUl0cAP7vHw%3D%3D&currentJobId=4338337668&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4BtwxB1Lmyti-s19dfhTLnVskvTR38zEM9n_VXgydK5uB1ElScEXFB_dxJpgnKeOwYJwz1yMjf8FdpyHQnh4tC-zx-ZdqVmPfWzHBLpoUH9U6BrimeRNZJoYDrllGGiglwbDnRcRuJJ40JJHY29gwZxhlTHLK3UA4IwEer_87RTAVdfg6xVQgt8T6HoJjXO7QrHgyCcsMXq1x9NrxQKQJYGVaE8zfW-q9BogNG-UKw2zgkLDnsAYfCcjZkKv1_ME2N2eQ6gFVImy8c_I-j0lRPb4SksswL1T88-l8aJ30poUvm4aXW8RmB4PiCyzBevzugYRGhG26_mQjlxH_acAkqpEJSS9wdynpA9nZid80GMRNvB6Jcva-22WdWvpomA54izqZLDFpa4sZ-p-Miw7F8UvxQ3_8EE637aOFzD6fJ_RKajQmLrhLMGFgehqDwbWa-dq_qBFL7Tk6VVGjmnZ5g&originToLandingJobPostings=4338337668
+                        - generic [ref=e820]:
+                          - generic [ref=e821]:
+                            - figure [ref=e822]
+                            - generic [ref=e826]:
+                              - paragraph [ref=e829]: UX/UI Designer
+                              - paragraph [ref=e832]: DataAnnotation
+                              - paragraph [ref=e834]: Pennsylvania, United States (Remote)
+                          - paragraph [ref=e837]:
+                            - generic [ref=e838]: Posted 1 day ago
+                            - text: 1 day ago
+                      - link "DataAnnotation New Jersey, United States (Remote) Posted 1 day ago" [ref=e840] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=mCsXGQOYT35c%2FjiUzia5Sw%3D%3D&currentJobId=4338367665&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4HzbKG5A7MEVyFNKAeIEHpznlWWEbutpCdpE96QySjl6ZjXjAZyydZuioxiF40n_nirsCSBVV17gcHHzYdKyCYUdwpz9Rn6q9PpZMJtJdUVUDCcJl5-gBXc6obijfslFMwqESkPgdaFhJP-781KOEyOeURC9y3t2_YGXtyQeQdcBSIZzYQurm9cr3NkzeSertdO0qWr6TJPBtirfdWVWrLfGOjcKxaEB-7O5rxuoziF4HzrtvHU1zO6bLz9ceH7BnozqWpJHWrweojSkFIVt5wRpuXjvXjmeRqT_T8o2hHkxBcunGpzkxqU17jkr75jTMQ_sXyX2RmgknZoyWKuZYsyOGbmQhirw5wg5YdtWimEwCyO_1aTrYqE_Jqig9dNg9z5OuV2POMEiWsEFQ7WnuxSKMlVHfUNCJZLLK5f-zgVruHymDFtHZIy3kEnwwXVcbBCP4mFy3bkIppfhSZdQMflWBdY&originToLandingJobPostings=4338367665
+                        - generic [ref=e841]:
+                          - generic [ref=e842]:
+                            - figure [ref=e843]
+                            - generic [ref=e847]:
+                              - paragraph [ref=e850]: UI/UX Product Designer
+                              - paragraph [ref=e853]: DataAnnotation
+                              - paragraph [ref=e855]: New Jersey, United States (Remote)
+                          - paragraph [ref=e858]:
+                            - generic [ref=e859]: Posted 1 day ago
+                            - text: 1 day ago
+                      - link "DataAnnotation Virginia, United States (Remote) Posted 1 day ago" [ref=e861] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=ihTm7RD%2BdE1ur5vVvaWjfA%3D%3D&currentJobId=4338367579&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4JEyMWlcI1O07A2q2cPgsnbgnlNRVLKsHhfrR0A_F_0jhvOzSEh28M4NDZW7E-l7I7nUvA6r7T_2RZZa00c3Un10azuGuY0GXzGV9cRfdLM2XVYOHeyNNy2Dh64t1XPUgh3lWPXPdgsfavRfrQ-mR9O79ifvs6tqiVzYH9gNIxf2DHHDqJBBCVBzPv_Nc2rbfLQaOJANxhdngwtTsoFOSuTOFElrwoAUhu226LCxEwfFKOs7zqvhl9elylu-HfLENMd5rgXbFNiIdGHbToyW4ezgL7dJMC8scl9ZgRznMRDnn4d78qiRvGSsEwAFavg1tE6AVR4tIWhOT0KOCyZB9QdAmJjb-7i-OC_s-7dTF94NellDqoBXmrseyaGdr-2A0_9XtK8Z4vB3iz0PJNW99-csmqq7xBX5_zodbGWPKgZYHDdbDSYyleefTQtXa8VMiYNf94ZKkmDlGeTbb3FVt7-8&originToLandingJobPostings=4338367579
+                        - generic [ref=e862]:
+                          - generic [ref=e863]:
+                            - figure [ref=e864]
+                            - generic [ref=e868]:
+                              - paragraph [ref=e871]: UX/UI Designer
+                              - paragraph [ref=e874]: DataAnnotation
+                              - paragraph [ref=e876]: Virginia, United States (Remote)
+                          - paragraph [ref=e879]:
+                            - generic [ref=e880]: Posted 1 day ago
+                            - text: 1 day ago
+                      - link "Rocket Lawyer Colorado, United States (Remote) Posted 2 weeks ago" [ref=e882] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=w5AZ2baPILg5roBUE%2FXPnQ%3D%3D&currentJobId=4399480837&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4ObGBPAS5x6sxiS1y-u-9Rfo5sF5cK-y7jHL68-7Y8A89BtzNNWix4DsnfsbgBSi-_i5wVkbWiQ7GTfkBXkrYLZeOF7tnJWpntkSPtosno4YSLJ9454eLH6TTzJ8FVcYXibtNOCuDpQjtqj0AlyMxaLD-OWm4kjLXAy5tXet8IVmlGZP4WGsEEjU5hMmUxFxf1Ea4jlMpjiwdeyGbs_S9Xic8RP-UOjWvgi5CcBq8ejtaqBWxWG-n77WZIZ-n3fzfYEJDMkTBddzCUAaRyjZl-WCN9iJ0p3hh7CUy3IHERXvDhCsIusaznk-zFTXaVLKVgQEJNO8cmJAAl-_wEuFbAv9HkoWiiYZ3uHy-ys2Xu0LjDO4Cqzn-VxvbsS_sJBvtew4LK3C05uKY8SM380pzhq39tZOUvTLp6TXaDg8ufM0AmxJ2AicEuk-WjnW7Euq8uhaqouTMKN4rfiqeWg0TpbB0hyLYdbV7wk&originToLandingJobPostings=4399480837
+                        - generic [ref=e883]:
+                          - generic [ref=e884]:
+                            - figure [ref=e885]
+                            - generic [ref=e889]:
+                              - paragraph [ref=e892]:
+                                - generic [ref=e894]:
+                                  - text: UX Research Intern, AI Experience
+                                  - img [ref=e896]
+                              - paragraph [ref=e899]: Rocket Lawyer
+                              - paragraph [ref=e901]: Colorado, United States (Remote)
+                          - paragraph [ref=e904]:
+                            - generic [ref=e905]: Posted 2 weeks ago
+                            - text: 2 weeks ago
+                      - link "Rocket Lawyer Utah, United States (Remote) Posted 2 weeks ago" [ref=e907] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=zlX5AGn0wg2JIc1Rrgs3iw%3D%3D&currentJobId=4399479875&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4Ia8S7a0BBc2Uyue9P5wzDl4bD8Q1PbwoCrrFRCnRrl6u32ur_nn3OM45IiCEU8c-wFsqADZAnc7KDoRb5cTQIxdppaa5lgOMyoMtiU741EYDaR0JONlGgojbSc2veDw6T-9Aj0XZaLBSuKSKj3TBMsy50e_xukzLpnfFTX1S6-kikPy8ZtT88rJyNHjouFKxwVvBofFx55X2LKC1ueMCYWfdpN7uhe99Bu0A0Kog9zBqcxFFp8iXOvDHSFJfbWUxLoXWG-8br7vtQWPWKeRnzSD0tiHKX3O48YIFbN2XxDAT0dA8vkcIwWZCA-XSUwjwpszYsFc7UjwA-BB_1jz6iP8fVerJqUbHWeBYTA4VDrZdIfbOwZO2xP-Z95laITXCx1mSAdp_q76KLcsp5hZVDy_f05-pBDkia2NYtdmGrBsKMquJBeHNagCaihdM09FLhcytcvoFKm3PJ8-LsR45pbb2K1I0g&originToLandingJobPostings=4399479875
+                        - generic [ref=e908]:
+                          - generic [ref=e909]:
+                            - figure [ref=e910]
+                            - generic [ref=e914]:
+                              - paragraph [ref=e917]:
+                                - generic [ref=e919]:
+                                  - text: UX Research Intern, AI Experience
+                                  - img [ref=e921]
+                              - paragraph [ref=e924]: Rocket Lawyer
+                              - paragraph [ref=e926]: Utah, United States (Remote)
+                          - paragraph [ref=e929]:
+                            - generic [ref=e930]: Posted 2 weeks ago
+                            - text: 2 weeks ago
+                      - link "Rocket Lawyer California, United States (Remote) Posted 2 weeks ago" [ref=e932] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=hpYk0MTjWIMeO9IPGOagkw%3D%3D&currentJobId=4399497197&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4H2PzbYUfM_ZKaJEacp5JdYhX5ZZCmN6E4IJ_zJjzAR7j1OIEKxAGhKl8ZfFpsCrHYJErFYiArmEl5tq7Yg5hZyij2Zqmcg8-hj9voj2CSrAaWhzrZeOe2p_x9SfvdGkyw3fdsuYUSez-RcLisrRSunE6UkkSxD7nkbd3SAJuOAuDDyBRMxg7j2_prjcXxDvEUxo4Sui-m6xNLopB0pUMSmKcAQhwsMy9h0Bsa5vwn8e8kcnI-C9bCYuUQPcU-Wrpu80aMEB3o-FeKI4lGKoSQxmGu9n8vFon6fExsXQ-I-joYP5UY3fhPuICntJulh43rbPfF8gLeohnJPqIB1woKEGl4f_vQB0abjrD_hRIMr_imskVqWY99ocORCK7fGD-Xs-t0CayEJ-EoJqfwACucSo8-eeAFQEbaCWArOkgSnrKKWcoUYen-PUcyQm69HvOxjQ1x_0QQJC4gopLnwToRcGlJ4yLTx21-c&originToLandingJobPostings=4399497197
+                        - generic [ref=e933]:
+                          - generic [ref=e934]:
+                            - figure [ref=e935]
+                            - generic [ref=e939]:
+                              - paragraph [ref=e942]:
+                                - generic [ref=e944]:
+                                  - text: UX Research Intern, AI Experience
+                                  - img [ref=e946]
+                              - paragraph [ref=e949]: Rocket Lawyer
+                              - paragraph [ref=e951]: California, United States (Remote)
+                          - paragraph [ref=e954]:
+                            - generic [ref=e955]: Posted 2 weeks ago
+                            - text: 2 weeks ago
+                      - link "Rocket Lawyer North Carolina, United States (Remote) Posted 2 weeks ago" [ref=e957] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=PiTfzlpCRiiN1GPvoGRbUQ%3D%3D&currentJobId=4399494237&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4N76HrFLF4QFi1R0Nl8nyAZp4qdM-w2ou5Bda81s39Mi4b_wdPFv7J5ss3YXlawFaxP_ePl4VbkTuRJhL0YJd_7lsurt38WQxaO_xy2ZT5sbbbIS4Szy-oz2xYnm-I_TeNIBYmnGHWhAjFg2C4caY1yKXDliu2VeA8BGmGcigEXrA4ntzrDle7bFJua24cAhftFmuDNL_pv2-PP_Ev4jpkptIz2rlqjt-18MVYcubgAhNje8L1zA-0z8R5o9ML5xe7fVUL7AKcEPcUwDA-ySxnITXkLLLPXUJp2bMqQ9XB9sTapRwzBEja7W-awOd075L-ovyILxDYINHCe8F6cVroxQ03ztqN0WTgOEQjG3h0wIaRidanjyv4Z2R59UEtiFtmS1M4OncIW0o7j9LA9HEP2MhK9eOvbbrX_lRfY6zrAR4l1kYxMuZOuW3MKyT5gTxyNdW1sNtpXrq1Z1Z6Ynarw9qK5aonFUVqzfJw&originToLandingJobPostings=4399494237
+                        - generic [ref=e958]:
+                          - generic [ref=e959]:
+                            - figure [ref=e960]
+                            - generic [ref=e964]:
+                              - paragraph [ref=e967]:
+                                - generic [ref=e969]:
+                                  - text: UX Research Intern, AI Experience
+                                  - img [ref=e971]
+                              - paragraph [ref=e974]: Rocket Lawyer
+                              - paragraph [ref=e976]: North Carolina, United States (Remote)
+                          - paragraph [ref=e979]:
+                            - generic [ref=e980]: Posted 2 weeks ago
+                            - text: 2 weeks ago
+                      - link "Harnham United States (Remote) Actively reviewing applicants Posted 1 week ago · Easy Apply" [ref=e982] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=mG4ye5kM%2FyvcCvml4E5ZVA%3D%3D&currentJobId=4400600258&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4AHvEttb1jNkShyr0xFm3C5pFWZ5nwCKxFQCVnTbeX-0CDWgZQnGUZDy7Qep0FM78pVXgCUkIUIsZPajI_GTLq-xVfR68EzMNHdsmi7IpswcNSay19MQwPuUGWQY5spPZqRcK0rwlL2fcC0yUknK9WM2mdPOWfjQLxSA7myvssmwOVUfGZB_ft3LtL0qtZ7OC34qyzpQbwM1fH454N-AQbmw5O-UyYJtnvaPB4X0qGBnpwS7uqcWwi0hXQp6bPxmPwxa-1XQ95zBwnTt37ZgP8TSLWin2PWYyD5y1qB4_c_cpuZn62C8FOWiO9rRwzRYmNDp5J4BmKqI1zS6V8qjT6bxU8e8V59s3bbyjdA0iNlsJYTlRmdkhi5z3EyRzky6U4-KYPQ9uBQY9_kQayxVU3VdCauveoH7pLOxIK9bTQLtuJ3dghoN8p3gFJ7X4u_HLuZ_VWS2PbETpFvEFJ1TmB8HNyae09I32WiwiQ&originToLandingJobPostings=4400600258
+                        - generic [ref=e983]:
+                          - generic [ref=e984]:
+                            - figure [ref=e985]
+                            - generic [ref=e986]:
+                              - generic [ref=e989]:
+                                - paragraph [ref=e992]:
+                                  - generic [ref=e994]:
+                                    - text: User Experience Researcher
+                                    - img [ref=e996]
+                                - paragraph [ref=e999]: Harnham
+                                - paragraph [ref=e1001]: United States (Remote)
+                              - generic [ref=e1003]:
+                                - img [ref=e1004]
+                                - paragraph [ref=e1008]: Actively reviewing applicants
+                          - generic [ref=e1009]:
+                            - paragraph [ref=e1010]:
+                              - generic [ref=e1011]: Posted 1 week ago
+                              - text: 1 week ago
+                            - paragraph [ref=e1012]: ·
+                            - paragraph [ref=e1013]:
+                              - img [ref=e1015]
+                              - text: Easy Apply
+                      - link "DataAnnotation Kentucky, United States (Remote) Posted 1 day ago" [ref=e1018] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=jRwKQx%2Bz9IBll6KgDvl3HQ%3D%3D&currentJobId=4338337694&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4BNI5Z68_HvyHraNbJIBXqKrfOqBZLex1DdpwkB2uOxnarIWIrxUpi6Tm-BAZdICrCUrx5eEdMmqchbPPsImdse0h2S2KIqgv3OtPQC2KVQIuJTT2Q9zUJDkmLXgdq38VqDx72Vuh2aTzKf8srkS9Yoc4ivTYxrUhE2gKAvscQda7W5R9oR0lm-mnKlDuZJpWoV71sjN2DvLHFKhwgo89Kqrskkydnw5LE4bdkzmAWaVEhfaOvhxuHXVm9B5tl5LoIBxH_pjh4_1_PONBkwRoWMLRFcLT5tZwdcj8pn9dbVDyFDo5TnSlTxIFkFkyfQUc0U3Ws-mKwE381dYatlcV2kZbOIK7vz1yrDLtEuPgju-OfTE1UiM33A1nNBR1IcU_NWlix1YWDOd1575Leh5d6qB68udXCWuZCVhUAC7saCFbtlqAYB3uQjSz92Zxg1Myt0KZ54cO33kZTQn4KCTIW0x58Tp-Q&originToLandingJobPostings=4338337694
+                        - generic [ref=e1019]:
+                          - generic [ref=e1020]:
+                            - figure [ref=e1021]
+                            - generic [ref=e1025]:
+                              - paragraph [ref=e1028]: UX Designer
+                              - paragraph [ref=e1031]: DataAnnotation
+                              - paragraph [ref=e1033]: Kentucky, United States (Remote)
+                          - paragraph [ref=e1036]:
+                            - generic [ref=e1037]: Posted 1 day ago
+                            - text: 1 day ago
+                      - link "Rocket Lawyer Arizona, United States (Remote) Posted 2 weeks ago" [ref=e1039] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=c430lQEnhE%2Fq3ERH171a9w%3D%3D&currentJobId=4399482841&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4KUJpSAfqhwzuMvCCdqszy-4Jjpdx7VT3_LSMBjXh3yY9dXqWcPWNoMTL_ISOXegSb_Wp-CowpJ8SAKgINTLNdDPqIPokB_ShKeAZNjkqvAi-XP5Go3360vH0-SW52jCgasRr-2o4x_0VBJpGPTZl8tJAfLnRyHN3m5CgXG4MLaUkEiIH6AyVsTm2T9DqffX80kl8u7lvEPoezhe05gysYaem7KEdtdkRHTkNZUNsqwiH-ihKUlv_S53rxZCV4BH_JuWdh92d1ET6rlILcUATMwl7OpMUwF-jxh5ZCj_Qxb0oY-PNCirgUiABWrcjhq_pj2HZg2zNUYjlQUtztkV2FFB-w9eudd4oa6vQQlcEVpiIJ7qjdHv4zNeimNVqVbJtXOrhb2Ajr053dW1TOyHe5xLatIul3tJhZEK6q4P90IqOfHEuOhYolAE2HYUOsUiqSaJtYMTE0qDnoysrhFhw0aSh28s4XB6JZM&originToLandingJobPostings=4399482841
+                        - generic [ref=e1040]:
+                          - generic [ref=e1041]:
+                            - figure [ref=e1042]
+                            - generic [ref=e1046]:
+                              - paragraph [ref=e1049]:
+                                - generic [ref=e1051]:
+                                  - text: UX Research Intern, AI Experience
+                                  - img [ref=e1053]
+                              - paragraph [ref=e1056]: Rocket Lawyer
+                              - paragraph [ref=e1058]: Arizona, United States (Remote)
+                          - paragraph [ref=e1061]:
+                            - generic [ref=e1062]: Posted 2 weeks ago
+                            - text: 2 weeks ago
+                      - link "Robert Half United States (Remote) $60/hr - $70/hr • Medical, Vision, Dental, 401(k), +1 benefit Actively reviewing applicants Posted 5 days ago · Easy Apply" [ref=e1064] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=XAfcrIQQ7yurUThg43pQqA%3D%3D&currentJobId=4402775253&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4C1FPwRuBYVyHPbUVlgLmQlyqPUamROiZQTU8alnWZXUceDEQ5jPZuXjsOM00GZmNmfZyb9fn9qjKYVa6oXa1n1zFiPsH1SFiXd437d9aSYRYR3_Xb9XvZ08kdV8YSDTc7khvp98NlafmSigMdqsjZasW5e-IAE9gGQCntz_bDwEAoTwqwKcc6h6JUzQa7LSAXodshgMdiSg883ahTtPbQPPDY-g9VbyTsnYjEZy-2DouhUpAKd1jZQRvulmPLod0lnQgwBLkaqEfNG5xxVH16XRbPPNceNzR9i8ehbPuSKtesGmxPzlgJT75G74GvAy2XrlO_Q2z1RIh-jfpnIVunq9wyq8EcdrtxKFGkI7wqeUjIhqkgDla6mwIlCrOBwcGEG9lHQW0hZClzD8Mne3cq6BWXx5ev_zy5rgabARF0U-rpZSLENfmcwMk7to2SbfYHKsT4MbznY3PAQ8EyShCL5DTtIF8kHIDPg&originToLandingJobPostings=4402775253
+                        - generic [ref=e1065]:
+                          - generic [ref=e1066]:
+                            - figure [ref=e1067]
+                            - generic [ref=e1068]:
+                              - generic [ref=e1071]:
+                                - paragraph [ref=e1074]:
+                                  - generic [ref=e1076]:
+                                    - text: User Experience Designer
+                                    - img [ref=e1078]
+                                - paragraph [ref=e1081]: Robert Half
+                                - paragraph [ref=e1083]: United States (Remote)
+                              - generic [ref=e1084]:
+                                - generic [ref=e1085]:
+                                  - paragraph [ref=e1087]: $60/hr - $70/hr
+                                  - paragraph [ref=e1089]: •
+                                  - paragraph [ref=e1091]: Medical, Vision, Dental, 401(k), +1 benefit
+                                - generic [ref=e1092]:
+                                  - img [ref=e1093]
+                                  - paragraph [ref=e1097]: Actively reviewing applicants
+                          - generic [ref=e1098]:
+                            - paragraph [ref=e1099]:
+                              - generic [ref=e1100]: Posted 5 days ago
+                              - text: 5 days ago
+                            - paragraph [ref=e1101]: ·
+                            - paragraph [ref=e1102]:
+                              - img [ref=e1104]
+                              - text: Easy Apply
+                      - link "Intuvia Technologies United States (Remote) Actively reviewing applicants Posted 3 weeks ago · Easy Apply" [ref=e1107] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&trackingId=EBWkwRyZq1IVVBKhkEnAdA%3D%3D&currentJobId=4391855912&refId=ApGiZxfnVkKo0AnQH1Vbjw%3D%3D&eBP=CwEAAAGduHWi4Owzl2idPNYZgKN1fy9KlGg2PoOCNR0ygtisDho5UIiKSiFW5EWXMGqCWfMfwm0c02B7nUq4HnWwm2twwssMfBuDjjvPWbt14r4ZnOCxTApLZviOJa3LWKynU08l7w65LR1GwgVtvLX1y8ryL0rfuBEEPagypP7O91ptEcgYSNfRQ5g-ehSptGOFYcB26cgbUqrumKwWxxo3T0ZeOlT4M_FRTkKEXSVlwx2MxOp3-vhyxxBwO8kpmEGYNByq70bR6VgBZKhjHezutrX0r5nwE7qFuud4uKrPDHD6tlCenRMQWnp4noXPhwMwe-ebRusuJ_zJr0Aj6_U9U41vqAh541l_wAwIKWoViqF05nPS8fzp6-xRfUtJhtYCoFbzppAhY1iSEhcFV3A0s87nwEX7Ue1oP0BBM_2ixTr0dTTH47NciAAjOB6RKA39prqa4a5ZEqtPThouMdYf04KXByKf8xCOxtc0EqOLz6k&originToLandingJobPostings=4391855912
+                        - generic [ref=e1108]:
+                          - generic [ref=e1109]:
+                            - figure [ref=e1110]
+                            - generic [ref=e1111]:
+                              - generic [ref=e1114]:
+                                - paragraph [ref=e1117]: UI/UX Designer
+                                - paragraph [ref=e1120]: Intuvia Technologies
+                                - paragraph [ref=e1122]: United States (Remote)
+                              - generic [ref=e1124]:
+                                - img [ref=e1125]
+                                - paragraph [ref=e1129]: Actively reviewing applicants
+                          - generic [ref=e1130]:
+                            - paragraph [ref=e1131]:
+                              - generic [ref=e1132]: Posted 3 weeks ago
+                              - text: 3 weeks ago
+                            - paragraph [ref=e1133]: ·
+                            - paragraph [ref=e1134]:
+                              - img [ref=e1136]
+                              - text: Easy Apply
+                    - link "See more jobs like this" [ref=e1138] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4405447344&currentJobId=4405447344
+                      - generic [ref=e1139]:
+                        - img [ref=e1140]
+                        - generic [ref=e1142]: See more jobs like this
+              - generic [ref=e94]:
+                - paragraph [ref=e95]: Looking for talent?
+                - link "Post a job" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e98]: Post a job
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - navigation [ref=e105]:
+                    - link "About" [ref=e106] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e107]: About
+                    - link "Accessibility" [ref=e108] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e109]: Accessibility
+                    - link "Talent Solutions" [ref=e110] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e111]: Talent Solutions
+                    - link "Community Guidelines" [ref=e112] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e113]: Community Guidelines
+                    - link "Careers" [ref=e114] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e115]: Careers
+                    - link "Marketing Solutions" [ref=e116] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e117]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e118] [cursor=pointer]:
+                      - generic [ref=e119]:
+                        - paragraph [ref=e120]: Privacy & Terms
+                        - img [ref=e1143]
+                    - link "Ad Choices" [ref=e122] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e123]: Ad Choices
+                    - link "Advertising" [ref=e124] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e125]: Advertising
+                    - link "Sales Solutions" [ref=e126] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e127]: Sales Solutions
+                    - link "Mobile" [ref=e128] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e129]: Mobile
+                    - link "Small Business" [ref=e130] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e131]: Small Business
+                    - link "Safety Center" [ref=e132] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e133]: Safety Center
+                  - paragraph [ref=e135]: LinkedIn Corporation © 2026
+                - generic [ref=e136]:
+                  - list [ref=e137]:
+                    - listitem [ref=e138]:
+                      - generic [ref=e139]:
+                        - img [ref=e1145]
+                        - generic [ref=e141]:
+                          - link "Questions?" [ref=e142] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e143]: Questions?
+                          - paragraph [ref=e144]: Visit our Help Center.
+                    - listitem [ref=e145]:
+                      - generic [ref=e146]:
+                        - img [ref=e1147]
+                        - generic [ref=e148]:
+                          - link "Manage your account and privacy" [ref=e149] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e150]: Manage your account and privacy
+                          - paragraph [ref=e151]: Go to your Settings.
+                    - listitem [ref=e152]:
+                      - generic [ref=e153]:
+                        - img [ref=e1149]
+                        - generic [ref=e155]:
+                          - link "Recommendation transparency" [ref=e156] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e157]: Recommendation transparency
+                          - paragraph [ref=e158]: Learn more about Recommended Content.
+                  - generic [ref=e160]:
+                    - paragraph [ref=e162]: Select language
+                    - generic [ref=e163]:
+                      - combobox "Select language" [ref=e164] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic [active]:
+    - generic:
+      - dialog "Apply to SimplePractice" [ref=e1152]:
+        - generic [ref=e1153]: Dialog content start.
+        - button "Dismiss" [ref=e1154] [cursor=pointer]:
+          - img [ref=e1155]
+        - heading "Apply to SimplePractice" [level=2] [ref=e1159]
+        - region "Your job application progress is at 60 percent." [ref=e1761]:
+          - generic [ref=e1162]:
+            - progressbar [ref=e1165]: "Current value: 60"
+            - note "Your job application progress is at 60 percent." [ref=e1762]: 60%
+          - generic [ref=e1168]:
+            - generic [ref=e1763]:
+              - heading "Additional Questions" [level=3] [ref=e1764]
+              - generic [ref=e1769]:
+                - generic [ref=e1770]: LinkedIn Profile*
+                - textbox "LinkedIn Profile*" [ref=e1771]
+              - group "Do you need visa sponsorship to work in the US? * Required" [ref=e1774]:
+                - generic [ref=e1775]:
+                  - generic [ref=e1776]:
+                    - generic [ref=e1777]: Do you need visa sponsorship to work in the US?
+                    - generic [ref=e1778]: Do you need visa sponsorship to work in the US?
+                    - text: "*"
+                  - generic [ref=e1779]: Required
+                - generic [ref=e1780]:
+                  - radio "Yes"
+                  - generic [ref=e1781]: "Yes"
+                - generic [ref=e1782]:
+                  - radio "No"
+                  - generic [ref=e1783]: "No"
+              - generic [ref=e1788]:
+                - generic [ref=e1789]: What are your salary expectations? *
+                - textbox "What are your salary expectations? *" [ref=e1790]
+              - generic [ref=e1795]:
+                - generic [ref=e1796]: What is your preferred First and Last Name?
+                - textbox "What is your preferred First and Last Name?" [ref=e1797]
+              - generic [ref=e1802]:
+                - generic [ref=e1803]: If applying from the U.S., please provide your 5-digit Zip Code (e.g., 12345).
+                - textbox "If applying from the U.S., please provide your 5-digit Zip Code (e.g., 12345)." [ref=e1804]
+            - generic [ref=e1216]:
+              - paragraph [ref=e1217]: Submitting this application won’t change your LinkedIn profile.
+              - paragraph [ref=e1218]:
+                - text: Application powered by Greenhouse.
+                - link "Visit help center to know more" [ref=e1219] [cursor=pointer]:
+                  - /url: /help/linkedin/answer/71792?lang=en_US
+                  - text: Help Center
+            - generic [ref=e1220]:
+              - button "Back to previous step" [ref=e1738] [cursor=pointer]:
+                - generic [ref=e1739]: Back
+              - button "Continue to next step" [ref=e1221] [cursor=pointer]:
+                - generic [ref=e1222]: Next
+        - generic [ref=e1223]: Dialog content end.
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e1224]:
+              - generic [ref=e1225]:
+                - generic [ref=e1227] [cursor=pointer]:
+                  - generic [ref=e1228]:
+                    - img "Shweta Sharma" [ref=e1229]
+                    - generic [ref=e1231]: Status is online
+                  - button "You are on the messaging overlay. Press enter to minimize it." [ref=e1232]:
+                    - generic [ref=e1233]:
+                      - generic [ref=e1234]: Messaging
+                      - generic [ref=e1235]: You are on the messaging overlay. Press enter to minimize it.
+                - generic [ref=e1236]:
+                  - button "Open messenger dropdown menu" [ref=e1238] [cursor=pointer]:
+                    - img "Open messenger dropdown menu" [ref=e1239]
+                  - button "Compose message" [ref=e1242] [cursor=pointer]:
+                    - img [ref=e1243]
+                    - generic [ref=e1245]: Compose message
+                  - button "You are on the messaging overlay. Press enter to minimize it." [ref=e1246] [cursor=pointer]:
+                    - img [ref=e1247]
+                    - generic [ref=e1249]: You are on the messaging overlay. Press enter to minimize it.
+              - generic [ref=e1251]:
+                - generic [ref=e1252]: Type to search for connections and conversations.
+                - img [ref=e1254]
+                - textbox "Type to search for connections and conversations." [ref=e1256]:
+                  - /placeholder: Search messages
+                - button "Filter messages by" [ref=e1257] [cursor=pointer]:
+                  - img "Filter messages by" [ref=e1258]
+              - tablist [ref=e1262]:
+                - tab "Focused" [selected] [ref=e1263] [cursor=pointer]
+                - tab "Other" [ref=e1264] [cursor=pointer]
+              - generic [ref=e1266]:
+                - generic [ref=e1267]: Attention screen reader users, messaging items continuously update. Please use the tab and shift + tab keys instead of your up and down arrow keys to navigate between messaging items.
+                - generic [ref=e1268]:
+                  - generic [ref=e1272] [cursor=pointer]:
+                    - generic [ref=e1273]:
+                      - button "Kathy Preble Bayert" [ref=e1276]:
+                        - img "Kathy Preble Bayert" [ref=e1277]
+                      - generic [ref=e1278]:
+                        - checkbox "Select conversation with Kathy Preble Bayert"
+                        - generic "Select conversation with Kathy Preble Bayert"
+                    - generic [ref=e1282]:
+                      - generic [ref=e1283]:
+                        - heading "Kathy Preble Bayert" [level=3] [ref=e1284]:
+                          - generic [ref=e1286]: Kathy Preble Bayert
+                        - time [ref=e1287]: 8:42 PM
+                        - button "Open the options list in your conversation with Kathy Preble Bayert" [ref=e1290]:
+                          - img [ref=e1291]
+                          - generic [ref=e1293]: Open the options list in your conversation with Kathy Preble Bayert
+                      - paragraph [ref=e1296]:
+                        - generic [ref=e1297]: Sponsored
+                        - text: Elevate your role as a product leader in the digital age
+                  - generic [ref=e1302] [cursor=pointer]:
+                    - generic [ref=e1303]:
+                      - 'img "Kenneth Ho, #HIRING" [ref=e1305]'
+                      - generic [ref=e1306]:
+                        - checkbox "Select conversation with Kenneth Ho"
+                        - generic "Select conversation with Kenneth Ho"
+                    - generic [ref=e1310]:
+                      - generic [ref=e1311]:
+                        - heading "Kenneth Ho" [level=3] [ref=e1312]:
+                          - generic [ref=e1314]: Kenneth Ho
+                        - time [ref=e1315]: Apr 21
+                        - button "Open the options list in your conversation with Kenneth Ho and Shweta Sharma" [ref=e1318]:
+                          - img [ref=e1319]
+                          - generic [ref=e1321]: Open the options list in your conversation with Kenneth Ho and Shweta Sharma
+                      - paragraph [ref=e1324]: "You: I dont have any microsoft teams account, i can share email: shwetayeole09@gmail.com"
+                  - generic [ref=e1329] [cursor=pointer]:
+                    - generic [ref=e1330]:
+                      - img "Carlos Eduardo Milani" [ref=e1332]
+                      - generic [ref=e1333]:
+                        - checkbox "Select conversation with Carlos Eduardo Milani"
+                        - generic "Select conversation with Carlos Eduardo Milani"
+                    - generic [ref=e1337]:
+                      - generic [ref=e1338]:
+                        - heading "Carlos Eduardo Milani" [level=3] [ref=e1339]:
+                          - generic [ref=e1341]: Carlos Eduardo Milani
+                        - time [ref=e1342]: Apr 21
+                        - button "Open the options list in your conversation with Carlos Eduardo Milani and Shweta Sharma" [ref=e1345]:
+                          - img [ref=e1346]
+                          - generic [ref=e1348]: Open the options list in your conversation with Carlos Eduardo Milani and Shweta Sharma
+                      - paragraph [ref=e1351]: "You: I’m interested"
+                  - generic [ref=e1356] [cursor=pointer]:
+                    - generic [ref=e1357]:
+                      - generic [ref=e1358]:
+                        - img "Akash Akhani" [ref=e1359]
+                        - generic [ref=e1361]: Status is reachable
+                      - generic [ref=e1362]:
+                        - checkbox "Select conversation with Akash Akhani"
+                        - generic "Select conversation with Akash Akhani"
+                    - generic [ref=e1366]:
+                      - generic [ref=e1367]:
+                        - heading "Akash Akhani" [level=3] [ref=e1368]:
+                          - generic [ref=e1370]: Akash Akhani
+                        - time [ref=e1371]: Apr 21
+                        - button "Open the options list in your conversation with Shweta Sharma and Akash Akhani" [ref=e1374]:
+                          - img [ref=e1375]
+                          - generic [ref=e1377]: Open the options list in your conversation with Shweta Sharma and Akash Akhani
+                      - paragraph [ref=e1380]: "Akash: https://meet.google.com/xhy-vnbe-boh"
+                  - generic [ref=e1385] [cursor=pointer]:
+                    - generic [ref=e1386]:
+                      - generic [ref=e1387]:
+                        - img "Krishna Prajapati" [ref=e1388]
+                        - generic [ref=e1390]: Status is online
+                      - generic [ref=e1391]:
+                        - checkbox "Select conversation with Krishna Prajapati"
+                        - generic "Select conversation with Krishna Prajapati"
+                    - generic [ref=e1395]:
+                      - generic [ref=e1396]:
+                        - heading "Krishna Prajapati" [level=3] [ref=e1397]:
+                          - generic [ref=e1399]: Krishna Prajapati
+                        - time [ref=e1400]: Apr 14
+                        - button "Open the options list in your conversation with Shweta Sharma and Krishna Prajapati" [ref=e1403]:
+                          - img [ref=e1404]
+                          - generic [ref=e1406]: Open the options list in your conversation with Shweta Sharma and Krishna Prajapati
+                      - paragraph [ref=e1409]: "Krishna: My team will give you a call again at 3 Pm EST"
+                  - generic [ref=e1414] [cursor=pointer]:
+                    - generic [ref=e1415]:
+                      - generic [ref=e1416]:
+                        - img "Areef Syed" [ref=e1417]
+                        - generic [ref=e1419]: Status is reachable
+                      - generic [ref=e1420]:
+                        - checkbox "Select conversation with Areef Syed"
+                        - generic "Select conversation with Areef Syed"
+                    - generic [ref=e1424]:
+                      - generic [ref=e1425]:
+                        - heading "Areef Syed" [level=3] [ref=e1426]:
+                          - generic [ref=e1428]: Areef Syed
+                        - time [ref=e1429]: Apr 12
+                        - button "Open the options list in your conversation with Areef Syed and Shweta Sharma" [ref=e1432]:
+                          - img [ref=e1433]
+                          - generic [ref=e1435]: Open the options list in your conversation with Areef Syed and Shweta Sharma
+                      - paragraph [ref=e1438]: "You: https://technoant.co/products/pet-hair-remover-glove?ref=Misbah"
+                  - generic [ref=e1443] [cursor=pointer]:
+                    - generic [ref=e1444]:
+                      - img "Kim MacDonald" [ref=e1446]
+                      - generic [ref=e1447]:
+                        - checkbox "Select conversation with Kim MacDonald"
+                        - generic "Select conversation with Kim MacDonald"
+                    - generic [ref=e1451]:
+                      - generic [ref=e1452]:
+                        - heading "Kim MacDonald" [level=3] [ref=e1453]:
+                          - generic [ref=e1455]: Kim MacDonald
+                        - time [ref=e1456]: Apr 12
+                        - button "Open the options list in your conversation with Kim MacDonald and Shweta Sharma" [ref=e1459]:
+                          - img [ref=e1460]
+                          - generic [ref=e1462]: Open the options list in your conversation with Kim MacDonald and Shweta Sharma
+                      - paragraph [ref=e1465]: "You: Congrats on your work anniversary!"
+                  - generic [ref=e1470] [cursor=pointer]:
+                    - generic [ref=e1471]:
+                      - img "Dhruvil Barot" [ref=e1473]
+                      - generic [ref=e1474]:
+                        - checkbox "Select conversation with Dhruvil Barot"
+                        - generic "Select conversation with Dhruvil Barot"
+                    - generic [ref=e1478]:
+                      - generic [ref=e1479]:
+                        - heading "Dhruvil Barot" [level=3] [ref=e1480]:
+                          - generic [ref=e1482]: Dhruvil Barot
+                        - time [ref=e1483]: Apr 6
+                        - button "Open the options list in your conversation with Shweta Sharma and Dhruvil Barot" [ref=e1486]:
+                          - img [ref=e1487]
+                          - generic [ref=e1489]: Open the options list in your conversation with Shweta Sharma and Dhruvil Barot
+                      - paragraph [ref=e1492]: "You: Okay, thanks"
+                  - generic [ref=e1497] [cursor=pointer]:
+                    - generic [ref=e1498]:
+                      - img "Ian Calsado" [ref=e1500]
+                      - generic [ref=e1501]:
+                        - checkbox "Select conversation with Ian Calsado"
+                        - generic "Select conversation with Ian Calsado"
+                    - generic [ref=e1505]:
+                      - generic [ref=e1506]:
+                        - heading "Ian Calsado" [level=3] [ref=e1507]:
+                          - generic [ref=e1509]: Ian Calsado
+                        - time [ref=e1510]: Apr 6
+                        - button "Open the options list in your conversation with Shweta Sharma and Ian Calsado" [ref=e1513]:
+                          - img [ref=e1514]
+                          - generic [ref=e1516]: Open the options list in your conversation with Shweta Sharma and Ian Calsado
+                      - paragraph [ref=e1519]: Expanding Connections Globally
+                  - generic [ref=e1524] [cursor=pointer]:
+                    - generic [ref=e1525]:
+                      - img "Jaime Kowal" [ref=e1527]
+                      - generic [ref=e1528]:
+                        - checkbox "Select conversation with Jaime Kowal"
+                        - generic "Select conversation with Jaime Kowal"
+                    - generic [ref=e1532]:
+                      - generic [ref=e1533]:
+                        - heading "Jaime Kowal" [level=3] [ref=e1534]:
+                          - generic [ref=e1536]: Jaime Kowal
+                        - time [ref=e1537]: Apr 4
+                        - button "Open the options list in your conversation with Shweta Sharma and Jaime Kowal" [ref=e1540]:
+                          - img [ref=e1541]
+                          - generic [ref=e1543]: Open the options list in your conversation with Shweta Sharma and Jaime Kowal
+                      - paragraph [ref=e1546]: Any interest in a 100% remote, contract to hire, ML Engineer opportunity?
+                  - generic [ref=e1551] [cursor=pointer]:
+                    - generic [ref=e1552]:
+                      - img "Ashley Wilson, MBA" [ref=e1554]
+                      - generic [ref=e1555]:
+                        - checkbox "Select conversation with Ashley Wilson, MBA"
+                        - generic "Select conversation with Ashley Wilson, MBA"
+                    - generic [ref=e1559]:
+                      - generic [ref=e1560]:
+                        - heading "Ashley Wilson, MBA" [level=3] [ref=e1561]:
+                          - generic [ref=e1563]: Ashley Wilson, MBA
+                        - time [ref=e1564]: Apr 4
+                        - button "Open the options list in your conversation with Ashley Wilson, MBA and Shweta Sharma" [ref=e1567]:
+                          - img [ref=e1568]
+                          - generic [ref=e1570]: Open the options list in your conversation with Ashley Wilson, MBA and Shweta Sharma
+                      - paragraph [ref=e1573]: Don't miss what's coming next at Audible - Join our Talent Community today!
+                  - generic [ref=e1578] [cursor=pointer]:
+                    - generic [ref=e1579]:
+                      - img "Pratik Sharma" [ref=e1581]
+                      - generic [ref=e1582]:
+                        - checkbox "Select conversation with Pratik Sharma"
+                        - generic "Select conversation with Pratik Sharma"
+                    - generic [ref=e1586]:
+                      - generic [ref=e1587]:
+                        - heading "Pratik Sharma" [level=3] [ref=e1588]:
+                          - generic [ref=e1590]: Pratik Sharma
+                        - time [ref=e1591]: Apr 2
+                        - button "Open the options list in your conversation with Shweta Sharma and Pratik Sharma" [ref=e1594]:
+                          - img [ref=e1595]
+                          - generic [ref=e1597]: Open the options list in your conversation with Shweta Sharma and Pratik Sharma
+                      - paragraph [ref=e1600]: Excellent fulltime role for Data Analyst (PostgreSQL & Python)
+                  - generic [ref=e1605] [cursor=pointer]:
+                    - generic [ref=e1606]:
+                      - img "Joshua Khan, PRC" [ref=e1608]
+                      - generic [ref=e1609]:
+                        - checkbox "Select conversation with Joshua Khan, PRC"
+                        - generic "Select conversation with Joshua Khan, PRC"
+                    - generic [ref=e1613]:
+                      - generic [ref=e1614]:
+                        - heading "Joshua Khan, PRC" [level=3] [ref=e1615]:
+                          - generic [ref=e1617]: Joshua Khan, PRC
+                        - time [ref=e1618]: Apr 2
+                        - button "Open the options list in your conversation with Joshua Khan, PRC and Shweta Sharma" [ref=e1621]:
+                          - img [ref=e1622]
+                          - generic [ref=e1624]: Open the options list in your conversation with Joshua Khan, PRC and Shweta Sharma
+                      - paragraph [ref=e1627]: UX Designer opportunity!
+                  - generic [ref=e1632] [cursor=pointer]:
+                    - generic [ref=e1633]:
+                      - img "Kelly Coogan-Miller" [ref=e1635]
+                      - generic [ref=e1636]:
+                        - checkbox "Select conversation with Kelly Coogan-Miller"
+                        - generic "Select conversation with Kelly Coogan-Miller"
+                    - generic [ref=e1640]:
+                      - generic [ref=e1641]:
+                        - heading "Kelly Coogan-Miller" [level=3] [ref=e1642]:
+                          - generic [ref=e1644]: Kelly Coogan-Miller
+                        - time [ref=e1645]: Apr 1
+                        - button "Open the options list in your conversation with Kelly Coogan-Miller and Shweta Sharma" [ref=e1648]:
+                          - img [ref=e1649]
+                          - generic [ref=e1651]: Open the options list in your conversation with Kelly Coogan-Miller and Shweta Sharma
+                      - paragraph [ref=e1654]: UX Researcher role shaping clinical mobile experiences-Remote!
+                  - generic [ref=e1659] [cursor=pointer]:
+                    - generic [ref=e1660]:
+                      - img "Pratik Sharma" [ref=e1662]
+                      - generic [ref=e1663]:
+                        - checkbox "Select conversation with Pratik Sharma"
+                        - generic "Select conversation with Pratik Sharma"
+                    - generic [ref=e1667]:
+                      - generic [ref=e1668]:
+                        - heading "Pratik Sharma" [level=3] [ref=e1669]:
+                          - generic [ref=e1671]: Pratik Sharma
+                        - time [ref=e1672]: Mar 30
+                        - button "Open the options list in your conversation with Shweta Sharma and Pratik Sharma" [ref=e1675]:
+                          - img [ref=e1676]
+                          - generic [ref=e1678]: Open the options list in your conversation with Shweta Sharma and Pratik Sharma
+                      - paragraph [ref=e1681]: Excellent fulltime role for Data Analyst (PostgreSQL & Python)
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e1683]:
+    - generic [active] [ref=f50e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f50e3]
+          - alert
+      - generic [ref=f50e4]:
+        - generic [ref=f50e6]:
+          - button [ref=f50e7] [cursor=pointer]:
+            - generic [ref=f50e8]: Skip to search
+          - button [ref=f50e9] [cursor=pointer]:
+            - generic [ref=f50e10]: Skip to main content
+          - button [ref=f50e11] [cursor=pointer]:
+            - generic [ref=f50e12]: Keyboard shortcuts
+          - button [ref=f50e13] [cursor=pointer]:
+            - img [ref=f50e14]
+            - generic [ref=f50e16]: Close jump menu
+        - banner [ref=f50e17]:
+          - generic [ref=f50e18]:
+            - link [ref=f50e19] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img [ref=f50e22]:
+                - img [ref=f50e23]
+            - generic [ref=f50e27]:
+              - combobox [ref=f50e28]
+              - generic:
+                - img
+            - navigation [ref=f50e29]:
+              - list [ref=f50e30]:
+                - listitem [ref=f50e31]:
+                  - link [ref=f50e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f50e33]:
+                      - generic [ref=f50e36]: new feed updates notifications
+                      - img [ref=f50e40]
+                    - generic [ref=f50e42]: Home
+                - listitem [ref=f50e43]:
+                  - link [ref=f50e44] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - img [ref=f50e48]
+                    - generic [ref=f50e50]: My Network
+                - listitem [ref=f50e51]:
+                  - link [ref=f50e52] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f50e56]
+                    - generic [ref=f50e58]: Jobs
+                - listitem [ref=f50e59]:
+                  - link [ref=f50e60] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f50e64]
+                    - generic [ref=f50e66]: Messaging
+                - listitem [ref=f50e67]:
+                  - link [ref=f50e68] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - img [ref=f50e72]
+                    - generic [ref=f50e74]: Notifications
+                - listitem [ref=f50e75]:
+                  - button [ref=f50e77] [cursor=pointer]:
+                    - img [ref=f50e78]
+                    - generic [ref=f50e79]:
+                      - text: Me
+                      - img [ref=f50e80]
+                - listitem [ref=f50e82]:
+                  - button [ref=f50e84] [cursor=pointer]:
+                    - img [ref=f50e88]
+                    - generic [ref=f50e90]:
+                      - text: For Business
+                      - img [ref=f50e91]
+                - listitem [ref=f50e93]:
+                  - link [ref=f50e94] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+                    - img [ref=f50e98]
+                    - generic [ref=f50e103]: Learning
+        - generic [ref=f50e104]:
+          - generic [ref=f50e107]:
+            - main [ref=f50e108]:
+              - generic [ref=f50e111]:
+                - generic [ref=f50e115]:
+                  - generic [ref=f50e116]:
+                    - generic [ref=f50e117]:
+                      - link [ref=f50e118] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/simplepractice/life
+                        - img [ref=f50e121]
+                      - link [ref=f50e123] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/simplepractice/life
+                        - text: SimplePractice
+                    - generic [ref=f50e124]:
+                      - button [ref=f50e127] [cursor=pointer]:
+                        - img [ref=f50e128]
+                        - generic [ref=f50e130]: Share
+                      - button [ref=f50e132] [cursor=pointer]:
+                        - img [ref=f50e133]
+                        - generic [ref=f50e135]: Show more options
+                  - generic [ref=f50e137]:
+                    - heading [level=1] [ref=f50e138]: Senior Product Designer (Fixed-Term)
+                    - button [ref=f50e140] [cursor=pointer]:
+                      - img [ref=f50e143]
+                  - generic [ref=f50e147]:
+                    - generic [ref=f50e148]: United States
+                    - generic [ref=f50e149]: ·
+                    - strong [ref=f50e151]:
+                      - generic [ref=f50e152]: 5 hours ago
+                    - generic [ref=f50e153]: ·
+                    - generic [ref=f50e154]: 26 applicants
+                    - paragraph [ref=f50e155]:
+                      - generic [ref=f50e156]: Promoted by hirer
+                      - generic [ref=f50e157]: ·
+                      - generic [ref=f50e158]: No response insights available yet
+                  - generic [ref=f50e159]:
+                    - button [ref=f50e160] [cursor=pointer]:
+                      - strong [ref=f50e163]:
+                        - img [ref=f50e165]
+                        - text: Remote
+                      - generic [ref=f50e167]: Matches your job preferences, workplace type is Remote.
+                    - button [ref=f50e168] [cursor=pointer]:
+                      - strong [ref=f50e170]: Full-time
+                  - generic [ref=f50e172]:
+                    - button [ref=f50e175] [cursor=pointer]:
+                      - img [ref=f50e176]
+                      - generic [ref=f50e178]: Easy Apply
+                    - button [ref=f50e179] [cursor=pointer]:
+                      - generic [ref=f50e180]: Save
+                      - generic [ref=f50e181]: Save Senior Product Designer (Fixed-Term) at SimplePractice
+                - generic [ref=f50e182]:
+                  - img [ref=f50e184]:
+                    - img [ref=f50e185]
+                  - heading [level=2] [ref=f50e187]: Your AI-powered job assessment
+                  - paragraph [ref=f50e188]:
+                    - text: You'd be a
+                    - strong [ref=f50e189]: top applicant
+                    - text: ", based on your skills, experience, and chances of hearing back"
+                  - list [ref=f50e194]:
+                    - listitem [ref=f50e195]:
+                      - button [ref=f50e196] [cursor=pointer]:
+                        - img [ref=f50e197]
+                        - generic [ref=f50e199]: Show match details
+                    - listitem [ref=f50e200]:
+                      - button [ref=f50e201] [cursor=pointer]:
+                        - img [ref=f50e202]
+                        - generic [ref=f50e204]: Tailor my resume
+                    - listitem [ref=f50e205]:
+                      - button [ref=f50e206] [cursor=pointer]:
+                        - img [ref=f50e207]
+                        - generic [ref=f50e209]: Create cover letter
+                    - listitem [ref=f50e210]:
+                      - button [ref=f50e211] [cursor=pointer]:
+                        - img [ref=f50e212]
+                        - generic [ref=f50e214]: Help me stand out
+                - generic [ref=f50e215]:
+                  - article [ref=f50e216]:
+                    - generic [ref=f50e218]:
+                      - heading [level=2] [ref=f50e219]: About the job
+                      - paragraph [ref=f50e221]:
+                        - paragraph [ref=f50e223]:
+                          - strong [ref=f50e225]: "Fixed-Term Duration: 6 months"
+                        - text: About Us
+                        - paragraph [ref=f50e227]: At SimplePractice, we are improving access to quality care by equipping health and wellness clinicians with all the tools they need to thrive in private practice.
+                        - paragraph [ref=f50e229]: More than 250,000 providers trust SimplePractice to build their business through our industry-leading software with powerful tools that simplify every part of practice management. From admin work to clinical care, our suite of innovative solutions work together to reduce administrative burden—empowering solo and small group practitioners to thrive alongside their clients.
+                        - paragraph [ref=f50e231]: Award-winning and people-first, SimplePractice is shaping the future of health tech. Recognized by MedTech Breakthrough, the Digital Health Awards, and BuiltIn's Best Places to Work.
+                        - text: The Role
+                        - paragraph [ref=f50e233]: We're looking for a Senior Product Designer to help shape user experiences across our EHR platform. You'll focus on designing solutions that meet clinician needs while driving key business outcomes through thoughtful user experience design. This role combines user-centered design principles, data-driven decision making, and deep understanding of clinician motivations and workflows.
+                        - paragraph [ref=f50e235]: This is a high-impact role where you'll design solutions that improve user satisfaction and platform effectiveness through research-backed, iterative design processes. You'll create compelling user experiences, optimize key workflows, and implement design patterns that encourage meaningful product engagement. Working closely with product, engineering, and stakeholder teams, you'll translate user insights and business requirements into design solutions that drive measurable outcomes while maintaining clinical workflow integrity.
+                        - paragraph [ref=f50e237]: As our EHR platform grows in a competitive healthcare market, your work will directly influence how we serve our customer base and build sustainable product experiences. You'll establish design frameworks and best practices that scale with our business, ensuring every design initiative enhances rather than compromises the clinical experience that practitioners depend on daily.
+                        - text: Responsibilities
+                        - list [ref=f50e239]:
+                          - listitem [ref=f50e240]: Lead the design process from discovery and research to ideation, prototyping, and final implementation
+                          - listitem [ref=f50e241]: Collaborate closely with product managers, engineers, and data scientists to translate complex user needs and business requirements into intuitive and impactful design solutions
+                          - listitem [ref=f50e242]: Conduct and analyze user research to inform design decisions and improve user experiences
+                          - listitem [ref=f50e243]: Create a range of design deliverables, including user flows, wireframes, high-fidelity mockups, and interactive prototypes
+                          - listitem [ref=f50e244]: Develop and maintain consistent design patterns and guidelines across our products
+                          - listitem [ref=f50e245]: Write clear, concise, and user-friendly content for product interfaces and user journeys
+                          - listitem [ref=f50e246]: Advocate for user needs and balance them with business objectives
+                          - listitem [ref=f50e247]: Present design work to stakeholders and incorporate feedback effectively
+                          - listitem [ref=f50e248]: Mentor and inspire other designers and contribute to the growth of the Experience Design team
+                        - text: Desired Skills & Experience
+                        - list [ref=f50e250]:
+                          - listitem [ref=f50e251]: At least 5 years of product design experience in a product or design-focused tech company
+                          - listitem [ref=f50e252]: Advanced in Figma & AI tools
+                          - listitem [ref=f50e253]: Strong foundation in UI and interaction design with special attention to detail, including strong writing skills for product copy and microcopy
+                          - listitem [ref=f50e254]: Ability to rapidly iterate and produce multiple design concepts , including conducting user testing to validate design decisions
+                          - listitem [ref=f50e255]: Capable of time management and meeting deadlines
+                          - listitem [ref=f50e256]: A creative thinker who has lots of ideas and sees solutions when most would not
+                          - listitem [ref=f50e257]: A portfolio demonstrating creative problem solving, innovative solutions and clean visual aesthetic
+                          - listitem [ref=f50e258]: Self-motivated attitude with the ability to work in a fast-paced, strong work ethic, sense of urgency and accountability
+                          - listitem [ref=f50e259]: Experience with data-driven design decisions, A/B testing methodologies, and experimental design approaches
+                        - text: Base Compensation Range
+                        - paragraph [ref=f50e261]: "Fixed-Term Salary: $75,000"
+                        - paragraph [ref=f50e263]: Base salary is one component of total compensation. Employees may also be eligible for an annual bonus or commission. Some roles may also be eligible for overtime pay.
+                        - paragraph [ref=f50e265]: The above represents the expected base compensation range for this job requisition. Ultimately, in determining your pay, we’ll consider many factors including, but not limited to, skills, experience, qualifications, geographic location, and other job-related factors.
+                        - text: Benefits
+                        - paragraph [ref=f50e267]: "We offer a competitive benefits program including:"
+                        - list [ref=f50e269]:
+                          - listitem [ref=f50e270]: Medical, dental, vision, life & disability insurance
+                          - listitem [ref=f50e271]: 401(k) plan with company match
+                          - listitem [ref=f50e272]: Flexible Time Off (FTO), wellbeing days, paid holidays, and summer Fridays
+                          - listitem [ref=f50e273]: Mental health resources
+                          - listitem [ref=f50e274]: Paid parental leave & Backup Care
+                          - listitem [ref=f50e275]: Tuition reimbursement
+                          - listitem [ref=f50e276]: Employee Resource Groups (ERGs)
+                        - text: California Job Applicant Privacy Notice
+                        - paragraph [ref=f50e278]:
+                          - text: Thank you for your interest in opportunities at SimplePractice LLC (“SimplePractice” or “us” or “we” or “our”). Please note that when you submit your resume or application materials to us for employment purposes, you are subject to the
+                          - link [ref=f50e279] [cursor=pointer]:
+                            - /url: https://www.simplepractice.com/california-applicant-notice/
+                            - text: SimplePractice California Job Applicant Privacy Notice
+                          - text: .
+                        - paragraph [ref=f50e281]: For more information about our privacy practices, please contact us at privacy@simplepractice.com.
+                  - button [ref=f50e283] [cursor=pointer]:
+                    - img [ref=f50e284]
+                    - generic [ref=f50e286]: See more
+                - generic [ref=f50e288]:
+                  - generic [ref=f50e289]:
+                    - heading [level=2] [ref=f50e290]: Set alert for similar jobs
+                    - generic [ref=f50e292]: Senior Product Designer, United States
+                  - generic [ref=f50e294] [cursor=pointer]:
+                    - generic [ref=f50e295]: "Off"
+                    - generic [ref=f50e296]: Set alert
+                    - switch
+                - generic [ref=f50e298]:
+                  - heading [level=3] [ref=f50e299]: Benefits found in job post
+                  - list [ref=f50e300]:
+                    - listitem [ref=f50e301]: Disability insurance
+                    - listitem [ref=f50e302]: 401(k)
+                - generic [ref=f50e303]:
+                  - generic [ref=f50e304]:
+                    - generic [ref=f50e305]:
+                      - img [ref=f50e307]:
+                        - img [ref=f50e308]
+                      - button [ref=f50e311] [cursor=pointer]:
+                        - img [ref=f50e312]
+                    - heading [level=2] [ref=f50e314]: See how you compare to other applicants
+                    - generic [ref=f50e316]:
+                      - heading [level=3] [ref=f50e317]: Applicants for this job
+                      - list [ref=f50e318]:
+                        - listitem [ref=f50e319]:
+                          - generic [ref=f50e320]: "26"
+                          - generic [ref=f50e321]: Applicants
+                        - listitem [ref=f50e322]:
+                          - generic [ref=f50e323]: "26"
+                          - generic [ref=f50e324]: Applicants in the past day
+                    - generic [ref=f50e325]:
+                      - generic [ref=f50e326]:
+                        - heading [level=3] [ref=f50e327]: Applicant seniority level
+                        - list [ref=f50e328]:
+                          - listitem [ref=f50e329]:
+                            - paragraph [ref=f50e330]: 50% Senior level applicants
+                            - progressbar [ref=f50e331]
+                          - listitem [ref=f50e332]:
+                            - paragraph [ref=f50e333]: 40% Entry level applicants
+                            - progressbar [ref=f50e334]
+                          - listitem [ref=f50e335]:
+                            - paragraph [ref=f50e336]: 5% Manager level applicants
+                            - progressbar [ref=f50e337]
+                      - generic [ref=f50e338]:
+                        - heading [level=3] [ref=f50e339]: Applicant education level
+                        - list [ref=f50e340]:
+                          - listitem [ref=f50e341]:
+                            - generic [ref=f50e342]: 58%
+                            - generic [ref=f50e343]: have a Master's Degree (Similar to you)
+                          - listitem [ref=f50e344]:
+                            - generic [ref=f50e345]: 38%
+                            - generic [ref=f50e346]: have a Bachelor's Degree
+                          - listitem [ref=f50e347]:
+                            - generic [ref=f50e348]: 4%
+                            - generic [ref=f50e349]: have a Master of Business Administration
+                  - generic [ref=f50e350]:
+                    - generic [ref=f50e351]:
+                      - img [ref=f50e352]:
+                        - img [ref=f50e353]
+                      - button [ref=f50e356] [cursor=pointer]:
+                        - img [ref=f50e357]
+                    - heading [level=2] [ref=f50e359]: Exclusive Job Seeker Insights about SimplePractice
+                    - heading [level=3] [ref=f50e360]: Powered by Bing
+                    - generic [ref=f50e361]:
+                      - generic [ref=f50e362]:
+                        - heading [level=3] [ref=f50e363]: Company focus areas
+                        - generic [ref=f50e365]:
+                          - list [ref=f50e366]:
+                            - listitem [ref=f50e367]:
+                              - strong [ref=f50e368]: "Enhancing Practice Management:"
+                              - text: SimplePractice aims to be the ultimate tool for private practice success by supporting therapists, coaches, and clinicians with comprehensive practice management and EHR solutions.
+                            - listitem [ref=f50e369]:
+                              - strong [ref=f50e370]: "Expanding Behavioral Health Access:"
+                              - text: SimplePractice is focused on expanding access to behavioral health care nationwide through strategic partnerships, such as with Findhelp, to integrate real-time provider availability and scheduling.
+                          - button [ref=f50e371] [cursor=pointer]:
+                            - generic [ref=f50e372]: …show more
+                      - generic [ref=f50e373]:
+                        - generic [ref=f50e375]: "Sources: openminds.com +1 more"
+                        - generic [ref=f50e377]:
+                          - button [ref=f50e378] [cursor=pointer]:
+                            - img [ref=f50e379]
+                          - button [ref=f50e382] [cursor=pointer]:
+                            - img [ref=f50e383]
+                    - generic [ref=f50e386]:
+                      - generic [ref=f50e387]:
+                        - heading [level=3] [ref=f50e388]: Hiring & headcount
+                        - paragraph [ref=f50e389]:
+                          - generic [ref=f50e390]:
+                            - text: "Significant growth in Engineering: The 'Engineering' department has seen a 37% increase in headcount over the past year, indicating a major focus on product development and technological innovation. Expansion in Sales: The 'Sales' department has experienced a 29% increase in headcount, suggesting a strategic push to boost revenue and market presence. Increased focus on Information Technology: The 'Information Technology' department has grown by 32%, reflecting an investment in IT infrastructure and digital transformation. Growth in Human Resources: The 'Human Resources' department has increased by 31%, which may indicate efforts to support the expanding workforce and improve employee management and satisfaction."
+                            - generic [ref=f50e391]:
+                              - generic [ref=f50e392]: …
+                              - button [ref=f50e393] [cursor=pointer]: show more
+                      - generic [ref=f50e395]:
+                        - button [ref=f50e396] [cursor=pointer]:
+                          - img [ref=f50e397]
+                        - button [ref=f50e400] [cursor=pointer]:
+                          - img [ref=f50e401]
+                    - generic [ref=f50e404]:
+                      - heading [level=3] [ref=f50e405]: The latest hiring trend
+                      - generic [ref=f50e406]:
+                        - list [ref=f50e407]:
+                          - listitem [ref=f50e408]:
+                            - paragraph [ref=f50e409]: "637"
+                            - paragraph [ref=f50e410]: Total employees
+                          - listitem [ref=f50e411]:
+                            - paragraph [ref=f50e412]: 33%
+                            - paragraph [ref=f50e414]: Company-wide
+                            - paragraph [ref=f50e415]: 2 year growth
+                            - generic [ref=f50e416]: 33% increase
+                          - listitem [ref=f50e417]:
+                            - paragraph [ref=f50e418]: 3%
+                            - paragraph [ref=f50e420]: Design
+                            - paragraph [ref=f50e421]: 2 year growth
+                            - generic [ref=f50e422]: 3% increase
+                        - region [ref=f50e425]:
+                          - generic [ref=f50e426]:
+                            - heading [level=4] [ref=f50e427]: Chart
+                            - generic [ref=f50e428]: Chart with 25 data points.
+                            - generic [ref=f50e429]: "The chart has 1 X axis displaying Time. Range: 2023-12-13 12:00:00 to 2026-05-07 12:00:00."
+                            - generic [ref=f50e430]: "The chart has 1 Y axis displaying values. Range: 0 to 750."
+                          - img [ref=f50e435]:
+                            - generic [ref=f50e447]:
+                              - img [ref=f50e448]
+                              - img [ref=f50e449]
+                              - img [ref=f50e450]
+                              - img [ref=f50e451]
+                              - img [ref=f50e452]
+                              - img [ref=f50e453]
+                              - img [ref=f50e454]
+                              - img [ref=f50e455]
+                              - img [ref=f50e456]
+                              - img [ref=f50e457]
+                              - img [ref=f50e458]
+                              - img [ref=f50e459]
+                              - img [ref=f50e460]
+                              - img [ref=f50e461]
+                              - img [ref=f50e462]
+                              - img [ref=f50e463]
+                              - img [ref=f50e464]
+                              - img [ref=f50e465]
+                              - img [ref=f50e466]
+                              - img [ref=f50e467]
+                              - img [ref=f50e468]
+                              - img [ref=f50e469]
+                              - img [ref=f50e470]
+                              - img [ref=f50e471]
+                              - img [ref=f50e472]
+                            - generic [ref=f50e473]:
+                              - generic [ref=f50e474]: Apr 2024
+                              - generic [ref=f50e475]: Oct 2024
+                              - generic [ref=f50e476]: Apr 2025
+                              - generic [ref=f50e477]: Oct 2025
+                              - generic [ref=f50e478]: Apr 2026
+                            - generic [ref=f50e479]:
+                              - generic [ref=f50e480]: "0"
+                              - generic [ref=f50e481]: "250"
+                              - generic [ref=f50e482]: "500"
+                              - generic [ref=f50e483]: "750"
+                          - generic [ref=f50e485]: End of interactive chart.
+                        - generic [ref=f50e486]:
+                          - img [ref=f50e487]
+                          - text: Median employee tenure ‧
+                          - strong [ref=f50e490]: 2.5 years
+                    - generic [ref=f50e491]:
+                      - generic [ref=f50e492]:
+                        - heading [level=3] [ref=f50e493]: Competitors
+                        - paragraph [ref=f50e494]:
+                          - generic [ref=f50e495]:
+                            - text: SimplePractice is a leading provider of HIPAA-compliant electronic health record (EHR) and practice management software, primarily serving therapists, health, and wellness professionals. It offers an all-in-one solution that includes features such as telehealth, online scheduling, insurance billing, documentation, and client portals. The competitive landscape includes several key players like Kareo, Practice Fusion, and CarePaths, each offering unique features and targeting different segments of the market. SimplePractice's strong client portal and onboarding features are significant competitive differentiators.
+                            - generic [ref=f50e496]:
+                              - generic [ref=f50e497]: …
+                              - button [ref=f50e498] [cursor=pointer]: show more
+                        - generic [ref=f50e499]:
+                          - link [ref=f50e501] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/practice-fusion/
+                          - link [ref=f50e507] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/kareo/
+                          - link [ref=f50e513] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/carepaths/
+                      - generic [ref=f50e518]:
+                        - generic [ref=f50e520]: "Sources: rivalsense.co +3 more"
+                        - generic [ref=f50e522]:
+                          - button [ref=f50e523] [cursor=pointer]:
+                            - img [ref=f50e524]
+                          - button [ref=f50e527] [cursor=pointer]:
+                            - img [ref=f50e528]
+                    - link [ref=f50e531] [cursor=pointer]:
+                      - /url: /company/simplepractice/insights/?insightType=HEADCOUNT
+                      - text: Show more Premium insights
+                - generic [ref=f50e533]:
+                  - generic [ref=f50e534]:
+                    - heading [level=2] [ref=f50e535]: About the company
+                    - generic [ref=f50e536]:
+                      - generic [ref=f50e537]:
+                        - link [ref=f50e539] [cursor=pointer]:
+                          - /url: /company/simplepractice/life/
+                          - img [ref=f50e540]
+                        - generic [ref=f50e541]:
+                          - link [ref=f50e543] [cursor=pointer]:
+                            - /url: /company/simplepractice/life/
+                            - text: SimplePractice
+                          - generic [ref=f50e544]: 74,063 followers
+                      - button [ref=f50e545] [cursor=pointer]:
+                        - img [ref=f50e546]
+                        - generic [ref=f50e548]: Follow
+                    - generic [ref=f50e549]:
+                      - text: Software Development
+                      - generic [ref=f50e550]: • 501-1,000 employees
+                      - generic [ref=f50e551]: • 637 on LinkedIn
+                    - paragraph [ref=f50e552]:
+                      - generic [ref=f50e553]: Join over 250,000 Health and Wellness professionals in growing their private practice with SimplePractice. The only practice management software that allows you to go fully virtual, in-office, or anywhere in-between. Integrated with telehealth, online booking, paperless intakes, and more.
+                    - generic [ref=f50e556]:
+                      - heading [level=3] [ref=f50e559]: Company photos
+                      - generic [ref=f50e560]:
+                        - button [ref=f50e562] [cursor=pointer]:
+                          - generic [ref=f50e563]:
+                            - img [ref=f50e566]
+                            - paragraph [ref=f50e569]: July 17, 2025
+                        - button [ref=f50e571] [cursor=pointer]:
+                          - generic [ref=f50e572]:
+                            - img [ref=f50e575]
+                            - paragraph [ref=f50e578]: July 17, 2025
+                        - button [ref=f50e580] [cursor=pointer]:
+                          - generic [ref=f50e581]:
+                            - img [ref=f50e584]
+                            - paragraph [ref=f50e587]: July 17, 2025
+                        - button [ref=f50e589] [cursor=pointer]:
+                          - generic [ref=f50e590]:
+                            - img [ref=f50e593]
+                            - paragraph [ref=f50e596]: July 17, 2025
+                  - link [ref=f50e599] [cursor=pointer]:
+                    - /url: /company/simplepractice/life/
+                    - text: Show more
+                - heading [level=2] [ref=f50e601]: More jobs
+                - list [ref=f50e603]:
+                  - listitem [ref=f50e604]:
+                    - link [ref=f50e606] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4338337668&referenceJobId=4405447344&originToLandingJobPostings=4338337668&trackingId=Hj9V3YRx%2BCZ2tv58XB85dw%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5Rbl0qOYQNmy1Xiy_dr5ZhgMMQidNqVpCkVD5ITlRlphoZFQEudJN8RyTSvYlMoMtAgC1AJM2NwuDER5b9OeUn16KKvxeWSHvEXVLNDa9sIKJYxaaDTiys2mny6Ipqys157UFZdu1myekikDkEINWAKnb3VmfQV4TZ3VgaFE1bbnWPmVouBSduSkIfQzcw5v5Hia7yLbULA2WEik8XtQBujALv6hLbtX5Vhb9zbuTfiE6V1n4eafJwZVPH1D916-64zxznmkgkJssVfLoFz41140-UMPqtbMnUs7Zg7Ci5rL1p-TtLSqbhXYX2dcWzjQzOnuR00AY03Iy699tk_T_KmTlD-w9LML068x5T4YhG6ywm69J9qHbwTR4hkqoBjYWcZ97lR_GgYjgCBvuGgnBu65X_Dwh7xbCJJ6rqe4I7lkl21skH_dVxzs9CMperxB4m_ApMVz9jjcB_djuNnNzOl9Dv-0
+                      - generic [ref=f50e608]:
+                        - img [ref=f50e613]
+                        - generic [ref=f50e614]:
+                          - generic [ref=f50e615]:
+                            - generic [ref=f50e616]:
+                              - strong [ref=f50e618]: UX/UI Designer
+                              - generic [ref=f50e619]: UX/UI Designer
+                            - generic [ref=f50e621]: DataAnnotation
+                            - generic [ref=f50e623]: Pennsylvania, United States (Remote)
+                          - list [ref=f50e625]:
+                            - listitem [ref=f50e626]:
+                              - time [ref=f50e627]: 1 day ago
+                            - listitem [ref=f50e628]:
+                              - strong [ref=f50e630]:
+                                - generic [ref=f50e631]: Be an early applicant
+                  - listitem [ref=f50e632]:
+                    - link [ref=f50e634] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4338367665&referenceJobId=4405447344&originToLandingJobPostings=4338367665&trackingId=v2PJTHT6bY3Lf0mSTJOsfw%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5ReB9Y-QiA8TN69LAXdAjtumQ2Ph8R--pinG2QFqCk8anWnzVkDy2PHb6wdhiv5LR6otrNLTH7rskT7HAMR93ULlH41z2fVNAjYsxmcDaEZ9iDHbJjS2cecR2z2peWrhLTokfXT1jVa-eqJrpYEmF4tMlxNjFWj65H1TmaK05GnT2E5tVZr1L7Su1jBOHG130RkeNZpmgBwAp2YaZLqfKKm3REo37WG1w2ndnthUqjiNm9n3J6HzxpdWFTPsSejmA6X-CPfBmsk92_R5RxHOstjoJIbBkYZYdlb4GjwU8dfWtRx0P5lyxZYrrTBrD1bzNzcxWaKICzvQzh0boAwx5QBg_KRxfzMObILTyod5VVQjGb8OBzt4UktduqwGVQjhzGxwhqb-cfMZaUuCCCcg85z9RzAoiElSM1dtRcRw5ZRCgBPJohXLBcUBGIzo3GO1vkwoOM0eRLbxK3vGQdRnd9gEPQMcWGgZV
+                      - generic [ref=f50e636]:
+                        - img [ref=f50e641]
+                        - generic [ref=f50e642]:
+                          - generic [ref=f50e643]:
+                            - generic [ref=f50e644]:
+                              - strong [ref=f50e646]: UI/UX Product Designer
+                              - generic [ref=f50e647]: UI/UX Product Designer
+                            - generic [ref=f50e649]: DataAnnotation
+                            - generic [ref=f50e651]: New Jersey, United States (Remote)
+                          - list [ref=f50e653]:
+                            - listitem [ref=f50e654]:
+                              - time [ref=f50e655]: 1 day ago
+                  - listitem [ref=f50e656]:
+                    - link [ref=f50e658] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4338367579&referenceJobId=4405447344&originToLandingJobPostings=4338367579&trackingId=lMewzR6Kpj32LD1zWpLACA%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5Ra-FNhu21CMnuy1WqVlwp5pVcrlFJ7GA-OPzYJaoQ4kAIDKNBZOhd4w3KQoUyTle6AVlrTRluGV4uCQ0xJcLEc08dfOWTWWDVexzwmtf3jRCZwPvrCW1vBXjPVvLjPP3ZH8PlKWp5Tu0WM-73bX7WdfioMDV4s8zvNM4mxBYenLkb580Zkdxk8SoEuwDFtLkI26kt29Z-uvgZjevdAkRPoH8Ge8o0eFyfPZ-nIQyEYxIABqN1Y3VxiEm_ZxpWFmFqrwme0puecHNWaR7qk9FcCIF1dgqkv2v3HelqKgplRGIFNfk7oFBKp8FgAvOPu8CHyNHVvUSqLscLSwZD8rg6vo_VrY5Iim9_DHwMJdowbL9XDpF_r9gBmq_NA8QeVKiJ-fmvkfS5nK6eGtGFeOzEYEsuBJNvztdj6mp2lVKl4i57WGkHzIAdOA3euvdgeEvDU5nzdQVC-P0iNd1pAXKyWX6Wx_mkw
+                      - generic [ref=f50e660]:
+                        - img [ref=f50e665]
+                        - generic [ref=f50e666]:
+                          - generic [ref=f50e667]:
+                            - generic [ref=f50e668]:
+                              - strong [ref=f50e670]: UX/UI Designer
+                              - generic [ref=f50e671]: UX/UI Designer
+                            - generic [ref=f50e673]: DataAnnotation
+                            - generic [ref=f50e675]: Virginia, United States (Remote)
+                          - list [ref=f50e677]:
+                            - listitem [ref=f50e678]:
+                              - time [ref=f50e679]: 1 day ago
+                  - listitem [ref=f50e680]:
+                    - link [ref=f50e682] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4399480837&referenceJobId=4405447344&originToLandingJobPostings=4399480837&trackingId=mDZl%2BPIv%2FOpQXjqV5JCEtw%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5RftFQ7qc_0hCFe_ot2t2r5UAl68HAUjdvPBRNJv1-vAMoEaBhL-Nj6R4F3VnmcOLYCEzLV9GqavMYEzFWSnFrIbj1IESW4ixRMp1B0whzFPK4LC2UhoR6JT1P7vnVylHy1VZXGgCAP8b65JBerpIZbojpWT03yKonfnHZ0cBKtResJjsnOaNeHDnZRoiAZ9_8G16c2-AOy7F1dpumUQcgL56SRa8FcW7uaUsRo0OpMtsKCdWMycvprVtgroT8ND2uduMs8GfwT3bIlT7aZ2IYE4_JbcBGLCLS5lEDbK2I-9wIRnqGRiysU41nu7vHtdxbuVwidytQ2gBTkCqhCJEg6faLh2o6aWCkOeZkVta1pF7wSAiXujBqwpoAzXLwWIhq8AxF5WqF2wSgoNfScuoMVO6XPKwchU19XGLC6kg34w8F1BTDQql92A3KnzVYda4hH24mNUXsVWTm91rgBDmPTMld3SwPr68Rfg6PibG
+                      - generic [ref=f50e684]:
+                        - img [ref=f50e689]
+                        - generic [ref=f50e690]:
+                          - generic [ref=f50e691]:
+                            - generic [ref=f50e692]:
+                              - generic [ref=f50e693]:
+                                - strong [ref=f50e694]: UX Research Intern, AI Experience
+                                - img [ref=f50e696]
+                              - generic [ref=f50e698]: UX Research Intern, AI Experience with verification
+                            - generic [ref=f50e700]: Rocket Lawyer
+                            - generic [ref=f50e702]: Colorado, United States (Remote)
+                          - list [ref=f50e704]:
+                            - listitem [ref=f50e705]:
+                              - time [ref=f50e706]: 2 weeks ago
+                  - listitem [ref=f50e707]:
+                    - link [ref=f50e709] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4399479875&referenceJobId=4405447344&originToLandingJobPostings=4399479875&trackingId=zBV%2FXLjSlc6EKoDV8RAvyw%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5RSMO_lqowNeNNbhvBFhtkKismqhJMdXjzAyLl3qro2gtUeLq1cfYP-jwqE1xffbO0SgjsB6hhlbV8PkJbhFmpUxkKzHoN3yd9iwbxPElxhTY-qJeC-Se0xRK7BTP8WHHesE-6nGPJ8f4DM2LzMyvrGdmNkipFC6LeD3bQmSum_UNjogkSHePDB2rOr63eEJTkeiYhIsFHIcn14aHNPm0SVdFX268OguPc7Itszx4RmM8n9eNkDthx06yi_KfuHjCPODyU_ii3r_6YqsGPlAqKugHwVNkVxv7mVP4ml-gX8ZOdzFdETpyVH0aupyJNg1C1UR9pHApm7UMpgkVoytsDkPHFteIRW0Iwc_zWGkkUQTRHa3y75vvZ_m9JeEeyxPhRWTkWm6ybPdUrsNQ01hWvMZ9JKGGzj4LmAlQricxo1qTPD7s3HTIVqGlHAEMAbtKun0FTwzfnxYysUszw4jRSfvbQQCtBX4axYc
+                      - generic [ref=f50e711]:
+                        - img [ref=f50e716]
+                        - generic [ref=f50e717]:
+                          - generic [ref=f50e718]:
+                            - generic [ref=f50e719]:
+                              - generic [ref=f50e720]:
+                                - strong [ref=f50e721]: UX Research Intern, AI Experience
+                                - img [ref=f50e723]
+                              - generic [ref=f50e725]: UX Research Intern, AI Experience with verification
+                            - generic [ref=f50e727]: Rocket Lawyer
+                            - generic [ref=f50e729]: Utah, United States (Remote)
+                          - list [ref=f50e731]:
+                            - listitem [ref=f50e732]:
+                              - time [ref=f50e733]: 2 weeks ago
+                  - listitem [ref=f50e734]:
+                    - link [ref=f50e736] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4399497197&referenceJobId=4405447344&originToLandingJobPostings=4399497197&trackingId=4PF8aPqMsfxx6w%2FlN%2BhsFw%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5RcashFPvGTeMXWlhtdRfJDHItv1q0gWVxmCwfhfJwlJhbCUmM-tvkHwlWfhCelZwKMiNrXVbRyiTCPIxhz1YS2wdQysFhAkpAFrKlS7giqmL-9Gk4nJE5YPsP-caMs8pDZT1uLT-h7DRqhTYOHrqpiN7qX7bRODQTBvP3-2reasW-j2Ck9n3OPRgYgrXQbv0HlToKR7zdJnavFFSVVG54h-aF9DMEBr8GbJV0h1-wCDh7ET4ZpzlVTD6QCJ0zjij5Gjwupa5gloxMB5itRM4ek20-WhLnTD8DuBhaWoCmCfHxSvxh8v_CjvfepUvKPGyjGTa9JN78TzoPJ8QrS2p0KhI2lbpsMWTO9BKEXkOHbysKHub_PnFXJmUm4hMksryLLDXhK3TTce2CDFdGxFsJ4-kw7c6C9IovPoIhY7xfyDYvoobqDbVXfAJzC8Fg-dmcy1827lE2JIu8YroY3WfZcgmmiOAzzlqYWbwTQiI
+                      - generic [ref=f50e738]:
+                        - img [ref=f50e743]
+                        - generic [ref=f50e744]:
+                          - generic [ref=f50e745]:
+                            - generic [ref=f50e746]:
+                              - generic [ref=f50e747]:
+                                - strong [ref=f50e748]: UX Research Intern, AI Experience
+                                - img [ref=f50e750]
+                              - generic [ref=f50e752]: UX Research Intern, AI Experience with verification
+                            - generic [ref=f50e754]: Rocket Lawyer
+                            - generic [ref=f50e756]: California, United States (Remote)
+                          - list [ref=f50e758]:
+                            - listitem [ref=f50e759]:
+                              - time [ref=f50e760]: 2 weeks ago
+                  - listitem [ref=f50e761]:
+                    - link [ref=f50e763] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4399494237&referenceJobId=4405447344&originToLandingJobPostings=4399494237&trackingId=B0Kf%2BnOUTZQvvHRBoP33ng%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5RSpDuAFJA2AMOQnkwtCpmyrNfKgyha8bJ5Wm2iXqa4N7CCXmquYe9Qy9g6hZOrGkxnvkq6Q4WSAXNQQFFKMklfSGNeuvi7tkTK0jeHJDtB1glulQy7FuqljQh9iO4me7_WG8gHtbcDiaWID3LLN5hsLPMd-SC8u-JV8GYuYtvRWiHrTyhVEZAKV77ZZAlk1bcV9royb35R5IZx-XOR12u98fFzpoeZdVkk8iu1fp2-n8fYh2vbXInWD1p7trUcTgKJAfprvqWsc_kV9xHBxXXicCWF2hGE9gt_ehi5MBlIB3PbrGH0CUW3nRSlFwQG0ro89lvjqGBXqKZFXXVQ0JZLM8AjGxIXE7iKEJI32FfHdbP7x0wgTjpPRyu6-UtPePXghLZuHfPNqHHRbzEeyUBRvSBpQUY18clYIe2HNhiuEcULAJhMzGTnGWLPZH48kePLrD-fo9bHuWCv9vGVMMfEcqw0xL2PdWfGSaWnOnOVo
+                      - generic [ref=f50e765]:
+                        - img [ref=f50e770]
+                        - generic [ref=f50e771]:
+                          - generic [ref=f50e772]:
+                            - generic [ref=f50e773]:
+                              - generic [ref=f50e774]:
+                                - strong [ref=f50e775]: UX Research Intern, AI Experience
+                                - img [ref=f50e777]
+                              - generic [ref=f50e779]: UX Research Intern, AI Experience with verification
+                            - generic [ref=f50e781]: Rocket Lawyer
+                            - generic [ref=f50e783]: North Carolina, United States (Remote)
+                          - list [ref=f50e785]:
+                            - listitem [ref=f50e786]:
+                              - time [ref=f50e787]: 2 weeks ago
+                  - listitem [ref=f50e788]:
+                    - link [ref=f50e790] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4400600258&referenceJobId=4405447344&originToLandingJobPostings=4400600258&trackingId=fIongXYUt8%2FOBol73e2iaA%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5RfVqKGdovudE3XLBm8Y63l9IDJyJLYAJ5-wOo_2RdMXXZsrdkm7WFfmwDjI1l4t3PBWXojJRFmzrUrZkE8Fr0hE6t0eVE0qtBlWDx5scPYe9RBJCqa4ga72M0p2qrPCma_L-DIBBaguF1W6X5R4FCUQVhSwNNCr4ogFyCQpX0iUwRr6xoL8WB20Mc_evhN9rLzfyBTfiGi2I2BMOpJOeuEZ6TS0xX-fwx9bltcHgmX9krc0AGJVU3lkMKiqfg9jADS9dBVnZaBPTzP4B6cUOyi7m_KbdY98Vlt30f5mFR5ig9f3Q8XhQ-BPp-I8goEw85w4Oxref-nB8IZ0skHXaztFW15P4rbH50cMHwq4lEoJRiZs_oJK3dqYlyLxDv8Xzp1l6-t7Uj2wZy7YwRPwow-R_RHW2NX-ZpK_VIA0R_xMgzOgO8HbwSyWVCARwg3bP2IUFaGr7i3tRFUARHr39gHLUNUFXpsbMIMSaWRoPhT0
+                      - generic [ref=f50e792]:
+                        - img [ref=f50e797]
+                        - generic [ref=f50e798]:
+                          - generic [ref=f50e799]:
+                            - generic [ref=f50e800]:
+                              - generic [ref=f50e801]:
+                                - strong [ref=f50e802]: User Experience Researcher
+                                - img [ref=f50e804]
+                              - generic [ref=f50e806]: User Experience Researcher with verification
+                            - generic [ref=f50e808]: Harnham
+                            - generic [ref=f50e810]: United States (Remote)
+                            - list [ref=f50e812]:
+                              - listitem [ref=f50e813]:
+                                - img [ref=f50e816]
+                                - generic [ref=f50e818]: Actively reviewing applicants
+                          - list [ref=f50e820]:
+                            - listitem [ref=f50e821]:
+                              - time [ref=f50e822]: 1 week ago
+                            - listitem [ref=f50e823]:
+                              - img [ref=f50e824]:
+                                - img [ref=f50e825]
+                              - generic [ref=f50e827]: Easy Apply
+                  - listitem [ref=f50e828]:
+                    - link [ref=f50e830] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4338337694&referenceJobId=4405447344&originToLandingJobPostings=4338337694&trackingId=OLLrpkWqkpkP2Jb6oMJ05w%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5RYpqE5ASEoPyDdgieZMam9AQco0sHPre6XbBcaXf-6ZtBQ7xsWFEYP7TYXWFimICwhMUAYDjf7TQTt3u702Snri4DVYv-xNqwLOUZNsUsPa86qfL_Ur93SAwQZqEGq6GbH-ssc37IBdtlLBmEGJ_6EfNrHlwpNSJcwK92W5237MFKS0nzdwmhzeIStIfpz9sZJG7x6Ro8jSmgWUctzNU3PLxXeEQiaFymDPiljHH2mlJLM_X8dKo04V4gbnNw4b8yeDUERwCubvqBBXpyXIdYcilL0-NdFhcJnFjdw0UNye7Nz0sNnDp0PcIv7CTxD5Zioprix8rbxl8VQRLNEOuk-0h_gUiSzIYanoywrgCnkdfHtTwTVGI1FRhQsxEzhoox1B3UBBHpsDs_ltACtmdjfsxk5Pa3y37i_5l__8agJsce2ap4po5kusmJTUTSlhNCWu139eFco5Nf-WY2N1deg9bOpVqpqGhufs
+                      - generic [ref=f50e832]:
+                        - img [ref=f50e837]
+                        - generic [ref=f50e838]:
+                          - generic [ref=f50e839]:
+                            - generic [ref=f50e840]:
+                              - strong [ref=f50e842]: UX Designer
+                              - generic [ref=f50e843]: UX Designer
+                            - generic [ref=f50e845]: DataAnnotation
+                            - generic [ref=f50e847]: Kentucky, United States (Remote)
+                          - list [ref=f50e849]:
+                            - listitem [ref=f50e850]:
+                              - time [ref=f50e851]: 1 day ago
+                            - listitem [ref=f50e852]:
+                              - strong [ref=f50e854]:
+                                - generic [ref=f50e855]: Be an early applicant
+                  - listitem [ref=f50e856]:
+                    - link [ref=f50e858] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4399482841&referenceJobId=4405447344&originToLandingJobPostings=4399482841&trackingId=yrw65QWnoMmW2eRBrVsoag%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5Rbq_EgipGogsiupf7MM0jaMlUyvhL0JWtgCKnfciNQUe8yFHxUTC3l2TOa1XDciQHkh436BjahRW191znTcXbwfuzg71CYFJ5LB_BDcGdfjCUL1MnOqbpY0lb4gyKki_d9unBNJ4jmHnKQxmPcPtVZ1HIiwC68mM2heAojMeN9E_HtyYRX0QUmNsHgjprJ1owyVYD-QEVU_89xxMHW02zCjelKsD58sy4L5jigSmMO3JYQcWOIs3odPo6fff-GBQOrcvi04r4HTJWxGrmQ70rfDOi3emqWm8PsSrh8CiEqP0kjGhJcUsajOxlzzG3CZXVK21SntgXuBvCdmPDSBq5B8y2wB6zxA3S4yGsPnBngH2EMlwENbsBLM52aCWBnXzrcZsAh-J6JjOkXvpmrp0RUUzsGwIKdrSSjZ7jxW2oa8ciLF3PG_OCwsVocd7Xrf28375mTgw_h85r0gqSPwoobBITLVdQzigjiRNefN9
+                      - generic [ref=f50e860]:
+                        - img [ref=f50e865]
+                        - generic [ref=f50e866]:
+                          - generic [ref=f50e867]:
+                            - generic [ref=f50e868]:
+                              - generic [ref=f50e869]:
+                                - strong [ref=f50e870]: UX Research Intern, AI Experience
+                                - img [ref=f50e872]
+                              - generic [ref=f50e874]: UX Research Intern, AI Experience with verification
+                            - generic [ref=f50e876]: Rocket Lawyer
+                            - generic [ref=f50e878]: Arizona, United States (Remote)
+                          - list [ref=f50e880]:
+                            - listitem [ref=f50e881]:
+                              - time [ref=f50e882]: 2 weeks ago
+                  - listitem [ref=f50e883]:
+                    - link [ref=f50e885] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4402775253&referenceJobId=4405447344&originToLandingJobPostings=4402775253&trackingId=%2Fm5zYoafAeEG1mi3SNZL8g%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5RT9Se-p0BbKgz8tS4xP1164N3OP8cby1Q4wXLJmpT8tPH_M3i0ShdAsH0XIONf1q3ocFKNyF8i7z1PHAH20VtI-Ow4N1pK4ln95uaAQMBKJSJsR-YyqbXCjG-YnCDrYkRldOrQQeqerhilOVfFUMIYSpt2XxZr5FBiQ34Ns3yrnAY99ctZ9DhYQmYwkHcZ4abaJoq0hciWkuNxwFapAJCy8pck59UkmvEj4Dy6k6J3wMITuUEiwCkV8EjJeZQFoJBs-uUIyNLc99CTnWYJcKEhQ-OVaQoF75qUAzPt_pUniz5OXQ6dUWkWGAEAbouvLJdS9ezeX1RwqjbynGhikIcRSMeXaQ44hGfWDMmyc8iimb2NXdQG4a35qjsy7M9P-x5oUHPwZjF5B7suEJk0o1fERz4w4pMGNFW7m-tPqwy6orzP2VaNTDtHxJ86nGhNxKQt07TVF8ZpV9UoxIOcCoLyRSI1X-crMY_aG0fcyr
+                      - generic [ref=f50e887]:
+                        - img [ref=f50e892]
+                        - generic [ref=f50e893]:
+                          - generic [ref=f50e894]:
+                            - generic [ref=f50e895]:
+                              - generic [ref=f50e896]:
+                                - strong [ref=f50e897]: User Experience Designer
+                                - img [ref=f50e899]
+                              - generic [ref=f50e901]: User Experience Designer with verification
+                            - generic [ref=f50e903]: Robert Half
+                            - generic [ref=f50e905]: United States (Remote)
+                            - generic [ref=f50e906]:
+                              - generic [ref=f50e907]: $60/hr - $70/hr · 401(k), +4 benefits
+                              - list [ref=f50e908]:
+                                - listitem [ref=f50e909]:
+                                  - img [ref=f50e912]
+                                  - generic [ref=f50e914]: Actively reviewing applicants
+                          - list [ref=f50e916]:
+                            - listitem [ref=f50e917]:
+                              - time [ref=f50e918]: 5 days ago
+                            - listitem [ref=f50e919]:
+                              - img [ref=f50e920]:
+                                - img [ref=f50e921]
+                              - generic [ref=f50e923]: Easy Apply
+                  - listitem [ref=f50e924]:
+                    - link [ref=f50e926] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs?currentJobId=4391855912&referenceJobId=4405447344&originToLandingJobPostings=4391855912&trackingId=QMio%2BsW6%2FjyWqpyvxFcBZw%3D%3D&refId=vVhHm%2BPKabfFaOVD%2F0GWQQ%3D%3D&eBP=CwEAAAGduHW5RQsmodjcK0xFLxJlSxDB_WSd52JVjkwNZaXwa0CfFavDEnPT-a7Pp9nt0SeTldFiztUicqXgyKlVZ1VUB95Q4CXr2F1IE58QWZWcQPw_z9ydMPX_-NxU6sm4S5HakPpNZ8dgzc1-rvhvzFWQNOyQaRDnf01U95USVFJB-NXRWKth-X5eG9FuOWNlV6x9Ruk7y-_S-qv1kBHTke3sf6WHjl6JkVTdfFz0XGMY3XH7Y4ttOd9Z-piPpOM2MIftI3CtOulQVSe-poY9prEgQ0cRJZrfsuPYAxArQMsG_XG_Psw_lll8_hSBFhVVML7fyaZQfFMB0Znfa2r484tIVw2BvSWRCYoWqIIMOZaOOs-7Phb4y-XMyPK98IOYzsjBmhMfOQSOUX1aJ57LIG2di5lk_9SMD8COsk3DVY16cbSYsffrPpX2YErFEgMvI0lwWVufNh_6-TT_0cZk9VSk_308pYpmExNlCIA7Bbj4ya87
+                      - generic [ref=f50e928]:
+                        - img [ref=f50e933]
+                        - generic [ref=f50e934]:
+                          - generic [ref=f50e935]:
+                            - generic [ref=f50e936]:
+                              - strong [ref=f50e938]: UI/UX Designer
+                              - generic [ref=f50e939]: UI/UX Designer
+                            - generic [ref=f50e941]: Intuvia Technologies
+                            - generic [ref=f50e943]: United States (Remote)
+                            - list [ref=f50e945]:
+                              - listitem [ref=f50e946]:
+                                - img [ref=f50e949]
+                                - generic [ref=f50e951]: Actively reviewing applicants
+                          - list [ref=f50e953]:
+                            - listitem [ref=f50e954]:
+                              - time [ref=f50e955]: 3 weeks ago
+                            - listitem [ref=f50e956]:
+                              - img [ref=f50e957]:
+                                - img [ref=f50e958]
+                              - generic [ref=f50e960]: Easy Apply
+                - link [ref=f50e962] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/jobs/collections/similar-jobs?referenceJobId=4405447344
+                  - text: See more jobs like this
+            - complementary [ref=f50e963]:
+              - generic [ref=f50e964]:
+                - generic [ref=f50e965]:
+                  - img [ref=f50e967]:
+                    - img [ref=f50e968]
+                  - heading [level=2] [ref=f50e970]: Learn skills to get a new job with these courses
+                  - link [ref=f50e972] [cursor=pointer]:
+                    - /url: /learning?trk=jobdetails_learning_awareness
+                    - text: Show more on LinkedIn Learning
+                - generic [ref=f50e973]:
+                  - paragraph [ref=f50e974]: Looking for talent?
+                  - link [ref=f50e975] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=flagship3_job_detail
+                    - text: Post a job
+          - contentinfo [ref=f50e977]:
+            - generic [ref=f50e979]:
+              - generic [ref=f50e980]:
+                - navigation [ref=f50e981]:
+                  - list [ref=f50e982]:
+                    - listitem [ref=f50e983]:
+                      - link [ref=f50e984] [cursor=pointer]:
+                        - /url: https://about.linkedin.com/
+                        - text: About
+                    - listitem [ref=f50e985]:
+                      - link [ref=f50e986] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/accessibility
+                        - text: Accessibility
+                    - listitem [ref=f50e987]:
+                      - link [ref=f50e988] [cursor=pointer]:
+                        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                        - text: Talent Solutions
+                    - listitem [ref=f50e989]:
+                      - link [ref=f50e990] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/legal/professional-community-policies
+                        - text: Professional Community Policies
+                    - listitem [ref=f50e991]:
+                      - link [ref=f50e992] [cursor=pointer]:
+                        - /url: https://careers.linkedin.com/
+                        - text: Careers
+                    - listitem [ref=f50e993]:
+                      - link [ref=f50e994] [cursor=pointer]:
+                        - /url: https://business.linkedin.com/marketing-solutions?trk=n_nav_lms_f&src=li-footer
+                        - text: Marketing Solutions
+                    - listitem [ref=f50e995]:
+                      - button [ref=f50e997] [cursor=pointer]:
+                        - generic [ref=f50e999]:
+                          - text: Privacy & Terms
+                          - img [ref=f50e1000]
+                    - listitem [ref=f50e1002]:
+                      - link [ref=f50e1003] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/help/linkedin/answer/62931
+                        - text: Ad Choices
+                    - listitem [ref=f50e1004]:
+                      - link [ref=f50e1005] [cursor=pointer]:
+                        - /url: https://business.linkedin.com/marketing-solutions/ads?trk=n_nav_ads_f
+                        - text: Advertising
+                    - listitem [ref=f50e1006]:
+                      - link [ref=f50e1007] [cursor=pointer]:
+                        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                        - text: Sales Solutions
+                    - listitem [ref=f50e1008]:
+                      - link [ref=f50e1009] [cursor=pointer]:
+                        - /url: https://mobile.linkedin.com/
+                        - text: Mobile
+                    - listitem [ref=f50e1010]:
+                      - link [ref=f50e1011] [cursor=pointer]:
+                        - /url: https://smallbusiness.linkedin.com?&src=li-footer
+                        - text: Small Business
+                    - listitem [ref=f50e1012]:
+                      - link [ref=f50e1013] [cursor=pointer]:
+                        - /url: https://safety.linkedin.com
+                        - text: Safety Center
+                - generic [ref=f50e1015]:
+                  - list [ref=f50e1016]:
+                    - listitem [ref=f50e1017]:
+                      - img [ref=f50e1018]
+                      - generic [ref=f50e1020]:
+                        - link [ref=f50e1021] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin?trk=d_flagship3_job_details
+                          - text: Questions?
+                        - paragraph [ref=f50e1022]: Visit our Help Center.
+                    - listitem [ref=f50e1023]:
+                      - img [ref=f50e1024]
+                      - generic [ref=f50e1026]:
+                        - link [ref=f50e1027] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/psettings/
+                          - text: Manage your account and privacy
+                        - paragraph [ref=f50e1028]: Go to your Settings.
+                    - listitem [ref=f50e1029]:
+                      - img [ref=f50e1030]
+                      - generic [ref=f50e1032]:
+                        - link [ref=f50e1033] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1339724
+                          - text: Recommendation transparency
+                        - paragraph [ref=f50e1034]: Learn more about Recommended Content.
+                  - generic [ref=f50e1035]:
+                    - generic [ref=f50e1036]: Select Language
+                    - combobox [ref=f50e1037]
+              - paragraph [ref=f50e1038]: LinkedIn Corporation © 2026
+      - region [ref=f50e1039]

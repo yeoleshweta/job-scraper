@@ -1,0 +1,27 @@
+Pipeline complete. Here is the final summary:
+
+```json
+{
+  "status": "completed",
+  "id": "38",
+  "report_num": "041",
+  "company": "Notion",
+  "role": "User Researcher, Growth",
+  "score": 4.6,
+  "pdf": "output/cv-shweta-notion-2026-04-29.pdf",
+  "report": "reports/041-notion-2026-04-29.md",
+  "error": null
+}
+```
+
+**Highlights:**
+- **Score 4.6/5 — APPLY HIGH PRIORITY**. Strong fit: 6+ years UX research + NLP/AI builder profile + growth metrics (11% conversion, 35% engagement) hits the rare overlap Notion is hiring for.
+- **Comp:** $185K–$220K (top quartile, exceeds stated max).
+- **Frictions:** Philadelphia → SF/NYC relocation (3 anchor days) + F-1 OPT sponsorship trajectory.
+- **PDF:** 2 pages, letter format, ATS-normalized; injected keywords (Growth Research, A/B Experimentation, Funnel Analysis, AI Product Research) into Summary, Competencies, and lead bullets without inventing experience.
+- **Tracker:** TSV written to `batch/tracker-additions/38.tsv` with sequential num 38, awaiting `merge-tracker.mjs`.
+
+Sources:
+- [Notion User Researcher Growth — Ashby](https://jobs.ashbyhq.com/notion/4d0862f2-f882-4291-a894-d3cdc303e4a6)
+- [Built In NYC — Notion User Researcher](https://www.builtinnyc.com/job/user-researcher/6739398)
+- [Notion Careers](https://www.notion.com/careers)

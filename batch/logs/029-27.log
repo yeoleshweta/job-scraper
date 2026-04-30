@@ -1,0 +1,23 @@
+Pipeline complete for batch ID 27.
+
+```json
+{
+  "status": "completed",
+  "id": "27",
+  "report_num": "029",
+  "company": "Abridge",
+  "role": "Staff Product Designer",
+  "score": 2.5,
+  "pdf": null,
+  "report": "reports/029-abridge-2026-04-28.md",
+  "error": null
+}
+```
+
+**Summary:**
+- **Score: 2.5/5 — SKIP**. Abridge is a strong company fit (healthcare AI mirrors her ABIM Calgary-Cambridge NLP work), but the seat is wrong: Staff Product Designer demands 7-12+ years of pure design IC craft (motion, prototyping perfection, "every pixel meticulously considered"), while Shweta's recent 3+ years are research/data-science. Her primary North Star is UX Researcher (UX Designer is only "adjacent" in profile.yml).
+- **Comp:** $216,750–$255,000 + equity (well above $100K floor) — but only relevant if she got the role.
+- **Hybrid 3x/week SF or NYC** (relocation assistance available); she's in Philadelphia.
+- **PDF: not generated** (per quality-over-quantity ethic for SKIP-class roles, matching the pattern of Whova/MDX/Fundraise Up/Tria).
+- **Suggested alternative path:** lateral LinkedIn outreach to Abridge's Head of Design or UX Research lead, leading with the ABIM clinical communication NLP work as a domain-fit conversation rather than applying against this specific JD.
+- **Tracker line written to:** `batch/tracker-additions/27.tsv` for the next `merge-tracker.mjs` run.

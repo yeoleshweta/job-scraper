@@ -1,0 +1,21 @@
+Pipeline complete. Final JSON summary:
+
+```json
+{
+  "status": "completed",
+  "id": "31",
+  "report_num": "034",
+  "company": "Handshake",
+  "role": "Senior Product Designer I, Handshake AI",
+  "score": 3.0,
+  "pdf": "output/cv-shweta-sharma-handshake-ai-2026-04-29.pdf",
+  "report": "reports/034-handshake-ai-2026-04-29.md",
+  "error": null
+}
+```
+
+**Summary:**
+- **Score 3.0/5** — borderline. The seat is **Senior Product Designer** (visual/interaction craft IC), not UXR. Same archetype mismatch as the Abridge PD evals (029, 032).
+- **Strengths:** AI/LLM domain fit is exceptional (ABIM clinical NLP maps directly to Handshake AI's expert-labeled data product); comp $155K–$195K is squarely in the candidate's $100K–$200K target band.
+- **Weaknesses:** Last 4 years are UXR-coded, not design-IC; recent shipped-UI evidence is thin; SF in-office expectation vs. Philadelphia base.
+- **Recommendation in report:** Apply only if open to a Product Designer seat genuinely; otherwise lateral outreach to Handshake's research org is higher EV.

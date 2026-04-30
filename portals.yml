@@ -1,0 +1,946 @@
+# Portal Scanner Configuration
+# Used by /career-ops scan to discover new offers automatically.
+#
+# Strategy: WebSearch each portal with a site: filter and role keywords.
+# Results are filtered through title_filter (positive AND negative) before
+# being surfaced.
+#
+# CHANGELOG (2026-04):
+#   - Removed legacy ATS-portal queries (Ashby / Lever / Indeed / Glassdoor
+#     / ZipRecruiter / Wellfound / Workable / Boolean blocks).
+#   - GREENHOUSE EXCLUDED from all scan and apply workflows. Any company
+#     using greenhouse.io must be applied to manually.
+#   - Restored tracked_companies (70+ companies) covering Ashby, Lever,
+#     Workable, and direct careers pages. Greenhouse-only companies omitted.
+#   - 50 job board search queries retained for broad discovery (Level 3).
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# TRACKED COMPANIES — Level 1 (Playwright direct scan, highest priority)
+# These are scanned by navigating directly to the company's careers page.
+# Greenhouse URLs are intentionally excluded — apply manually for those.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+tracked_companies:
+
+  # ── AI / LLM Frontier Labs ──────────────────────────────────────────────────
+  - name: Anthropic
+    careers_url: https://www.anthropic.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Research Scientist, Data Scientist]
+    size: large    # ~3000 employees
+    enabled: true
+
+  - name: OpenAI
+    careers_url: https://jobs.ashbyhq.com/openai
+    ats: ashby
+    target_roles: [UX Researcher, Quantitative UX Researcher, Data Scientist]
+    size: large    # ~3500 employees
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.lever.co/cohere
+    ats: lever
+    target_roles: [UX Researcher, Data Scientist, Research Scientist]
+    size: mid      # ~600 employees
+    enabled: true
+
+  - name: Mistral AI
+    careers_url: https://jobs.lever.co/mistral
+    ats: lever
+    target_roles: [UX Researcher, Data Scientist]
+    size: startup  # ~300 employees
+    enabled: true
+
+  - name: Perplexity AI
+    careers_url: https://jobs.ashbyhq.com/perplexityai
+    ats: ashby
+    target_roles: [UX Researcher, Data Scientist, Data Analyst]
+    size: startup  # ~300 employees
+    enabled: true
+
+  - name: Runway ML
+    careers_url: https://jobs.ashbyhq.com/runwayml
+    ats: ashby
+    target_roles: [UX Researcher, Product Designer]
+    size: startup  # ~200 employees
+    enabled: true
+
+  - name: ElevenLabs
+    careers_url: https://jobs.ashbyhq.com/elevenlabs
+    ats: ashby
+    target_roles: [UX Researcher, Data Scientist]
+    size: startup  # ~400 employees
+    enabled: true
+
+  - name: Pika Labs
+    careers_url: https://jobs.ashbyhq.com/pikalabs
+    ats: ashby
+    target_roles: [UX Researcher, Product Designer]
+    size: startup  # ~100 employees
+    enabled: true
+
+  - name: YOU.com
+    careers_url: https://jobs.ashbyhq.com/youdotcom
+    ats: ashby
+    target_roles: [UX Researcher, Data Scientist]
+    size: startup  # ~150 employees
+    enabled: true
+
+  # ── Healthcare AI ──────────────────────────────────────────────────────────
+  - name: Abridge
+    careers_url: https://jobs.ashbyhq.com/abridge
+    ats: ashby
+    target_roles: [UX Researcher, Data Scientist, Clinical Data Analyst]
+    size: startup  # ~400 employees
+    enabled: true
+
+  - name: Olive AI
+    careers_url: https://jobs.lever.co/oliveai
+    ats: lever
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: startup  # acquired; small team remaining
+    enabled: true
+
+  - name: Innovaccer
+    careers_url: https://jobs.ashbyhq.com/innovaccer
+    ats: ashby
+    target_roles: [UX Researcher, Data Scientist]
+    size: mid      # ~1500 employees
+    enabled: true
+
+  - name: Nabla
+    careers_url: https://jobs.lever.co/nabla
+    ats: lever
+    target_roles: [UX Researcher, Research Scientist]
+    size: startup  # ~200 employees
+    enabled: true
+
+  - name: Suki AI
+    careers_url: https://jobs.lever.co/suki
+    ats: lever
+    target_roles: [UX Researcher, Data Analyst]
+    size: startup  # ~300 employees
+    enabled: true
+
+  - name: Notable Health
+    careers_url: https://jobs.lever.co/notablehealth
+    ats: lever
+    target_roles: [UX Researcher, Data Analyst]
+    size: startup  # ~400 employees
+    enabled: true
+
+  - name: Tempus AI
+    careers_url: https://jobs.lever.co/tempus
+    ats: lever
+    target_roles: [UX Researcher, Data Scientist, Data Analyst]
+    size: mid      # ~2000 employees, IPO'd 2024
+    enabled: true
+
+  - name: Spring Health
+    careers_url: https://apply.workable.com/springhealth
+    ats: workable
+    target_roles: [UX Researcher, Data Analyst]
+    size: mid      # ~700 employees
+    enabled: true
+
+  - name: Rula Health
+    careers_url: https://jobs.ashbyhq.com/rula
+    ats: ashby
+    target_roles: [UX Researcher, Lead UX Researcher]
+    size: mid      # ~500 employees
+    enabled: true
+
+  - name: Grow Therapy
+    careers_url: https://jobs.ashbyhq.com/growtherapy
+    ats: ashby
+    target_roles: [UX Researcher, Data Analyst]
+    size: mid      # ~600 employees
+    enabled: true
+
+  # ── Edtech / Consumer AI ───────────────────────────────────────────────────
+  - name: Duolingo
+    careers_url: https://careers.duolingo.com
+    ats: custom
+    target_roles: [UX Researcher, Data Scientist, Research Scientist]
+    size: large    # ~5000 employees, public
+    enabled: true
+
+  - name: Khan Academy
+    careers_url: https://www.khanacademy.org/careers
+    ats: custom
+    target_roles: [UX Researcher, Staff UX Researcher, Data Analyst]
+    size: startup  # ~300 employees, nonprofit
+    enabled: true
+
+  - name: Coursera
+    careers_url: https://jobs.lever.co/coursera
+    ats: lever
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~1500 employees, public
+    enabled: true
+
+  - name: Handshake
+    careers_url: https://jobs.ashbyhq.com/handshake
+    ats: ashby
+    target_roles: [UX Researcher, Senior UX Researcher, Data Analyst]
+    size: mid      # ~700 employees
+    enabled: true
+
+  - name: Multiverse
+    careers_url: https://apply.workable.com/multiverse
+    ats: workable
+    target_roles: [UX Researcher, Research Analyst]
+    size: startup  # ~400 employees
+    enabled: true
+
+  # ── B2B SaaS / Productivity ────────────────────────────────────────────────
+  - name: Notion
+    careers_url: https://www.notion.so/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~600 employees
+    enabled: true
+
+  - name: Linear
+    careers_url: https://jobs.ashbyhq.com/linear
+    ats: ashby
+    target_roles: [UX Researcher, Product Designer]
+    size: startup  # ~100 employees
+    enabled: true
+
+  - name: Loom
+    careers_url: https://jobs.lever.co/loom
+    ats: lever
+    target_roles: [UX Researcher, Data Analyst]
+    size: mid      # acquired by Atlassian, ~500 team
+    enabled: true
+
+  - name: Miro
+    careers_url: https://miro.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Senior UX Researcher, Data Scientist]
+    size: large    # ~2500 employees
+    enabled: true
+
+  - name: Figma
+    careers_url: https://www.figma.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Scientist, Research Scientist]
+    size: large    # ~1800 employees
+    enabled: true
+
+  - name: Coda
+    careers_url: https://jobs.lever.co/coda
+    ats: lever
+    target_roles: [UX Researcher, Data Analyst]
+    size: startup  # ~300 employees
+    enabled: true
+
+  - name: Airtable
+    careers_url: https://airtable.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~900 employees
+    enabled: true
+
+  - name: Retool
+    careers_url: https://jobs.ashbyhq.com/retool
+    ats: ashby
+    target_roles: [UX Researcher, Data Analyst]
+    size: mid      # ~500 employees
+    enabled: true
+
+  - name: Intercom
+    careers_url: https://www.intercom.com/careers
+    ats: custom
+    target_roles: [UX Researcher, VoC Researcher, Data Analyst]
+    size: mid      # ~700 employees
+    enabled: true
+
+  - name: Zendesk
+    careers_url: https://jobs.lever.co/zendesk
+    ats: lever
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: large    # ~6000 employees, went private
+    enabled: true
+
+  - name: Qualtrics
+    careers_url: https://www.qualtrics.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Research Ops, Data Analyst]
+    size: large    # ~5000 employees
+    enabled: true
+
+  - name: Smartsheet
+    careers_url: https://www.smartsheet.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst]
+    size: large    # ~3500 employees, public
+    enabled: true
+
+  - name: Monday.com
+    careers_url: https://monday.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: large    # ~3000 employees, public
+    enabled: true
+
+  - name: Asana
+    careers_url: https://asana.com/jobs
+    ats: custom
+    target_roles: [UX Researcher, Data Scientist, Data Analyst]
+    size: mid      # ~1500 employees, public
+    enabled: true
+
+  # ── Fintech ────────────────────────────────────────────────────────────────
+  - name: Stripe
+    careers_url: https://stripe.com/jobs
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: large    # ~8000 employees
+    enabled: true
+
+  - name: Brex
+    careers_url: https://www.brex.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~1000 employees
+    enabled: true
+
+  - name: Ramp
+    careers_url: https://jobs.ashbyhq.com/ramp
+    ats: ashby
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~1000 employees
+    enabled: true
+
+  - name: Mercury
+    careers_url: https://jobs.ashbyhq.com/mercury
+    ats: ashby
+    target_roles: [UX Researcher, Data Analyst]
+    size: mid      # ~500 employees
+    enabled: true
+
+  - name: Chime
+    careers_url: https://www.chime.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~1500 employees
+    enabled: true
+
+  - name: Plaid
+    careers_url: https://plaid.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~1500 employees
+    enabled: true
+
+  # ── Developer Tools / Infrastructure ──────────────────────────────────────
+  - name: GitLab
+    careers_url: https://about.gitlab.com/jobs/all-jobs
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, AI UX Researcher]
+    size: large    # ~2000 employees, public
+    enabled: true
+
+  - name: Vercel
+    careers_url: https://vercel.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst]
+    size: mid      # ~700 employees
+    enabled: true
+
+  - name: Hashicorp
+    careers_url: https://www.hashicorp.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst]
+    size: large    # acquired by IBM
+    enabled: true
+
+  - name: Datadog
+    careers_url: https://www.datadoghq.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Scientist, Data Analyst]
+    size: large    # ~5000 employees, public
+    enabled: true
+
+  - name: Cloudflare
+    careers_url: https://www.cloudflare.com/careers/jobs
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: large    # ~3500 employees, public
+    enabled: true
+
+  # ── Social / Consumer ──────────────────────────────────────────────────────
+  - name: Substack
+    careers_url: https://jobs.ashbyhq.com/substack
+    ats: ashby
+    target_roles: [UX Researcher, Data Scientist]
+    size: startup  # ~200 employees
+    enabled: true
+
+  - name: Discord
+    careers_url: https://discord.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~600 employees
+    enabled: true
+
+  - name: Spotify
+    careers_url: https://www.lifeatspotify.com/jobs
+    ats: custom
+    target_roles: [UX Researcher, Data Scientist, Research Scientist]
+    size: large    # ~10000 employees, public
+    enabled: true
+
+  - name: Pinterest
+    careers_url: https://www.pinterestcareers.com
+    ats: custom
+    target_roles: [UX Researcher, Data Scientist, Data Analyst]
+    size: large    # ~4000 employees, public
+    enabled: true
+
+  - name: Feeld
+    careers_url: https://apply.workable.com/feeldco
+    ats: workable
+    target_roles: [UX Researcher]
+    size: startup  # ~150 employees
+    enabled: true
+
+  # ── Mental Health / Wellness ───────────────────────────────────────────────
+  - name: BetterHelp
+    careers_url: https://www.betterhelp.com/jobs
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~2000 employees
+    enabled: true
+
+  - name: Headspace
+    careers_url: https://www.headspace.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Scientist, Data Analyst]
+    size: mid      # ~600 employees
+    enabled: true
+
+  - name: Calm
+    careers_url: https://www.calm.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst]
+    size: mid      # ~500 employees
+    enabled: true
+
+  - name: BetterUp
+    careers_url: https://jobs.ashbyhq.com/betterup
+    ats: ashby
+    target_roles: [Senior UX Researcher, Data Scientist]
+    size: mid      # ~800 employees
+    enabled: true
+
+  - name: Huckleberry
+    careers_url: https://jobs.lever.co/Huckleberrylabs
+    ats: lever
+    target_roles: [UX Researcher, Data Analyst]
+    size: startup  # ~50 employees
+    enabled: true
+
+  # ── Marketplace / Gig / HR ────────────────────────────────────────────────
+  - name: Upwork
+    careers_url: https://www.upwork.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~800 employees, public
+    enabled: true
+
+  - name: Taskrabbit
+    careers_url: https://www.taskrabbit.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst]
+    size: startup  # ~200 employees, owned by IKEA
+    enabled: true
+
+  - name: Rippling
+    careers_url: https://www.rippling.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Data Scientist]
+    size: mid      # ~1500 employees
+    enabled: true
+
+  - name: Lattice
+    careers_url: https://jobs.lever.co/lattice
+    ats: lever
+    target_roles: [UX Researcher, Data Analyst]
+    size: mid      # ~500 employees
+    enabled: true
+
+  - name: Culture Amp
+    careers_url: https://jobs.lever.co/cultureamp
+    ats: lever
+    target_roles: [UX Researcher, Research Scientist, Data Analyst]
+    size: mid      # ~600 employees
+    enabled: true
+
+  # ── Research / Consulting / Agencies ──────────────────────────────────────
+  - name: Key Lime Interactive
+    careers_url: https://www.remoterocketship.com/us/company/keylimeinteractive/jobs
+    ats: other
+    target_roles: [UX Researcher, Senior UX Researcher]
+    size: startup  # ~100 employees
+    enabled: true
+
+  - name: Nielsen Norman Group
+    careers_url: https://www.nngroup.com/about/jobs
+    ats: custom
+    target_roles: [UX Researcher, Research Consultant]
+    size: startup  # ~100 employees
+    enabled: true
+
+  - name: AnswerLab
+    careers_url: https://answerlab.bamboohr.com/careers
+    ats: bamboohr
+    target_roles: [UX Researcher, Research Ops]
+    size: startup  # ~200 employees
+    enabled: true
+
+  - name: dscout
+    careers_url: https://jobs.lever.co/dscout
+    ats: lever
+    target_roles: [UX Researcher, Research Ops, Data Analyst]
+    size: startup  # ~200 employees
+    enabled: true
+
+  - name: UserZoom
+    careers_url: https://jobs.lever.co/userzoom
+    ats: lever
+    target_roles: [UX Researcher, Research Consultant]
+    size: mid      # acquired by UserTesting, ~500 combined
+    enabled: true
+
+  - name: Dovetail
+    careers_url: https://jobs.ashbyhq.com/dovetail
+    ats: ashby
+    target_roles: [UX Researcher, Data Analyst]
+    size: startup  # ~400 employees
+    enabled: true
+
+  # ── AI / Data Infra ────────────────────────────────────────────────────────
+  - name: Scale AI
+    careers_url: https://scale.com/careers
+    ats: custom
+    target_roles: [UX Researcher, Data Analyst, Research Scientist]
+    size: mid      # ~800 employees
+    enabled: true
+
+  - name: Weights & Biases
+    careers_url: https://jobs.lever.co/wandb
+    ats: lever
+    target_roles: [UX Researcher, Data Scientist]
+    size: mid      # ~500 employees
+    enabled: true
+
+  - name: Hugging Face
+    careers_url: https://apply.workable.com/huggingface
+    ats: workable
+    target_roles: [UX Researcher, Research Scientist, Data Scientist]
+    size: startup  # ~400 employees
+    enabled: true
+
+  - name: Replicate
+    careers_url: https://jobs.ashbyhq.com/replicate
+    ats: ashby
+    target_roles: [UX Researcher, Data Analyst]
+    size: startup  # ~100 employees
+    enabled: true
+
+  - name: Mosaic ML
+    careers_url: https://jobs.lever.co/mosaicml
+    ats: lever
+    target_roles: [UX Researcher, Data Scientist]
+    size: startup  # acquired by Databricks; small team
+    enabled: true
+
+  - name: Clay Labs
+    careers_url: https://jobs.ashbyhq.com/claylabs
+    ats: ashby
+    target_roles: [Senior UX Researcher, Data Analyst]
+    size: startup  # ~200 employees
+    enabled: true
+
+  # ── Climate / GovTech ─────────────────────────────────────────────────────
+  - name: Aurora Solar
+    careers_url: https://jobs.ashbyhq.com/aurorasolar
+    ats: ashby
+    target_roles: [UX Researcher, Data Analyst]
+    size: startup  # ~300 employees
+    enabled: true
+
+  - name: Skylight Digital
+    careers_url: https://apply.workable.com/skylight
+    ats: workable
+    target_roles: [UX Researcher, Data Analyst]
+    size: startup  # ~200 employees
+    enabled: true
+
+# CONFLICT NOTES — read before running:
+#   1. Portals #42 CryptoJobs and #43 Web3Jobs are in the list, but
+#      title_filter.negative contains "Crypto", "Web3", and "Blockchain".
+#      Every result from those two boards will be filtered OUT. Either
+#      drop those negatives or set enabled: false on #42 and #43.
+#   2. #9 Remotive and #45 Remotive.io are almost certainly the same
+#      product (remotive.com / remotive.io). Disable one to dedupe.
+#   3. URLs marked `# TODO: verify` are best-guess domains for less common
+#      boards — confirm before relying on the scan.
+
+# -- Company size filter --
+# Controls which company sizes are scanned. Values: startup, mid, large
+#   startup = < ~500 employees (seed to Series B/C)
+#   mid     = ~500–5000 employees (growth-stage, scaling)
+#   large   = 5000+ employees (established, big tech, public)
+# Set to [startup, mid, large] to scan all companies regardless of size.
+# Override at runtime with: node auto-apply.mjs --size startup,mid
+
+company_size_filter:
+  include: [startup, mid, large]
+
+# -- Title filter --
+# At least 1 positive must match AND 0 negatives must match (case-insensitive).
+
+title_filter:
+  positive:
+    # UX Research (primary target)
+    - "UX Researcher"
+    - "User Researcher"
+    - "UX Research"
+    - "User Research"
+    - "Usability Researcher"
+    - "Human Factors"
+    - "Research Scientist"
+    - "Mixed Methods"
+    # Data Science / NLP / AI (secondary target)
+    - "Data Scientist"
+    - "NLP"
+    - "Natural Language"
+    - "Behavioral Analytics"
+    - "Research Data Scientist"
+    # Data Analyst (added target)
+    - "Data Analyst"
+    - "Analytics Analyst"
+    - "Research Analyst"
+    - "Business Intelligence Analyst"
+    - "BI Analyst"
+    - "Product Analyst"
+    - "Insights Analyst"
+    - "Clinical Data Analyst"
+    - "Healthcare Data Analyst"
+    # UX Design (adjacent)
+    - "UX Designer"
+    - "Product Designer"
+    - "Interaction Designer"
+    - "Experience Designer"
+    # Broader research & insights
+    - "Insights"
+    - "Customer Insights"
+    - "Research Ops"
+    - "ResearchOps"
+    - "AI Researcher"
+    - "Applied Researcher"
+
+  negative:
+    - "Junior"
+    - "Intern"
+    - "iOS"
+    - "Android"
+    - "Embedded"
+    - "Firmware"
+    - "Blockchain" # conflicts with #42 / #43 — see CONFLICT NOTES
+    - "Web3" # conflicts with #43       — see CONFLICT NOTES
+    - "Crypto" # conflicts with #42       — see CONFLICT NOTES
+    - "COBOL"
+    - "Mainframe"
+    - "Sales"
+    - "Marketing"
+    - "SEO"
+
+  seniority_boost:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Head"
+    - "Director"
+    - "Manager"
+
+# -- Search queries --
+# 50 job portals from saved bookmarks. Order preserved from source list.
+# Each entry runs ONE WebSearch with the listed query.
+# Toggle individual portals via enabled: true/false.
+
+search_queries:
+  # -- Generalist remote boards (1–16) --
+
+  - name: JustRemote
+    url: https://justremote.co
+    query: 'site:justremote.co ("UX Researcher" OR "Data Analyst" OR "Data Scientist") 2026'
+    enabled: true
+
+  - name: Pangian
+    url: https://pangian.com
+    query: 'site:pangian.com ("UX Researcher" OR "Data Analyst" OR "Product Designer") 2026'
+    enabled: true
+
+  - name: Remotees
+    url: https://remotees.com
+    query: 'site:remotees.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist") 2026'
+    enabled: true
+
+  - name: RemoteHabits
+    url: https://remotehabits.com # TODO: verify — partly editorial site
+    query: 'site:remotehabits.com ("UX Researcher" OR "Data Analyst")'
+    enabled: true
+
+  - name: RemoteCrew
+    url: https://remotecrew.io # TODO: verify
+    query: 'site:remotecrew.io ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Remote4Me
+    url: https://remote4me.com
+    query: 'site:remote4me.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Working Nomads
+    url: https://www.workingnomads.com
+    query: 'site:workingnomads.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: SkipTheDrive
+    url: https://www.skipthedrive.com
+    query: 'site:skipthedrive.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Remotive
+    url: https://remotive.com
+    query: 'site:remotive.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist") 2026'
+    enabled: true
+
+  - name: Jobspresso
+    url: https://jobspresso.co
+    query: 'site:jobspresso.co ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: NoDesk
+    url: https://nodesk.co
+    query: 'site:nodesk.co ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: RemoteRocketship
+    url: https://www.remoterocketship.com
+    query: 'site:remoterocketship.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist") 2026'
+    enabled: true
+
+  - name: DailyRemote
+    url: https://dailyremote.com
+    query: 'site:dailyremote.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Remotely
+    url: https://remote.ly # TODO: verify — multiple sites use this name
+    query: 'site:remote.ly ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Remotely Awesome Jobs
+    url: https://remotelyawesomejobs.com # TODO: verify
+    query: 'site:remotelyawesomejobs.com ("UX Researcher" OR "Data Analyst")'
+    enabled: true
+
+  - name: Hidden Jobs
+    url: https://hiddenjobs.io # TODO: verify
+    query: 'site:hiddenjobs.io ("UX Researcher" OR "Data Analyst")'
+    enabled: true
+
+  # -- Diversity-focused (17–19) --
+
+  - name: PowerToFly
+    url: https://powertofly.com
+    query: 'site:powertofly.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist") 2026'
+    enabled: true
+
+  - name: RemoteWoman
+    url: https://remotewoman.com
+    query: 'site:remotewoman.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: RemotePOC
+    url: https://remotepoc.com
+    query: 'site:remotepoc.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  # -- Regional (20) --
+
+  - name: EuroRemote
+    url: https://euroremote.io # TODO: verify
+    query: 'site:euroremote.io ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  # -- Freelance / talent platforms (21–25) --
+
+  - name: Arc.dev
+    url: https://arc.dev
+    query: 'site:arc.dev ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Gun.io
+    url: https://gun.io
+    query: 'site:gun.io ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Braintrust
+    url: https://www.usebraintrust.com
+    query: 'site:usebraintrust.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Toptal
+    url: https://www.toptal.com
+    query: 'site:toptal.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Hired
+    url: https://hired.com
+    query: 'site:hired.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  # -- Data / AI / dev niches (26–30) --
+
+  - name: AI-Jobs.net
+    url: https://ai-jobs.net
+    query: 'site:ai-jobs.net ("UX Researcher" OR "Data Analyst" OR "Data Scientist" OR "AI Researcher" OR "Applied Researcher")'
+    enabled: true
+
+  - name: DataJobs
+    url: https://datajobs.com
+    query: 'site:datajobs.com ("Data Analyst" OR "Data Scientist" OR "Research Analyst")'
+    enabled: true
+
+  - name: AnalyticsJobs
+    url: https://analyticsjobs.com # TODO: verify
+    query: 'site:analyticsjobs.com ("Data Analyst" OR "Analytics Analyst" OR "BI Analyst")'
+    enabled: true
+
+  - name: PyJobs
+    url: https://pyjobs.com # TODO: verify
+    query: 'site:pyjobs.com ("Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: R-Users Jobs
+    url: https://www.r-users.com # TODO: verify
+    query: 'site:r-users.com ("Data Analyst" OR "Data Scientist" OR "Research")'
+    enabled: true
+
+  # -- Design (31–35) --
+
+  - name: AuthenticJobs
+    url: https://authenticjobs.com
+    query: 'site:authenticjobs.com ("UX Researcher" OR "UX Designer" OR "Product Designer")'
+    enabled: true
+
+  - name: Krop
+    url: https://www.krop.com
+    query: 'site:krop.com ("UX Researcher" OR "UX Designer" OR "Product Designer")'
+    enabled: true
+
+  - name: DesignHill Jobs
+    url: https://www.designhill.com/jobs
+    query: 'site:designhill.com ("UX Researcher" OR "UX Designer" OR "Product Designer")'
+    enabled: true
+
+  - name: Behance Jobs
+    url: https://www.behance.net/joblist
+    query: 'site:behance.net/joblist ("UX Researcher" OR "UX Designer" OR "Product Designer")'
+    enabled: true
+
+  - name: Dribbble Jobs
+    url: https://dribbble.com/jobs
+    query: 'site:dribbble.com/jobs ("UX Researcher" OR "UX Designer" OR "Product Designer")'
+    enabled: true
+
+  # -- Startup-focused (36–38) --
+
+  - name: BuiltIn
+    url: https://builtin.com
+    query: 'site:builtin.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist") (Philadelphia OR remote) 2026'
+    enabled: true
+
+  - name: Wellfound
+    url: https://wellfound.com
+    query: 'site:wellfound.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist") remote 2026'
+    enabled: true
+
+  - name: WorkInStartups
+    url: https://workinstartups.com
+    query: 'site:workinstartups.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  # -- Niche industries (39–44) --
+
+  - name: SaaS Jobs
+    url: https://saasjobs.com # TODO: verify
+    query: 'site:saasjobs.com ("UX Researcher" OR "Data Analyst" OR "Product Designer")'
+    enabled: true
+
+  - name: GrowthHackers Jobs
+    url: https://growthhackers.com/jobs # TODO: verify
+    query: 'site:growthhackers.com ("UX Researcher" OR "Data Analyst" OR "Product Analyst")'
+    enabled: true
+
+  - name: Climate.Careers
+    url: https://climate.careers
+    query: 'site:climate.careers ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: CryptoJobs
+    url: https://cryptojobs.com # see CONFLICT NOTES — currently filtered out
+    query: 'site:cryptojobs.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Web3Jobs
+    url: https://web3.career # see CONFLICT NOTES — currently filtered out
+    query: 'site:web3.career ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: RemoteTech Jobs
+    url: https://remotetechjobs.com
+    query: 'site:remotetechjobs.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  # -- Remotive.io (45) — likely duplicate of #9 --
+
+  - name: Remotive.io
+    url: https://remotive.io
+    query: 'site:remotive.io ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  # -- General / aggregators (46–50) --
+
+  - name: JobLeads
+    url: https://www.jobleads.com
+    query: 'site:jobleads.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Virtual Vocations
+    url: https://www.virtualvocations.com
+    query: 'site:virtualvocations.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: CareerCloud
+    url: https://www.careercloud.com
+    query: 'site:careercloud.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Hubstaff Talent
+    url: https://talent.hubstaff.com
+    query: 'site:talent.hubstaff.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
+
+  - name: Outsourcely
+    url: https://www.outsourcely.com
+    query: 'site:outsourcely.com ("UX Researcher" OR "Data Analyst" OR "Data Scientist")'
+    enabled: true
