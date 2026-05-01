@@ -1,0 +1,53 @@
+# Auto-managed by auto-apply.mjs.
+# `toggle` and `radio` answers are applied automatically on the next run.
+# Move items out of `pending_review` once you supply a real answer.
+
+toggle:
+  - pattern: willing\s+to\s+work\s+from\s+(our\s+)?local\s+office
+    example_label: Are you willing to work from our local office Monday-Friday?
+    answer: Yes
+    learned_from: Handshake (seed)
+    date: 2026-04-30
+  - pattern: authorized\s+to\s+work\s+lawfully
+    example_label: Are you authorized to work lawfully in the United States?
+    answer: Yes
+    learned_from: Handshake (seed)
+    date: 2026-04-30
+  - pattern: This\s+role\s+is\s+onsite\s+and\s+in\s+person\.\s+Are\s+you\s+willing\s+to\s+work\s+from\s+our\s+local\s+office
+    example_label: This role is onsite and in person. Are you willing to work from
+      our local office Monday-Friday
+    learned_from: Handshake
+    learned_url: https://jobs.ashbyhq.com/handshake/455075db-5eec-4c02-9418-f563e3ac8811/application
+    date: 2026-05-01
+    answer: Yes
+  - pattern: Are\s+you\s+authorized\s+to\s+work\s+lawfully\s+in\s+the\s+United\s+States\s+for
+    example_label: Are you authorized to work lawfully in the United States for Handshake
+    learned_from: Handshake
+    learned_url: https://jobs.ashbyhq.com/handshake/455075db-5eec-4c02-9418-f563e3ac8811/application
+    date: 2026-05-01
+    answer: Yes
+radio:
+  - pattern: willing\s+to\s+relocate\s+for\s+this\s+position
+    example_label: Are you willing to relocate for this position if required?
+    answer: Yes
+    learned_from: Handshake (seed)
+    note: "Has 3 options: Yes / No / I'm already located where the position is based"
+    date: 2026-04-30
+  - pattern: ^Gender$|input\s+gender|gender\s+identity
+    example_label: Gender
+    answer: Female
+    learned_from: Handshake (seed)
+    date: 2026-04-30
+  - pattern: ^Race$|race\s+(or\s+)?ethnicity
+    example_label: Race
+    answer: Asian
+    learned_from: Handshake (seed)
+    date: 2026-04-30
+  - pattern: Are\s+you\s+willing\s+to\s+relocate\s+for\s+this\s+position\s+if\s+required
+    example_label: Are you willing to relocate for this position if required
+    learned_from: Handshake
+    learned_url: https://jobs.ashbyhq.com/handshake/455075db-5eec-4c02-9418-f563e3ac8811/application
+    date: 2026-05-01
+    answer: Yes
+text: []
+pending_review: []

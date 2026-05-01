@@ -13,7 +13,9 @@
  */
 
 import { chromium }   from 'playwright';
-import { readFileSync } from 'fs';
+import { readFileSync, existsSync } from 'fs';
+import { join }        from 'path';
+import { homedir }     from 'os';
 import { parse }       from 'yaml';
 
 // ─── Load master answer sheet ──────────────────────────────────────────────────
@@ -61,7 +63,9 @@ const CANDIDATE = {
   about:        ans.about,
   whyResearch:  ans.why_ux_research,
   additional:   ans.additional_info,
-  // Default resume — per-role overrides via ROLES[slug].pdf
+  pronouns:     id.pronouns || '',
+  relocate:     avl.willing_to_relocate || 'Yes',
+  remotePref:   avl.remote_preference || 'Remote or Hybrid',
   defaultResume: res.default,
 };
 
@@ -475,51 +479,270 @@ async function comboSelect(page, comboSel, typed, optionContains) {
   return false;
 }
 
+// Label-based filler: finds an input/textarea whose visible label matches
+// `labelRegex`, then fills with `value`. Handles Ashby's "Type here..." fields
+// where all inputs share the same placeholder and differ only by label text.
+async function fillByLabel(page, labelRegex, value) {
+  if (!value) return false;
+  try {
+    const target = await page.evaluate((pattern) => {
+      const re = new RegExp(pattern, 'i');
+      for (const label of document.querySelectorAll('label')) {
+        if (!re.test(label.innerText)) continue;
+        const forId = label.getAttribute('for');
+        let input = forId ? document.getElementById(forId) : null;
+        if (!input) input = label.querySelector('input, textarea, select');
+        if (!input) {
+          const container = label.closest('.ashby-application-form-field-entry, [class*="field"], [class*="Field"], div');
+          if (container) input = container.querySelector('input:not([type="radio"]):not([type="checkbox"]):not([type="file"]), textarea, select');
+        }
+        if (input && input.offsetParent !== null && !input.value?.trim()) {
+          if (input.id) return `#${CSS.escape(input.id)}`;
+          if (input.name) return `${input.tagName.toLowerCase()}[name="${input.name}"]`;
+          return null;
+        }
+      }
+      for (const el of document.querySelectorAll('input, textarea')) {
+        if (!el.offsetParent || el.value?.trim()) continue;
+        const wrapper = el.closest('.ashby-application-form-field-entry, [class*="field"], [class*="Field"], fieldset, div');
+        const text = wrapper?.querySelector('label, legend, [class*="label"], [class*="Label"]')?.innerText || '';
+        if (re.test(text)) {
+          if (el.id) return `#${CSS.escape(el.id)}`;
+          if (el.name) return `${el.tagName.toLowerCase()}[name="${el.name}"]`;
+          return null;
+        }
+      }
+      return null;
+    }, labelRegex.source || labelRegex);
+
+    if (target) {
+      const el = page.locator(target).first();
+      if (await el.isVisible({ timeout: 600 })) {
+        await el.fill('');
+        await el.pressSequentially(String(value), { delay: 30 });
+        console.log(`  ✓ label fill: ${labelRegex}`);
+        return true;
+      }
+    }
+  } catch {}
+  return false;
+}
+
+// ── Ashby-specific helpers (Playwright locator-based clicks for React compat) ──
+// DOM .click() doesn't trigger React synthetic events. Must use Playwright's
+// locator.click() which dispatches real mousedown/mouseup/click events.
+
+async function clickToggleByLabel(page, labelRegex, answer) {
+  try {
+    const entries = page.locator('.ashby-application-form-field-entry');
+    const count = await entries.count();
+    for (let i = 0; i < count; i++) {
+      const entry = entries.nth(i);
+      const lbl = entry.locator('label').first();
+      if (!await lbl.isVisible({ timeout: 200 }).catch(() => false)) continue;
+      const text = await lbl.innerText().catch(() => '');
+      if (!labelRegex.test(text)) continue;
+      const btn = entry.locator('button', { hasText: new RegExp(`^\\s*${answer}\\s*$`, 'i') }).first();
+      if (await btn.isVisible({ timeout: 300 }).catch(() => false)) {
+        await btn.click();
+        await page.waitForTimeout(200);
+        return true;
+      }
+    }
+  } catch {}
+  return false;
+}
+
+async function clickRadioByLabel(page, labelRegex, optionMatch) {
+  try {
+    const containers = page.locator('fieldset, .ashby-application-form-field-entry');
+    const count = await containers.count();
+    for (let i = 0; i < count; i++) {
+      const fs = containers.nth(i);
+      const lbl = fs.locator('label, legend').first();
+      if (!await lbl.isVisible({ timeout: 200 }).catch(() => false)) continue;
+      const text = await lbl.innerText().catch(() => '');
+      if (!labelRegex.test(text)) continue;
+      const options = fs.locator('[class*="option"]');
+      const optCount = await options.count();
+      for (let j = 0; j < optCount; j++) {
+        const opt = options.nth(j);
+        const optText = await opt.innerText().catch(() => '');
+        if (!optionMatch.test(optText.trim())) continue;
+        const radioLabel = opt.locator('label').first();
+        if (await radioLabel.isVisible({ timeout: 200 }).catch(() => false)) {
+          await radioLabel.click();
+        } else {
+          await opt.click();
+        }
+        await page.waitForTimeout(200);
+        return true;
+      }
+      const labels = fs.locator('label');
+      const lblCount = await labels.count();
+      for (let j = 0; j < lblCount; j++) {
+        const labelEl = labels.nth(j);
+        const labelText = await labelEl.innerText().catch(() => '');
+        if (!optionMatch.test(labelText.trim())) continue;
+        const radio = labelEl.locator('input[type="radio"]').first();
+        if (await radio.count() > 0) {
+          await labelEl.click();
+          await page.waitForTimeout(200);
+          return true;
+        }
+      }
+      const radios = fs.locator('input[type="radio"]');
+      const radioCount = await radios.count();
+      for (let j = 0; j < radioCount; j++) {
+        const radio = radios.nth(j);
+        const id = await radio.getAttribute('id');
+        if (!id) continue;
+        const labelFor = page.locator(`label[for="${id}"]`).first();
+        if (!await labelFor.isVisible({ timeout: 200 }).catch(() => false)) continue;
+        const labelText = await labelFor.innerText().catch(() => '');
+        if (optionMatch.test(labelText.trim())) {
+          await labelFor.click();
+          await page.waitForTimeout(200);
+          return true;
+        }
+      }
+    }
+  } catch {}
+  return false;
+}
+
+async function clickCheckboxesByLabel(page, labelRegex, skillsToCheck) {
+  try {
+    const skillSet = new Set(skillsToCheck.map(s => s.toLowerCase()));
+    const containers = page.locator('fieldset, .ashby-application-form-field-entry');
+    const count = await containers.count();
+    let clicked = 0;
+    for (let i = 0; i < count; i++) {
+      const fs = containers.nth(i);
+      const lbl = fs.locator('label, legend').first();
+      if (!await lbl.isVisible({ timeout: 200 }).catch(() => false)) continue;
+      const text = await lbl.innerText().catch(() => '');
+      if (!labelRegex.test(text)) continue;
+      const options = fs.locator('[class*="option"]');
+      const optCount = await options.count();
+      for (let j = 0; j < optCount; j++) {
+        const opt = options.nth(j);
+        const optText = (await opt.innerText().catch(() => '')).trim().toLowerCase();
+        if (skillSet.has(optText) || [...skillSet].some(s => optText.includes(s))) {
+          const cbLabel = opt.locator('label').first();
+          if (await cbLabel.isVisible({ timeout: 200 }).catch(() => false)) {
+            await cbLabel.click();
+          } else {
+            await opt.click();
+          }
+          await page.waitForTimeout(150);
+          clicked++;
+        }
+      }
+      if (clicked > 0) return true;
+    }
+  } catch {}
+  return false;
+}
+
+async function comboSelectByLabel(page, labelRegex, typedText, optionMatch) {
+  try {
+    const entries = page.locator('.ashby-application-form-field-entry, fieldset');
+    const count = await entries.count();
+    for (let i = 0; i < count; i++) {
+      const entry = entries.nth(i);
+      const lbl = entry.locator('label, legend').first();
+      if (!await lbl.isVisible({ timeout: 200 }).catch(() => false)) continue;
+      const text = await lbl.innerText().catch(() => '');
+      if (!labelRegex.test(text)) continue;
+      const combo = entry.locator('[role="combobox"], input[placeholder*="typing" i], input[placeholder*="Start" i]').first();
+      if (await combo.isVisible({ timeout: 300 }).catch(() => false)) {
+        await combo.click();
+        await combo.pressSequentially(typedText, { delay: 40 });
+        await page.waitForTimeout(800);
+        const opt = page.locator('[role="option"]').filter({ hasText: new RegExp(optionMatch, 'i') }).first();
+        if (await opt.isVisible({ timeout: 1500 }).catch(() => false)) {
+          await opt.click();
+          await page.waitForTimeout(300);
+        }
+        return true;
+      }
+    }
+  } catch {}
+  return false;
+}
+
 // ─── Per-ATS fill functions ────────────────────────────────────────────────────
 
 async function fillAshby(page, role) {
   console.log('  [ATS: Ashby]');
 
-  // Ashby uses a single full-name field
+  // Standard text fields
   const fullName = `${CANDIDATE.firstName} ${CANDIDATE.lastName}`;
-  const nameFilled = await fill(page, [
-    'input[name="_systemfield_name"]',
-    'input[placeholder*="Full name" i]',
-    'input[placeholder*="Your name" i]',
-  ], fullName);
-  // Fallback: first/last
-  if (!nameFilled) {
-    await fill(page, ['input[name="first_name"]', 'input[placeholder*="First" i]'], CANDIDATE.firstName);
-    await fill(page, ['input[name="last_name"]',  'input[placeholder*="Last" i]'],  CANDIDATE.lastName);
-  }
-
+  await fill(page, ['input[name="_systemfield_name"]', 'input[placeholder*="Full name" i]', 'input[placeholder*="Your name" i]'], fullName);
   await fill(page, ['input[type="email"]', 'input[name*="email" i]'], CANDIDATE.email);
   await fill(page, ['input[type="tel"]',   'input[name*="phone" i]'], CANDIDATE.phone);
+
+  // Preferred Name
+  await fillByLabel(page, /preferred\s*name/i, CANDIDATE.firstName);
+
+  // SMS consent radio
+  await clickRadioByLabel(page, /phone|sms|text\s*message/i, /yes.*consent|I\s*consent/i);
+
+  // LinkedIn & portfolio
+  await fillByLabel(page, /linkedin/i, CANDIDATE.linkedin);
   await fill(page, ['input[name*="linkedin" i]', 'input[placeholder*="LinkedIn" i]'], CANDIDATE.linkedin);
-  await fill(page, ['input[name*="website" i]',  'input[placeholder*="Portfolio" i]', 'input[placeholder*="Website" i]'], CANDIDATE.portfolio);
+  await fillByLabel(page, /portfolio|website|personal\s*site/i, CANDIDATE.portfolio);
+  await fill(page, ['input[name*="website" i]', 'input[placeholder*="Portfolio" i]', 'input[placeholder*="Website" i]'], CANDIDATE.portfolio);
 
-  // Ashby location is a combobox
-  const locFilled = await comboSelect(
-    page,
-    'input[role="combobox"][placeholder*="type" i], input[role="combobox"][placeholder*="location" i], input[role="combobox"][placeholder*="city" i]',
-    'Philadelphia',
-    'Philadelphia'
-  );
-  if (!locFilled) {
-    await fill(page, ['input[name*="location" i]', 'input[placeholder*="City" i]'], CANDIDATE.location);
-  }
+  // Yes/No toggle buttons
+  // Yes/No toggle buttons — loose patterns to catch wording variations across companies
+  await clickToggleByLabel(page, /(currently|now)\s+(based|living|located|reside)|US\s+citizen|based\s+in.*United\s+States|live\s+in.*United\s+States/i, 'Yes');
+  await clickToggleByLabel(page, /authoriz(ed|ation).{0,40}(work|employ)|legal(ly)?\s+(authorized|right).{0,30}work|right\s+to\s+work|eligible\s+to\s+work/i, 'Yes');
+  await clickToggleByLabel(page, /sponsor(ship)?|visa.*sponsor|require.*sponsor|need.*sponsor|H-?1B/i, 'No');
+  await clickToggleByLabel(page, /willing.*(commute|relocate|work).*(office|onsite|on.?site|local|in.?person)|work\s+from.*(office|local)|onsite.*in.?person|in.?person.{0,20}Monday|come\s+to.*office|able\s+to\s+(commute|work\s+from)/i, 'Yes');
+  await clickToggleByLabel(page, /willing.*relocat|able\s+to\s+relocat|open\s+to\s+relocat|relocat.*for.*(this\s+)?(role|position|job)/i, (CANDIDATE.relocate || 'Yes').toLowerCase().startsWith('y') ? 'Yes' : 'No');
+  await clickToggleByLabel(page, /at\s+least\s+18|18\s+(years|or\s+older)|legal\s+age/i, 'Yes');
+  await clickToggleByLabel(page, /background\s+check|drug\s+(test|screen)|consent\s+to.*screen/i, 'Yes');
+  await clickToggleByLabel(page, /previously\s+(applied|worked|interview)|prior\s+(employ|application)|ever\s+(worked|applied)/i, 'No');
+  await clickToggleByLabel(page, /non.?compete|conflict\s+of\s+interest|restrictive\s+covenant/i, 'No');
 
-  // Essay fields (Ashby uses generic textarea or input[placeholder="Type here..."]
-  const essaySels = [
-    'textarea[placeholder="Type here..."]',
-    'input[placeholder="Type here..."]',
-    'textarea',
-  ];
-  await fill(page, ['textarea[name*="cover" i]', 'textarea[id*="cover" i]', ...essaySels], role.cover || '');
-  await fill(page, ['textarea[name*="why" i]',   'textarea[id*="why" i]',   ...essaySels], role.why   || '');
-  await fill(page, ['textarea[name*="about" i]', 'textarea[id*="about" i]', ...essaySels], role.about || '');
+  // Location combobox
+  await comboSelectByLabel(page, /city\/state.*reside|which\s*city|current.*location|where.*live/i, CANDIDATE.city, CANDIDATE.city);
 
-  await fill(page, ['input[name*="salary" i]', 'input[placeholder*="salary" i]'], role.salary || CANDIDATE.salary);
+  // Radio: working location
+  await clickRadioByLabel(page, /where\s*in\s*the\s*United\s*States.*working\s*from/i, /willing\s*to\s*relocate/i);
+
+  // Radio: years of experience (pick correct bracket)
+  const yrs = parseInt(CANDIDATE.experience) || 7;
+  let yrsPattern;
+  if (yrs >= 8) yrsPattern = /8\+|8 or more|8\s*years/i;
+  else if (yrs >= 6) yrsPattern = /6.?8\s*year/i;
+  else if (yrs >= 4) yrsPattern = /4.?6\s*year/i;
+  else if (yrs >= 2) yrsPattern = /2.?4\s*year/i;
+  else if (yrs >= 1) yrsPattern = /1.?2\s*year/i;
+  else yrsPattern = /0.?6\s*month|less\s*than/i;
+  await clickRadioByLabel(page, /years.*experience.*python|how\s*many\s*years/i, yrsPattern);
+
+  // Checkboxes: select applicable skills
+  const skills = ['python', 'sql', 'r', 'experience working in a product-facing role',
+    'tableau', 'bigquery', 'seaborn'];
+  await clickCheckboxesByLabel(page, /professional\s*experience.*select\s*all|which.*following.*experience/i, skills);
+
+  // Text fields by label
+  await fillByLabel(page, /why.*interested|why.*abridge|why.*company|cover\s*letter/i, role.cover || CANDIDATE.whyResearch || '');
+  await fillByLabel(page, /about\s*(you|yourself)|tell\s*us|introduction/i, role.about || CANDIDATE.about);
+  await fillByLabel(page, /additional\s*(info|comment|note)/i, CANDIDATE.additional);
+  await fillByLabel(page, /salary|compensation|pay\s*expect/i, role.salary || CANDIDATE.salary);
+  await fillByLabel(page, /how\s*did\s*you\s*(hear|find|learn)/i, CANDIDATE.source);
+  await fillByLabel(page, /start\s*date|when.*start|earliest.*date|available.*start/i, CANDIDATE.startDate);
+  await fillByLabel(page, /pronoun/i, CANDIDATE.pronouns || '');
+
+  const emptyCount = await page.evaluate(() => {
+    return [...document.querySelectorAll('input[placeholder="Type here..."], textarea[placeholder="Type here..."]')]
+      .filter(el => el.offsetParent && !el.value?.trim()).length;
+  }).catch(() => 0);
+  if (emptyCount > 0) console.log(`  ⚠️  ${emptyCount} "Type here..." field(s) still empty after label matching`);
 }
 
 async function fillGreenhouse(page, role) {
@@ -655,9 +878,9 @@ if (GREENHOUSE_EXCLUDED && ats === 'greenhouse') {
 console.log(`\n🚀  Filling form: ${slug}  (${ats})`);
 console.log(`    URL: ${role.url}\n`);
 
-const _knownChrome = '/Users/shwetasharma/Library/Caches/ms-playwright/chromium-1217/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing';
+const _knownChrome = join(homedir(), 'Library/Caches/ms-playwright/chromium-1217/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing');
 const CHROMIUM_PATH   = existsSync(_knownChrome) ? _knownChrome : undefined;
-const BROWSER_PROFILE = cfg.account?.browser_profile || '/Users/shwetasharma/.career-ops-browser-profile';
+const BROWSER_PROFILE = cfg.account?.browser_profile || join(homedir(), '.career-ops-browser-profile');
 
 // Use a persistent context so cookies, saved passwords, and sessions survive
 // across runs. The profile lives at BROWSER_PROFILE.

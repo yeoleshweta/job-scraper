@@ -146,7 +146,7 @@ account:
   email:            "shwetayeole09@gmail.com"
   password:         "Hakunamatata@456"
   # Browser persistent profile path — passwords saved here automatically
-  browser_profile:  "/Users/shwetasharma/.career-ops-browser-profile"
+  browser_profile:  "/Users/areefsyed/.career-ops-browser-profile"
   # If true, auto-apply will sign in / create accounts automatically using the
   # email + password above without pausing for human approval. The persistent
   # browser profile remembers logins across runs, so usually a portal only

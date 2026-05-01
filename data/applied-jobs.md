@@ -79,3 +79,6 @@
 | In interview | 0 |
 
 > **Note:** Rows marked `~2026-04` have approximate dates. Update with exact dates if known.
+| 42 | 2026-05-01 | Abridge | Senior Data Scientist Data Science • SF Office • Full time • Hybrid $188K – $221K • Offers Equity | ASHBY | https://jobs.ashbyhq.com/abridge/c3837e7e-2d59-49b6-95dc-0f670494fb31 | output/cv-gitlab-ai.pdf | Applied | Auto-applied via auto-apply.mjs |
+| 43 | 2026-05-01 | Handshake | Senior Product Designer I, Handshake AI Design • San Francisco, CA • Full time • On-site | ASHBY | https://jobs.ashbyhq.com/handshake/455075db-5eec-4c02-9418-f563e3ac8811 | output/cv-ux-research.pdf | Applied | Auto-applied via auto-apply.mjs |
+| 44 | 2026-05-01 | Handshake | Senior Product Designer II, Handshake AI Design • San Francisco, CA • Full time • On-site | ASHBY | https://jobs.ashbyhq.com/handshake/27bb47ec-0b5f-47f9-ab1a-fc079423e0ba | output/cv-ux-research.pdf | Applied | Auto-applied via auto-apply.mjs |
